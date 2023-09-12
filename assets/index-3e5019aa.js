@@ -561,7 +561,7 @@ Error generating stack: `+l.message+`
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
   overflow: hidden;
-`;function J1({imgSrc:e,title:t,summary:n}){J1.propTypes={title:ae.string.isRequired,summary:ae.string.isRequired,imgSrc:ae.string.isRequired};const r=100,i=n.length>r?n.slice(0,r)+"...":n;return f.jsxs(gm,{children:[f.jsx(vm,{src:e,alt:""}),f.jsxs(ym,{children:[f.jsx(xm,{children:t}),f.jsx(wm,{children:i})]})]})}const Cm=S.div`
+`;function J1({imgSrc:e,title:t,summary:n}){J1.propTypes={title:ae.string.isRequired,summary:ae.string.isRequired,imgSrc:ae.string.isRequired};const r=100,i=n.length>r?n.slice(0,r)+"...":n;return f.jsxs(gm,{children:[f.jsx(vm,{src:e,alt:"home-cards"}),f.jsxs(ym,{children:[f.jsx(xm,{children:t}),f.jsx(wm,{children:i})]})]})}const Cm=S.div`
   background-color: ${M.black[900]};
   width: 100%;
   height: 7.5rem;
@@ -953,7 +953,7 @@ Error generating stack: `+l.message+`
   gap: 12px;
   border-bottom-left-radius: 24px;
   border-bottom-right-radius: 24px;
-`,l3={Javascript:pa,React:ha,Ruby:qm,Rails:ma,HTML:fa,CSS:ga,Heroku:bm};function b1({imgSrc:e,title:t,tech:n}){return b1.propTypes={title:ae.string.isRequired,imgSrc:ae.string.isRequired,tech:ae.arrayOf(ae.string).isRequired},f.jsxs(e3,{children:[f.jsx(t3,{src:e,alt:""}),f.jsxs(n3,{children:[f.jsx(r3,{children:t}),f.jsx(i3,{children:n.map((r,i)=>{const l=l3[r];return l?f.jsx(l,{style:{width:"25px",height:"25px",color:r==="Javascript"?"#FCD34D":r==="React"?"#60A5FA":r==="Ruby"||r==="Rails"?"#EF4444":r==="HTML"?"#F06529":r==="CSS"?"#2965F1":r==="Heroku"?"#6762A6":void 0}},i):null})})]})]})}const o3=S.div`
+`,l3={Javascript:pa,React:ha,Ruby:qm,Rails:ma,HTML:fa,CSS:ga,Heroku:bm};function b1({imgSrc:e,title:t,tech:n}){return b1.propTypes={title:ae.string.isRequired,imgSrc:ae.string.isRequired,tech:ae.arrayOf(ae.string).isRequired},f.jsxs(e3,{children:[f.jsx(t3,{src:e,alt:"project"}),f.jsxs(n3,{children:[f.jsx(r3,{children:t}),f.jsx(i3,{children:n.map((r,i)=>{const l=l3[r];return l?f.jsx(l,{style:{width:"25px",height:"25px",color:r==="Javascript"?"#FCD34D":r==="React"?"#60A5FA":r==="Ruby"||r==="Rails"?"#EF4444":r==="HTML"?"#F06529":r==="CSS"?"#2965F1":r==="Heroku"?"#6762A6":void 0}},i):null})})]})]})}const o3=S.div`
   background-color: ${M.black[600]};
 `,a3=S.div`
   display: flex;
