@@ -106,7 +106,7 @@ function PortfolioCard({imgSrc, title, tech}) {
   return (
     
     <PortCard>
-      <ProjectImg src={imgSrc} alt=""/>
+      <ProjectImg src={imgSrc} alt="project"/>
       <DescriptionField>
       <Title>{title}</Title>
       <TechContainer>

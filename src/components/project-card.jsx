@@ -78,7 +78,7 @@ function ProjectCard({ imgSrc, title, summary }) {
 
   return (
     <Card>
-      <ProjectImg src={imgSrc} alt=""/>
+      <ProjectImg src={imgSrc} alt="home-cards"/>
       <DescriptionField>
       <Title>{title}</Title>
       <Summary>{trSummary}</Summary>
