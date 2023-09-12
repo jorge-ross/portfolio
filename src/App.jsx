@@ -11,11 +11,11 @@ function App() {
   return (
     <Routes>
       <Route path="/">
-        <Route index element={<Navigate to="home"/>}/>
+        <Route index element={<Navigate to="home" />}/>
         <Route path="home" element={<Home />}/>
         <Route path="about-me" element={<About />}/>
         <Route path="blog" element={<BlogPage />}/>
-        <Route path="portfolio-view" element={<Portfolio />}/>
+        <Route path="portfolio" element={<Portfolio />}/>
         <Route path="projects/:id" element={<ProjectDetail />}/>
         <Route path= "*" element={<Navigate to="/home" replace={true}/>}/> 
       </Route>

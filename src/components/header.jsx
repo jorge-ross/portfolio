@@ -165,7 +165,7 @@ function Header() {
         onClick={() => window.scrollTo(0, 0)}>
         <Option>About</Option>
         </Link>
-        <Link to="/portfolio-view" style={{textDecoration: "none"}}
+        <Link to="/portfolio" style={{textDecoration: "none"}}
         onClick={() => window.scrollTo(0, 0)}>
         <Option>Portfolio</Option>
         </Link>
@@ -180,7 +180,7 @@ function Header() {
       onClick={() => window.scrollTo(0, 0)}>
         <Option style={{color: "black"}}>About</Option>
       </Link>
-      <Link to="/portfolio-view" style={{textDecoration: "none"}}
+      <Link to="/portfolio" style={{textDecoration: "none"}}
       onClick={() => window.scrollTo(0, 0)}>
         <Option style={{color: "black"}}>Portfolio</Option>
       </Link>

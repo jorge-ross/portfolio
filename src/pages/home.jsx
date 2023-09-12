@@ -160,7 +160,7 @@ function Home() {
         </ProjectContainer>
 
         <FContainer>
-        Visit my <Link to="/portfolio-view" 
+        Visit my <Link to="/portfolio" 
         style={{textDecoration: "none", color: "#FCD34D"}}
         onClick={() => window.scrollTo(0, 0)}
         >Portfolio</Link> for more
