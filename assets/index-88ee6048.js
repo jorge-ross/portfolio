@@ -361,7 +361,7 @@ Error generating stack: `+l.message+`
   display: flex;
   align-items: center;
   justify-content: center;
-`;function X1({gitHubUrl:e,linkedInUrl:t,InstaUrl:n,XUrl:r,img:i}){return X1.propTypes={gitHubUrl:ie.string,linkedInUrl:ie.string,InstaUrl:ie.string,XUrl:ie.string,img:ie.string},f.jsxs(tm,{children:[f.jsx(im,{src:i,alt:"JRoss"}),f.jsx(nm,{children:f.jsxs(rm,{children:[f.jsx(di,{href:e,children:f.jsx(fi,{children:f.jsx(Y1,{style:{width:"110%",height:"110%",color:"white"}})})}),f.jsx(di,{href:t,children:f.jsx(fi,{children:f.jsx(q2,{style:{width:"88%",height:"88%",color:"white"}})})}),f.jsx(di,{href:n,children:f.jsx(fi,{children:f.jsx(b2,{style:{width:"90%",height:"90%",color:"white"}})})}),f.jsx(di,{href:r,children:f.jsx(fi,{children:f.jsx(em,{style:{width:"110%",height:"110%",color:"white"}})})})]})})]})}const lm="/the-portfolio/assets/av1-edb9e610.jpg";function om(e){return Z({tag:"svg",attr:{fill:"none",viewBox:"0 0 24 24",strokeWidth:"1.5",stroke:"currentColor","aria-hidden":"true"},child:[{tag:"path",attr:{strokeLinecap:"round",strokeLinejoin:"round",d:"M8.625 12a.375.375 0 11-.75 0 .375.375 0 01.75 0zm0 0H8.25m4.125 0a.375.375 0 11-.75 0 .375.375 0 01.75 0zm0 0H12m4.125 0a.375.375 0 11-.75 0 .375.375 0 01.75 0zm0 0h-.375M21 12c0 4.556-4.03 8.25-9 8.25a9.764 9.764 0 01-2.555-.337A5.972 5.972 0 015.41 20.97a5.969 5.969 0 01-.474-.065 4.48 4.48 0 00.978-2.025c.09-.457-.133-.901-.467-1.226C3.93 16.178 3 14.189 3 12c0-4.556 4.03-8.25 9-8.25s9 3.694 9 8.25z"}}]})(e)}function Xu(e){return Z({tag:"svg",attr:{role:"img",viewBox:"0 0 24 24"},child:[{tag:"title",attr:{},child:[]},{tag:"path",attr:{d:"M20.156.083c3.033.525 3.893 2.598 3.829 4.77L24 4.822 22.635 22.71 4.89 23.926h.016C3.433 23.864.15 23.729 0 19.139l1.645-3 2.819 6.586.503 1.172 2.805-9.144-.03.007.016-.03 9.255 2.956-1.396-5.431-.99-3.9 8.82-.569-.615-.51L16.5 2.114 20.159.073l-.003.01zM0 19.089zM5.13 5.073c3.561-3.533 8.157-5.621 9.922-3.84 1.762 1.777-.105 6.105-3.673 9.636-3.563 3.532-8.103 5.734-9.864 3.957-1.766-1.777.045-6.217 3.612-9.75l.003-.003z"}}]})(e)}function ma(e){return Z({tag:"svg",attr:{role:"img",viewBox:"0 0 24 24"},child:[{tag:"title",attr:{},child:[]},{tag:"path",attr:{d:"M7.523 7.781c-.187 0-.382.011-.582.035l.116.358c.175-.018.351-.024.527-.024h.06l-.12-.369zm2.315.358l-.024.4c.2.067.394.138.588.217l.026-.404c-.055-.03-.208-.104-.59-.213zm-4.988.23a9.597 9.597 0 00-.473.26l.28.426c.157-.097.308-.19.466-.268L4.85 8.37zm2.89.022a5.602 5.602 0 00-.654.027c-.443.04-.909.169-1.38.375-1.418.618-2.878 1.918-3.833 3.51-.955 1.591-1.291 3-1.4 3.603-.037.202-.05.313-.05.313h4.79s-.057-.26-.096-.678a8.18 8.18 0 01-.033-.732c0-.55.055-1.203.244-1.858.047-.163.103-.328.168-.49.065-.162.14-.321.225-.479.17-.314.381-.618.646-.894s.584-.525.963-.736c.248-.12.698-.365 1.346-.489.216-.041.453-.07.713-.076.26-.005.542.012.845.06.606.097 1.298.32 2.075.74.388.211.798.47 1.228.788.11-.09.211-.162.211-.162s-.196-.197-.547-.486c-.35-.29-.853-.672-1.467-1.043-.306-.186-.642-.37-.998-.538a8.852 8.852 0 00-1.129-.44 7.48 7.48 0 00-1.226-.27 6.048 6.048 0 00-.64-.045zm2.086 1.65l-.023.383c.2.006.4.03.6.072l.025-.375a4.32 4.32 0 00-.602-.08zm-1.418.146c-.206.061-.381.127-.533.194l.139.418c.175-.085.351-.157.527-.211l-.133-.4zm-6.008.024c-.157.151-.31.303-.449.455l.467.4c.127-.163.267-.327.412-.478l-.43-.377zm4.34.898c-.14.128-.266.267-.375.407l.291.435c.103-.151.224-.29.358-.43l-.274-.412zm.989.787v4.323h1.164v-1.043L9.9 16.219h1.721l-1.351-1.364s1.06-.09 1.06-1.46c0-1.37-1.285-1.499-1.285-1.499H7.729zm5.292.032c-.842 0-1.126.763-1.126 1.127v3.164h1.181v-.758h1.11v.758h1.146v-3.164c0-.922-.838-1.127-1.129-1.127h-1.182zm2.85 0v4.29h1.23v-4.29h-1.23zm1.733 0v4.291h2.88v-1.11h-1.656v-3.181h-1.224zm4.359 0c-.485 0-1.133.399-1.133 1.144v.383c0 .746.642 1.127 1.133 1.127 1.364.006-.327 0 .933 0v.533l-2.005.006v1.098h1.982c.406 0 1.103-.297 1.127-1.127v-.424c0-.71-.581-1.129-1.127-1.129h-.988v-.508h1.957v-1.103h-1.88zM5.668 12.8a5.75 5.75 0 00-.182.666l.49.388c.025-.236.069-.472.13-.709l-.438-.345zm7.771.15h.407c.327 0 .334.236.334.236v1.05h-1.11v-1.05s0-.236.37-.236zm-4.546.031h.933s.262.097.262.49c0 .395-.268.499-.268.499h-.927v-.989zm-8.59.061c-.115.26-.242.563-.303.727l.697.255c.08-.206.206-.504.303-.728l-.697-.254zm5.092 1.963c.012.321.043.584.074.765l.726.26a8.003 8.003 0 01-.144-.787l-.656-.238z"}}]})(e)}function Zu(e){return Z({tag:"svg",attr:{version:"1.1",x:"0px",y:"0px",viewBox:"0 2 48 48",enableBackground:"new 0 2 48 48"},child:[{tag:"polygon",attr:{fill:"#ECEFF1",points:`20.1,18.2 20.2,20.5 18.6,23.5 16.1,28.4 15.6,32.5 17.4,38.3 21.5,40.6 27.7,40.6 33.5,36.2 \r
+`;function X1({gitHubUrl:e,linkedInUrl:t,InstaUrl:n,XUrl:r,img:i}){return X1.propTypes={gitHubUrl:ie.string,linkedInUrl:ie.string,InstaUrl:ie.string,XUrl:ie.string,img:ie.string},f.jsxs(tm,{children:[f.jsx(im,{src:i,alt:"JRoss"}),f.jsx(nm,{children:f.jsxs(rm,{children:[f.jsx(di,{href:e,children:f.jsx(fi,{children:f.jsx(Y1,{style:{width:"110%",height:"110%",color:"white"}})})}),f.jsx(di,{href:t,children:f.jsx(fi,{children:f.jsx(q2,{style:{width:"88%",height:"88%",color:"white"}})})}),f.jsx(di,{href:n,children:f.jsx(fi,{children:f.jsx(b2,{style:{width:"90%",height:"90%",color:"white"}})})}),f.jsx(di,{href:r,children:f.jsx(fi,{children:f.jsx(em,{style:{width:"110%",height:"110%",color:"white"}})})})]})})]})}const lm="/the-portfolio/assets/av1-edb9e610.jpg",om="/the-portfolio/assets/descF-036f58cd.png";function am(e){return Z({tag:"svg",attr:{fill:"none",viewBox:"0 0 24 24",strokeWidth:"1.5",stroke:"currentColor","aria-hidden":"true"},child:[{tag:"path",attr:{strokeLinecap:"round",strokeLinejoin:"round",d:"M8.625 12a.375.375 0 11-.75 0 .375.375 0 01.75 0zm0 0H8.25m4.125 0a.375.375 0 11-.75 0 .375.375 0 01.75 0zm0 0H12m4.125 0a.375.375 0 11-.75 0 .375.375 0 01.75 0zm0 0h-.375M21 12c0 4.556-4.03 8.25-9 8.25a9.764 9.764 0 01-2.555-.337A5.972 5.972 0 015.41 20.97a5.969 5.969 0 01-.474-.065 4.48 4.48 0 00.978-2.025c.09-.457-.133-.901-.467-1.226C3.93 16.178 3 14.189 3 12c0-4.556 4.03-8.25 9-8.25s9 3.694 9 8.25z"}}]})(e)}function Xu(e){return Z({tag:"svg",attr:{role:"img",viewBox:"0 0 24 24"},child:[{tag:"title",attr:{},child:[]},{tag:"path",attr:{d:"M20.156.083c3.033.525 3.893 2.598 3.829 4.77L24 4.822 22.635 22.71 4.89 23.926h.016C3.433 23.864.15 23.729 0 19.139l1.645-3 2.819 6.586.503 1.172 2.805-9.144-.03.007.016-.03 9.255 2.956-1.396-5.431-.99-3.9 8.82-.569-.615-.51L16.5 2.114 20.159.073l-.003.01zM0 19.089zM5.13 5.073c3.561-3.533 8.157-5.621 9.922-3.84 1.762 1.777-.105 6.105-3.673 9.636-3.563 3.532-8.103 5.734-9.864 3.957-1.766-1.777.045-6.217 3.612-9.75l.003-.003z"}}]})(e)}function ma(e){return Z({tag:"svg",attr:{role:"img",viewBox:"0 0 24 24"},child:[{tag:"title",attr:{},child:[]},{tag:"path",attr:{d:"M7.523 7.781c-.187 0-.382.011-.582.035l.116.358c.175-.018.351-.024.527-.024h.06l-.12-.369zm2.315.358l-.024.4c.2.067.394.138.588.217l.026-.404c-.055-.03-.208-.104-.59-.213zm-4.988.23a9.597 9.597 0 00-.473.26l.28.426c.157-.097.308-.19.466-.268L4.85 8.37zm2.89.022a5.602 5.602 0 00-.654.027c-.443.04-.909.169-1.38.375-1.418.618-2.878 1.918-3.833 3.51-.955 1.591-1.291 3-1.4 3.603-.037.202-.05.313-.05.313h4.79s-.057-.26-.096-.678a8.18 8.18 0 01-.033-.732c0-.55.055-1.203.244-1.858.047-.163.103-.328.168-.49.065-.162.14-.321.225-.479.17-.314.381-.618.646-.894s.584-.525.963-.736c.248-.12.698-.365 1.346-.489.216-.041.453-.07.713-.076.26-.005.542.012.845.06.606.097 1.298.32 2.075.74.388.211.798.47 1.228.788.11-.09.211-.162.211-.162s-.196-.197-.547-.486c-.35-.29-.853-.672-1.467-1.043-.306-.186-.642-.37-.998-.538a8.852 8.852 0 00-1.129-.44 7.48 7.48 0 00-1.226-.27 6.048 6.048 0 00-.64-.045zm2.086 1.65l-.023.383c.2.006.4.03.6.072l.025-.375a4.32 4.32 0 00-.602-.08zm-1.418.146c-.206.061-.381.127-.533.194l.139.418c.175-.085.351-.157.527-.211l-.133-.4zm-6.008.024c-.157.151-.31.303-.449.455l.467.4c.127-.163.267-.327.412-.478l-.43-.377zm4.34.898c-.14.128-.266.267-.375.407l.291.435c.103-.151.224-.29.358-.43l-.274-.412zm.989.787v4.323h1.164v-1.043L9.9 16.219h1.721l-1.351-1.364s1.06-.09 1.06-1.46c0-1.37-1.285-1.499-1.285-1.499H7.729zm5.292.032c-.842 0-1.126.763-1.126 1.127v3.164h1.181v-.758h1.11v.758h1.146v-3.164c0-.922-.838-1.127-1.129-1.127h-1.182zm2.85 0v4.29h1.23v-4.29h-1.23zm1.733 0v4.291h2.88v-1.11h-1.656v-3.181h-1.224zm4.359 0c-.485 0-1.133.399-1.133 1.144v.383c0 .746.642 1.127 1.133 1.127 1.364.006-.327 0 .933 0v.533l-2.005.006v1.098h1.982c.406 0 1.103-.297 1.127-1.127v-.424c0-.71-.581-1.129-1.127-1.129h-.988v-.508h1.957v-1.103h-1.88zM5.668 12.8a5.75 5.75 0 00-.182.666l.49.388c.025-.236.069-.472.13-.709l-.438-.345zm7.771.15h.407c.327 0 .334.236.334.236v1.05h-1.11v-1.05s0-.236.37-.236zm-4.546.031h.933s.262.097.262.49c0 .395-.268.499-.268.499h-.927v-.989zm-8.59.061c-.115.26-.242.563-.303.727l.697.255c.08-.206.206-.504.303-.728l-.697-.254zm5.092 1.963c.012.321.043.584.074.765l.726.26a8.003 8.003 0 01-.144-.787l-.656-.238z"}}]})(e)}function Zu(e){return Z({tag:"svg",attr:{version:"1.1",x:"0px",y:"0px",viewBox:"0 2 48 48",enableBackground:"new 0 2 48 48"},child:[{tag:"polygon",attr:{fill:"#ECEFF1",points:`20.1,18.2 20.2,20.5 18.6,23.5 16.1,28.4 15.6,32.5 17.4,38.3 21.5,40.6 27.7,40.6 33.5,36.2 \r
 	36.1,29.3 30.1,22 28.4,17.9 `}},{tag:"path",attr:{fill:"#263238",d:`M34.3,23.9c-1.6-2.3-2.9-3.7-3.6-6.6c-0.7-2.9,0.2-2.1-0.4-4.6c-0.3-1.3-0.8-2.2-1.3-2.9\r
 	c-0.6-0.7-1.3-1.1-1.7-1.2c-0.9-0.5-3-1.3-5.6,0.1c-2.7,1.4-2.4,4.4-1.9,10.5c0,0.4-0.1,0.9-0.3,1.3c-0.4,0.9-1.1,1.7-1.7,2.4\r
 	c-0.7,1-1.4,2-1.9,3.1c-1.2,2.3-2.3,5.2-2,6.3c0.5-0.1,6.8,9.5,6.8,9.7c0.4-0.1,2.1-0.1,3.6-0.1c2.1-0.1,3.3-0.2,5,0.2\r
@@ -384,8 +384,8 @@ Error generating stack: `+l.message+`
 		C24.4,16.7,23.9,16.7,23.9,16.8z`}},{tag:"path",attr:{fill:"#634703",d:`M22.3,17c0,0.1,0.2,0.2,0.2,0.1c0.1-0.1,0.2-0.2,0.3-0.2c0.2-0.1,0.1-0.2-0.2-0.2\r
 		C22.4,16.8,22.4,16.9,22.3,17z`}}]},{tag:"path",attr:{fill:"#455A64",d:`M32,34.7c0,0.1,0,0.2,0,0.3c0.2,0.4,0.7,0.5,1.1,0.5c0.6,0,1.2-0.4,1.5-0.8c0-0.1,0.1-0.2,0.2-0.3\r
 	c0.2-0.3,0.3-0.5,0.4-0.6c0,0-0.1-0.1-0.1-0.2c-0.1-0.2-0.4-0.4-0.8-0.5c-0.3-0.1-0.8-0.2-1-0.2c-0.9-0.1-1.4,0.2-1.7,0.5\r
-	c0,0,0.1,0,0.1,0.1c0.2,0.2,0.3,0.4,0.3,0.7C32.1,34.4,32,34.5,32,34.7z`}}]})(e)}function Ju(e){return Z({tag:"svg",attr:{viewBox:"0 0 448 512"},child:[{tag:"path",attr:{d:"M439.55 236.05L244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"}}]})(e)}function am(e){return Z({tag:"svg",attr:{viewBox:"0 0 576 512"},child:[{tag:"path",attr:{d:"M208 0c-29.9 0-54.7 20.5-61.8 48.2-.8 0-1.4-.2-2.2-.2-35.3 0-64 28.7-64 64 0 4.8.6 9.5 1.7 14C52.5 138 32 166.6 32 200c0 12.6 3.2 24.3 8.3 34.9C16.3 248.7 0 274.3 0 304c0 33.3 20.4 61.9 49.4 73.9-.9 4.6-1.4 9.3-1.4 14.1 0 39.8 32.2 72 72 72 4.1 0 8.1-.5 12-1.2 9.6 28.5 36.2 49.2 68 49.2 39.8 0 72-32.2 72-72V64c0-35.3-28.7-64-64-64zm368 304c0-29.7-16.3-55.3-40.3-69.1 5.2-10.6 8.3-22.3 8.3-34.9 0-33.4-20.5-62-49.7-74 1-4.5 1.7-9.2 1.7-14 0-35.3-28.7-64-64-64-.8 0-1.5.2-2.2.2C422.7 20.5 397.9 0 368 0c-35.3 0-64 28.6-64 64v376c0 39.8 32.2 72 72 72 31.8 0 58.4-20.7 68-49.2 3.9.7 7.9 1.2 12 1.2 39.8 0 72-32.2 72-72 0-4.8-.5-9.5-1.4-14.1 29-12 49.4-40.6 49.4-73.9z"}}]})(e)}function sm(e){return Z({tag:"svg",attr:{viewBox:"0 0 640 512"},child:[{tag:"path",attr:{d:"M496 224c-79.59 0-144 64.41-144 144s64.41 144 144 144 144-64.41 144-144-64.41-144-144-144zm64 150.29c0 5.34-4.37 9.71-9.71 9.71h-60.57c-5.34 0-9.71-4.37-9.71-9.71v-76.57c0-5.34 4.37-9.71 9.71-9.71h12.57c5.34 0 9.71 4.37 9.71 9.71V352h38.29c5.34 0 9.71 4.37 9.71 9.71v12.58zM496 192c5.4 0 10.72.33 16 .81V144c0-25.6-22.4-48-48-48h-80V48c0-25.6-22.4-48-48-48H176c-25.6 0-48 22.4-48 48v48H48c-25.6 0-48 22.4-48 48v80h395.12c28.6-20.09 63.35-32 100.88-32zM320 96H192V64h128v32zm6.82 224H208c-8.84 0-16-7.16-16-16v-48H0v144c0 25.6 22.4 48 48 48h291.43C327.1 423.96 320 396.82 320 368c0-16.66 2.48-32.72 6.82-48z"}}]})(e)}function ga(e){return Z({tag:"svg",attr:{viewBox:"0 0 24 24"},child:[{tag:"path",attr:{d:"M4.192 3.143h15.615l-1.42 16.034-6.404 1.812-6.369-1.813L4.192 3.143zM16.9 6.424l-9.8-.002.158 1.949 7.529.002-.189 2.02H9.66l.179 1.913h4.597l-.272 2.62-2.164.598-2.197-.603-.141-1.569h-1.94l.216 2.867L12 17.484l3.995-1.137.905-9.923z"}}]})(e)}function bu(e){return Z({tag:"svg",attr:{viewBox:"0 0 24 24"},child:[{tag:"path",attr:{d:"M12 21.985c-.275 0-.532-.074-.772-.202l-2.439-1.448c-.365-.203-.182-.277-.072-.314.496-.165.588-.201 1.101-.493.056-.037.129-.02.185.017l1.87 1.12c.074.036.166.036.221 0l7.319-4.237c.074-.036.11-.11.11-.202V7.768c0-.091-.036-.165-.11-.201l-7.319-4.219c-.073-.037-.165-.037-.221 0L4.552 7.566c-.073.036-.11.129-.11.201v8.457c0 .073.037.166.11.202l2 1.157c1.082.548 1.762-.095 1.762-.735V8.502c0-.11.091-.221.22-.221h.936c.108 0 .22.092.22.221v8.347c0 1.449-.788 2.294-2.164 2.294-.422 0-.752 0-1.688-.46l-1.925-1.099a1.55 1.55 0 0 1-.771-1.34V7.786c0-.55.293-1.064.771-1.339l7.316-4.237a1.637 1.637 0 0 1 1.544 0l7.317 4.237c.479.274.771.789.771 1.339v8.458c0 .549-.293 1.063-.771 1.34l-7.317 4.236c-.241.11-.516.165-.773.165zm2.256-5.816c-3.21 0-3.87-1.468-3.87-2.714 0-.11.092-.221.22-.221h.954c.11 0 .201.073.201.184.147.971.568 1.449 2.514 1.449 1.54 0 2.202-.35 2.202-1.175 0-.477-.185-.825-2.587-1.063-1.999-.2-3.246-.643-3.246-2.238 0-1.485 1.247-2.366 3.339-2.366 2.347 0 3.503.809 3.649 2.568a.297.297 0 0 1-.056.165c-.037.036-.091.073-.146.073h-.953a.212.212 0 0 1-.202-.164c-.221-1.012-.789-1.34-2.292-1.34-1.689 0-1.891.587-1.891 1.027 0 .531.237.696 2.514.99 2.256.293 3.32.715 3.32 2.294-.02 1.615-1.339 2.531-3.67 2.531z"}}]})(e)}function qu(e){return Z({tag:"svg",attr:{viewBox:"0 0 24 24"},child:[{tag:"path",attr:{d:"M10.74 12.89v-.11c.06-.15.12-.29.19-.43a5.15 5.15 0 0 0 .26-3.74.86.86 0 0 0-.66-.74 3.12 3.12 0 0 0-2.08.61v.18a11.34 11.34 0 0 1-.06 2.41 2.37 2.37 0 0 0 .62 2 2 2 0 0 0 1.43.63 8.05 8.05 0 0 1 .3-.81zM10 8.58a.36.36 0 0 1-.09-.23.19.19 0 0 1 .09-.12.74.74 0 0 1 .48-.07c.25 0 .5.16.48.34a.51.51 0 0 1-.49.33h-.06a.63.63 0 0 1-.41-.25z"}},{tag:"path",attr:{d:"M7.88 11a12.58 12.58 0 0 0 .06-2.3v-.28a7 7 0 0 1 1.54-4.55c-1-.32-3.4-1-4.87.1-.9.64-1.32 1.84-1.23 3.55a24.85 24.85 0 0 0 1 4.4c.68 2.22 1.45 3.62 2.11 3.85.1 0 .41.13.86-.41.64-.76 1.23-1.41 1.5-1.7l-.19-.19A2.89 2.89 0 0 1 7.88 11zm3.5 3.4c-.16-.06-.24-.1-.42.11a2.52 2.52 0 0 0-.29.35c-.35.43-.5.58-1.51.79a2 2 0 0 0-.4.11 1 1 0 0 0 .37.16 2.21 2.21 0 0 0 2.5-.8.41.41 0 0 0 0-.35.59.59 0 0 0-.25-.37zm6.29-5.82a5.29 5.29 0 0 0 .08-.79c-.66-.08-1.42-.07-1.72.36-.58.83.56 2.88 1 3.75a4.34 4.34 0 0 1 .26.48 1.79 1.79 0 0 0 .15.31 3.72 3.72 0 0 0 .16-2.13 7.51 7.51 0 0 1-.07-1.05 6 6 0 0 1 .14-.93zm-.56-.16a.6.6 0 0 1-.32.17h-.06a.47.47 0 0 1-.44-.3c0-.14.2-.24.44-.28s.48 0 .5.15a.38.38 0 0 1-.12.26z"}},{tag:"path",attr:{d:"M17 4.88a6.06 6.06 0 0 1 1.37 2.57.71.71 0 0 1 0 .15 5.67 5.67 0 0 1-.09 1.06 7.11 7.11 0 0 0-.09.86 6.61 6.61 0 0 0 .07 1 4 4 0 0 1-.36 2.71l.07.08c2.22-3.49 3-7.54 2.29-8.43a4.77 4.77 0 0 0-3.81-1.8 7.34 7.34 0 0 0-1.63.16A6.17 6.17 0 0 1 17 4.88z"}},{tag:"path",attr:{d:"M21.65 14c-.07-.2-.37-.85-1.47-.62a6.28 6.28 0 0 1-1 .13 19.74 19.74 0 0 0 2.06-4.88c.37-1.45.66-3.39-.11-4.38A5.91 5.91 0 0 0 16.37 2a8.44 8.44 0 0 0-2.46.35 9.38 9.38 0 0 0-1.45-.14 4.8 4.8 0 0 0-2.46.62 12.22 12.22 0 0 0-1.77-.44A5.44 5.44 0 0 0 4 3.05c-1.24.87-1.81 2.39-1.71 4.52a26.28 26.28 0 0 0 1 4.67A15.76 15.76 0 0 0 4.4 15a3.39 3.39 0 0 0 1.75 1.83 1.71 1.71 0 0 0 1.69-.37 2 2 0 0 0 1 .59 3.65 3.65 0 0 0 2.35-.14v.81a8.46 8.46 0 0 0 .31 2.36 1 1 0 0 1 0 .13 3 3 0 0 0 .71 1.24 2.08 2.08 0 0 0 1.49.56 3 3 0 0 0 .7-.08 3.27 3.27 0 0 0 2.21-1.27 7.34 7.34 0 0 0 .91-4v-.26h.17a5.24 5.24 0 0 0 2.4-.4c.45-.23 1.91-1 1.56-2zm-1.81 1.47a4.7 4.7 0 0 1-1.8.34 2.62 2.62 0 0 1-.79-.1c-.1.94-.32 2.69-.45 3.42a2.47 2.47 0 0 1-2.25 2.3 3.23 3.23 0 0 1-.66.07A2 2 0 0 1 12 20a16.77 16.77 0 0 1-.28-4.06 2.56 2.56 0 0 1-1.78.66 3.94 3.94 0 0 1-.94-.13c-.09 0-.87-.23-.86-.73s.66-.59.9-.64c.86-.18.92-.25 1.19-.59a2.79 2.79 0 0 1 .19-.24 2.56 2.56 0 0 1-1.11-.3c-.23.25-.86.93-1.54 1.74a1.43 1.43 0 0 1-1.11.63 1.23 1.23 0 0 1-.35 0C5.43 16 4.6 14.55 3.84 12a25.21 25.21 0 0 1-1-4.53c-.1-1.92.4-3.28 1.47-4 1.92-1.36 5-.31 5.7-.06a4 4 0 0 1 2.41-.66 5.58 5.58 0 0 1 1.4.18 7.51 7.51 0 0 1 2.5-.4 5.35 5.35 0 0 1 4.32 2c.69.88.23 3 0 3.89a18.84 18.84 0 0 1-2.41 5.41c.16.11.65.31 2 0 .46-.1.73 0 .82.25.22.55-.7 1.13-1.21 1.37z"}},{tag:"path",attr:{d:"M17.43 13.59a4 4 0 0 1-.62-1c0-.07-.12-.24-.23-.43-.58-1-1.79-3.22-1-4.34a2.16 2.16 0 0 1 2.12-.61 6.28 6.28 0 0 0-1.13-1.94 5.41 5.41 0 0 0-4.13-2 3.34 3.34 0 0 0-2.55.95A5.82 5.82 0 0 0 8.51 7.8l.15-.08A3.7 3.7 0 0 1 10 7.3a1.45 1.45 0 0 1 1.76 1.19 5.73 5.73 0 0 1-.29 4.09 3.29 3.29 0 0 0-.17.39v.11c-.1.27-.19.52-.25.73a.94.94 0 0 1 .57.07 1.16 1.16 0 0 1 .62.74v.16a.28.28 0 0 1 0 .09 22.22 22.22 0 0 0 .22 4.9 1.5 1.5 0 0 0 2 1.09A1.92 1.92 0 0 0 16.25 19c.15-.88.45-3.35.49-3.88 0-1.06.52-1.27.84-1.36z"}},{tag:"path",attr:{d:"m18 14.33-.08-.06h-.12c-.26.07-.5.14-.47.8a1.9 1.9 0 0 0 .93.12 4.29 4.29 0 0 0 1.38-.29 3 3 0 0 0 .79-.52 3.47 3.47 0 0 1-2.43-.05z"}}]})(e)}function um(e){return Z({tag:"svg",attr:{viewBox:"0 0 24 24"},child:[{tag:"path",attr:{fill:"none",d:"M0 0h24v24H0z"}},{tag:"path",attr:{d:"M20 18c1.1 0 1.99-.9 1.99-2L22 6c0-1.1-.9-2-2-2H4c-1.1 0-2 .9-2 2v10c0 1.1.9 2 2 2H0v2h24v-2h-4zM4 6h16v10H4V6z"}}]})(e)}const cm=S.div`
-background-image: url(${e=>e.backgroundImage});
+	c0,0,0.1,0,0.1,0.1c0.2,0.2,0.3,0.4,0.3,0.7C32.1,34.4,32,34.5,32,34.7z`}}]})(e)}function Ju(e){return Z({tag:"svg",attr:{viewBox:"0 0 448 512"},child:[{tag:"path",attr:{d:"M439.55 236.05L244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"}}]})(e)}function sm(e){return Z({tag:"svg",attr:{viewBox:"0 0 576 512"},child:[{tag:"path",attr:{d:"M208 0c-29.9 0-54.7 20.5-61.8 48.2-.8 0-1.4-.2-2.2-.2-35.3 0-64 28.7-64 64 0 4.8.6 9.5 1.7 14C52.5 138 32 166.6 32 200c0 12.6 3.2 24.3 8.3 34.9C16.3 248.7 0 274.3 0 304c0 33.3 20.4 61.9 49.4 73.9-.9 4.6-1.4 9.3-1.4 14.1 0 39.8 32.2 72 72 72 4.1 0 8.1-.5 12-1.2 9.6 28.5 36.2 49.2 68 49.2 39.8 0 72-32.2 72-72V64c0-35.3-28.7-64-64-64zm368 304c0-29.7-16.3-55.3-40.3-69.1 5.2-10.6 8.3-22.3 8.3-34.9 0-33.4-20.5-62-49.7-74 1-4.5 1.7-9.2 1.7-14 0-35.3-28.7-64-64-64-.8 0-1.5.2-2.2.2C422.7 20.5 397.9 0 368 0c-35.3 0-64 28.6-64 64v376c0 39.8 32.2 72 72 72 31.8 0 58.4-20.7 68-49.2 3.9.7 7.9 1.2 12 1.2 39.8 0 72-32.2 72-72 0-4.8-.5-9.5-1.4-14.1 29-12 49.4-40.6 49.4-73.9z"}}]})(e)}function um(e){return Z({tag:"svg",attr:{viewBox:"0 0 640 512"},child:[{tag:"path",attr:{d:"M496 224c-79.59 0-144 64.41-144 144s64.41 144 144 144 144-64.41 144-144-64.41-144-144-144zm64 150.29c0 5.34-4.37 9.71-9.71 9.71h-60.57c-5.34 0-9.71-4.37-9.71-9.71v-76.57c0-5.34 4.37-9.71 9.71-9.71h12.57c5.34 0 9.71 4.37 9.71 9.71V352h38.29c5.34 0 9.71 4.37 9.71 9.71v12.58zM496 192c5.4 0 10.72.33 16 .81V144c0-25.6-22.4-48-48-48h-80V48c0-25.6-22.4-48-48-48H176c-25.6 0-48 22.4-48 48v48H48c-25.6 0-48 22.4-48 48v80h395.12c28.6-20.09 63.35-32 100.88-32zM320 96H192V64h128v32zm6.82 224H208c-8.84 0-16-7.16-16-16v-48H0v144c0 25.6 22.4 48 48 48h291.43C327.1 423.96 320 396.82 320 368c0-16.66 2.48-32.72 6.82-48z"}}]})(e)}function ga(e){return Z({tag:"svg",attr:{viewBox:"0 0 24 24"},child:[{tag:"path",attr:{d:"M4.192 3.143h15.615l-1.42 16.034-6.404 1.812-6.369-1.813L4.192 3.143zM16.9 6.424l-9.8-.002.158 1.949 7.529.002-.189 2.02H9.66l.179 1.913h4.597l-.272 2.62-2.164.598-2.197-.603-.141-1.569h-1.94l.216 2.867L12 17.484l3.995-1.137.905-9.923z"}}]})(e)}function bu(e){return Z({tag:"svg",attr:{viewBox:"0 0 24 24"},child:[{tag:"path",attr:{d:"M12 21.985c-.275 0-.532-.074-.772-.202l-2.439-1.448c-.365-.203-.182-.277-.072-.314.496-.165.588-.201 1.101-.493.056-.037.129-.02.185.017l1.87 1.12c.074.036.166.036.221 0l7.319-4.237c.074-.036.11-.11.11-.202V7.768c0-.091-.036-.165-.11-.201l-7.319-4.219c-.073-.037-.165-.037-.221 0L4.552 7.566c-.073.036-.11.129-.11.201v8.457c0 .073.037.166.11.202l2 1.157c1.082.548 1.762-.095 1.762-.735V8.502c0-.11.091-.221.22-.221h.936c.108 0 .22.092.22.221v8.347c0 1.449-.788 2.294-2.164 2.294-.422 0-.752 0-1.688-.46l-1.925-1.099a1.55 1.55 0 0 1-.771-1.34V7.786c0-.55.293-1.064.771-1.339l7.316-4.237a1.637 1.637 0 0 1 1.544 0l7.317 4.237c.479.274.771.789.771 1.339v8.458c0 .549-.293 1.063-.771 1.34l-7.317 4.236c-.241.11-.516.165-.773.165zm2.256-5.816c-3.21 0-3.87-1.468-3.87-2.714 0-.11.092-.221.22-.221h.954c.11 0 .201.073.201.184.147.971.568 1.449 2.514 1.449 1.54 0 2.202-.35 2.202-1.175 0-.477-.185-.825-2.587-1.063-1.999-.2-3.246-.643-3.246-2.238 0-1.485 1.247-2.366 3.339-2.366 2.347 0 3.503.809 3.649 2.568a.297.297 0 0 1-.056.165c-.037.036-.091.073-.146.073h-.953a.212.212 0 0 1-.202-.164c-.221-1.012-.789-1.34-2.292-1.34-1.689 0-1.891.587-1.891 1.027 0 .531.237.696 2.514.99 2.256.293 3.32.715 3.32 2.294-.02 1.615-1.339 2.531-3.67 2.531z"}}]})(e)}function qu(e){return Z({tag:"svg",attr:{viewBox:"0 0 24 24"},child:[{tag:"path",attr:{d:"M10.74 12.89v-.11c.06-.15.12-.29.19-.43a5.15 5.15 0 0 0 .26-3.74.86.86 0 0 0-.66-.74 3.12 3.12 0 0 0-2.08.61v.18a11.34 11.34 0 0 1-.06 2.41 2.37 2.37 0 0 0 .62 2 2 2 0 0 0 1.43.63 8.05 8.05 0 0 1 .3-.81zM10 8.58a.36.36 0 0 1-.09-.23.19.19 0 0 1 .09-.12.74.74 0 0 1 .48-.07c.25 0 .5.16.48.34a.51.51 0 0 1-.49.33h-.06a.63.63 0 0 1-.41-.25z"}},{tag:"path",attr:{d:"M7.88 11a12.58 12.58 0 0 0 .06-2.3v-.28a7 7 0 0 1 1.54-4.55c-1-.32-3.4-1-4.87.1-.9.64-1.32 1.84-1.23 3.55a24.85 24.85 0 0 0 1 4.4c.68 2.22 1.45 3.62 2.11 3.85.1 0 .41.13.86-.41.64-.76 1.23-1.41 1.5-1.7l-.19-.19A2.89 2.89 0 0 1 7.88 11zm3.5 3.4c-.16-.06-.24-.1-.42.11a2.52 2.52 0 0 0-.29.35c-.35.43-.5.58-1.51.79a2 2 0 0 0-.4.11 1 1 0 0 0 .37.16 2.21 2.21 0 0 0 2.5-.8.41.41 0 0 0 0-.35.59.59 0 0 0-.25-.37zm6.29-5.82a5.29 5.29 0 0 0 .08-.79c-.66-.08-1.42-.07-1.72.36-.58.83.56 2.88 1 3.75a4.34 4.34 0 0 1 .26.48 1.79 1.79 0 0 0 .15.31 3.72 3.72 0 0 0 .16-2.13 7.51 7.51 0 0 1-.07-1.05 6 6 0 0 1 .14-.93zm-.56-.16a.6.6 0 0 1-.32.17h-.06a.47.47 0 0 1-.44-.3c0-.14.2-.24.44-.28s.48 0 .5.15a.38.38 0 0 1-.12.26z"}},{tag:"path",attr:{d:"M17 4.88a6.06 6.06 0 0 1 1.37 2.57.71.71 0 0 1 0 .15 5.67 5.67 0 0 1-.09 1.06 7.11 7.11 0 0 0-.09.86 6.61 6.61 0 0 0 .07 1 4 4 0 0 1-.36 2.71l.07.08c2.22-3.49 3-7.54 2.29-8.43a4.77 4.77 0 0 0-3.81-1.8 7.34 7.34 0 0 0-1.63.16A6.17 6.17 0 0 1 17 4.88z"}},{tag:"path",attr:{d:"M21.65 14c-.07-.2-.37-.85-1.47-.62a6.28 6.28 0 0 1-1 .13 19.74 19.74 0 0 0 2.06-4.88c.37-1.45.66-3.39-.11-4.38A5.91 5.91 0 0 0 16.37 2a8.44 8.44 0 0 0-2.46.35 9.38 9.38 0 0 0-1.45-.14 4.8 4.8 0 0 0-2.46.62 12.22 12.22 0 0 0-1.77-.44A5.44 5.44 0 0 0 4 3.05c-1.24.87-1.81 2.39-1.71 4.52a26.28 26.28 0 0 0 1 4.67A15.76 15.76 0 0 0 4.4 15a3.39 3.39 0 0 0 1.75 1.83 1.71 1.71 0 0 0 1.69-.37 2 2 0 0 0 1 .59 3.65 3.65 0 0 0 2.35-.14v.81a8.46 8.46 0 0 0 .31 2.36 1 1 0 0 1 0 .13 3 3 0 0 0 .71 1.24 2.08 2.08 0 0 0 1.49.56 3 3 0 0 0 .7-.08 3.27 3.27 0 0 0 2.21-1.27 7.34 7.34 0 0 0 .91-4v-.26h.17a5.24 5.24 0 0 0 2.4-.4c.45-.23 1.91-1 1.56-2zm-1.81 1.47a4.7 4.7 0 0 1-1.8.34 2.62 2.62 0 0 1-.79-.1c-.1.94-.32 2.69-.45 3.42a2.47 2.47 0 0 1-2.25 2.3 3.23 3.23 0 0 1-.66.07A2 2 0 0 1 12 20a16.77 16.77 0 0 1-.28-4.06 2.56 2.56 0 0 1-1.78.66 3.94 3.94 0 0 1-.94-.13c-.09 0-.87-.23-.86-.73s.66-.59.9-.64c.86-.18.92-.25 1.19-.59a2.79 2.79 0 0 1 .19-.24 2.56 2.56 0 0 1-1.11-.3c-.23.25-.86.93-1.54 1.74a1.43 1.43 0 0 1-1.11.63 1.23 1.23 0 0 1-.35 0C5.43 16 4.6 14.55 3.84 12a25.21 25.21 0 0 1-1-4.53c-.1-1.92.4-3.28 1.47-4 1.92-1.36 5-.31 5.7-.06a4 4 0 0 1 2.41-.66 5.58 5.58 0 0 1 1.4.18 7.51 7.51 0 0 1 2.5-.4 5.35 5.35 0 0 1 4.32 2c.69.88.23 3 0 3.89a18.84 18.84 0 0 1-2.41 5.41c.16.11.65.31 2 0 .46-.1.73 0 .82.25.22.55-.7 1.13-1.21 1.37z"}},{tag:"path",attr:{d:"M17.43 13.59a4 4 0 0 1-.62-1c0-.07-.12-.24-.23-.43-.58-1-1.79-3.22-1-4.34a2.16 2.16 0 0 1 2.12-.61 6.28 6.28 0 0 0-1.13-1.94 5.41 5.41 0 0 0-4.13-2 3.34 3.34 0 0 0-2.55.95A5.82 5.82 0 0 0 8.51 7.8l.15-.08A3.7 3.7 0 0 1 10 7.3a1.45 1.45 0 0 1 1.76 1.19 5.73 5.73 0 0 1-.29 4.09 3.29 3.29 0 0 0-.17.39v.11c-.1.27-.19.52-.25.73a.94.94 0 0 1 .57.07 1.16 1.16 0 0 1 .62.74v.16a.28.28 0 0 1 0 .09 22.22 22.22 0 0 0 .22 4.9 1.5 1.5 0 0 0 2 1.09A1.92 1.92 0 0 0 16.25 19c.15-.88.45-3.35.49-3.88 0-1.06.52-1.27.84-1.36z"}},{tag:"path",attr:{d:"m18 14.33-.08-.06h-.12c-.26.07-.5.14-.47.8a1.9 1.9 0 0 0 .93.12 4.29 4.29 0 0 0 1.38-.29 3 3 0 0 0 .79-.52 3.47 3.47 0 0 1-2.43-.05z"}}]})(e)}function cm(e){return Z({tag:"svg",attr:{viewBox:"0 0 24 24"},child:[{tag:"path",attr:{fill:"none",d:"M0 0h24v24H0z"}},{tag:"path",attr:{d:"M20 18c1.1 0 1.99-.9 1.99-2L22 6c0-1.1-.9-2-2-2H4c-1.1 0-2 .9-2 2v10c0 1.1.9 2 2 2H0v2h24v-2h-4zM4 6h16v10H4V6z"}}]})(e)}const dm=S.div`
+  background-image: url(${e=>e.backgroundImage});
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -433,7 +433,7 @@ background-image: url(${e=>e.backgroundImage});
   to {
     text-shadow: 0 0 15px #00dfff, 0 0 25px #00dfff, 0 0 35px #00dfff;
   }
-`,dm=S.p`
+`,fm=S.p`
   color: ${M.stone[300]};
   ${I.head.lgx}
   margin: 32px 0 0 0;
@@ -443,7 +443,7 @@ background-image: url(${e=>e.backgroundImage});
   @media (max-width: 500px) {
     ${I.head.md};
   }
-`,fm=S.p`
+`,pm=S.p`
   ${I.head.md}
   color: ${M.white};
   margin: 28px 40px 16px;
@@ -453,7 +453,7 @@ background-image: url(${e=>e.backgroundImage});
   @media (max-width: 500px) {
     ${I.head.sm};
   }
-`,pm=S.p`
+`,hm=S.p`
   ${I.head.sm}
   margin: 0;
   padding: 0 28px;
@@ -465,7 +465,7 @@ background-image: url(${e=>e.backgroundImage});
     ${I.head.xs};
     text-align: center;
   }
-`,hm=S.div`
+`,mm=S.div`
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -498,7 +498,7 @@ background-image: url(${e=>e.backgroundImage});
       gap: 16px;
     } 
   }
-`,mm=S.div`
+`,gm=S.div`
   color: ${M.stone[300]};
   ${I.head.sm}
   margin-left: 32px;
@@ -509,7 +509,7 @@ background-image: url(${e=>e.backgroundImage});
     text-align: center;
     margin: 0;
   }
-`;function J1({backgroundImage:e}){J1.propTypes={backgroundImage:ie.string};const[t,n]=j.useState(!1);return j.useEffect(()=>{const r=()=>{n(window.innerWidth<=700)};return window.addEventListener("resize",r),r(),()=>{window.removeEventListener("resize",r)}},[]),f.jsxs(cm,{backgroundImage:e,children:[f.jsx(dm,{children:'"Hello world!"'}),f.jsxs(fm,{children:["I'm ",f.jsx("span",{style:{color:"#FCD34D",fontWeight:600},children:"Jorge Rosano "}),"Full Stack Web Developer looking for new adventures."]}),f.jsx(pm,{children:"My Skills:"}),f.jsxs(hm,{children:[f.jsx(om,{style:{width:"30px",height:"30px",color:"#6EE7B7",strokeWidth:"2px"}}),f.jsx(um,{style:{width:"29px",height:"29px",color:"#FEF2F2"}}),f.jsx(sm,{style:{width:"29px",height:"29px",color:"#FBBF24"}}),f.jsx(J2,{style:{width:"25px",height:"25px",color:"#93C5FD",strokeWidth:"0.5px"}}),f.jsx(am,{style:{width:"26px",height:"26px",color:"#F9A8D4"}})]}),f.jsx(mm,{children:"----------------------------"}),f.jsx(ec,{children:t&&f.jsxs(f.Fragment,{children:[f.jsxs("div",{className:"icon-row",children:[f.jsx(pa,{style:{width:"35px",height:"35px",color:"#FCD34D"}}),f.jsx(ha,{style:{width:"35px",height:"35px",color:"#60A5FA"}}),f.jsx(bu,{style:{width:"35px",height:"35px",color:"#68A063"}}),f.jsx(Xu,{style:{width:"27px",height:"27px",color:"#EF4444"}}),f.jsx(ma,{style:{width:"45px",height:"45px",color:"#F87171"}})]}),f.jsxs("div",{className:"icon-row",children:[f.jsx(qu,{style:{width:"37px",height:"37px",color:"#60A5FA"}}),f.jsx(fa,{style:{width:"35px",height:"35px",color:"#F06529"}}),f.jsx(ga,{style:{width:"35px",height:"35px",color:"#2965F1"}}),f.jsx(Zu,{style:{width:"35px",height:"35px"}}),f.jsx(Ju,{style:{width:"35px",height:"35px",color:"#F1502F"}})]})]})}),!t&&f.jsxs(ec,{children:[f.jsx(pa,{style:{width:"35px",height:"35px",color:"#FCD34D"}}),f.jsx(ha,{style:{width:"35px",height:"35px",color:"#60A5FA"}}),f.jsx(bu,{style:{width:"35px",height:"35px",color:"#68A063"}}),f.jsx(Xu,{style:{width:"27px",height:"27px",color:"#EF4444"}}),f.jsx(ma,{style:{width:"45px",height:"45px",color:"#F87171"}}),f.jsx(qu,{style:{width:"37px",height:"37px",color:"#60A5FA"}}),f.jsx(fa,{style:{width:"35px",height:"35px",color:"#F06529"}}),f.jsx(ga,{style:{width:"35px",height:"35px",color:"#2965F1"}}),f.jsx(Zu,{style:{width:"35px",height:"35px"}}),f.jsx(Ju,{style:{width:"35px",height:"35px",color:"#F1502F"}})]})]})}const gm=S.div`
+`;function J1({backgroundImage:e}){J1.propTypes={backgroundImage:ie.string};const[t,n]=j.useState(!1);return j.useEffect(()=>{const r=()=>{n(window.innerWidth<=700)};return window.addEventListener("resize",r),r(),()=>{window.removeEventListener("resize",r)}},[]),f.jsxs(dm,{backgroundImage:e,alt:"stars",children:[f.jsx(fm,{children:'"Hello world!"'}),f.jsxs(pm,{children:["I'm ",f.jsx("span",{style:{color:"#FCD34D",fontWeight:600},children:"Jorge Rosano "}),"Full Stack Web Developer looking for new adventures."]}),f.jsx(hm,{children:"My Skills:"}),f.jsxs(mm,{children:[f.jsx(am,{style:{width:"30px",height:"30px",color:"#6EE7B7",strokeWidth:"2px"}}),f.jsx(cm,{style:{width:"29px",height:"29px",color:"#FEF2F2"}}),f.jsx(um,{style:{width:"29px",height:"29px",color:"#FBBF24"}}),f.jsx(J2,{style:{width:"25px",height:"25px",color:"#93C5FD",strokeWidth:"0.5px"}}),f.jsx(sm,{style:{width:"26px",height:"26px",color:"#F9A8D4"}})]}),f.jsx(gm,{children:"----------------------------"}),f.jsx(ec,{children:t&&f.jsxs(f.Fragment,{children:[f.jsxs("div",{className:"icon-row",children:[f.jsx(pa,{style:{width:"35px",height:"35px",color:"#FCD34D"}}),f.jsx(ha,{style:{width:"35px",height:"35px",color:"#60A5FA"}}),f.jsx(bu,{style:{width:"35px",height:"35px",color:"#68A063"}}),f.jsx(Xu,{style:{width:"27px",height:"27px",color:"#EF4444"}}),f.jsx(ma,{style:{width:"45px",height:"45px",color:"#F87171"}})]}),f.jsxs("div",{className:"icon-row",children:[f.jsx(qu,{style:{width:"37px",height:"37px",color:"#60A5FA"}}),f.jsx(fa,{style:{width:"35px",height:"35px",color:"#F06529"}}),f.jsx(ga,{style:{width:"35px",height:"35px",color:"#2965F1"}}),f.jsx(Zu,{style:{width:"35px",height:"35px"}}),f.jsx(Ju,{style:{width:"35px",height:"35px",color:"#F1502F"}})]})]})}),!t&&f.jsxs(ec,{children:[f.jsx(pa,{style:{width:"35px",height:"35px",color:"#FCD34D"}}),f.jsx(ha,{style:{width:"35px",height:"35px",color:"#60A5FA"}}),f.jsx(bu,{style:{width:"35px",height:"35px",color:"#68A063"}}),f.jsx(Xu,{style:{width:"27px",height:"27px",color:"#EF4444"}}),f.jsx(ma,{style:{width:"45px",height:"45px",color:"#F87171"}}),f.jsx(qu,{style:{width:"37px",height:"37px",color:"#60A5FA"}}),f.jsx(fa,{style:{width:"35px",height:"35px",color:"#F06529"}}),f.jsx(ga,{style:{width:"35px",height:"35px",color:"#2965F1"}}),f.jsx(Zu,{style:{width:"35px",height:"35px"}}),f.jsx(Ju,{style:{width:"35px",height:"35px",color:"#F1502F"}})]})]})}const vm=S.div`
   border-radius: 24px;
   display: flex;
   flex-direction: column;
@@ -533,26 +533,26 @@ background-image: url(${e=>e.backgroundImage});
     justify-content: flex-start;
     align-items: center;
   }
-`,vm=S.img`
+`,ym=S.img`
   width: 100%;
   height: 160px;
   border-top-left-radius: 24px;
   border-top-right-radius: 24px;
   border-bottom: 2px solid #FCD34D;
-`,ym=S.div`
+`,xm=S.div`
   background-color: ${M.stone[100]};
   padding: 16px;
   margin: 0;
   height: 104px;
   border-bottom-left-radius: 18px;
   border-bottom-right-radius: 18px;
-`,xm=S.p`
+`,wm=S.p`
   ${I.text.lg}
   color: black;
   text-align: justify;
   margin: 0;
   padding-bottom: 5px;
-`,wm=S.p`
+`,Cm=S.p`
   ${I.text.sm}
   color: black;
   text-align: justify;
@@ -561,7 +561,7 @@ background-image: url(${e=>e.backgroundImage});
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
   overflow: hidden;
-`;function b1({imgSrc:e,title:t,summary:n}){b1.propTypes={title:ie.string.isRequired,summary:ie.string.isRequired,imgSrc:ie.string.isRequired};const r=100,i=n.length>r?n.slice(0,r)+"...":n;return f.jsxs(gm,{children:[f.jsx(vm,{src:e,alt:"home-cards"}),f.jsxs(ym,{children:[f.jsx(xm,{children:t}),f.jsx(wm,{children:i})]})]})}const Cm=S.div`
+`;function b1({imgSrc:e,title:t,summary:n}){b1.propTypes={title:ie.string.isRequired,summary:ie.string.isRequired,imgSrc:ie.string.isRequired};const r=100,i=n.length>r?n.slice(0,r)+"...":n;return f.jsxs(vm,{children:[f.jsx(ym,{src:e,alt:"home-cards"}),f.jsxs(xm,{children:[f.jsx(wm,{children:t}),f.jsx(Cm,{children:i})]})]})}const km=S.div`
   background-color: ${M.black[900]};
   width: 100%;
   height: 7.5rem;
@@ -569,7 +569,7 @@ background-image: url(${e=>e.backgroundImage});
   justify-content: center;
   align-items: center;
   border-top: 1px solid #60A5FA;
-`,km=S.div`
+`,Sm=S.div`
   ${I.text.md}
   color: ${M.stone[100]};
   margin: 0;
@@ -579,19 +579,19 @@ background-image: url(${e=>e.backgroundImage});
   @media (max-width: 500px) {
     padding: 0;
   }
-`,Sm=S.p`
+`,Em=S.p`
   ${I.text.sm}
   color: ${M.stone[100]};
   margin: 0;
   text-align: center;
   font-weight: 400;
   padding-top: 8px;
-`;function Vr(){return f.jsx(Cm,{children:f.jsxs(km,{children:["Powered with ❤️ by ",f.jsx("span",{style:{color:"#5dc1b9",fontWeight:700},children:" Jorge Rosano "}),f.jsx(Sm,{children:"2023"})]})})}const hr=[{id:"1",imgSrc:"/src/assets/images/get-that-home.png",title:"Get that home",summary:"Application created with React using Vite, intended to be a useful, attractive, and user-friendly website for renting, selling, and searching for houses and apartments.",tech:["Javascript","React","Ruby","Rails","Heroku"],team:[{name:"Gabriel Nuñez",profilePicUrl:"/src/assets/images/gab.jpg",githubUrl:"https://github.com/NunezGabriel"},{name:"Jorge Rosano",profilePicUrl:"/src/assets/images/jrh.jpg",githubUrl:"https://github.com/jorge-ross"},{name:"Pedro Arias",profilePicUrl:"/src/assets/images/ped.png",githubUrl:"https://github.com/pdroariasvilela"},{name:"Diego Gómez",profilePicUrl:"/src/assets/images/dg.jpg",githubUrl:"https://github.com/DiegoGomezCuadross"},{name:"Daniel Toledo",profilePicUrl:"/src/assets/images/dt.jpg",githubUrl:"https://github.com/DanielToledo-99"}],project_url:"https://github.com/jorge-ross/get-that-home-c-10"},{id:"2",imgSrc:"/src/assets/images/clivia.png",title:"CLIvia Generator",summary:"The classic trivia game that asks questions about a variety of topics, including history, science, and pop culture. The user can earn one point for each correct answer, the highest score at the end of the game wins. Built with Ruby.",tech:["Ruby","Heroku"],team:[{name:"Jorge Rosano",profilePicUrl:"/src/assets/images/jrh.jpg",githubUrl:"https://github.com/jorge-ross"}],project_url:"https://github.com/jorge-ross/CLIvia-generator"},{id:"3",imgSrc:"/src/assets/images/eatable.png",title:"Eatable",summary:"Interactive digital menu designed for personal and commercial use, where the user can explore, create, edit, and delete dishes, thus offering a personalized user experience.",tech:["Javascript","React"],team:[{name:"Jorge Rosano",profilePicUrl:"/src/assets/images/jrh.jpg",githubUrl:"https://github.com/jorge-ross"}],project_url:"https://github.com/jorge-ross/Eatable-p"},{id:"4",imgSrc:"/src/assets/images/doable.png",title:"Doable",summary:" A simpler version of a note-taking app built with Javascript, where users can create, categorize and manage tasks.",tech:["Javascript"],team:[{name:"Jorge Rosano",profilePicUrl:"/src/assets/images/jrh.jpg",githubUrl:"https://github.com/jorge-ross"}],project_url:"https://github.com/jorge-ross/Doable-js"},{id:"5",imgSrc:"/src/assets/images/b-ui.png",title:"Blog UI",summary:"A website focused on the user experience when interacting with an online blog, which is why the objective of this project is to create an enjoyable UI (User Interface) using HTML and CSS.",tech:["HTML","CSS"],team:[{name:"Jorge Rosano",profilePicUrl:"/src/assets/images/jrh.jpg",githubUrl:"https://github.com/jorge-ross"}],project_url:"https://github.com/jorge-ross/jorgeross--blog-ui"},{id:"6",imgSrc:"/src/assets/images/contactable.png",title:"Contactable",summary:"Making your life easier! Keep track of contact emails and phone numbers in the Contactable app. Allow us to be your local memory, and focus on what matters most to you! ",tech:["Javascript","Heroku"],team:[{name:"Kevin Robles",profilePicUrl:"/src/assets/images/kr.png",githubUrl:"https://github.com/kevinronu"},{name:"Jorge Rosano",profilePicUrl:"/src/assets/images/jrh.jpg",githubUrl:"https://github.com/jorge-ross"}],project_url:"https://github.com/jorge-ross/contactable-js-t3"},{id:"7",imgSrc:"/src/assets/images/tweetable.png",title:"Tweetable",summary:"A simpler version of X, once Twitter, using Ruby on Rails, where users can create, reply and like posts with the objective of creating a minimum viable product (MVP) of the X app.",tech:["Ruby","Rails"],team:[{name:"Jorge Rosano",profilePicUrl:"/src/assets/images/jrh.jpg",githubUrl:"https://github.com/jorge-ross"}],project_url:"https://github.com/jorge-ross/Tweetable-p"},{id:"8",imgSrc:"/src/assets/images/critics.png",title:"Critics RC",summary:"Interactive video game catalog, where the user can sign up, log in with their username and password if already registered, and access reviews and ratings for each of the video games and companies in the database. Additionally, user can create, edit, and delete their own companies and critics.",tech:["Ruby","Rails"],team:[{name:"Kevin Quispe",profilePicUrl:"/src/assets/images/kq.jpg",githubUrl:"https://github.com/Kevincarlosqa"},{name:"Jorge Rosano",profilePicUrl:"/src/assets/images/jrh.jpg",githubUrl:"https://github.com/jorge-ross"},{name:"Gerardo Avena",profilePicUrl:"/src/assets/images/gav.jpg",githubUrl:"https://github.com/Avenator02"},{name:"Sebastián Maguiña",profilePicUrl:"/src/assets/images/sm.jpg",githubUrl:"https://github.com/Sebas54318"}],project_url:"https://github.com/codeableorg/critics-release-candidate-c10-w11-criticsrc-team6"}],wt=[{intro:"My name is Jorge Rosano, ",gralDescription:" with a unique background, having been a former neuropsychology specialist.",ironic:"Probably you are wondering what am I doing in the tech industry? The answer is simple!",explanation:"Access to tools that facilitate corporate, organizational, and even personal processes inherently entails an understanding of certain human motivations.",continuous:"Thus, the understanding of the human mind, together with the constant technological development, will surely unlock new horizons of empowerment.",brp:"With this in mind, the decision to break into the tech world was not only a smart one, but also a call to be at the forefront of innovation, to create solutions that could reach far beyond the confines of a therapist's office.",det:"That's why I'm determined to collaborate with like-minded professionals who share the same passion for leveraging technology to make a tangible difference in people's lives.",con:" with me to discuss how we can make a positive impact together!"}],Em=S.div`
+`;function Vr(){return f.jsx(km,{children:f.jsxs(Sm,{children:["Powered with ❤️ by ",f.jsx("span",{style:{color:"#5dc1b9",fontWeight:700},children:" Jorge Rosano "}),f.jsx(Em,{children:"2023"})]})})}const hr=[{id:"1",imgSrc:"/src/assets/images/get-that-home.png",title:"Get that home",summary:"Application created with React using Vite, intended to be a useful, attractive, and user-friendly website for renting, selling, and searching for houses and apartments.",tech:["Javascript","React","Ruby","Rails","Heroku"],team:[{name:"Gabriel Nuñez",profilePicUrl:"/src/assets/images/gab.jpg",githubUrl:"https://github.com/NunezGabriel"},{name:"Jorge Rosano",profilePicUrl:"/src/assets/images/jrh.jpg",githubUrl:"https://github.com/jorge-ross"},{name:"Pedro Arias",profilePicUrl:"/src/assets/images/ped.png",githubUrl:"https://github.com/pdroariasvilela"},{name:"Diego Gómez",profilePicUrl:"/src/assets/images/dg.jpg",githubUrl:"https://github.com/DiegoGomezCuadross"},{name:"Daniel Toledo",profilePicUrl:"/src/assets/images/dt.jpg",githubUrl:"https://github.com/DanielToledo-99"}],project_url:"https://github.com/jorge-ross/get-that-home-c-10"},{id:"2",imgSrc:"/src/assets/images/clivia.png",title:"CLIvia Generator",summary:"The classic trivia game that asks questions about a variety of topics, including history, science, and pop culture. The user can earn one point for each correct answer, the highest score at the end of the game wins. Built with Ruby.",tech:["Ruby","Heroku"],team:[{name:"Jorge Rosano",profilePicUrl:"/src/assets/images/jrh.jpg",githubUrl:"https://github.com/jorge-ross"}],project_url:"https://github.com/jorge-ross/CLIvia-generator"},{id:"3",imgSrc:"/src/assets/images/eatable.png",title:"Eatable",summary:"Interactive digital menu designed for personal and commercial use, where the user can explore, create, edit, and delete dishes, thus offering a personalized user experience.",tech:["Javascript","React"],team:[{name:"Jorge Rosano",profilePicUrl:"/src/assets/images/jrh.jpg",githubUrl:"https://github.com/jorge-ross"}],project_url:"https://github.com/jorge-ross/Eatable-p"},{id:"4",imgSrc:"/src/assets/images/doable.png",title:"Doable",summary:" A simpler version of a note-taking app built with Javascript, where users can create, categorize and manage tasks.",tech:["Javascript"],team:[{name:"Jorge Rosano",profilePicUrl:"/src/assets/images/jrh.jpg",githubUrl:"https://github.com/jorge-ross"}],project_url:"https://github.com/jorge-ross/Doable-js"},{id:"5",imgSrc:"/src/assets/images/b-ui.png",title:"Blog UI",summary:"A website focused on the user experience when interacting with an online blog, which is why the objective of this project is to create an enjoyable UI (User Interface) using HTML and CSS.",tech:["HTML","CSS"],team:[{name:"Jorge Rosano",profilePicUrl:"/src/assets/images/jrh.jpg",githubUrl:"https://github.com/jorge-ross"}],project_url:"https://github.com/jorge-ross/jorgeross--blog-ui"},{id:"6",imgSrc:"/src/assets/images/contactable.png",title:"Contactable",summary:"Making your life easier! Keep track of contact emails and phone numbers in the Contactable app. Allow us to be your local memory, and focus on what matters most to you! ",tech:["Javascript","Heroku"],team:[{name:"Kevin Robles",profilePicUrl:"/src/assets/images/kr.png",githubUrl:"https://github.com/kevinronu"},{name:"Jorge Rosano",profilePicUrl:"/src/assets/images/jrh.jpg",githubUrl:"https://github.com/jorge-ross"}],project_url:"https://github.com/jorge-ross/contactable-js-t3"},{id:"7",imgSrc:"/src/assets/images/tweetable.png",title:"Tweetable",summary:"A simpler version of X, once Twitter, using Ruby on Rails, where users can create, reply and like posts with the objective of creating a minimum viable product (MVP) of the X app.",tech:["Ruby","Rails"],team:[{name:"Jorge Rosano",profilePicUrl:"/src/assets/images/jrh.jpg",githubUrl:"https://github.com/jorge-ross"}],project_url:"https://github.com/jorge-ross/Tweetable-p"},{id:"8",imgSrc:"/src/assets/images/critics.png",title:"Critics RC",summary:"Interactive video game catalog, where the user can sign up, log in with their username and password if already registered, and access reviews and ratings for each of the video games and companies in the database. Additionally, user can create, edit, and delete their own companies and critics.",tech:["Ruby","Rails"],team:[{name:"Kevin Quispe",profilePicUrl:"/src/assets/images/kq.jpg",githubUrl:"https://github.com/Kevincarlosqa"},{name:"Jorge Rosano",profilePicUrl:"/src/assets/images/jrh.jpg",githubUrl:"https://github.com/jorge-ross"},{name:"Gerardo Avena",profilePicUrl:"/src/assets/images/gav.jpg",githubUrl:"https://github.com/Avenator02"},{name:"Sebastián Maguiña",profilePicUrl:"/src/assets/images/sm.jpg",githubUrl:"https://github.com/Sebas54318"}],project_url:"https://github.com/codeableorg/critics-release-candidate-c10-w11-criticsrc-team6"}],wt=[{intro:"My name is Jorge Rosano, ",gralDescription:" with a unique background, having been a former neuropsychology specialist.",ironic:"Probably you are wondering what am I doing in the tech industry? The answer is simple!",explanation:"Access to tools that facilitate corporate, organizational, and even personal processes inherently entails an understanding of certain human motivations.",continuous:"Thus, the understanding of the human mind, together with the constant technological development, will surely unlock new horizons of empowerment.",brp:"With this in mind, the decision to break into the tech world was not only a smart one, but also a call to be at the forefront of innovation, to create solutions that could reach far beyond the confines of a therapist's office.",det:"That's why I'm determined to collaborate with like-minded professionals who share the same passion for leveraging technology to make a tangible difference in people's lives.",con:" with me to discuss how we can make a positive impact together!"}],jm=S.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
   margin: 0;
-`,jm=S.div`
+`,Pm=S.div`
   background-color: ${M.black[900]};
   height: 500px;
   place-items: center;
@@ -610,7 +610,7 @@ background-image: url(${e=>e.backgroundImage});
       "right";
     height: 100%
   }
-`,Pm=S.div`
+`,zm=S.div`
   background-image: url('src/assets/images/SPPP.jpg');
   background-size: cover;
   background-position: bottom;
@@ -631,7 +631,7 @@ background-image: url(${e=>e.backgroundImage});
     height: fit-content;
   }
 
-`,zm=S.p`
+`,_m=S.p`
   ${I.head.lg}
   color: ${M.stone[100]};
   font-weight: 600;
@@ -641,7 +641,7 @@ background-image: url(${e=>e.backgroundImage});
   @media (max-width: 500px) {
     ${I.head.sm};
   }
-`,_m=S.div`
+`,Tm=S.div`
   height: 350px; 
   width: 100%;
   margin: 16px 0;
@@ -658,7 +658,7 @@ background-image: url(${e=>e.backgroundImage});
     justify-content: flex-start;
     height: auto;
   }
-`,Tm=S.h1`
+`,Rm=S.h1`
   ${Te.head.lg}
   color: ${M.yellow[300]};
   margin: 0;
@@ -666,7 +666,7 @@ background-image: url(${e=>e.backgroundImage});
   @media (max-width: 500px) {
     ${Te.head.sm};
   }
-`,Rm=S.h1`
+`,Fm=S.h1`
   ${I.head.md}
   color: ${M.stone[200]};
   margin: 0;
@@ -680,7 +680,7 @@ background-image: url(${e=>e.backgroundImage});
     ${I.head.xs};
     margin: 32px 0;
   }
-`;function Fm(){const e="src/assets/images/descF.png";return f.jsxs(Em,{children:[f.jsx(Wr,{}),f.jsx("div",{children:f.jsxs(jm,{children:[f.jsx(X1,{gitHubUrl:"https://github.com/jorge-ross",linkedInUrl:"https://www.linkedin.com/in/jorgeros13",InstaUrl:"https://www.instagram.com/_jorgeross",XUrl:"https://twitter.com/jorg_ros",img:lm}),f.jsx(J1,{backgroundImage:e})]})}),f.jsx("div",{children:f.jsxs(Pm,{children:[f.jsx(zm,{children:"{ Some apps I've Built }"}),f.jsx(Tm,{children:"< />"}),f.jsx(_m,{children:hr.slice(0,3).map((t,n)=>f.jsx(Ge,{to:`/projects/${n}`,style:{textDecoration:"none"},onClick:()=>window.scrollTo(0,0),children:f.jsx(b1,{imgSrc:t.imgSrc,title:t.title,summary:t.summary},n)},t.id))}),f.jsxs(Rm,{children:["Visit my ",f.jsx(Ge,{to:"/portfolio",style:{textDecoration:"none",color:"#FCD34D"},onClick:()=>window.scrollTo(0,0),children:"Portfolio"})," for more"]})]})}),f.jsx(Vr,{})]})}const Lm="/the-portfolio/assets/av-9-fe82a484.jpg",Nm="/the-portfolio/assets/brain1-f3019937.jpg",$m=S.div`
+`;function Lm(){return f.jsxs(jm,{children:[f.jsx(Wr,{}),f.jsx("div",{children:f.jsxs(Pm,{children:[f.jsx(X1,{gitHubUrl:"https://github.com/jorge-ross",linkedInUrl:"https://www.linkedin.com/in/jorgeros13",InstaUrl:"https://www.instagram.com/_jorgeross",XUrl:"https://twitter.com/jorg_ros",img:lm}),f.jsx(J1,{backgroundImage:om})]})}),f.jsx("div",{children:f.jsxs(zm,{children:[f.jsx(_m,{children:"{ Some apps I've Built }"}),f.jsx(Rm,{children:"< />"}),f.jsx(Tm,{children:hr.slice(0,3).map((e,t)=>f.jsx(Ge,{to:`/projects/${t}`,style:{textDecoration:"none"},onClick:()=>window.scrollTo(0,0),children:f.jsx(b1,{imgSrc:e.imgSrc,title:e.title,summary:e.summary},t)},e.id))}),f.jsxs(Fm,{children:["Visit my ",f.jsx(Ge,{to:"/portfolio",style:{textDecoration:"none",color:"#FCD34D"},onClick:()=>window.scrollTo(0,0),children:"Portfolio"})," for more"]})]})}),f.jsx(Vr,{})]})}const Nm="/the-portfolio/assets/av-9-fe82a484.jpg",$m="/the-portfolio/assets/brain1-f3019937.jpg",Mm=S.div`
   display: flex;
   flex-direction: column;
   margin: 0;
@@ -703,7 +703,7 @@ background-image: url(${e=>e.backgroundImage});
     gap: 16px;
     margin: 0;
   }
-`,Mm=S.div`
+`,Om=S.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -715,7 +715,7 @@ background-image: url(${e=>e.backgroundImage});
   @media (max-width: 1000px) {
     height: 300px;
   }
-`,Om=S.img`
+`,Im=S.img`
   width: auto;
   height: auto;
   max-width: 70%;
@@ -738,7 +738,7 @@ background-image: url(${e=>e.backgroundImage});
     max-width: 70%;
     max-height: 85%;
   }
-`,Im=S.div`
+`,Dm=S.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -764,7 +764,7 @@ background-image: url(${e=>e.backgroundImage});
     align-items: center;
     margin: 0;
   }
-`,Dm=S.div`
+`,Am=S.div`
   height: 350px;
   width: 70%;
   grid-area: right;
@@ -772,14 +772,14 @@ background-image: url(${e=>e.backgroundImage});
   display: flex;
   flex-direction: column;
   text-align: justify;
-`,Am=S.h1`
+`,Um=S.h1`
   ${I.head.md};
   color: ${M.yellow[400]};
   margin: 32px 0 0 0;
 `,Kt=S.p`
   ${I.text.md};
   color: ${M.stone[300]};
-`,Um=S.div`
+`,Bm=S.div`
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -794,7 +794,7 @@ background-image: url(${e=>e.backgroundImage});
     display: flex;
     justify-content: center;
   }
-`,Bm=S.img`
+`,Hm=S.img`
   width: 300px;
   height: 290px;
   border-radius: 16%;
@@ -808,7 +808,7 @@ background-image: url(${e=>e.backgroundImage});
     width: 100px;
     height: 100px;
   }
-`,Hm=S.div`
+`,Wm=S.div`
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -835,7 +835,7 @@ background-image: url(${e=>e.backgroundImage});
     align-items: center;
     margin: 0;
   }
-`,Wm=S.div`
+`,Vm=S.div`
   height: 350px;
   width: 90%;
   grid-area: right;
@@ -850,17 +850,17 @@ background-image: url(${e=>e.backgroundImage});
     right: 0;
     margin: 0 auto;
   }
-`;function Vm(){return f.jsxs($m,{children:[f.jsx(Wr,{}),f.jsxs(tc,{children:[f.jsx(Mm,{children:f.jsx(Om,{src:Lm,alt:"JRoss"})}),f.jsx(Im,{children:f.jsxs(Dm,{children:[f.jsx(Am,{style:{textAlign:"center"},children:"Hi there! ✌️"}),f.jsxs(Kt,{children:[wt[0].intro,f.jsx("span",{style:{color:"#FBBF24"},children:"Full Stack Web Developer"}),wt[0].gralDescription]}),f.jsx(Kt,{children:wt[0].ironic}),f.jsx(Kt,{children:wt[0].explanation})]})})]}),f.jsxs(tc,{children:[f.jsx(Hm,{children:f.jsxs(Wm,{children:[f.jsx(Kt,{children:wt[0].continuous}),f.jsx(Kt,{children:wt[0].brp}),f.jsx(Kt,{children:wt[0].det}),f.jsxs(Kt,{children:[f.jsx("a",{href:"https://www.linkedin.com/in/jorgeros13",style:{textDecoration:"none"},children:f.jsx("span",{style:{color:"#FBBF24"},children:"Connect"})}),wt[0].con]})]})}),f.jsx(Um,{children:f.jsx(Bm,{src:Nm,alt:"brain"})})]}),f.jsx(Vr,{})]})}const Qm="/the-portfolio/assets/uc4-9c1e48c9.png",Km=S.div`
+`;function Qm(){return f.jsxs(Mm,{children:[f.jsx(Wr,{}),f.jsxs(tc,{children:[f.jsx(Om,{children:f.jsx(Im,{src:Nm,alt:"JRoss"})}),f.jsx(Dm,{children:f.jsxs(Am,{children:[f.jsx(Um,{style:{textAlign:"center"},children:"Hi there! ✌️"}),f.jsxs(Kt,{children:[wt[0].intro,f.jsx("span",{style:{color:"#FBBF24"},children:"Full Stack Web Developer"}),wt[0].gralDescription]}),f.jsx(Kt,{children:wt[0].ironic}),f.jsx(Kt,{children:wt[0].explanation})]})})]}),f.jsxs(tc,{children:[f.jsx(Wm,{children:f.jsxs(Vm,{children:[f.jsx(Kt,{children:wt[0].continuous}),f.jsx(Kt,{children:wt[0].brp}),f.jsx(Kt,{children:wt[0].det}),f.jsxs(Kt,{children:[f.jsx("a",{href:"https://www.linkedin.com/in/jorgeros13",style:{textDecoration:"none"},children:f.jsx("span",{style:{color:"#FBBF24"},children:"Connect"})}),wt[0].con]})]})}),f.jsx(Bm,{children:f.jsx(Hm,{src:$m,alt:"brain"})})]}),f.jsx(Vr,{})]})}const Km="/the-portfolio/assets/uc4-9c1e48c9.png",Gm=S.div`
   width: 100%;
   height: 1000px;
-`,Gm=S.div`
+`,Ym=S.div`
   background-color: ${M.black[500]};
   width: 100%;
   height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-`,Ym=S.div`
+`,Xm=S.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -868,7 +868,7 @@ background-image: url(${e=>e.backgroundImage});
   margin: 0;
   height: 520px;
   width: 100%;
-`,Xm=S.img`
+`,Zm=S.img`
   width: 700px;
   height: 450px;
 
@@ -876,7 +876,7 @@ background-image: url(${e=>e.backgroundImage});
     width: 300px;
     height: 180px;
   }
-`,Zm=S.p`
+`,Jm=S.p`
   ${Te.head.lg};
   font-weight: 500;
   color: ${M.yellow[300]};
@@ -887,7 +887,7 @@ background-image: url(${e=>e.backgroundImage});
     margin: 16px 16px 24px;
     text-align: center;
   }
-`;function Jm(){return f.jsxs(Km,{children:[f.jsx(Wr,{}),f.jsx(Gm,{children:f.jsxs(Ym,{children:[f.jsx(Zm,{children:"Under construction"}),f.jsx(Xm,{src:Qm,alt:"tempImg"})]})}),f.jsx(Vr,{})]})}function bm(e){return Z({tag:"svg",attr:{version:"1.1",viewBox:"0 0 32 32"},child:[{tag:"path",attr:{d:"M7.73 9.828c0 3.552 0.097 6.459 0.226 6.459 0.097 0 1.776-0.517 3.746-1.13 2.68-0.904 3.972-1.13 5.361-1.066l1.808 0.097 0.097 7.492 0.065 7.524h3.875v-7.88c0-7.653-0.032-7.879-0.743-8.945-1.292-1.938-4.618-2.358-8.752-1.13l-1.486 0.452v-8.332h-4.198v6.459zM18.872 5.727c-0.711 1.26-1.324 2.422-1.389 2.551-0.065 0.161 0.807 0.258 1.938 0.258h2.034l1.162-1.873c2.228-3.488 2.261-3.294-0.258-3.294h-2.196l-1.292 2.357zM7.73 25.167c0 2.034 0.129 3.714 0.258 3.714s1.066-0.839 2.099-1.873l1.841-1.873-1.873-1.841c-1.033-1.001-1.97-1.841-2.099-1.841s-0.226 1.679-0.226 3.714z"}}]})(e)}function qm(e){return Z({tag:"svg",attr:{version:"1.1",viewBox:"0 0 32 32"},child:[{tag:"path",attr:{d:"M6.248 16.554c0.132-0.413 0.289-1.255 0.655-1.995 1.781-3.594 4.536-6.208 8.215-7.796 0.71-0.306 1.555-0.404 2.339-0.408 0.98-0.005 1.637 0.677 1.723 1.666 0.045 0.515 0.039 1.087-0.138 1.561-1.743 4.662-5.032 7.784-9.656 9.538-0.18 0.068-0.381 0.086-0.575 0.112-1.574 0.216-2.587-0.676-2.563-2.678zM18.349 13.099c2.556-0.179 5.069-0.355 7.702-0.54-0.192-0.183-0.3-0.303-0.425-0.403-2.292-1.838-4.59-3.668-6.873-5.517-0.226-0.183-0.366-0.471-0.668-0.871 0.981 0 1.774-0.009 2.567 0.002 0.957 0.014 1.937-0.079 2.867 0.093 2.011 0.372 3.084 1.669 3.046 3.713-0.035 1.916-0.233 3.829-0.375 5.742-0.217 2.929-0.445 5.858-0.671 8.786-0.039 0.505-0.086 1.010-0.137 1.61-1.063-0.947-2.080-1.852-3.095-2.758-0.131-0.117-0.24-0.268-0.385-0.361-1.241-0.79-1.759-1.968-2.041-3.376-0.368-1.84-0.907-3.646-1.371-5.467-0.052-0.204-0.090-0.412-0.142-0.655zM8.765 24.301c0.547-0.076 1.059-0.108 1.547-0.234 0.192-0.049 0.415-0.283 0.477-0.479 0.46-1.455 0.882-2.923 1.317-4.385 0.038-0.128 0.091-0.252 0.161-0.443 2.662 0.852 5.303 1.698 8.022 2.568-1.415 1.428-2.92 2.625-4.602 3.701 2.997 0.229 5.994 0.458 8.991 0.687 0 0.038 0 0.077 0.001 0.115-0.646 0.046-1.292 0.094-1.938 0.137-3.812 0.251-7.623 0.501-11.435 0.75-0.606 0.040-1.213 0.106-1.818 0.095-2.566-0.047-4.020-1.453-4.053-4.027-0.019-1.446 0.13-2.894 0.222-4.34 0.007-0.109 0.163-0.209 0.25-0.313 0.129 0.115 0.317 0.205 0.38 0.349 0.766 1.776 1.514 3.56 2.267 5.341 0.061 0.143 0.126 0.284 0.211 0.478z"}}]})(e)}const eg=S.div`
+`;function bm(){return f.jsxs(Gm,{children:[f.jsx(Wr,{}),f.jsx(Ym,{children:f.jsxs(Xm,{children:[f.jsx(Jm,{children:"Under construction"}),f.jsx(Zm,{src:Km,alt:"tempImg"})]})}),f.jsx(Vr,{})]})}function qm(e){return Z({tag:"svg",attr:{version:"1.1",viewBox:"0 0 32 32"},child:[{tag:"path",attr:{d:"M7.73 9.828c0 3.552 0.097 6.459 0.226 6.459 0.097 0 1.776-0.517 3.746-1.13 2.68-0.904 3.972-1.13 5.361-1.066l1.808 0.097 0.097 7.492 0.065 7.524h3.875v-7.88c0-7.653-0.032-7.879-0.743-8.945-1.292-1.938-4.618-2.358-8.752-1.13l-1.486 0.452v-8.332h-4.198v6.459zM18.872 5.727c-0.711 1.26-1.324 2.422-1.389 2.551-0.065 0.161 0.807 0.258 1.938 0.258h2.034l1.162-1.873c2.228-3.488 2.261-3.294-0.258-3.294h-2.196l-1.292 2.357zM7.73 25.167c0 2.034 0.129 3.714 0.258 3.714s1.066-0.839 2.099-1.873l1.841-1.873-1.873-1.841c-1.033-1.001-1.97-1.841-2.099-1.841s-0.226 1.679-0.226 3.714z"}}]})(e)}function eg(e){return Z({tag:"svg",attr:{version:"1.1",viewBox:"0 0 32 32"},child:[{tag:"path",attr:{d:"M6.248 16.554c0.132-0.413 0.289-1.255 0.655-1.995 1.781-3.594 4.536-6.208 8.215-7.796 0.71-0.306 1.555-0.404 2.339-0.408 0.98-0.005 1.637 0.677 1.723 1.666 0.045 0.515 0.039 1.087-0.138 1.561-1.743 4.662-5.032 7.784-9.656 9.538-0.18 0.068-0.381 0.086-0.575 0.112-1.574 0.216-2.587-0.676-2.563-2.678zM18.349 13.099c2.556-0.179 5.069-0.355 7.702-0.54-0.192-0.183-0.3-0.303-0.425-0.403-2.292-1.838-4.59-3.668-6.873-5.517-0.226-0.183-0.366-0.471-0.668-0.871 0.981 0 1.774-0.009 2.567 0.002 0.957 0.014 1.937-0.079 2.867 0.093 2.011 0.372 3.084 1.669 3.046 3.713-0.035 1.916-0.233 3.829-0.375 5.742-0.217 2.929-0.445 5.858-0.671 8.786-0.039 0.505-0.086 1.010-0.137 1.61-1.063-0.947-2.080-1.852-3.095-2.758-0.131-0.117-0.24-0.268-0.385-0.361-1.241-0.79-1.759-1.968-2.041-3.376-0.368-1.84-0.907-3.646-1.371-5.467-0.052-0.204-0.090-0.412-0.142-0.655zM8.765 24.301c0.547-0.076 1.059-0.108 1.547-0.234 0.192-0.049 0.415-0.283 0.477-0.479 0.46-1.455 0.882-2.923 1.317-4.385 0.038-0.128 0.091-0.252 0.161-0.443 2.662 0.852 5.303 1.698 8.022 2.568-1.415 1.428-2.92 2.625-4.602 3.701 2.997 0.229 5.994 0.458 8.991 0.687 0 0.038 0 0.077 0.001 0.115-0.646 0.046-1.292 0.094-1.938 0.137-3.812 0.251-7.623 0.501-11.435 0.75-0.606 0.040-1.213 0.106-1.818 0.095-2.566-0.047-4.020-1.453-4.053-4.027-0.019-1.446 0.13-2.894 0.222-4.34 0.007-0.109 0.163-0.209 0.25-0.313 0.129 0.115 0.317 0.205 0.38 0.349 0.766 1.776 1.514 3.56 2.267 5.341 0.061 0.143 0.126 0.284 0.211 0.478z"}}]})(e)}const tg=S.div`
   border-radius: 24px;
   display: flex;
   flex-direction: column;
@@ -918,7 +918,7 @@ background-image: url(${e=>e.backgroundImage});
   @media (max-width: 390px) {
     width: 280px;
   }
-`,tg=S.img`
+`,ng=S.img`
   width: 100%;
   height: 200px;
   border-top-left-radius: 24px;
@@ -931,20 +931,20 @@ background-image: url(${e=>e.backgroundImage});
   @media (max-width: 600px) {
     height: 150px;
   }
-`,ng=S.div`
+`,rg=S.div`
   background-color: ${M.stone[100]};
   width: 100%;
   height: 90px;
   border-radius: 0 0 20px 20px;
   display: flex;
   flex-direction: column;
-`,rg=S.p`
+`,ig=S.p`
   ${I.text.lg}
   color: black;
   text-align: justify;
   margin: 0;
   padding: 16px 16px 5px;
-`,ig=S.div`
+`,lg=S.div`
   width: 100%;
   height: 40px;
   padding-left: 16px;
@@ -953,19 +953,19 @@ background-image: url(${e=>e.backgroundImage});
   gap: 12px;
   border-bottom-left-radius: 24px;
   border-bottom-right-radius: 24px;
-`,lg={Javascript:pa,React:ha,Ruby:qm,Rails:ma,HTML:fa,CSS:ga,Heroku:bm};function q1({imgSrc:e,title:t,tech:n}){return q1.propTypes={title:ie.string.isRequired,imgSrc:ie.string.isRequired,tech:ie.arrayOf(ie.string).isRequired},f.jsxs(eg,{children:[f.jsx(tg,{src:e,alt:"project"}),f.jsxs(ng,{children:[f.jsx(rg,{children:t}),f.jsx(ig,{children:n.map((r,i)=>{const l=lg[r];return l?f.jsx(l,{style:{width:"25px",height:"25px",color:r==="Javascript"?"#FCD34D":r==="React"?"#60A5FA":r==="Ruby"||r==="Rails"?"#EF4444":r==="HTML"?"#F06529":r==="CSS"?"#2965F1":r==="Heroku"?"#6762A6":void 0}},i):null})})]})]})}const og=S.div`
+`,og={Javascript:pa,React:ha,Ruby:eg,Rails:ma,HTML:fa,CSS:ga,Heroku:qm};function q1({imgSrc:e,title:t,tech:n}){return q1.propTypes={title:ie.string.isRequired,imgSrc:ie.string.isRequired,tech:ie.arrayOf(ie.string).isRequired},f.jsxs(tg,{children:[f.jsx(ng,{src:e,alt:"project"}),f.jsxs(rg,{children:[f.jsx(ig,{children:t}),f.jsx(lg,{children:n.map((r,i)=>{const l=og[r];return l?f.jsx(l,{style:{width:"25px",height:"25px",color:r==="Javascript"?"#FCD34D":r==="React"?"#60A5FA":r==="Ruby"||r==="Rails"?"#EF4444":r==="HTML"?"#F06529":r==="CSS"?"#2965F1":r==="Heroku"?"#6762A6":void 0}},i):null})})]})]})}const ag=S.div`
   background-color: ${M.black[600]};
-`,ag=S.div`
+`,sg=S.div`
   display: flex;
   justify-content: center;
   align-items: center;
   height: 60px;
   margin-top: 16px;
-`,sg=S.h1`
+`,ug=S.h1`
   ${I.head.lg};
   color: ${M.green[500]};
   margin: 0;
-`,ug=S.div`
+`,cg=S.div`
   margin: 16px auto 70px;
   width: 1000px;
   height: 800px;
@@ -995,7 +995,7 @@ background-image: url(${e=>e.backgroundImage});
     height: 896px;
   }
 
-`,cg=S.div`
+`,dg=S.div`
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-row-gap: 60px;
@@ -1011,50 +1011,50 @@ background-image: url(${e=>e.backgroundImage});
     grid-template-columns: 1fr;
     height: 830px;
   }
-`;function dg(){return f.jsxs(og,{children:[f.jsx(Wr,{}),f.jsxs(ag,{children:[f.jsx(sg,{children:"All projects"}),"."]}),f.jsx(ug,{children:f.jsx(cg,{children:hr==null?void 0:hr.map((e,t)=>f.jsx(Ge,{to:`/projects/${t}`,style:{textDecoration:"none"},onClick:()=>window.scrollTo(0,0),children:f.jsx(q1,{imgSrc:e.imgSrc,title:e.title,tech:e.tech},t)},e.id))})}),f.jsx(Vr,{})]})}const fg={xs:"62px",sm:"160px",md:"210px"},pg=S.div`
+`;function fg(){return f.jsxs(ag,{children:[f.jsx(Wr,{}),f.jsxs(sg,{children:[f.jsx(ug,{children:"All projects"}),"."]}),f.jsx(cg,{children:f.jsx(dg,{children:hr==null?void 0:hr.map((e,t)=>f.jsx(Ge,{to:`/projects/${t}`,style:{textDecoration:"none"},onClick:()=>window.scrollTo(0,0),children:f.jsx(q1,{imgSrc:e.imgSrc,title:e.title,tech:e.tech},t)},e.id))})}),f.jsx(Vr,{})]})}const pg={xs:"62px",sm:"160px",md:"210px"},hg=S.div`
   width: 400px;
-  height: ${({size:e})=>fg[e]};
+  height: ${({size:e})=>pg[e]};
   margin: 0;
 
   @media (max-width: 540px) {
     width: 320px;
   }
-`,hg=S.img`
+`,mg=S.img`
   border-radius: 16px;
   width: 100%;
   height: 100%;
   margin: 0;
-`,ed=({src:e,size:t})=>(ed.propTypes={src:ie.string.isRequired,size:ie.oneOf(["xs","sm","md"]).isRequired},f.jsx(pg,{size:t,children:f.jsx(hg,{src:e,alt:"covers"})})),mg=S.div`
+`,ed=({src:e,size:t})=>(ed.propTypes={src:ie.string.isRequired,size:ie.oneOf(["xs","sm","md"]).isRequired},f.jsx(hg,{size:t,children:f.jsx(mg,{src:e,alt:"covers"})})),gg=S.div`
   display: flex;
   flex-direction: row;
   gap: 16px;
   width: 250px;
   justify-content: center;
   align-items: center;
-`,gg=S.div`
+`,vg=S.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 16px;
-`,vg=S.p`
+`,yg=S.p`
   ${Te.head.xs}
   font-weight: 400;
   color: #BF5F82;
   margin: 0;
   text-align: center;
-`,yg=S.div`
+`,xg=S.div`
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   gap: 48px;
-`,xg=S.img`
+`,wg=S.img`
   width: 90px;
   height: 90px;
   flex-shrink: 0;
   border-radius: 50%;
-`;function td({name:e,gitHubUrl:t,profilePicUrl:n}){return td.propTypes={name:ie.string,gitHubUrl:ie.string,profilePicUrl:ie.string},f.jsxs(mg,{children:[f.jsx(xg,{src:n,alt:"Team member"}),f.jsxs(gg,{children:[f.jsx(vg,{children:e}),f.jsx(yg,{children:f.jsxs("a",{href:t,children:[" ",f.jsx(Y1,{style:{width:"35px",height:"35px",color:"#A8A29E",borderRadius:"50%"},className:"fluorescent"})," "]})})]})]})}const wg=S.div`
+`;function td({name:e,gitHubUrl:t,profilePicUrl:n}){return td.propTypes={name:ie.string,gitHubUrl:ie.string,profilePicUrl:ie.string},f.jsxs(gg,{children:[f.jsx(wg,{src:n,alt:"Team member"}),f.jsxs(vg,{children:[f.jsx(yg,{children:e}),f.jsx(xg,{children:f.jsxs("a",{href:t,children:[" ",f.jsx(Y1,{style:{width:"35px",height:"35px",color:"#A8A29E",borderRadius:"50%"},className:"fluorescent"})," "]})})]})]})}const Cg=S.div`
   margin: 70px auto;
   width: 100%;
   background-color: ${M.black[500]};
@@ -1074,7 +1074,7 @@ background-image: url(${e=>e.backgroundImage});
   @media (max-width: 600px) {
     height: 1550px;
   }
-`,Cg=S.div`
+`,kg=S.div`
   width: 930px;
   display: grid;
   grid-template-columns: 1.2fr 1fr;
@@ -1096,7 +1096,7 @@ background-image: url(${e=>e.backgroundImage});
   @media(max-width: 400px) {
     width: 320px;
   }
-`,kg=S.div`
+`,Sg=S.div`
   background-color: ${M.black[800]};
   width: 100%;
   height: 260px;
@@ -1107,7 +1107,7 @@ background-image: url(${e=>e.backgroundImage});
   @media(max-width: 950px) {
     height: 400px;
   }
-`,Sg=S.div`
+`,Eg=S.div`
   width: 930px;
   display: grid;
   grid-template-columns: 1.3fr 0.7fr;
@@ -1127,13 +1127,13 @@ background-image: url(${e=>e.backgroundImage});
   @media(max-width: 500px) {
     width: 300px;
   }
-`,Eg=S.div`
+`,jg=S.div`
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 0;
   height: 250px;
-`,jg=S.p`
+`,Pg=S.p`
   margin: 0;
   ${Te.head.xxl}
   color: ${M.pink[400]};
@@ -1144,7 +1144,7 @@ background-image: url(${e=>e.backgroundImage});
   @media (max-width: 540px) {
     ${Te.head.lg};
   }
-`,Pg=S.div`
+`,zg=S.div`
   ${I.text.xl};
   color: ${M.stone[200]};
   display: flex;
@@ -1165,7 +1165,7 @@ background-image: url(${e=>e.backgroundImage});
     text-align: justify;
     width: 95%;
   }
-`,zg=S.div`
+`,_g=S.div`
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1173,7 +1173,7 @@ background-image: url(${e=>e.backgroundImage});
   @media(max-width: 950px) {
     height: 75px;
   }
-`,_g=S.div`
+`,Tg=S.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -1186,11 +1186,11 @@ background-image: url(${e=>e.backgroundImage});
   @media (max-width: 600px) {
     height: 750px;
   }
-`,Tg=S.p`
+`,Rg=S.p`
   ${I.head.md};
   color: ${M.pink[400]};
   margin: 24px 0 24px 0;
-`,Rg=S.div`
+`,Fg=S.div`
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   gap: 32px;
@@ -1205,4 +1205,4 @@ background-image: url(${e=>e.backgroundImage});
   @media (max-width: 600px) {
     grid-template-columns: 1fr;
   }
-`;function Fg(){const{id:e}=qd(),t=parseInt(e),n=hr[t],[r,i]=j.useState(window.innerWidth);return j.useEffect(()=>{const l=()=>{i(window.innerWidth)};return window.addEventListener("resize",l),()=>{window.removeEventListener("resize",l)}},[]),f.jsxs("div",{children:[f.jsx(Wr,{}),f.jsxs(wg,{children:[f.jsxs(Cg,{children:[f.jsx(jg,{children:n.title}),f.jsx(Eg,{children:f.jsx(ed,{size:r<540?"sm":"md",src:n.imgSrc})})]}),f.jsx(kg,{children:f.jsxs(Sg,{children:[f.jsx(Pg,{children:n.summary}),f.jsx(zg,{children:f.jsx(Ge,{to:n.project_url,children:f.jsx(D2,{children:"Go to Repo!"})})})]})}),f.jsxs(_g,{children:[f.jsx(Tg,{children:n.team.length>1?"The team":"Created by"}),f.jsx(Rg,{children:n.team.map((l,o)=>f.jsx(td,{name:l.name,profilePicUrl:l.profilePicUrl,gitHubUrl:l.githubUrl},o))})]})]}),f.jsx(Vr,{})]})}function Lg(){return f.jsx(hf,{children:f.jsxs(at,{path:"/",children:[f.jsx(at,{index:!0,element:f.jsx(Rs,{to:"home"})}),f.jsx(at,{path:"home",element:f.jsx(Fm,{})}),f.jsx(at,{path:"about-me",element:f.jsx(Vm,{})}),f.jsx(at,{path:"blog",element:f.jsx(Jm,{})}),f.jsx(at,{path:"portfolio",element:f.jsx(dg,{})}),f.jsx(at,{path:"projects/:id",element:f.jsx(Fg,{})}),f.jsx(at,{path:"*",element:f.jsx(Rs,{to:"/home",replace:!0})})]})})}mo.createRoot(document.getElementById("root")).render(f.jsx(wf,{children:f.jsx(Lg,{})}));
+`;function Lg(){const{id:e}=qd(),t=parseInt(e),n=hr[t],[r,i]=j.useState(window.innerWidth);return j.useEffect(()=>{const l=()=>{i(window.innerWidth)};return window.addEventListener("resize",l),()=>{window.removeEventListener("resize",l)}},[]),f.jsxs("div",{children:[f.jsx(Wr,{}),f.jsxs(Cg,{children:[f.jsxs(kg,{children:[f.jsx(Pg,{children:n.title}),f.jsx(jg,{children:f.jsx(ed,{size:r<540?"sm":"md",src:n.imgSrc})})]}),f.jsx(Sg,{children:f.jsxs(Eg,{children:[f.jsx(zg,{children:n.summary}),f.jsx(_g,{children:f.jsx(Ge,{to:n.project_url,children:f.jsx(D2,{children:"Go to Repo!"})})})]})}),f.jsxs(Tg,{children:[f.jsx(Rg,{children:n.team.length>1?"The team":"Created by"}),f.jsx(Fg,{children:n.team.map((l,o)=>f.jsx(td,{name:l.name,profilePicUrl:l.profilePicUrl,gitHubUrl:l.githubUrl},o))})]})]}),f.jsx(Vr,{})]})}function Ng(){return f.jsx(hf,{children:f.jsxs(at,{path:"/",children:[f.jsx(at,{index:!0,element:f.jsx(Rs,{to:"home"})}),f.jsx(at,{path:"home",element:f.jsx(Lm,{})}),f.jsx(at,{path:"about-me",element:f.jsx(Qm,{})}),f.jsx(at,{path:"blog",element:f.jsx(bm,{})}),f.jsx(at,{path:"portfolio",element:f.jsx(fg,{})}),f.jsx(at,{path:"projects/:id",element:f.jsx(Lg,{})}),f.jsx(at,{path:"*",element:f.jsx(Rs,{to:"/home",replace:!0})})]})})}mo.createRoot(document.getElementById("root")).render(f.jsx(wf,{children:f.jsx(Ng,{})}));
