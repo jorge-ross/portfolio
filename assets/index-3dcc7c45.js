@@ -561,7 +561,7 @@ Error generating stack: `+l.message+`
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
   overflow: hidden;
-`;function b1({imgSrc:e,title:t,summary:n}){b1.propTypes={title:ie.string.isRequired,summary:ie.string.isRequired,imgSrc:ie.string.isRequired};const r=100,i=n.length>r?n.slice(0,r)+"...":n;return f.jsxs(ym,{children:[f.jsx(xm,{src:e,alt:"home-cards"}),f.jsxs(wm,{children:[f.jsx(Cm,{children:t}),f.jsx(km,{children:i})]})]})}const Sm=S.div`
+`;function b1({img:e,title:t,summary:n}){b1.propTypes={title:ie.string.isRequired,summary:ie.string.isRequired,img:ie.string.isRequired};const r=100,i=n.length>r?n.slice(0,r)+"...":n;return f.jsxs(ym,{children:[f.jsx(xm,{src:e,alt:"home-cards"}),f.jsxs(wm,{children:[f.jsx(Cm,{children:t}),f.jsx(km,{children:i})]})]})}const Sm=S.div`
   background-color: ${M.black[900]};
   width: 100%;
   height: 7.5rem;
@@ -680,7 +680,7 @@ Error generating stack: `+l.message+`
     ${I.head.xs};
     margin: 32px 0;
   }
-`;function Nm(){return f.jsxs(Pm,{children:[f.jsx(Wr,{}),f.jsx("div",{children:f.jsxs(zm,{children:[f.jsx(X1,{gitHubUrl:"https://github.com/jorge-ross",linkedInUrl:"https://www.linkedin.com/in/jorgeros13",InstaUrl:"https://www.instagram.com/_jorgeross",XUrl:"https://twitter.com/jorg_ros",img:lm}),f.jsx(J1,{backgroundImage:om})]})}),f.jsx("div",{children:f.jsxs(_m,{backgroundImage:am,children:[f.jsx(Tm,{children:"{ Some apps I've Built }"}),f.jsx(Fm,{children:"< />"}),f.jsx(Rm,{children:hr.slice(0,3).map((e,t)=>f.jsx(Ge,{to:`/projects/${t}`,style:{textDecoration:"none"},onClick:()=>window.scrollTo(0,0),children:f.jsx(b1,{imgSrc:e.imgSrc,title:e.title,summary:e.summary},t)},e.id))}),f.jsxs(Lm,{children:["Visit my ",f.jsx(Ge,{to:"/portfolio",style:{textDecoration:"none",color:"#FCD34D"},onClick:()=>window.scrollTo(0,0),children:"Portfolio"})," for more"]})]})}),f.jsx(Vr,{})]})}const $m="/the-portfolio/assets/av-9-fe82a484.jpg",Mm="/the-portfolio/assets/brain1-f3019937.jpg",Om=S.div`
+`;function Nm(){return f.jsxs(Pm,{children:[f.jsx(Wr,{}),f.jsx("div",{children:f.jsxs(zm,{children:[f.jsx(X1,{gitHubUrl:"https://github.com/jorge-ross",linkedInUrl:"https://www.linkedin.com/in/jorgeros13",InstaUrl:"https://www.instagram.com/_jorgeross",XUrl:"https://twitter.com/jorg_ros",img:lm}),f.jsx(J1,{backgroundImage:om})]})}),f.jsx("div",{children:f.jsxs(_m,{backgroundImage:am,children:[f.jsx(Tm,{children:"{ Some apps I've Built }"}),f.jsx(Fm,{children:"< />"}),f.jsx(Rm,{children:hr.slice(0,3).map((e,t)=>f.jsx(Ge,{to:`/projects/${t}`,style:{textDecoration:"none"},onClick:()=>window.scrollTo(0,0),children:f.jsx(b1,{img:e.imgSrc,title:e.title,summary:e.summary},e.id)},e.id))}),f.jsxs(Lm,{children:["Visit my ",f.jsx(Ge,{to:"/portfolio",style:{textDecoration:"none",color:"#FCD34D"},onClick:()=>window.scrollTo(0,0),children:"Portfolio"})," for more"]})]})}),f.jsx(Vr,{})]})}const $m="/the-portfolio/assets/av-9-fe82a484.jpg",Mm="/the-portfolio/assets/brain1-f3019937.jpg",Om=S.div`
   display: flex;
   flex-direction: column;
   margin: 0;
