@@ -1,6 +1,7 @@
 import styled from "@emotion/styled";
 import { keyframes } from '@emotion/react';
 import { useState, useEffect } from 'react';
+import PropTypes from 'prop-types';
 
 import { colors } from "../../styles/colors";
 import { typography } from "../../styles/typography";
@@ -15,7 +16,7 @@ import { BiLogoPostgresql, BiLogoCss3, BiLogoNodejs } from 'react-icons/bi';
 import { MdComputer } from 'react-icons/md';
 
 const DescriptionField = styled.div`
-  background-image: url('src/assets/images/descF.png');
+  background-image: url(${props => props.backgroundImage});
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -154,7 +155,10 @@ const LineContainer = styled.div`
   }
 `
 
-function TextInDescription() {
+function TextInDescription({ backgroundImage }) {
+    TextInDescription.propTypes = {
+      backgroundImage: PropTypes.string,
+    }
 
   const [isSmallScreen, setIsSmallScreen] = useState(false);
 
@@ -173,7 +177,7 @@ function TextInDescription() {
   }, []);
 
   return (
-    <DescriptionField>
+    <DescriptionField backgroundImage={backgroundImage} alt="stars" >
       <AText>
       &#34;Hello world!&#34;
       </AText>

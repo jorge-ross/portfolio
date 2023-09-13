@@ -1,7 +1,8 @@
 export const projects = [
   {
     id: "1",
-    imgSrc: "/src/assets/images/get-that-home.png",
+    imgSrc:
+      "https://github.com/jorge-ross/the-portfolio/raw/main/src/assets/images/get-that-home.png",
     title: "Get that home",
     summary:
       "Application created with React using Vite, intended to be a useful, attractive, and user-friendly website for renting, selling, and searching for houses and apartments.",
@@ -9,27 +10,32 @@ export const projects = [
     team: [
       {
         name: "Gabriel Nuñez",
-        profilePicUrl: "/src/assets/images/gab.jpg",
+        profilePicUrl:
+          "https://github.com/jorge-ross/the-portfolio/raw/main/src/assets/images/gab.jpg",
         githubUrl: "https://github.com/NunezGabriel",
       },
       {
         name: "Jorge Rosano",
-        profilePicUrl: "/src/assets/images/jrh.jpg",
+        profilePicUrl:
+          "https://github.com/jorge-ross/the-portfolio/raw/main/src/assets/images/jrh.jpg",
         githubUrl: "https://github.com/jorge-ross",
       },
       {
         name: "Pedro Arias",
-        profilePicUrl: "/src/assets/images/ped.png",
+        profilePicUrl:
+          "https://github.com/jorge-ross/the-portfolio/raw/main/src/assets/images/ped.png",
         githubUrl: "https://github.com/pdroariasvilela",
       },
       {
         name: "Diego Gómez",
-        profilePicUrl: "/src/assets/images/dg.jpg",
+        profilePicUrl:
+          "https://github.com/jorge-ross/the-portfolio/raw/main/src/assets/images/dg.jpg",
         githubUrl: "https://github.com/DiegoGomezCuadross",
       },
       {
         name: "Daniel Toledo",
-        profilePicUrl: "/src/assets/images/dt.jpg",
+        profilePicUrl:
+          "https://github.com/jorge-ross/the-portfolio/raw/main/src/assets/images/dt.jpg",
         githubUrl: "https://github.com/DanielToledo-99",
       },
     ],
@@ -37,7 +43,8 @@ export const projects = [
   },
   {
     id: "2",
-    imgSrc: "/src/assets/images/clivia.png",
+    imgSrc:
+      "https://github.com/jorge-ross/the-portfolio/raw/main/src/assets/images/clivia.png",
     title: "CLIvia Generator",
     summary:
       "The classic trivia game that asks questions about a variety of topics, including history, science, and pop culture. The user can earn one point for each correct answer, the highest score at the end of the game wins. Built with Ruby.",
@@ -45,7 +52,8 @@ export const projects = [
     team: [
       {
         name: "Jorge Rosano",
-        profilePicUrl: "/src/assets/images/jrh.jpg",
+        profilePicUrl:
+          "https://github.com/jorge-ross/the-portfolio/raw/main/src/assets/images/jrh.jpg",
         githubUrl: "https://github.com/jorge-ross",
       },
     ],
@@ -53,7 +61,8 @@ export const projects = [
   },
   {
     id: "3",
-    imgSrc: "/src/assets/images/eatable.png",
+    imgSrc:
+      "https://github.com/jorge-ross/the-portfolio/raw/main/src/assets/images/eatable.png",
     title: "Eatable",
     summary:
       "Interactive digital menu designed for personal and commercial use, where the user can explore, create, edit, and delete dishes, thus offering a personalized user experience.",
@@ -61,7 +70,8 @@ export const projects = [
     team: [
       {
         name: "Jorge Rosano",
-        profilePicUrl: "/src/assets/images/jrh.jpg",
+        profilePicUrl:
+          "https://github.com/jorge-ross/the-portfolio/raw/main/src/assets/images/jrh.jpg",
         githubUrl: "https://github.com/jorge-ross",
       },
     ],
@@ -69,7 +79,8 @@ export const projects = [
   },
   {
     id: "4",
-    imgSrc: "/src/assets/images/doable.png",
+    imgSrc:
+      "https://github.com/jorge-ross/the-portfolio/raw/main/src/assets/images/doable.png",
     title: "Doable",
     summary:
       " A simpler version of a note-taking app built with Javascript, where users can create, categorize and manage tasks.",
@@ -77,7 +88,8 @@ export const projects = [
     team: [
       {
         name: "Jorge Rosano",
-        profilePicUrl: "/src/assets/images/jrh.jpg",
+        profilePicUrl:
+          "https://github.com/jorge-ross/the-portfolio/raw/main/src/assets/images/jrh.jpg",
         githubUrl: "https://github.com/jorge-ross",
       },
     ],
@@ -85,7 +97,8 @@ export const projects = [
   },
   {
     id: "5",
-    imgSrc: "/src/assets/images/b-ui.png",
+    imgSrc:
+      "https://github.com/jorge-ross/the-portfolio/raw/main/src/assets/images/b-ui.png",
     title: "Blog UI",
     summary:
       "A website focused on the user experience when interacting with an online blog, which is why the objective of this project is to create an enjoyable UI (User Interface) using HTML and CSS.",
@@ -93,7 +106,8 @@ export const projects = [
     team: [
       {
         name: "Jorge Rosano",
-        profilePicUrl: "/src/assets/images/jrh.jpg",
+        profilePicUrl:
+          "https://github.com/jorge-ross/the-portfolio/raw/main/src/assets/images/jrh.jpg",
         githubUrl: "https://github.com/jorge-ross",
       },
     ],
@@ -101,7 +115,8 @@ export const projects = [
   },
   {
     id: "6",
-    imgSrc: "/src/assets/images/contactable.png",
+    imgSrc:
+      "https://github.com/jorge-ross/the-portfolio/raw/main/src/assets/images/contactable.png",
     title: "Contactable",
     summary:
       "Making your life easier! Keep track of contact emails and phone numbers in the Contactable app. Allow us to be your local memory, and focus on what matters most to you! ",
@@ -109,12 +124,14 @@ export const projects = [
     team: [
       {
         name: "Kevin Robles",
-        profilePicUrl: "/src/assets/images/kr.png",
+        profilePicUrl:
+          "https://github.com/jorge-ross/the-portfolio/raw/main/src/assets/images/kr.png",
         githubUrl: "https://github.com/kevinronu",
       },
       {
         name: "Jorge Rosano",
-        profilePicUrl: "/src/assets/images/jrh.jpg",
+        profilePicUrl:
+          "https://github.com/jorge-ross/the-portfolio/raw/main/src/assets/images/jrh.jpg",
         githubUrl: "https://github.com/jorge-ross",
       },
     ],
@@ -122,7 +139,8 @@ export const projects = [
   },
   {
     id: "7",
-    imgSrc: "/src/assets/images/tweetable.png",
+    imgSrc:
+      "https://github.com/jorge-ross/the-portfolio/raw/main/src/assets/images/tweetable.png",
     title: "Tweetable",
     summary:
       "A simpler version of X, once Twitter, using Ruby on Rails, where users can create, reply and like posts with the objective of creating a minimum viable product (MVP) of the X app.",
@@ -130,7 +148,8 @@ export const projects = [
     team: [
       {
         name: "Jorge Rosano",
-        profilePicUrl: "/src/assets/images/jrh.jpg",
+        profilePicUrl:
+          "https://github.com/jorge-ross/the-portfolio/raw/main/src/assets/images/jrh.jpg",
         githubUrl: "https://github.com/jorge-ross",
       },
     ],
@@ -138,7 +157,8 @@ export const projects = [
   },
   {
     id: "8",
-    imgSrc: "/src/assets/images/critics.png",
+    imgSrc:
+      "https://github.com/jorge-ross/the-portfolio/raw/main/src/assets/images/critics.png",
     title: "Critics RC",
     summary:
       "Interactive video game catalog, where the user can sign up, log in with their username and password if already registered, and access reviews and ratings for each of the video games and companies in the database. Additionally, user can create, edit, and delete their own companies and critics.",
@@ -146,22 +166,26 @@ export const projects = [
     team: [
       {
         name: "Kevin Quispe",
-        profilePicUrl: "/src/assets/images/kq.jpg",
+        profilePicUrl:
+          "https://github.com/jorge-ross/the-portfolio/raw/main/src/assets/images/kq.jpg",
         githubUrl: "https://github.com/Kevincarlosqa",
       },
       {
         name: "Jorge Rosano",
-        profilePicUrl: "/src/assets/images/jrh.jpg",
+        profilePicUrl:
+          "https://github.com/jorge-ross/the-portfolio/raw/main/src/assets/images/jrh.jpg",
         githubUrl: "https://github.com/jorge-ross",
       },
       {
         name: "Gerardo Avena",
-        profilePicUrl: "/src/assets/images/gav.jpg",
+        profilePicUrl:
+          "https://github.com/jorge-ross/the-portfolio/raw/main/src/assets/images/gav.jpg",
         githubUrl: "https://github.com/Avenator02",
       },
       {
         name: "Sebastián Maguiña",
-        profilePicUrl: "/src/assets/images/sm.jpg",
+        profilePicUrl:
+          "https://github.com/jorge-ross/the-portfolio/raw/main/src/assets/images/sm.jpg",
         githubUrl: "https://github.com/Sebas54318",
       },
     ],

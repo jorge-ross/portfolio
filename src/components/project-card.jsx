@@ -2,6 +2,7 @@ import styled from "@emotion/styled";
 import { typography } from "../styles/typography";
 import { colors } from "../styles/colors";
 import PropTypes from 'prop-types';
+import { projects } from "../components/data";
 
 const Card = styled.div`
   border-radius: 24px;
@@ -65,11 +66,11 @@ const Summary = styled.p`
   overflow: hidden;
 `
 
-function ProjectCard({ imgSrc, title, summary }) {
+function ProjectCard({ img, title, summary }) {
   ProjectCard.propTypes = {
     title: PropTypes.string.isRequired,
     summary: PropTypes.string.isRequired,
-    imgSrc: PropTypes.string.isRequired,
+    img: PropTypes.string,
   };
 
   const maxLength = 100;
@@ -78,7 +79,7 @@ function ProjectCard({ imgSrc, title, summary }) {
 
   return (
     <Card>
-      <ProjectImg src={imgSrc} alt="home-cards"/>
+      <ProjectImg src={img} alt="home-cards" />
       <DescriptionField>
       <Title>{title}</Title>
       <Summary>{trSummary}</Summary>

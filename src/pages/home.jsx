@@ -4,6 +4,8 @@ import { Link } from "react-router-dom";
 import Header from "../components/header";
 import Card from "../components/card";
 import mypic from "../assets/images/av1.jpg"
+import starsImage from "../assets/images/descF.png";
+import proBg from "../assets/images/SPPP.jpg";
 import TextInDescription from "../components/fields/description-field";
 import ProjectCard from "../components/project-card";
 import Footer from "../components/footer";
@@ -41,7 +43,7 @@ const IntroContainer = styled.div`
 `;
 
 const ProjectSection = styled.div`
-  background-image: url('src/assets/images/SPPP.jpg');
+  background-image: url(${props => props.backgroundImage});
   background-size: cover;
   background-position: bottom;
   border-top: 1px solid #60A5FA;
@@ -120,7 +122,7 @@ const FContainer = styled.h1`
   }
 `
 
-function Home() {
+function Home () {
 
      return (
     <GeneralContainer>
@@ -134,11 +136,13 @@ function Home() {
         XUrl="https://twitter.com/jorg_ros"
         img={mypic}
         />
-        <TextInDescription />
+        <TextInDescription 
+        backgroundImage={starsImage} 
+        />
       </IntroContainer>
       </div> 
       <div>
-      <ProjectSection>
+      <ProjectSection backgroundImage={proBg}>
         <ProjectText>&#123; Some apps I&#39;ve Built &#125;</ProjectText>
         <WContainer>
           &lt; /&gt;
@@ -150,8 +154,8 @@ function Home() {
         style={{textDecoration: "none"}}
         onClick={() => window.scrollTo(0, 0)}>
         <ProjectCard
-          key={id}
-          imgSrc={project.imgSrc}
+          key={project.id}
+          img={project.imgSrc}
           title={project.title}
           summary={project.summary}
         />
