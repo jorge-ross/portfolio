@@ -91,7 +91,7 @@ function Portfolio() {
               style={{textDecoration: "none"}}
               onClick={() => window.scrollTo(0, 0)}>
               <PortfolioCard
-              key={id}
+              // key={id}
               imgSrc={project.imgSrc}
               title={project.title}
               tech={project.tech}

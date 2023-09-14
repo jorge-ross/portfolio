@@ -11,11 +11,10 @@ function App() {
   return (
     <Router basename="/the-portfolio/">
       <Routes>
-        {/* <Route path="/" element={<Navigate to="/" />} /> */}
         <Route path="" element={<Home />} />
         <Route path="about-me" element={<About />} />
         <Route path="blog" element={<BlogPage />} />
-        <Route path="portfolio" element={<Portfolio />} />
+        <Route path="projects" element={<Portfolio />} />
         <Route path="projects/:id" element={<ProjectDetail />} />
         <Route path="*" element={<Navigate to="/" replace={true} />} />
       </Routes>
