@@ -11,13 +11,13 @@ function App() {
   return (
     <Routes>
       <Route path="/">
-        <Route index element={<Navigate to="home" />}/>
-        <Route path="home" element={<Home />}/>
-        <Route path="about-me" element={<About />}/>
-        <Route path="blog" element={<BlogPage />}/>
-        <Route path="portfolio" element={<Portfolio />}/>
-        <Route path="projects/:id" element={<ProjectDetail />}/>
-        <Route path= "*" element={<Navigate to="/home" replace={true}/>}/> 
+        <Route index element={<Navigate to="the-portfolio/" />}/>
+        <Route path="the-portfolio/home" element={<Home />}/>
+        <Route path="the-portfolio/about-me" element={<About />}/>
+        <Route path="the-portfolio/blog" element={<BlogPage />}/>
+        <Route path="the-portfolio/portfolio" element={<Portfolio />}/>
+        <Route path="the-portfolio/projects/:id" element={<ProjectDetail />}/>
+        <Route path= "*" element={<Navigate to="the-portfolio/home" replace={true}/>}/>
       </Route>
     </Routes>
   )

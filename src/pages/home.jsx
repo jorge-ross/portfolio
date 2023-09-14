@@ -150,7 +150,7 @@ function Home () {
 
       <ProjectContainer>
       {projects.slice(0, 3).map((project, id) => (
-        <Link to={`/projects/${id}`} key={project.id}
+        <Link to={`/the-portfolio/projects/${id}`} key={project.id}
         style={{textDecoration: "none"}}
         onClick={() => window.scrollTo(0, 0)}>
         <ProjectCard
@@ -164,7 +164,7 @@ function Home () {
         </ProjectContainer>
 
         <FContainer>
-        Visit my <Link to="/portfolio" 
+        Visit my <Link to="/the-portfolio/portfolio" 
         style={{textDecoration: "none", color: "#FCD34D"}}
         onClick={() => window.scrollTo(0, 0)}
         >Portfolio</Link> for more
