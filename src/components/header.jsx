@@ -141,7 +141,7 @@ function Header() {
       </BackgroundVideo>
     <NavBarContainer menuVisible={menuVisible}>
       <NameContainer>
-      <Link to="/home" 
+      <Link to="/"
       style={{textDecoration: "none", color: "inherit"}}
       onClick={() => window.scrollTo(0, 0)}
       >
