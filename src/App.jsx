@@ -17,7 +17,7 @@ function App() {
         <Route path="the-portfolio/blog" element={<BlogPage />}/>
         <Route path="the-portfolio/portfolio" element={<Portfolio />}/>
         <Route path="the-portfolio/projects/:id" element={<ProjectDetail />}/>
-        <Route path= "*" element={<Navigate to="the-portfolio/home" replace={true}/>}/>
+        <Route path= "*" element={<Navigate to="the-portfolio/home" replace={true} />}/>
       </Route>
     </Routes>
   )
