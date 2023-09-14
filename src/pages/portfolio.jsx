@@ -87,7 +87,7 @@ function Portfolio() {
         <Container>
           <ProjectContainer>
             {projects?.map((project, id) => (
-              <Link to={`/the-portfolio/projects/${id}`} key={project.id}
+              <Link to={`/projects/${id}`} key={project.id}
               style={{textDecoration: "none"}}
               onClick={() => window.scrollTo(0, 0)}>
               <PortfolioCard

@@ -141,7 +141,7 @@ function Header() {
       </BackgroundVideo>
     <NavBarContainer menuVisible={menuVisible}>
       <NameContainer>
-      <Link to="/the-portfolio/home" 
+      <Link to="/home" 
       style={{textDecoration: "none", color: "inherit"}}
       onClick={() => window.scrollTo(0, 0)}
       >
@@ -161,30 +161,30 @@ function Header() {
         <IoClose style={{height: "45px", width: "45px"}}/>
       </CloseIcon>
       <OptionsContainer>
-        <Link to="/the-portfolio/about-me" style={{textDecoration: "none"}}
+        <Link to="/about-me" style={{textDecoration: "none"}}
         onClick={() => window.scrollTo(0, 0)}>
         <Option>About</Option>
         </Link>
-        <Link to="/the-portfolio/portfolio" style={{textDecoration: "none"}}
+        <Link to="/portfolio" style={{textDecoration: "none"}}
         onClick={() => window.scrollTo(0, 0)}>
         <Option>Portfolio</Option>
         </Link>
-        <Link to="/the-portfolio/blog" style={{textDecoration: "none"}}
+        <Link to="/blog" style={{textDecoration: "none"}}
         onClick={() => window.scrollTo(0, 0)}>
         <Option>Blog</Option>
         </Link>
         <LinkedInLink profileURL={"https://www.linkedin.com/in/jorgeros13"} />
       </OptionsContainer>
       <HamburgerMenu visible={menuVisible}>
-      <Link to="/the-portfolio/about-me" style={{textDecoration: "none"}}
+      <Link to="/about-me" style={{textDecoration: "none"}}
       onClick={() => window.scrollTo(0, 0)}>
         <Option style={{color: "black"}}>About</Option>
       </Link>
-      <Link to="/the-portfolio/portfolio" style={{textDecoration: "none"}}
+      <Link to="/portfolio" style={{textDecoration: "none"}}
       onClick={() => window.scrollTo(0, 0)}>
         <Option style={{color: "black"}}>Portfolio</Option>
       </Link>
-      <Link to="/the-portfolio/blog" style={{textDecoration: "none"}}
+      <Link to="/blog" style={{textDecoration: "none"}}
       onClick={() => window.scrollTo(0, 0)}>
         <Option style={{color: "black"}}>Blog</Option>
       </Link>
