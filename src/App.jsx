@@ -1,15 +1,15 @@
 import './App.css'
-import { BrowserRouter as Router, Route, Routes, Navigate } from 'react-router-dom';
-import Home from './pages/home';
-import About from './pages/about';
-import BlogPage from './pages/blog';
-import Portfolio from './pages/portfolio';
-import ProjectDetail from './pages/project-detail';
+import { HashRouter as Router, Route, Routes, Navigate } from 'react-router-dom';
+import Home from './routes/home';
+import About from './routes/about';
+import BlogPage from './routes/blog';
+import Portfolio from './routes/portfolio';
+import ProjectDetail from './routes/project-detail';
 
 
 function App() {
   return (
-    <Router basename="/the-portfolio/">
+    <Router>
       <Routes>
         <Route path="" element={<Home />} />
         <Route path="about-me" element={<About />} />
