@@ -192,6 +192,24 @@ export const projects = [
     project_url:
       "https://github.com/codeableorg/critics-release-candidate-c10-w11-criticsrc-team6",
   },
+  {
+    id: "9",
+    imgSrc:
+      "https://github.com/jorge-ross/the-portfolio/raw/main/src/assets/images/uc4.png",
+    title: "GitHub Stats",
+    summary:
+      "Explore the main statistics of the GitHub community and store your faorite users for future reference.",
+    tech: ["Javascript", "React"],
+    team: [
+      {
+        name: "Jorge Rosano",
+        profilePicUrl:
+          "https://github.com/jorge-ross/the-portfolio/raw/main/src/assets/images/jrh.jpg",
+        githubUrl: "https://github.com/jorge-ross",
+      },
+    ],
+    project_url: "https://github.com/jorge-ross/Github-stats",
+  },
 ];
 
 export const description = [
