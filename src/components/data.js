@@ -83,7 +83,7 @@ export const projects = [
       "https://github.com/jorge-ross/the-portfolio/raw/main/src/assets/images/doable.png",
     title: "Doable",
     summary:
-      " A simpler version of a note-taking app built with Javascript, where users can create, categorize and manage tasks.",
+      "A streamlined iteration of a note-taking application constructed using JavaScript, enabling users to generate, categorize, and oversee tasks.",
     tech: ["Javascript"],
     team: [
       {
@@ -198,7 +198,7 @@ export const projects = [
       "https://github.com/jorge-ross/the-portfolio/raw/main/src/assets/images/stats.png",
     title: "GitHub Stats",
     summary:
-      "Explore the main statistics of the GitHub community and store your faorite users for future reference.",
+      "Investigate the primary statistical attributes of the GitHub community and preserve notable users for future reference through the utilization of the GitHub Stats application.",
     tech: ["Javascript", "React"],
     team: [
       {
