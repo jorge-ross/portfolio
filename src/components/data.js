@@ -195,7 +195,7 @@ export const projects = [
   {
     id: "9",
     imgSrc:
-      "https://github.com/jorge-ross/the-portfolio/raw/main/src/assets/images/uc4.png",
+      "https://github.com/jorge-ross/the-portfolio/raw/main/src/assets/images/stats.png",
     title: "GitHub Stats",
     summary:
       "Explore the main statistics of the GitHub community and store your faorite users for future reference.",
