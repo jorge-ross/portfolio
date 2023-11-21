@@ -3,7 +3,6 @@ import { colors } from "../styles/colors";
 import Header from "../components/header";
 import Footer from "../components/footer";
 import profilePic from "../assets/images/av-9.jpg";
-import brain from "../assets/images/brain1.jpg";
 import { typography } from "../styles/typography";
 import { description } from "../components/data";
 
@@ -11,11 +10,10 @@ const GeneralContainer = styled.div`
   display: flex;
   flex-direction: column;
   margin: 0;
-  background-color: ${colors.black[500]}
 `;
 
 const Container = styled.div`
-  height: 400px;
+  height: 700px;
   width: 100%;
   margin: 0;
   display: grid;
@@ -26,10 +24,10 @@ const Container = styled.div`
   @media (max-width: 1000px) {
     grid-template-columns: 1fr;
     grid-template-areas:
-      "right"
-      "left";
+      "left"
+      "right";
     height: 100%;
-    gap: 16px;
+    gap: 8px;
     margin: 0;
   }
 `;
@@ -44,15 +42,16 @@ const ImgContainer = styled.div`
   grid-area: left;
 
   @media (max-width: 1000px) {
-    height: 300px;
+    height: 200px;
+    margin: 28px 0 0 0;
   }
 `;
 
 const Img = styled.img`
   width: auto;
   height: auto;
-  max-width: 70%;
-  max-height: 75%;
+  max-width: 80%;
+  max-height: 85%;
 
   border-bottom-left-radius: 15%;
   border-bottom-right-radius: 30%;
@@ -68,8 +67,8 @@ const Img = styled.img`
     margin: 0 auto;
     width: auto;
     height: auto;
-    max-width: 70%;
-    max-height: 85%;
+    max-width: 85%;
+    max-height: 100%;
   }
 `
 
@@ -84,122 +83,53 @@ const TextContainer = styled.div`
 
   @media (max-width: 1000px) {
     width: 100%;
-    height: 290px;
+    height: 750px;
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
-    margin: 0;
+    margin: 16px 0;
   }
 
   @media (max-width: 530px) {
     width: 100%;
-    height: 370px;
+    height: 900px;
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 16px 0;
+  }
+
+  @media (max-width: 400px) {
+    width: 100%;
+    height: 1000px;
+    display: flex;
+    justify-content: center;
     align-items: center;
     margin: 0;
   }
 `;
 
 const TextField = styled.div`
-  height: 350px;
+  height: 700px;
   width: 70%;
   grid-area: right;
   border-radius: 50px;
   display: flex;
   flex-direction: column;
-  text-align: justify;
+  text-align: left;
+  justify-content: center;
 `;
 
 const Title = styled.h1`
   ${typography.head.md};
   color: ${colors.yellow[400]};
-  margin: 32px 0 0 0;
+  margin: 0;
 `
 
 const Text = styled.p`
   ${typography.text.md};
   color: ${colors.stone[300]};
 `
-
-const ImgTwoContainer = styled.div`
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
-  margin: 0 0 16px 0;
-  position: relative;
-  grid-area: right;
-
-  @media (max-width: 1000px) {
-    height: 150px;
-    grid-area: left;
-    display: flex;
-    justify-content: center;
-  }
-`;
-
-const ImgTwo = styled.img`
-  width: 300px;
-  height: 290px;
-  border-radius: 16%;
-  grid-area: right;
-  box-shadow: 0 0 15px 2px rgba(0, 255, 250, 1);
-  filter: grayscale(40%);
-
-  @media (max-width: 1000px) {
-    position: static;
-    margin: 0 auto;
-    width: 100px;
-    height: 100px;
-  }
-`
-
-const TextTwoContainer = styled.div`
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
-  margin: 0;
-  position: relative;
-  grid-area: left;
-
-  @media (max-width: 1000px) {
-    width: 100%;
-    height: 300px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 16px 0 0 0;
-    grid-area: right;
-  }
-
-  @media (max-width: 500px) {
-    width: 100%;
-    height: 470px;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    margin: 0;
-  }
-`;
-
-const TextTwoField = styled.div`
-  height: 350px;
-  width: 90%;
-  grid-area: right;
-  border-radius: 50px;
-  text-align: justify;
-  position: absolute; 
-  right: 0;
-
-  @media (max-width: 1000px) {
-    width: 70%;
-    left: 0;
-    right: 0;
-    margin: 0 auto;
-  }
-`;
 
 function About() {
 
@@ -226,13 +156,6 @@ function About() {
           <Text>
           {description[0].explanation}
           </Text>
-        </TextField>
-        </TextContainer>
-      </Container>
-
-      <Container>
-        <TextTwoContainer>
-          <TextTwoField>
           <Text>
             {description[0].continuous}
           </Text>
@@ -249,13 +172,10 @@ function About() {
             </a>
             {description[0].con}
           </Text>
-          </TextTwoField>
-          </TextTwoContainer>
-          <ImgTwoContainer>
-            <ImgTwo src={brain} alt="brain"/>
-          </ImgTwoContainer>
-      </Container>       
-    <Footer />
+        </TextField>
+        </TextContainer>
+      </Container>      
+      <Footer />
     </GeneralContainer>
   )
 }
