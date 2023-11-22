@@ -9,7 +9,7 @@ import { typography } from "../styles/typography";
 import PortfolioCard from "../components/port-card";
 
 const Gcontainer = styled.div`
-  background-color: ${colors.black[600]};
+  background-color: ${colors.black[300]};
 `
 
 const TextContainer = styled.div`
@@ -22,7 +22,7 @@ const TextContainer = styled.div`
 
 const Title = styled.h1`
   ${typography.head.lg};
-  color: ${colors.green[500]};
+  color: ${colors.white};
   margin: 0;
 `
 
@@ -30,7 +30,7 @@ const Container = styled.div`
   margin: 16px auto 70px;
   width: 1000px;
   height: 800px;
-  background-color: ${colors.black[500]};
+  background-color: ${colors.black[300]};
   display: flex;
   justify-content: center;
   place-items: center;
@@ -82,7 +82,7 @@ function Portfolio() {
     <Gcontainer>
       <Header />
       <TextContainer>
-      <Title>All projects</Title>.
+      <Title>My projects</Title>.
       </TextContainer>
         <Container>
           <ProjectContainer>

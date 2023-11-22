@@ -11,7 +11,7 @@ const Container = styled.div`
 `
 
 const QContainer = styled.div`
-  background-color: ${colors.black[500]};
+  background-color: ${colors.black[300]};
   width: 100%;
   height: 100%;
   display: flex;

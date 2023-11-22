@@ -21,11 +21,8 @@ const PortCard = styled.div`
   line-height: 24px;
   letter-spacing: 0.5px;
   color: #616161;
-  border-bottom: 6px solid #10B981;
-  box-shadow: 0 0 5px rgba(0, 255, 255, 0.7),
-              0 0 5px rgba(0, 255, 255, 0.6),
-              0 0 5px rgba(0, 255, 255, 0.5),
-              0 0 15px rgba(50, 50, 100, 0.3);
+  border-bottom: 6px solid #A8A29E;
+  box-shadow: 0 0 4px rgba(255, 255, 255, 0.7);
   position: relative;
   cursor: pointer;
 

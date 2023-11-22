@@ -13,7 +13,7 @@ const GeneralContainer = styled.div`
 `;
 
 const Container = styled.div`
-  height: 700px;
+  height: 100vh;
   width: 100%;
   margin: 0;
   display: grid;

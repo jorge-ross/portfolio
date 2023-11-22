@@ -26,7 +26,7 @@ const NavBarContainer = styled.div`
   height: 80px;
   justify-content: space-around;
   align-items: center;
-  border-bottom: 1px solid #60A5FA;
+  border-bottom: 1px solid #A8A29E;
   position: fixed;
   display: flex; 
   flex-direction: row;

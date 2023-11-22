@@ -46,7 +46,7 @@ const ProjectSection = styled.div`
   background-image: url(${props => props.backgroundImage});
   background-size: cover;
   background-position: bottom;
-  border-top: 1px solid #60A5FA;
+  border-top: 1px solid #A8A29E;
   display: flex;
   flex-direction: column;
   align-items: center;

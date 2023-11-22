@@ -2,7 +2,6 @@ import styled from "@emotion/styled";
 import { typography } from "../styles/typography";
 import { colors } from "../styles/colors";
 import PropTypes from 'prop-types';
-import { projects } from "../components/data";
 
 const Card = styled.div`
   border-radius: 24px;

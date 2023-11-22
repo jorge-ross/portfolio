@@ -9,7 +9,7 @@ const ContainerFooter = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  border-top: 1px solid #60A5FA;
+  border-top: 1px solid #A8A29E;
 `
 
 const ZContainer = styled.div`
