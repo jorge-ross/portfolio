@@ -13,6 +13,7 @@ import Footer from "../components/footer";
 import { typography, typography2 } from "../styles/typography";
 import { colors } from "../styles/colors";
 import { projects } from "../components/data";
+import HomeDescription from "../components/fields/home-description";
 
 const GeneralContainer = styled.div`
   display: flex;
@@ -41,6 +42,15 @@ const IntroContainer = styled.div`
     height: 100%
   }
 `;
+
+const DescriptionSection = styled.div`
+  background-color: ${colors.black[600]};
+  height: 400px;
+  width: 100%;
+  display: flex;
+  place-items: center;
+  justify-content: center;
+`
 
 const ProjectSection = styled.div`
   background-image: url(${props => props.backgroundImage});
@@ -142,6 +152,11 @@ function Home () {
         />
       </IntroContainer>
       </div> 
+
+      <DescriptionSection>
+        <HomeDescription></HomeDescription>
+      </DescriptionSection>
+
       <div>
       <ProjectSection backgroundImage={proBg}>
         <ProjectText>&#123; Some apps I&#39;ve Built &#125;</ProjectText>

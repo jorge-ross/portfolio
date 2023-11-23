@@ -180,11 +180,7 @@ function Header() {
       onClick={() => window.scrollTo(0, 0)}>
         <Option style={{color: "black"}}>Portfolio</Option>
       </Link>
-      <Link to="/blog" style={{textDecoration: "none"}}
-      onClick={() => window.scrollTo(0, 0)}>
-        <Option style={{color: "black"}}>Blog</Option>
-      </Link>
-        <LinkedInLink profileURL={"https://www.linkedin.com/in/jorgeros13"} />
+      <LinkedInLink profileURL={"https://www.linkedin.com/in/jorgeros13"} />
       </HamburgerMenu>
       
     </NavBarContainer>
