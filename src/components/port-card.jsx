@@ -31,11 +31,12 @@ const PortCard = styled.div`
   }
 
   @media (max-width: 600px) {
-    width: 320px;
+    width: 300px;
   }
 
-  @media (max-width: 390px) {
-    width: 280px;
+  @media (max-width: 400px) {
+    height: 220px;
+    width: 230px;
   }
 `;
 

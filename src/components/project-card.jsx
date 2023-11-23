@@ -13,11 +13,9 @@ const Card = styled.div`
   line-height: 24px;
   letter-spacing: 0.5px;
   color: #616161;
-  border-bottom: 7px solid #60A5FA;
-  box-shadow: 0 0 10px rgba(0, 255, 255, 0.5),
-              0 0 20px rgba(0, 255, 255, 0.4),
-              0 0 30px rgba(0, 255, 255, 0.3),
-              0 0 40px rgba(0, 255, 255, 0.2);
+  border-bottom: 7px solid #D6D3D1;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.5),
+              0 0 30px rgba(255, 255, 255, 0.3);
   position: relative;
   cursor: pointer;
 

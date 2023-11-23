@@ -39,8 +39,8 @@ const Img = styled.img`
   width: 220px;
   height: 220px;
   border-radius: 50%;
-  border-bottom: 5px solid #60A5FA;
-  box-shadow: 0 0 20px #00dfff;
+  border-bottom: 5px solid #D6D3D1;
+  box-shadow: 0 0 20px #BFDBFE;
   filter: brightness(0.97);
 `
 

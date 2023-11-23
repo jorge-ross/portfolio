@@ -169,10 +169,6 @@ function Header() {
         onClick={() => window.scrollTo(0, 0)}>
         <Option>Portfolio</Option>
         </Link>
-        <Link to="/blog" style={{textDecoration: "none"}}
-        onClick={() => window.scrollTo(0, 0)}>
-        <Option>Blog</Option>
-        </Link>
         <LinkedInLink profileURL={"https://www.linkedin.com/in/jorgeros13"} />
       </OptionsContainer>
       <HamburgerMenu visible={menuVisible}>

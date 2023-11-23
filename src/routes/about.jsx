@@ -56,7 +56,7 @@ const Img = styled.img`
   border-bottom-left-radius: 15%;
   border-bottom-right-radius: 30%;
   border-top-left-radius: 40%;
-  border-bottom: 4px solid #60A5FA;
+  border-bottom: 4px solid #D6D3D1;
   grid-area: left;
   position: absolute; 
   right: 0;

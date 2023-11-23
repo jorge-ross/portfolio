@@ -57,6 +57,7 @@ const ProjectSection = styled.div`
 
   @media (max-width: 1000px) {
     background-image: none;
+    background-color: #1C1C1C;
     display: flex;
     flex-direction: column;
     width: auto;

@@ -26,7 +26,7 @@ const DescriptionField = styled.div`
   border-radius: 50px;
 
   &: hover {
-    border: 1px solid #60A5FA;
+    border: 1px solid #A8A29E;
   }
 
   @media (min-width: 1480px) {
