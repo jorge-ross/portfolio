@@ -3,7 +3,7 @@ import { typography } from "../styles/typography";
 import { colors } from "../styles/colors";
 import PropTypes from 'prop-types';
 
-import { RiJavascriptFill, RiReactjsFill } from 'react-icons/ri';
+import { RiJavascriptFill, RiReactjsFill, RiAngularjsFill } from 'react-icons/ri';
 import { SiRubyonrails } from 'react-icons/si';
 import { DiRubyRough, DiHeroku } from 'react-icons/di';
 import { AiFillHtml5 } from 'react-icons/ai';
@@ -91,6 +91,7 @@ const techIcons = {
   HTML: AiFillHtml5,
   CSS: BiLogoCss3,
   Heroku: DiHeroku,
+  Angular: RiAngularjsFill,
 };
 
 
@@ -122,6 +123,8 @@ function PortfolioCard({imgSrc, title, tech}) {
                         ? '#FCD34D'
                         : techName === 'React'
                         ? '#60A5FA'
+                        : techName === 'Angular'
+                        ? '#B52E31'
                         : techName === 'Ruby'
                         ? '#EF4444'
                         : techName === 'Rails'

@@ -44,11 +44,11 @@ export const projects = [
   {
     id: "2",
     imgSrc:
-      "https://github.com/jorge-ross/the-portfolio/raw/main/src/assets/images/clivia.png",
-    title: "CLIvia Generator",
+      "https://github.com/jorge-ross/the-portfolio/raw/main/src/assets/images/ndev.png",
+    title: "Neuro-dev",
     summary:
-      "The classic trivia game that asks questions about a variety of topics, including history, science, and pop culture. The user can earn one point for each correct answer, the highest score at the end of the game wins. Built with Ruby.",
-    tech: ["Ruby", "Heroku"],
+      "Explore my bespoke clinic website developed with Angular, delivering a seamless and intuitive user experience for those seeking mental health care.",
+    tech: ["Javascript", "Angular", "HTML", "CSS"],
     team: [
       {
         name: "Jorge Rosano",
@@ -57,7 +57,7 @@ export const projects = [
         githubUrl: "https://github.com/jorge-ross",
       },
     ],
-    project_url: "https://github.com/jorge-ross/CLIvia-generator",
+    project_url: "https://github.com/jorge-ross/neuro-clinic",
   },
   {
     id: "3",
@@ -65,7 +65,7 @@ export const projects = [
       "https://github.com/jorge-ross/the-portfolio/raw/main/src/assets/images/eatable.png",
     title: "Eatable",
     summary:
-      "Interactive digital menu designed for personal and commercial use, where the user can explore, create, edit, and delete dishes, thus offering a personalized user experience.",
+      "Dynamic digital menu crafted with React for both personal and commercial use, where the user can explore, create, edit, and delete dishes, thus offering a personalized user experience.",
     tech: ["Javascript", "React"],
     team: [
       {
@@ -98,6 +98,24 @@ export const projects = [
   {
     id: "5",
     imgSrc:
+      "https://github.com/jorge-ross/the-portfolio/raw/main/src/assets/images/clivia.png",
+    title: "CLIvia Generator",
+    summary:
+      "The classic trivia game that asks questions about a variety of topics, including history, science, and pop culture. The user can earn one point for each correct answer, the highest score at the end of the game wins. Built with Ruby.",
+    tech: ["Ruby", "Heroku"],
+    team: [
+      {
+        name: "Jorge Rosano",
+        profilePicUrl:
+          "https://github.com/jorge-ross/the-portfolio/raw/main/src/assets/images/jrh.jpg",
+        githubUrl: "https://github.com/jorge-ross",
+      },
+    ],
+    project_url: "https://github.com/jorge-ross/CLIvia-generator",
+  },
+  {
+    id: "6",
+    imgSrc:
       "https://github.com/jorge-ross/the-portfolio/raw/main/src/assets/images/b-ui.png",
     title: "Blog UI",
     summary:
@@ -114,7 +132,7 @@ export const projects = [
     project_url: "https://github.com/jorge-ross/jorgeross--blog-ui",
   },
   {
-    id: "6",
+    id: "7",
     imgSrc:
       "https://github.com/jorge-ross/the-portfolio/raw/main/src/assets/images/contactable.png",
     title: "Contactable",
@@ -138,7 +156,7 @@ export const projects = [
     project_url: "https://github.com/jorge-ross/contactable-js-t3",
   },
   {
-    id: "7",
+    id: "8",
     imgSrc:
       "https://github.com/jorge-ross/the-portfolio/raw/main/src/assets/images/tweetable.png",
     title: "Tweetable",
@@ -156,7 +174,7 @@ export const projects = [
     project_url: "https://github.com/jorge-ross/Tweetable-p",
   },
   {
-    id: "8",
+    id: "9",
     imgSrc:
       "https://github.com/jorge-ross/the-portfolio/raw/main/src/assets/images/critics.png",
     title: "Critics RC",
@@ -193,7 +211,7 @@ export const projects = [
       "https://github.com/codeableorg/critics-release-candidate-c10-w11-criticsrc-team6",
   },
   {
-    id: "9",
+    id: "10",
     imgSrc:
       "https://github.com/jorge-ross/the-portfolio/raw/main/src/assets/images/stats.png",
     title: "GitHub Stats",
