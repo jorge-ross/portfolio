@@ -5,7 +5,7 @@ export const projects = [
       "https://github.com/jorge-ross/the-portfolio/raw/main/src/assets/images/get-that-home.png",
     title: "Get that home",
     summary:
-      "Application created with React using Vite, intended to be a useful, attractive, and user-friendly website for renting, selling, and searching for houses and apartments.",
+      "Sophisticated React-based application designed to serve as a compelling, user-friendly platform for renting, selling, and searching for houses and apartments.",
     tech: ["Javascript", "React", "Ruby", "Rails", "Heroku"],
     team: [
       {

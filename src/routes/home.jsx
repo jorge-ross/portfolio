@@ -50,6 +50,61 @@ const DescriptionSection = styled.div`
   display: flex;
   place-items: center;
   justify-content: center;
+
+  @media (max-width: 1000px) {
+    width: auto;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  @media (max-width: 700px) {
+    width: auto;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  @media (max-width: 550px) {
+    width: auto;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  @media (max-width: 435px) {
+    width: auto;
+    height: 870px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  @media (max-width: 405px) {
+    width: auto;
+    height: 960px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  @media (max-width: 380px) {
+    width: auto;
+    height: 1100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  @media (max-width: 350px) {
+    width: auto;
+    height: 1300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
 `
 
 const ProjectSection = styled.div`

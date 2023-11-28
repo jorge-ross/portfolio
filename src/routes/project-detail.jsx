@@ -14,9 +14,9 @@ import MemberCard from "../components/member-card";
 
 
 const GralContainer = styled.div`
-  margin: 70px auto;
+  margin: 30px auto;
   width: 100%;
-  background-color: ${colors.black[500]};
+  background-color: ${colors.black[300]};
   height: 750px;
   display: flex;
   flex-direction: column;
@@ -40,6 +40,7 @@ const DetailContainer = styled.div`
   display: grid;
   grid-template-columns: 1.2fr 1fr;
   grid-gap: 20px;
+  padding-bottom: 32px;
 
   @media(max-width: 950px) {
     grid-template-columns: 1fr;
@@ -70,6 +71,10 @@ const DaContainer = styled.div`
   @media(max-width: 950px) {
     height: 400px;
   }
+
+  @media(max-width: 450px) {
+    height: 350px;
+  }
 `
 
 const DetailTwoContainer = styled.div`
@@ -86,7 +91,7 @@ const DetailTwoContainer = styled.div`
       "left"
       "right";
     width: 500px;
-    height: 400px;
+    height: 300px;
   }
 
   @media(max-width: 500px) {
@@ -120,20 +125,20 @@ const SummaryCont = styled.div`
   color: ${colors.stone[200]};
   display: flex;
   align-items: center;
-  text-align: justify;
+  text-align: left;
   margin: 20px;
 
   @media (max-width: 950px) {
     ${typography.text.lg};
     font-weight: 500;
-    margin: 8px auto;
-    text-align: justify;
+    margin: 0;
+    text-align: left;
   }
 
   @media (max-width: 540px) {
     ${typography.text.lg};
     font-weight: 500;
-    text-align: justify;
+    text-align: left;
     width: 95%;
   }
 `
@@ -141,7 +146,7 @@ const SummaryCont = styled.div`
 const RepoCont = styled.div`
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: top;
 
   @media(max-width: 950px) {
     height: 75px;

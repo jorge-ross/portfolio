@@ -47,14 +47,14 @@ const DescriptionField = styled.div`
   }
 
   @media (max-width: 500px) {
-    width: 350px;
+    width: 340px;
     height: 500px;
     margin-bottom: 32px;
   }
 
   @media (max-width: 360px) {
-    width: 320px;
-    height: 600px;
+    width: 300px;
+    height: 630px;
     margin-bottom: 32px;
   }
 `;

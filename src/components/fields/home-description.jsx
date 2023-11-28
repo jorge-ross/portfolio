@@ -2,10 +2,12 @@ import styled from "@emotion/styled";
 import { colors } from "../../styles/colors";
 import { typography } from "../../styles/typography";
 
+import illustration from "../../assets/images/a11.jpg"
+
 const DescriptionContainer = styled.div`
   display: grid;
   grid-template-columns: 2fr 1fr;
-  gap: 16px;
+  gap: 24px;
   grid-template-rows: auto;
   grid-template-areas: "left right";
   justify-content: center;
@@ -19,7 +21,7 @@ const DescriptionContainer = styled.div`
     top: 0;
     left: 50%;
     transform: translateX(-50%);
-    width: 85%;
+    width: 75%;
     height: 1px;
     background-color: #A8A29E;
   }
@@ -30,7 +32,7 @@ const DescriptionContainer = styled.div`
     bottom: 0;
     left: 50%;
     transform: translateX(-50%);
-    width: 85%;
+    width: 75%;
     height: 1px;
     background-color: #A8A29E;
   }
@@ -38,9 +40,13 @@ const DescriptionContainer = styled.div`
   @media (max-width: 1000px) {
     grid-template-columns: 1fr;
     grid-template-areas:
-      "left"
-      "right";
-    height: 400px;
+      "right"
+      "left";
+
+    &::before,
+    &::after {
+      display: none;
+    }
   }
 `
 
@@ -54,31 +60,38 @@ const Text = styled.div`
   @media (max-width: 1000px) {
     width: auto;
     padding: 16px 88px;
-    height: 200px;
-    border-top: 1px solid #A8A29E;
   }
 `
 
-const TextTest = styled.div`
-  color: ${colors.stone[400]};
-  grid-area: right;
+const Illustration = styled.img`
+  height: 210px;
+  width: 210px;
+  border-radius: 16px;
+
+  @media (max-width: 1000px) {
+    margin: 0 auto;
+    height: 250px;
+    width: 250px;
+  }
+
+  @media (max-width: 470px) {
+    margin: 0 auto;
+    height: 180px;
+    width: 180px;
+  }
 `
 
 function HomeDescription() {
   return (
     <DescriptionContainer>
       <Text>
-      Motivated by a profound fascination for science, computing, and its boundless potential as a comprehensive field of study, I realized that the tech industry held the key to transform lives. 
+      Motivated by a profound fascination for science, computing, and its boundless potential as a comprehensive field of study, I realized that the tech industry held the key to transform lives.<br></br> <br></br>
 
-      Walking this path has become a great opportunity to combine my understanding of the human mind, as a former neuropsychology specialist, with cutting-edge technologies, knowing that this fusion could unlock new horizons of empowerment.
-
-      Not only was this decision to transition into tech a career move, it was also a calling to be at the forefront of innovation, to create solutions that could reach far beyond the confines of a therapist&apos;s office.
+      Walking this path has become a great opportunity to combine my understanding of the human mind, as a former neuropsychology specialist, with cutting-edge technologies, knowing that this fusion could unlock new horizons of empowerment. This is the calling to be at the forefront of innovation, to create solutions that could reach far beyond the confines of a therapist&apos;s office. <br></br> <br></br>
 
       That being said, I am determined to collaborate with like-minded professionals who share the same passion for leveraging technology to make a tangible difference in people&apos;s lives.
       </Text>
-      <TextTest>
-        Hola 2
-      </TextTest>
+      <Illustration src={illustration} alt="psicprog"/>
     </DescriptionContainer>
   )
 }
