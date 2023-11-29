@@ -23,11 +23,7 @@ const DescriptionField = styled.div`
   height: 390px;
   width: 95%;
   grid-area: right;
-  border-radius: 50px;
-
-  &: hover {
-    border: 1px solid #A8A29E;
-  }
+  border-radius: 60px;
 
   @media (min-width: 1480px) {
     width: 95%;
@@ -61,10 +57,10 @@ const DescriptionField = styled.div`
 
 const neonGlow = keyframes`
   from {
-    text-shadow: 0 0 10px #00dfff, 0 0 20px #00dfff, 0 0 30px #00dfff;
+    text-shadow: 0 0 0px #0092a8, 0 0 5px #0092a8, 0 0 10px #0092a8;
   }
   to {
-    text-shadow: 0 0 15px #00dfff, 0 0 25px #00dfff, 0 0 35px #00dfff;
+    text-shadow: 0 0 5px #0092a8, 0 0 10px #0092a8, 0 0 15px #0092a8;
   }
 `;
 
@@ -142,19 +138,6 @@ const IconContainerTwo = styled.div`
   }
 `
 
-const LineContainer = styled.div`
-  color: ${colors.stone[300]};
-  ${typography.head.sm}
-  margin-left: 32px;
-  animation: ${neonGlow} 1s ease-in-out infinite alternate;
-
-  @media (max-width: 700px) {
-    ${typography.head.xs};
-    text-align: center;
-    margin: 0;
-  }
-`
-
 function TextInDescription({ backgroundImage }) {
     TextInDescription.propTypes = {
       backgroundImage: PropTypes.string,
@@ -193,7 +176,6 @@ function TextInDescription({ backgroundImage }) {
         <BsBook style={{ width: '25px', height: '25px', color: '#93C5FD', strokeWidth: '0.5px'}} />
         <FaBrain style={{ width: '26px', height: '26px', color: '#F9A8D4'}} />
       </IconContainer>
-      <LineContainer>----------------------------</LineContainer>
       <IconContainerTwo>
         {isSmallScreen && (
         <>

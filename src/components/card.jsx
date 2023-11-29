@@ -36,11 +36,10 @@ const SocialMediaWrapper = styled.div`
 `;
 
 const Img = styled.img`
-  width: 220px;
-  height: 220px;
+  width: 230px;
+  height: 230px;
   border-radius: 50%;
-  border-bottom: 5px solid #D6D3D1;
-  box-shadow: 0 0 20px #BFDBFE;
+  box-shadow: 0 0 20px #D6D3D1;
   filter: brightness(0.97);
 `
 
@@ -76,22 +75,22 @@ function Card({ gitHubUrl, linkedInUrl, InstaUrl, XUrl, img }) {
         <SocialMediaWrapper>
       <SocialLink href={gitHubUrl}>
           <IconWrapper>
-            <AiOutlineGithub style={{ width: '110%', height: '110%', color: 'white' }} />
+            <AiOutlineGithub style={{ width: '110%', height: '110%', color: '#D6D3D1' }} />
           </IconWrapper>
         </SocialLink>
         <SocialLink href={linkedInUrl}>
           <IconWrapper>
-            <BsLinkedin style={{ width: '88%', height: '88%', color: 'white' }} />
+            <BsLinkedin style={{ width: '88%', height: '88%', color: '#D6D3D1' }} />
           </IconWrapper>
         </SocialLink>
         <SocialLink href={InstaUrl}>
           <IconWrapper>
-            <BsInstagram style={{ width: '90%', height: '90%', color: 'white' }} />
+            <BsInstagram style={{ width: '90%', height: '90%', color: '#D6D3D1' }} />
           </IconWrapper>
         </SocialLink>
         <SocialLink href={XUrl}>
           <IconWrapper>
-            <RiTwitterLine style={{ width: '110%', height: '110%', color: 'white' }} />
+            <RiTwitterLine style={{ width: '110%', height: '110%', color: '#D6D3D1' }} />
           </IconWrapper>
         </SocialLink>
         </SocialMediaWrapper>

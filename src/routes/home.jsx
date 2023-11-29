@@ -5,7 +5,6 @@ import Header from "../components/header";
 import Card from "../components/card";
 import mypic from "../assets/images/av1.jpg"
 import starsImage from "../assets/images/descF.png";
-import proBg from "../assets/images/SPPP.jpg";
 import TextInDescription from "../components/fields/description-field";
 import ProjectCard from "../components/project-card";
 import Footer from "../components/footer";
@@ -23,8 +22,8 @@ const GeneralContainer = styled.div`
 `;
 
 const IntroContainer = styled.div`
-  background-color: ${colors.black[900]};
-  height: 500px;
+  background-color: ${colors.black[700]};
+  height: 450px;
   place-items: center;
   width: 100%;
   position: relative;
@@ -44,12 +43,14 @@ const IntroContainer = styled.div`
 `;
 
 const DescriptionSection = styled.div`
-  background-color: ${colors.black[600]};
+  background-color: ${colors.black[400]};
   height: 400px;
   width: 100%;
   display: flex;
   place-items: center;
   justify-content: center;
+  align-self: center;
+  border-radius: 16px;
 
   @media (max-width: 1000px) {
     width: auto;
@@ -108,9 +109,7 @@ const DescriptionSection = styled.div`
 `
 
 const ProjectSection = styled.div`
-  background-image: url(${props => props.backgroundImage});
-  background-size: cover;
-  background-position: bottom;
+  background-color: ${colors.black[700]};
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -163,7 +162,7 @@ const ProjectContainer = styled.div`
 
 const WContainer = styled.h1`
   ${typography2.head.lg}
-  color: ${colors.yellow[300]};
+  color: ${colors.yellow[600]};
   margin: 0;
 
   @media (max-width: 500px) {
@@ -212,7 +211,7 @@ function Home () {
       </DescriptionSection>
 
       <div>
-      <ProjectSection backgroundImage={proBg}>
+      <ProjectSection>
         <ProjectText>&#123; Some apps I&#39;ve Built &#125;</ProjectText>
         <WContainer>
           &lt; /&gt;
@@ -235,7 +234,7 @@ function Home () {
 
         <FContainer>
         Visit my <Link to="/projects" 
-        style={{textDecoration: "none", color: "#FCD34D"}}
+        style={{textDecoration: "none", color: "#D1AE00"}}
         onClick={() => window.scrollTo(0, 0)}
         >Portfolio</Link> for more
         </FContainer>

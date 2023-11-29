@@ -13,11 +13,18 @@ const Card = styled.div`
   line-height: 24px;
   letter-spacing: 0.5px;
   color: #616161;
-  border-bottom: 7px solid #D6D3D1;
+  border-bottom: 7px solid #D1AE00;
   box-shadow: 0 0 10px rgba(255, 255, 255, 0.5),
               0 0 30px rgba(255, 255, 255, 0.3);
   position: relative;
   cursor: pointer;
+
+  @media (max-width: 1050px) {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
 
   @media (max-width: 1000px) {
     display: flex;
@@ -32,7 +39,7 @@ const ProjectImg = styled.img`
   height: 160px;
   border-top-left-radius: 24px;
   border-top-right-radius: 24px;
-  border-bottom: 2px solid #FCD34D;
+  border-bottom: 2px solid #D1AE00;
 `;
 
 const DescriptionField = styled.div`

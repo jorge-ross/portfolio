@@ -12,7 +12,7 @@ const DescriptionContainer = styled.div`
   grid-template-areas: "left right";
   justify-content: center;
   align-items: center;
-  padding:24px 0;
+  padding: 24px 0;
   position: relative;
 
   &::before {
@@ -23,7 +23,7 @@ const DescriptionContainer = styled.div`
     transform: translateX(-50%);
     width: 75%;
     height: 1px;
-    background-color: #A8A29E;
+    background-color: #D1AE00;
   }
 
   &::after {
@@ -34,7 +34,7 @@ const DescriptionContainer = styled.div`
     transform: translateX(-50%);
     width: 75%;
     height: 1px;
-    background-color: #A8A29E;
+    background-color: #D1AE00;
   }
 
   @media (max-width: 1000px) {
