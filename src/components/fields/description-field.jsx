@@ -6,7 +6,7 @@ import PropTypes from 'prop-types';
 import { colors } from "../../styles/colors";
 import { typography } from "../../styles/typography";
 import { HiOutlineChatBubbleOvalLeftEllipsis } from 'react-icons/hi2';
-import { RiJavascriptFill, RiReactjsFill } from 'react-icons/ri';
+import { RiJavascriptFill, RiReactjsFill, RiAngularjsFill } from 'react-icons/ri';
 import { SiRuby, SiRubyonrails } from 'react-icons/si';
 import { BsBook } from 'react-icons/bs';
 import { AiFillHtml5 } from 'react-icons/ai';
@@ -43,14 +43,14 @@ const DescriptionField = styled.div`
   }
 
   @media (max-width: 500px) {
-    width: 340px;
+    width: 310px;
     height: 500px;
     margin-bottom: 32px;
   }
 
-  @media (max-width: 360px) {
+  @media (max-width: 330px) {
     width: 300px;
-    height: 630px;
+    height: 570px;
     margin-bottom: 32px;
   }
 `;
@@ -132,6 +132,7 @@ const IconContainerTwo = styled.div`
     justify-content: center;
     .icon-row {
       display: flex;
+      justify-content: center;
       flex-wrap: wrap;
       gap: 16px;
     } 
@@ -165,7 +166,7 @@ function TextInDescription({ backgroundImage }) {
       &#34;Hello world!&#34;
       </AText>
       <BText>
-      I&#39;m <span style={{color: "#FCD34D", fontWeight: 600}}>Jorge Rosano </span> 
+      I&#39;m <span style={{color: "#D1AE00", fontWeight: 600}}>Jorge Rosano </span> 
       Full Stack Web Developer looking for new adventures.
       </BText>
       <CText>My Skills:</CText>
@@ -182,12 +183,13 @@ function TextInDescription({ backgroundImage }) {
           <div className="icon-row">
             <RiJavascriptFill style={{ width: '35px', height: '35px', color: '#FCD34D'}}/>
             <RiReactjsFill style={{ width: '35px', height: '35px', color: '#60A5FA'}}/>
+            <RiAngularjsFill style={{ width: '35px', height: '35px', color: '#B52E31'}}/>
             <BiLogoNodejs style={{ width: '35px', height: '35px', color: '#68A063'}}/>
             <SiRuby style={{ width: '27px', height: '27px', color: '#EF4444'}}/>
             <SiRubyonrails style={{ width: '45px', height: '45px', color: '#F87171'}}/>
+            <BiLogoPostgresql style={{ width: '37px', height: '37px', color: '#60A5FA'}}/>
           </div>
           <div className="icon-row">
-          <BiLogoPostgresql style={{ width: '37px', height: '37px', color: '#60A5FA'}}/>
           <AiFillHtml5 style={{ width: '35px', height: '35px', color: '#F06529'}}/>
           <BiLogoCss3 style={{ width: '35px', height: '35px', color: '#2965F1'}}/>
           <FcLinux style={{ width: '35px', height: '35px'}}/>
@@ -200,6 +202,7 @@ function TextInDescription({ backgroundImage }) {
         <IconContainerTwo>
             <RiJavascriptFill style={{ width: '35px', height: '35px', color: '#FCD34D'}}/>
             <RiReactjsFill style={{ width: '35px', height: '35px', color: '#60A5FA'}}/>
+            <RiAngularjsFill style={{ width: '35px', height: '35px', color: '#B52E31'}}/>
             <BiLogoNodejs style={{ width: '35px', height: '35px', color: '#68A063'}}/>
             <SiRuby style={{ width: '27px', height: '27px', color: '#EF4444'}}/>
             <SiRubyonrails style={{ width: '45px', height: '45px', color: '#F87171'}}/>

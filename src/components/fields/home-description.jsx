@@ -7,12 +7,12 @@ import illustration from "../../assets/images/a11.jpg"
 const DescriptionContainer = styled.div`
   display: grid;
   grid-template-columns: 2fr 1fr;
-  gap: 24px;
+
   grid-template-rows: auto;
   grid-template-areas: "left right";
   justify-content: center;
   align-items: center;
-  padding: 24px 0;
+  padding: 36px 0;
   position: relative;
 
   &::before {
@@ -64,9 +64,10 @@ const Text = styled.div`
 `
 
 const Illustration = styled.img`
-  height: 210px;
-  width: 210px;
+  height: 250px;
+  width: 250px;
   border-radius: 16px;
+  margin-left: auto;
 
   @media (max-width: 1000px) {
     margin: 0 auto;

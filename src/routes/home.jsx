@@ -44,7 +44,7 @@ const IntroContainer = styled.div`
 
 const DescriptionSection = styled.div`
   background-color: ${colors.black[400]};
-  height: 400px;
+  height: 380px;
   width: 100%;
   display: flex;
   place-items: center;
@@ -99,7 +99,7 @@ const DescriptionSection = styled.div`
     justify-content: flex-start;
   }
 
-  @media (max-width: 350px) {
+  @media (max-width: 353px) {
     width: auto;
     height: 1300px;
     display: flex;
