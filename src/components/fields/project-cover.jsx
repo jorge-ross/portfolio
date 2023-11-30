@@ -13,7 +13,7 @@ const Cover = styled.div`
   margin: 0;
 
   @media (max-width: 540px) {
-    width: 320px;
+    width: 300px;
   }
 `;
 

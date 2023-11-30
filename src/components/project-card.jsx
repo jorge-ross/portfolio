@@ -13,7 +13,7 @@ const Card = styled.div`
   line-height: 24px;
   letter-spacing: 0.5px;
   color: #616161;
-  border-bottom: 5px solid #D1AE00;
+  border-bottom: 5px solid #059669;
   box-shadow: 0 0 8px rgba(255, 255, 255, 0.5),
               0 0 12px rgba(255, 255, 255, 0.3);
   position: relative;
@@ -39,7 +39,7 @@ const ProjectImg = styled.img`
   height: 160px;
   border-top-left-radius: 24px;
   border-top-right-radius: 24px;
-  border-bottom: 2px solid #D1AE00;
+  border-bottom: 2px solid #34D399;
 `;
 
 const DescriptionField = styled.div`

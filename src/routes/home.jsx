@@ -162,7 +162,7 @@ const ProjectContainer = styled.div`
 
 const WContainer = styled.h1`
   ${typography2.head.lg}
-  color: ${colors.yellow[600]};
+  color: ${colors.green[300]};
   margin: 0;
 
   @media (max-width: 500px) {
@@ -234,7 +234,7 @@ function Home () {
 
         <FContainer>
         Visit my <Link to="/projects" 
-        style={{textDecoration: "none", color: "#D1AE00"}}
+        style={{textDecoration: "none", color: "#6EE7B7"}}
         onClick={() => window.scrollTo(0, 0)}
         >Portfolio</Link> for more
         </FContainer>

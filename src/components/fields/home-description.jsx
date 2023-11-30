@@ -23,7 +23,7 @@ const DescriptionContainer = styled.div`
     transform: translateX(-50%);
     width: 75%;
     height: 1px;
-    background-color: #D1AE00;
+    background-color: #6EE7B7;
   }
 
   &::after {
@@ -34,7 +34,7 @@ const DescriptionContainer = styled.div`
     transform: translateX(-50%);
     width: 75%;
     height: 1px;
-    background-color: #D1AE00;
+    background-color: #6EE7B7;
   }
 
   @media (max-width: 1000px) {
@@ -52,10 +52,11 @@ const DescriptionContainer = styled.div`
 
 const Text = styled.div`
   ${typography.text.md};
-  color: ${colors.stone[400]};
+  color: ${colors.stone[300]};
   grid-area: left;
   width: 600px;
   height: auto;
+  font-weight: 500;
 
   @media (max-width: 1000px) {
     width: auto;

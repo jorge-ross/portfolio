@@ -2,6 +2,7 @@ import styled from "@emotion/styled";
 import { AiOutlineGithub } from 'react-icons/ai';
 import { typography2 } from "../styles/typography";
 import PropTypes from 'prop-types';
+import { colors } from "../styles/colors";
 
 const CardWrapper = styled.div`
   display: flex;
@@ -23,7 +24,7 @@ const DetailsWrapper = styled.div`
 const MemberName = styled.p`
   ${typography2.head.xs}
   font-weight: 400;
-  color: #BF5F82;
+  color: ${colors.green[300]};
   margin: 0;
   text-align: center;
 `

@@ -57,10 +57,10 @@ const DescriptionField = styled.div`
 
 const neonGlow = keyframes`
   from {
-    text-shadow: 0 0 0px #0092a8, 0 0 5px #0092a8, 0 0 10px #0092a8;
+    text-shadow: 0 0 0px #34D399, 0 0 5px #34D399, 0 0 10px #34D399;
   }
   to {
-    text-shadow: 0 0 5px #0092a8, 0 0 10px #0092a8, 0 0 15px #0092a8;
+    text-shadow: 0 0 5px #059669, 0 0 10px #059669, 0 0 15px #059669;
   }
 `;
 
@@ -94,7 +94,7 @@ const CText = styled.p`
   padding: 0 28px;
   text-align: justify;
   font-weight: 600;
-  color: ${colors.white};
+  color: ${colors.green[300]};
 
   @media (max-width: 700px) {
     ${typography.head.xs};
@@ -166,15 +166,15 @@ function TextInDescription({ backgroundImage }) {
       &#34;Hello world!&#34;
       </AText>
       <BText>
-      I&#39;m <span style={{color: "#D1AE00", fontWeight: 600}}>Jorge Rosano </span> 
+      I&#39;m <span style={{color: "#6EE7B7", fontWeight: 600}}>Jorge Rosano </span> 
       Full Stack Web Developer looking for new adventures.
       </BText>
       <CText>My Skills:</CText>
       <IconContainer>
-        <HiOutlineChatBubbleOvalLeftEllipsis style={{ width: '30px', height: '30px', color: '#6EE7B7', strokeWidth: '2px' }} />
-        <MdComputer style={{ width: '29px', height: '29px', color: '#FEF2F2' }} />
+        <HiOutlineChatBubbleOvalLeftEllipsis style={{ width: '30px', height: '30px', color: '#D6D3D1', strokeWidth: '2px' }} />
+        <MdComputer style={{ width: '29px', height: '29px', color: '#60A5FA' }} />
         <FaBusinessTime style={{ width: '29px', height: '29px', color: '#FBBF24' }} />
-        <BsBook style={{ width: '25px', height: '25px', color: '#93C5FD', strokeWidth: '0.5px'}} />
+        <BsBook style={{ width: '25px', height: '25px', color: '#F87171', strokeWidth: '0.5px'}} />
         <FaBrain style={{ width: '26px', height: '26px', color: '#F9A8D4'}} />
       </IconContainer>
       <IconContainerTwo>

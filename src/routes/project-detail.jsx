@@ -16,7 +16,7 @@ import MemberCard from "../components/member-card";
 const GralContainer = styled.div`
   margin: 30px auto;
   width: 100%;
-  background-color: ${colors.black[300]};
+  background-color: ${colors.black[600]};
   height: 750px;
   display: flex;
   flex-direction: column;
@@ -40,7 +40,7 @@ const DetailContainer = styled.div`
   display: grid;
   grid-template-columns: 1.2fr 1fr;
   grid-gap: 20px;
-  padding-bottom: 32px;
+  padding-bottom: 24px;
 
   @media(max-width: 950px) {
     grid-template-columns: 1fr;
@@ -48,7 +48,7 @@ const DetailContainer = styled.div`
       "left"
       "right";
     width: 500px;
-    margin: 16px 0;
+    margin: 16px 0 0 0;
   }
 
   @media(max-width: 540px) {
@@ -61,19 +61,22 @@ const DetailContainer = styled.div`
 `
 
 const DaContainer = styled.div`
-  background-color: ${colors.black[800]};
-  width: 100%;
-  height: 260px;
+  background-color: ${colors.black[300]};
+  width: 97%;
+  height: 240px;
   display: flex;
   justify-content: center;
   align-items: center;
+  border-radius: 100px;
+  margin: 0 0 16px 0;
 
   @media(max-width: 950px) {
     height: 400px;
   }
 
-  @media(max-width: 450px) {
-    height: 350px;
+  @media(max-width: 500px) {
+    height: 390px;
+    border-radius: 10px;
   }
 `
 
@@ -110,7 +113,7 @@ const ImgCont = styled.div`
 const TitleCont = styled.p`
   margin: 0;
   ${typography2.head.xxl}
-  color: ${colors.pink[400]};
+  color: ${colors.green[300]};
   display: flex;
   justify-content: center;
   align-items: center;
@@ -132,13 +135,13 @@ const SummaryCont = styled.div`
     ${typography.text.lg};
     font-weight: 500;
     margin: 0;
-    text-align: left;
+    text-align: center;
   }
 
   @media (max-width: 540px) {
     ${typography.text.lg};
     font-weight: 500;
-    text-align: left;
+    text-align: center;
     width: 95%;
   }
 `
@@ -170,7 +173,7 @@ const TeamContainer = styled.div`
 
 const TeamTt = styled.p`
   ${typography.head.md};
-  color: ${colors.pink[400]};
+  color: ${colors.green[300]};
   margin: 24px 0 24px 0;
 `
 

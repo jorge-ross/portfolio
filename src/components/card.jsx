@@ -39,7 +39,7 @@ const Img = styled.img`
   width: 230px;
   height: 230px;
   border-radius: 50%;
-  box-shadow: 0 0 20px #D6D3D1;
+  box-shadow: 0 0 20px #D1FAE5;
   filter: brightness(0.97);
 `
 
