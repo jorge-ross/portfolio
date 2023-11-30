@@ -3,9 +3,11 @@ import { colors } from "../styles/colors";
 import { typography } from "../styles/typography";
 
 const ContainerFooter = styled.div`
-  background-color: ${colors.black[900]};
+  background-image: url('/src/assets/images/nn.jpg');
+  background-size: cover;
+  background-position: center;
   width: 100%;
-  height: 7.5rem;
+  height: 90px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -13,8 +15,9 @@ const ContainerFooter = styled.div`
 `
 
 const ZContainer = styled.div`
-  ${typography.text.md}
-  color: ${colors.stone[100]};
+  ${typography.text.lg}
+  color: ${colors.stone[200]};
+  font-weight: 500;
   margin: 0;
   padding-left: 24px;
   text-align: left;
@@ -37,7 +40,7 @@ function Footer() {
   return (
     <ContainerFooter>
       <ZContainer>
-        Powered with ❤️ by <span style={{color: "#5dc1b9", fontWeight: 700}}> Jorge Rosano </span>
+        Powered with ❤️ by <span style={{color: "#FBBF24", fontWeight: 500, fontSize: 19}}> Jorge Rosano </span>
         <YearText>
           2023
         </YearText>

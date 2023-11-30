@@ -110,7 +110,6 @@ const TextContainer = styled.div`
 `;
 
 const TextField = styled.div`
-  height: 700px;
   width: 70%;
   grid-area: right;
   border-radius: 50px;
@@ -122,7 +121,7 @@ const TextField = styled.div`
 
 const Title = styled.h1`
   ${typography.head.md};
-  color: ${colors.yellow[400]};
+  color: ${colors.green[400]};
   margin: 0;
 `
 
@@ -147,7 +146,7 @@ function About() {
           </Title>
           <Text>
           {description[0].intro}
-            <span style={{color: "#FBBF24"}}>Full Stack Web Developer</span>
+            <span style={{color: "#34D399"}}>Full Stack Web Developer</span>
           {description[0].gralDescription}
           </Text>
           <Text>

@@ -234,9 +234,9 @@ export const description = [
   {
     intro: "My name is Jorge Rosano, ",
     gralDescription:
-      " with a unique background, having been a former neuropsychology specialist.",
+      " with a unique and multifaceted background, having been a former neuropsychology specialist.",
     ironic:
-      "Probably you are wondering what am I doing in the tech industry? The answer is simple!",
+      "This journey began when I decided to study psychology. I didn't know it at the time, but sometimes you have to lose yourself to find yourself. Probably you are wondering what am I doing in the tech industry? The answer is simple!",
     explanation:
       "Access to tools that facilitate corporate, organizational, and even personal processes inherently entails an understanding of certain human motivations.",
     continuous:
