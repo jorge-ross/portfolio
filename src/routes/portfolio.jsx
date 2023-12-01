@@ -10,6 +10,9 @@ import PortfolioCard from "../components/port-card";
 
 const Gcontainer = styled.div`
   background-color: ${colors.black[300]};
+  display: flex;
+  flex-direction: column;
+  margin: 0;
 `
 
 const TextContainer = styled.div`
@@ -27,9 +30,9 @@ const Title = styled.h1`
 `
 
 const Container = styled.div`
-  margin: 16px auto 70px;
+  margin: 16px auto;
   width: 1000px;
-  height: 800px;
+  height: 100%;
   background-color: ${colors.black[300]};
   display: flex;
   justify-content: center;
@@ -37,23 +40,19 @@ const Container = styled.div`
   position: relative;
 
   @media (max-width: 1200px) {
-    width: 800px;
-    height: 896px;
+    width: 850px;
   }
 
   @media (max-width: 900px) {
     width: 600px;
-    height: 896px;
   }
 
   @media (max-width: 600px) {
     width: 360px;
-    height: 896px;
   }
 
   @media (max-width: 390px) {
     width: 300px;
-    height: 896px;
   }
 
 `
@@ -66,13 +65,12 @@ const ProjectContainer = styled.div`
   grid-template-rows: repeat(2, 1fr);
   place-items: center;
   padding: 24px 20px;
-  height: 740px;
+  height: 100%;
   width: 100%;
-  overflow-y: auto;
 
   @media(max-width: 900px) {
     grid-template-columns: 1fr;
-    height: 830px;
+    height: 100%;
   }
 `
 
