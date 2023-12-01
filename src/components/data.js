@@ -235,14 +235,5 @@ export const description = [
     intro: "My name is Jorge Rosano, ",
     gralDescription:
       " with a unique and multifaceted background, having been a former neuropsychology specialist.",
-    ironic:
-      "This journey began when I decided to study psychology. I didn't know it at the time, but sometimes you have to lose yourself to find yourself. Probably you are wondering what am I doing in the tech industry? The answer is simple!",
-    explanation:
-      "Access to tools that facilitate corporate, organizational, and even personal processes inherently entails an understanding of certain human motivations.",
-    continuous:
-      "Thus, the understanding of the human mind, together with the constant technological development, will surely unlock new horizons of empowerment.",
-    brp: "With this in mind, the decision to break into the tech world was not only a smart one, but also a call to be at the forefront of innovation, to create solutions that could reach far beyond the confines of a therapist's office.",
-    det: "That's why I'm determined to collaborate with like-minded professionals who share the same passion for leveraging technology to make a tangible difference in people's lives.",
-    con: " with me to discuss how we can make a positive impact together!",
   },
 ];
