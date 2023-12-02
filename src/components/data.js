@@ -234,6 +234,6 @@ export const description = [
   {
     intro: "My name is Jorge Rosano, ",
     gralDescription:
-      " with a unique and multifaceted background, having been a former neuropsychology specialist. ",
+      " based in Mexico City with a unique and multifaceted background, seeking for new professional challenges.",
   },
 ];

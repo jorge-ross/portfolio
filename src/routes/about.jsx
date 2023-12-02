@@ -15,9 +15,25 @@ const GeneralContainer = styled.div`
   margin: 0;
 `;
 
+const TopContainer = styled.div`
+  height: auto;
+  width: 70%;
+  margin: 32px 0 0 0;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 8px;
+
+  @media (max-width: 1000px) {
+    grid-template-columns: 1fr;
+    height: 100%;
+    gap: 8px;
+    margin: 0;
+  }
+`;
+
 const Container = styled.div`
-  height: 100%;
-  width: 100%;
+  height: 300px;
+  width: 75%;
   margin: 32px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -33,7 +49,7 @@ const Container = styled.div`
 
 const GridItem = styled.div`
   height: 350px;
-  width: 350px;
+  width: 400px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -59,8 +75,8 @@ const ImgContainer = styled.div`
 const Img = styled.img`
   width: auto;
   height: auto;
-  max-width: 75%;
-  max-height: 80%;
+  max-width: 85%;
+  max-height: 90%;
 
   border-bottom-left-radius: 15%;
   border-bottom-right-radius: 30%;
@@ -78,11 +94,10 @@ const Img = styled.img`
 `
 
 const Image = styled.img`
-  width: auto;
-  height: auto;
+  width: 300px;
+  height: 200px;
   max-width: 85%;
   max-height: 90%;
-
   border-radius: 25%;
 
   @media (max-width: 1000px) {
@@ -96,16 +111,12 @@ const Image = styled.img`
 
 const TextContainer = styled.div`
   display: flex;
-  flex-direction: column;
-  justify-content: center;
   align-items: center;
   margin: 0;
-  position: relative;
 
   @media (max-width: 1000px) {
     width: 100%;
     display: flex;
-    justify-content: center;
     align-items: center;
     margin: 32px 0 16px 0;
   }
@@ -113,7 +124,6 @@ const TextContainer = styled.div`
   @media (max-width: 560px) {
     width: 100%;
     display: flex;
-    justify-content: center;
     align-items: center;
     margin: 0 0 16px 0;
   }
@@ -121,22 +131,33 @@ const TextContainer = styled.div`
   @media (max-width: 470px) {
     width: 100%;
     display: flex;
-    justify-content: center;
     align-items: center;
     margin: 0;
   }
 `;
 
-const TextField = styled.div`
+const TopTextField = styled.div`
   display: flex;
   flex-direction: column;
   text-align: left;
 `;
 
+const TextField = styled.div`
+  display: flex;
+  flex-direction: column;
+`;
+
 const Title = styled.h1`
-  ${typography.head.md};
+  ${typography.head.lg};
   color: ${colors.green[400]};
   margin: 0;
+`
+
+const TopText = styled.p`
+  ${typography.text.lg};
+  color: ${colors.stone[300]};
+  font-weight: 500;
+  text-align: left;
 `
 
 const Text = styled.p`
@@ -148,45 +169,42 @@ function About() {
 
   return (
     <GeneralContainer>
-    <Header />  
-      <Container>
+      <Header />  
+      <TopContainer>
         <ImgContainer>
-        <Img src={profilePic} alt="JRoss"/>
+          <Img src={profilePic} alt="JRoss"/>
         </ImgContainer>
         <TextContainer>
-        <GridItem>
-          <TextField>
+          <TopTextField>
             <Title style={{textAlign: "center"}}>
               Hi there! ✌️
             </Title>
-            <Text>
+            <TopText>
             {description[0].intro}
               <span style={{color: "#34D399"}}>Full Stack Web Developer</span>
             {description[0].gralDescription}
             <br></br>
             <br></br>
-            <span style={{color: "#34D399"}}>How did I get here?</span>
-            <br></br>
-            <br></br>
-            It all began when I decided to step away from engineering (ironically). I started my studies in psychology, and before I knew it, I had graduated.
-            </Text>
-          </TextField>
-        </GridItem>
+            </TopText>
+          </TopTextField>
         </TextContainer>
-        <GridItem>
-          <Image src={imgMech} alt=""/>
-        </GridItem>
-        <GridItem>4
-        </GridItem>
-        <GridItem>5
-        </GridItem>
-        <GridItem>5
-        </GridItem>
-        <GridItem>5
-        </GridItem>
-        <GridItem>5
-        </GridItem>
-      </Container>      
+      </TopContainer>
+      <Container>
+        <TextField>
+          <Text>
+          <span style={{color: "#34D399", fontSize: 22}}>How did I get here?</span>
+            <br></br>
+            <br></br>
+          It all began when I decided to step away from engineering (ironically). I started my studies in psychology, and before I knew it, I had graduated.
+          <br></br>
+            <br></br>
+          After multiple courses, certifications, and seminars, I set up my office in the second room of the apartment where I lived.
+          <br></br>
+            <br></br>
+          The excitement of having my first patients was quickly fulfilled, and my duties as a mental health professional began to expand.
+          </Text>
+        </TextField>
+      </Container>
       <Footer />
     </GeneralContainer>
   )
