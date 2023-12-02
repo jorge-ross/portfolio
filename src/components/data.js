@@ -234,6 +234,6 @@ export const description = [
   {
     intro: "My name is Jorge Rosano, ",
     gralDescription:
-      " with a unique and multifaceted background, having been a former neuropsychology specialist.",
+      " with a unique and multifaceted background, having been a former neuropsychology specialist. ",
   },
 ];

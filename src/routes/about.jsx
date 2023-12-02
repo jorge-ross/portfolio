@@ -3,6 +3,8 @@ import { colors } from "../styles/colors";
 import Header from "../components/header";
 import Footer from "../components/footer";
 import profilePic from "../assets/images/av-9.jpg";
+import imgFlag from "../assets/images/abimg2.png"
+import imgMech from "../assets/images/mechatronics.jpg"
 import { typography } from "../styles/typography";
 import { description } from "../components/data";
 
@@ -15,8 +17,8 @@ const GeneralContainer = styled.div`
 
 const Container = styled.div`
   height: 100%;
-  width: 80%;
-  margin: 32px auto;
+  width: 100%;
+  margin: 32px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 8px;
@@ -33,6 +35,13 @@ const GridItem = styled.div`
   height: 350px;
   width: 350px;
   display: flex;
+  justify-content: center;
+  align-items: center;
+
+  @media (max-width: 500px){
+    width: 300px;
+    height: 300px;
+  }
 `
 
 const ImgContainer = styled.div`
@@ -40,11 +49,9 @@ const ImgContainer = styled.div`
   justify-content: center;
   align-items: center;
   margin: 0;
-  height: 300px;
-  width: 300px;
 
   @media (max-width: 1000px) {
-    height: 200px;
+    height: 300px;
     margin: 28px 0 0 0;
   }
 `;
@@ -52,8 +59,8 @@ const ImgContainer = styled.div`
 const Img = styled.img`
   width: auto;
   height: auto;
-  max-width: 85%;
-  max-height: 90%;
+  max-width: 75%;
+  max-height: 80%;
 
   border-bottom-left-radius: 15%;
   border-bottom-right-radius: 30%;
@@ -62,8 +69,24 @@ const Img = styled.img`
   filter: brightness(0.91);
 
   @media (max-width: 1000px) {
-    position: static;
-    margin: 0 auto;
+    margin: 0;
+    width: auto;
+    height: auto;
+    max-width: 85%;
+    max-height: 100%;
+  }
+`
+
+const Image = styled.img`
+  width: auto;
+  height: auto;
+  max-width: 85%;
+  max-height: 90%;
+
+  border-radius: 25%;
+
+  @media (max-width: 1000px) {
+    margin: 0;
     width: auto;
     height: auto;
     max-width: 85%;
@@ -81,7 +104,6 @@ const TextContainer = styled.div`
 
   @media (max-width: 1000px) {
     width: 100%;
-    height: 750px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -90,7 +112,6 @@ const TextContainer = styled.div`
 
   @media (max-width: 560px) {
     width: 100%;
-    height: 900px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -99,7 +120,6 @@ const TextContainer = styled.div`
 
   @media (max-width: 470px) {
     width: 100%;
-    height: 1000px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -108,11 +128,9 @@ const TextContainer = styled.div`
 `;
 
 const TextField = styled.div`
-  border-radius: 50px;
   display: flex;
   flex-direction: column;
   text-align: left;
-  justify-content: center;
 `;
 
 const Title = styled.h1`
@@ -145,11 +163,18 @@ function About() {
             {description[0].intro}
               <span style={{color: "#34D399"}}>Full Stack Web Developer</span>
             {description[0].gralDescription}
+            <br></br>
+            <br></br>
+            <span style={{color: "#34D399"}}>How did I get here?</span>
+            <br></br>
+            <br></br>
+            It all began when I decided to step away from engineering (ironically). I started my studies in psychology, and before I knew it, I had graduated.
             </Text>
           </TextField>
         </GridItem>
         </TextContainer>
-        <GridItem>3
+        <GridItem>
+          <Image src={imgMech} alt=""/>
         </GridItem>
         <GridItem>4
         </GridItem>
