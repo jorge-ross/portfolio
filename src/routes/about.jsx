@@ -13,6 +13,7 @@ const GeneralContainer = styled.div`
   flex-direction: column;
   align-items: center;
   margin: 0;
+  height: auto;
 `;
 
 const TopContainer = styled.div`
@@ -32,9 +33,9 @@ const TopContainer = styled.div`
 `;
 
 const Container = styled.div`
-  height: 300px;
-  width: 75%;
-  margin: 32px;
+  height: auto;
+  width: 65%;
+  margin: 8px 32px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 8px;
@@ -49,7 +50,7 @@ const Container = styled.div`
 
 const GridItem = styled.div`
   height: 350px;
-  width: 400px;
+  width: 300px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -125,7 +126,7 @@ const TextContainer = styled.div`
     width: 100%;
     display: flex;
     align-items: center;
-    margin: 0 0 16px 0;
+    margin: 0;
   }
 
   @media (max-width: 470px) {
@@ -145,6 +146,7 @@ const TopTextField = styled.div`
 const TextField = styled.div`
   display: flex;
   flex-direction: column;
+  justify-content: center;
 `;
 
 const Title = styled.h1`
@@ -158,6 +160,7 @@ const TopText = styled.p`
   color: ${colors.stone[300]};
   font-weight: 500;
   text-align: left;
+  margin: 18px 0 0 0;
 `
 
 const Text = styled.p`
@@ -202,6 +205,53 @@ function About() {
           <br></br>
             <br></br>
           The excitement of having my first patients was quickly fulfilled, and my duties as a mental health professional began to expand.
+          </Text>
+        </TextField>
+        <GridItem>
+          2
+        </GridItem>
+        <TextField>
+          <Text>
+            After a few years of experience, and thanks to my analytical and observational skills, I decided to specialize in Neuropsychology. I realized I needed a more solid approach, and what better way than from the trenches of science.
+          <br></br>
+          <br></br>
+          During the course of my Master&#39;s, I had the opportunity to collaborate as a co-therapist at Neurovita, a psychology and neuropsychology center located in Valencia, Spain. Everything was going as it should; even better!
+          </Text>
+        </TextField>
+        <GridItem>
+          2
+        </GridItem>
+        <TextField>
+          <Text>
+          <span style={{color: "#34D399", fontSize: 22}}>And then?</span>
+            <br></br>
+            <br></br>
+          Facing each day with wide-open eyes is the key.
+          <br></br>
+            <br></br>
+            Health contingencies, global metamorphosis, social mutations, and new international agendas led me to use my chameleon-like abilities and quickly adapt to the new daily whirlwind. However, contemplating the evolution of the world as a phenomenon helped me visualize what I had always wanted to do.
+          </Text>
+        </TextField>
+        <GridItem>
+          2
+        </GridItem>
+        <TextField>
+          <Text>
+          Everything was clear by then!
+            <br></br>
+            <br></br>
+          Thus, the desire awoke; that inherent to human nature, which motivates, enables, mobilizes – that desire led me to rethink myself, both as a professional and as a human being. Then I knew that my journey had just begun.
+          </Text>
+        </TextField>
+        <GridItem>
+          2
+        </GridItem>
+        <TextField>
+          <Text>
+          During my training as a developer, I realized that coding pushed me beyond my comfort zone. It forced me to confront my limits, to persevere, and to continuously seek improvement. Through this journey, I discovered my resilience, creativity, and a profound sense of fulfillment that I had never experienced before.
+          <br></br>
+          <br></br>
+          It&#39;s been a path of self-discovery.
           </Text>
         </TextField>
       </Container>
