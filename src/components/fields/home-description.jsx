@@ -2,7 +2,7 @@ import styled from "@emotion/styled";
 import { colors } from "../../styles/colors";
 import { typography } from "../../styles/typography";
 
-import illustration from "../../assets/images/a11.jpg"
+import illustration from "../../assets/images/ab3.jpg"
 
 const DescriptionContainer = styled.div`
   display: grid;

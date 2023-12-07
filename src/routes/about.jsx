@@ -3,8 +3,10 @@ import { colors } from "../styles/colors";
 import Header from "../components/header";
 import Footer from "../components/footer";
 import profilePic from "../assets/images/av-9.jpg";
-import imgFlag from "../assets/images/abimg2.png"
-import imgMech from "../assets/images/mechatronics.jpg"
+import imgGrid from "../assets/images/ab2.jpg";
+import imgGridTwo from "../assets/images/intro-brain.jpg"
+import imgGridThree from "../assets/images/ab4.jpg"
+import imgGridFour from "../assets/images/a11.jpg"
 import { typography } from "../styles/typography";
 import { description } from "../components/data";
 
@@ -35,30 +37,31 @@ const TopContainer = styled.div`
 const Container = styled.div`
   height: auto;
   width: 65%;
-  margin: 8px 32px;
+  margin: 8px 32px 32px;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(3, minmax(200px, 1fr));
   gap: 8px;
 
-  @media (max-width: 1000px) {
+  // @media (max-width: 1420px) {
+  //   grid-template-columns: repeat(3, 1fr);
+  //   height: 100%;
+  //   gap: 8px;
+  //   margin: 0;
+  // }
+
+  @media (max-width: 900px) {
     grid-template-columns: 1fr;
     height: 100%;
     gap: 8px;
-    margin: 0;
+    margin: 0 0 16px 0;
   }
 `;
 
 const GridItem = styled.div`
-  height: 350px;
-  width: 300px;
+  height: auto;
   display: flex;
   justify-content: center;
   align-items: center;
-
-  @media (max-width: 500px){
-    width: 300px;
-    height: 300px;
-  }
 `
 
 const ImgContainer = styled.div`
@@ -69,6 +72,11 @@ const ImgContainer = styled.div`
 
   @media (max-width: 1000px) {
     height: 300px;
+    margin: 28px 0 0 0;
+  }
+
+  @media (max-width: 500px) {
+    height: 200px;
     margin: 28px 0 0 0;
   }
 `;
@@ -95,19 +103,9 @@ const Img = styled.img`
 `
 
 const Image = styled.img`
-  width: 300px;
-  height: 200px;
-  max-width: 85%;
+  max-width: 75%;
   max-height: 90%;
-  border-radius: 25%;
-
-  @media (max-width: 1000px) {
-    margin: 0;
-    width: auto;
-    height: auto;
-    max-width: 85%;
-    max-height: 100%;
-  }
+  border-radius: 30%;
 `
 
 const TextContainer = styled.div`
@@ -201,14 +199,14 @@ function About() {
           It all began when I decided to step away from engineering (ironically). I started my studies in psychology, and before I knew it, I had graduated.
           <br></br>
             <br></br>
-          After multiple courses, certifications, and seminars, I set up my office in the second room of the apartment where I lived.
+          After multiple courses, certifications, and seminars, I founded Neuro-dev in the room next to mine in the apartment where I lived.
           <br></br>
             <br></br>
           The excitement of having my first patients was quickly fulfilled, and my duties as a mental health professional began to expand.
           </Text>
         </TextField>
         <GridItem>
-          2
+          <Image src={imgGrid} alt="" />
         </GridItem>
         <TextField>
           <Text>
@@ -219,7 +217,7 @@ function About() {
           </Text>
         </TextField>
         <GridItem>
-          2
+        <Image src={imgGridTwo} alt="" />
         </GridItem>
         <TextField>
           <Text>
@@ -229,22 +227,22 @@ function About() {
           Facing each day with wide-open eyes is the key.
           <br></br>
             <br></br>
-            Health contingencies, global metamorphosis, social mutations, and new international agendas led me to use my chameleon-like abilities and quickly adapt to the new daily whirlwind. However, contemplating the evolution of the world as a phenomenon helped me visualize what I had always wanted to do.
+            Health contingencies, global metamorphosis, social mutations, and new international agendas led me to use my chameleon-like abilities and quickly adapt to the new daily whirlwind. However, contemplating the evolution of the world as a phenomenon helped me visualize <span style={{color: "#34D399", fontSize: 16}}>what I had always wanted to do</span>.
           </Text>
         </TextField>
         <GridItem>
-          2
+        <Image src={imgGridThree} alt="" />
         </GridItem>
         <TextField>
           <Text>
           Everything was clear by then!
             <br></br>
             <br></br>
-          Thus, the desire awoke; that inherent to human nature, which motivates, enables, mobilizes – that desire led me to rethink myself, both as a professional and as a human being. Then I knew that my journey had just begun.
+          Thus, the desire awoke; that inherent to human nature, which is responsible for motivating, enabling, mobilizing, that led me to rethink myself, both as a professional and as a human being. Then I knew that my journey had just begun.
           </Text>
         </TextField>
         <GridItem>
-          2
+        <Image src={imgGridFour} alt="" />
         </GridItem>
         <TextField>
           <Text>
