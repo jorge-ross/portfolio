@@ -17,7 +17,7 @@ const BackgroundVideo = styled.video`
   width: 100%;
   height: 80px;
   object-fit: cover;
-  z-index: 100;
+  // z-index: 100;
 `;
 
 const NavBarContainer = styled.div`
@@ -27,18 +27,19 @@ const NavBarContainer = styled.div`
   justify-content: space-around;
   align-items: center;
   border-bottom: 1px solid #A8A29E;
-  position: fixed;
+  // position: fixed;
   display: flex; 
   flex-direction: row;
   z-index: 100;
   transition: height 0.3s ease;
+  position: relative;
 `;
 
 const NameContainer = styled.h1`
   ${typography2.head.lg}
   color: ${colors.stone[100]};
-  position: absolute;
-  left: 32px;
+  position: fixed;
+  left: 64px;
   margin: 0;
 
   @media (max-width: 900px) {
@@ -48,8 +49,8 @@ const NameContainer = styled.h1`
 `
 
 const OptionsContainer = styled.li`
-  position: absolute;
-  right: 32px;
+  position: fixed;
+  right: 64px;
   display: flex;
   flex-direction: row;
   gap: 2rem;
@@ -72,13 +73,17 @@ const Option = styled.p`
 const HamburgerMenu = styled.div`
   display: ${props => (props.visible ? "block" : "none")};  
   background-color: ${colors.stone[100]};
-  width: 400px;
+  width: 85%;
   border-bottom-left-radius: 16px;
   border-bottom-right-radius: 16px;
   padding-bottom: 16px;
   text-align: center;
+  position: fixed;
+  top: 80px;
+  display: none;
   
   @media (max-width: 900px) {
+    display: ${props => (props.visible ? "block" : "none")}; 
     width: 95%;
     position: absolute;
     top: 100%;
@@ -98,7 +103,7 @@ const HamburgerIcon = styled.div`
   display: none;
   cursor: pointer;
   color: ${colors.stone[100]};
-  position: absolute;
+  position: fixed;
   right: 16px;
   align-self: center;
   padding-top: 4px;
@@ -114,7 +119,7 @@ const CloseIcon = styled.div`
   display: none;
   cursor: pointer;
   color: ${colors.stone[100]};
-  position: absolute;
+  position: fixed;
   right: 16px;
   align-self: center;
   transition: transform 0.5s ease; 
@@ -135,11 +140,10 @@ function Header() {
   };
 
   return (
-    <div style={{ position: 'relative', width: '100%', height: '80px' }}>
+    <NavBarContainer menuVisible={menuVisible}>
       <BackgroundVideo autoPlay loop muted>
         <source src={videoSource} type="video/mp4" />
       </BackgroundVideo>
-    <NavBarContainer menuVisible={menuVisible}>
       <NameContainer>
       <Link to="/"
       style={{textDecoration: "none", color: "inherit"}}
@@ -161,10 +165,7 @@ function Header() {
         <IoClose style={{height: "45px", width: "45px"}}/>
       </CloseIcon>
       <OptionsContainer>
-        <Link to="/about-me" style={{textDecoration: "none"}}
-        onClick={() => window.scrollTo(0, 0)}>
-        <Option>About</Option>
-        </Link>
+        
         <Link to="/projects" style={{textDecoration: "none"}}
         onClick={() => window.scrollTo(0, 0)}>
         <Option>Portfolio</Option>
@@ -172,19 +173,15 @@ function Header() {
         <LinkedInLink profileURL={"https://www.linkedin.com/in/jorgeros13"} />
       </OptionsContainer>
       <HamburgerMenu visible={menuVisible}>
-      <Link to="/about-me" style={{textDecoration: "none"}}
-      onClick={() => window.scrollTo(0, 0)}>
-        <Option style={{color: "black"}}>About</Option>
-      </Link>
+     
       <Link to="/projects" style={{textDecoration: "none"}}
       onClick={() => window.scrollTo(0, 0)}>
         <Option style={{color: "black"}}>Portfolio</Option>
       </Link>
       <LinkedInLink profileURL={"https://www.linkedin.com/in/jorgeros13"} />
       </HamburgerMenu>
-      
+
     </NavBarContainer>
-    </div>
   )
 
 }
