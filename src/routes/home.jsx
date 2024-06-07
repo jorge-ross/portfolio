@@ -4,7 +4,6 @@ import { Link } from "react-router-dom";
 import Header from "../components/header";
 import Card from "../components/card";
 import mypic from "../assets/images/av1.jpg"
-import starsImage from "../assets/images/descF.png";
 import TextInDescription from "../components/fields/description-field";
 import ProjectCard from "../components/project-card";
 import Footer from "../components/footer";
@@ -23,7 +22,7 @@ const GeneralContainer = styled.div`
 
 const IntroContainer = styled.div`
   background-color: ${colors.black[700]};
-  height: 450px;
+  height: 400px;
   place-items: center;
   width: 100%;
   position: relative;
@@ -32,6 +31,7 @@ const IntroContainer = styled.div`
   gap: 16px;
   grid-template-rows: auto;
   grid-template-areas: "left right";
+  border-bottom: 1px solid #A8A29E;
 
   @media (max-width: 1000px) {
     grid-template-columns: 1fr;
@@ -196,13 +196,9 @@ function Home () {
         <Card 
         gitHubUrl="https://github.com/jorge-ross"
         linkedInUrl="https://www.linkedin.com/in/jorgeros13"
-        InstaUrl="https://www.instagram.com/_jorgeross"
-        XUrl="https://twitter.com/jorg_ros"
         img={mypic}
         />
-        <TextInDescription 
-        backgroundImage={starsImage} 
-        />
+        <TextInDescription/>
       </IntroContainer>
       </div> 
 

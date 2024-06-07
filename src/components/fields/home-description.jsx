@@ -15,38 +15,11 @@ const DescriptionContainer = styled.div`
   padding: 36px 0;
   position: relative;
 
-  &::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 75%;
-    height: 1px;
-    background-color: #6EE7B7;
-  }
-
-  &::after {
-    content: "";
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 75%;
-    height: 1px;
-    background-color: #6EE7B7;
-  }
-
   @media (max-width: 1000px) {
     grid-template-columns: 1fr;
     grid-template-areas:
       "right"
       "left";
-
-    &::before,
-    &::after {
-      display: none;
-    }
   }
 `
 

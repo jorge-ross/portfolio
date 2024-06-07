@@ -17,7 +17,6 @@ const BackgroundVideo = styled.video`
   width: 100%;
   height: 80px;
   object-fit: cover;
-  // z-index: 100;
 `;
 
 const NavBarContainer = styled.div`
