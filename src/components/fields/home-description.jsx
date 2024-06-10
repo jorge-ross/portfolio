@@ -2,57 +2,32 @@ import styled from "@emotion/styled";
 import { colors } from "../../styles/colors";
 import { typography } from "../../styles/typography";
 
-import illustration from "../../assets/images/ab3.jpg"
 
 const DescriptionContainer = styled.div`
-  display: grid;
-  grid-template-columns: 2fr 1fr;
-
-  grid-template-rows: auto;
-  grid-template-areas: "left right";
+  display: flex;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 36px 0;
+  padding: 1rem 0;
   position: relative;
+  width: 80%;
+  gap: 3rem;
 
   @media (max-width: 1000px) {
-    grid-template-columns: 1fr;
-    grid-template-areas:
-      "right"
-      "left";
+    flex-direction: column;
   }
 `
 
 const Text = styled.div`
   ${typography.text.md};
   color: ${colors.stone[300]};
-  grid-area: left;
-  width: 600px;
   height: auto;
+  width: 400px;
   font-weight: 500;
 
   @media (max-width: 1000px) {
     width: auto;
     padding: 16px 88px;
-  }
-`
-
-const Illustration = styled.img`
-  height: 250px;
-  width: 250px;
-  border-radius: 16px;
-  margin-left: auto;
-
-  @media (max-width: 1000px) {
-    margin: 0 auto;
-    height: 250px;
-    width: 250px;
-  }
-
-  @media (max-width: 470px) {
-    margin: 0 auto;
-    height: 180px;
-    width: 180px;
   }
 `
 
@@ -62,11 +37,13 @@ function HomeDescription() {
       <Text>
       Motivated by a profound fascination for science, computing, and its boundless potential as a comprehensive field of study, I realized that the tech industry held the key to transform lives.<br></br> <br></br>
 
-      Walking this path has become a great opportunity to combine my understanding of the human mind, as a former neuropsychology specialist, with cutting-edge technologies, knowing that this fusion could unlock new horizons of empowerment. This is the calling to be at the forefront of innovation, to create solutions that could reach far beyond the confines of a therapist&apos;s office. <br></br> <br></br>
-
+      Walking this path has become a great opportunity to combine my understanding of the human mind, as a former neuropsychology specialist, with cutting-edge technologies, knowing that this fusion could unlock new horizons of empowerment. 
+      This is the calling to be at the forefront of innovation, to create solutions that could reach far beyond the confines of a therapist&apos;s office. <br></br> <br></br>
+      </Text>
+      <Text>
       That being said, I am determined to collaborate with like-minded professionals who share the same passion for leveraging technology to make a tangible difference in people&apos;s lives.
       </Text>
-      <Illustration src={illustration} alt="psicprog"/>
+
     </DescriptionContainer>
   )
 }

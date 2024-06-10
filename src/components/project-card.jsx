@@ -1,21 +1,17 @@
 import styled from "@emotion/styled";
 import { typography } from "../styles/typography";
-import { colors } from "../styles/colors";
 import PropTypes from 'prop-types';
 
 const Card = styled.div`
-  border-radius: 24px;
   display: flex;
   flex-direction: column;
-  width: 290px;
+  gap: 1rem;
+  width: 340px;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.5px;
   color: #616161;
-  border-bottom: 5px solid #059669;
-  box-shadow: 0 0 8px rgba(255, 255, 255, 0.5),
-              0 0 12px rgba(255, 255, 255, 0.3);
   position: relative;
   cursor: pointer;
 
@@ -37,31 +33,35 @@ const Card = styled.div`
 const ProjectImg = styled.img`
   width: 100%;
   height: 160px;
-  border-top-left-radius: 24px;
-  border-top-right-radius: 24px;
-  border-bottom: 2px solid #34D399;
+  filter: grayscale(100%);
+
+  &:hover {
+    transition: filter 0.3s ease;
+    filter: grayscale(0%);  
+  }
 `;
 
 const DescriptionField = styled.div`
-  background-color: ${colors.stone[100]};
-  padding: 16px;
   margin: 0;
-  height: 104px;
-  border-bottom-left-radius: 18px;
-  border-bottom-right-radius: 18px;
+  height: 100px;
 `
 
 const Title = styled.p`
   ${typography.text.lg}
-  color: black;
+  color: white;
   text-align: justify;
   margin: 0;
   padding-bottom: 5px;
+  
+  &:hover {
+    cursor: pointer;
+    text-decoration: underline;
+  }
 `
 
 const Summary = styled.p`
   ${typography.text.sm}
-  color: black;
+  color: white;
   text-align: justify;
   margin: 0;
   display: -webkit-box;

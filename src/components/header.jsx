@@ -15,18 +15,17 @@ const BackgroundVideo = styled.video`
   top: 0;
   left: 0;
   width: 100%;
-  height: 80px;
+  height: 70px;
+  border-bottom: 1px solid #A8A29E;
   object-fit: cover;
 `;
 
 const NavBarContainer = styled.div`
   display: flex;
   width: 100%;
-  height: 80px;
+  height: 70px;
   justify-content: space-around;
   align-items: center;
-  border-bottom: 1px solid #A8A29E;
-  // position: fixed;
   display: flex; 
   flex-direction: row;
   z-index: 100;
@@ -35,7 +34,7 @@ const NavBarContainer = styled.div`
 `;
 
 const NameContainer = styled.h1`
-  ${typography2.head.lg}
+  ${typography2.head.md}
   color: ${colors.stone[100]};
   position: fixed;
   left: 64px;
@@ -62,7 +61,7 @@ const OptionsContainer = styled.li`
 `
 
 const Option = styled.p`
-  ${typography.head.xss}
+  ${typography.head.xs}
   font-weight: 500;
   color: ${colors.stone[100]};
   margin: 0;

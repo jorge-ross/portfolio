@@ -62,11 +62,11 @@ export const projects = [
   {
     id: "3",
     imgSrc:
-      "https://github.com/jorge-ross/the-portfolio/raw/main/src/assets/images/eatable.png",
-    title: "Eatable",
+      "https://github.com/jorge-ross/the-portfolio/raw/main/src/assets/images/clivia.png",
+    title: "CLIvia Generator",
     summary:
-      "Dynamic digital menu crafted with React for both personal and commercial use, where the user can explore, create, edit, and delete dishes, thus offering a personalized user experience.",
-    tech: ["Javascript", "React"],
+      "The classic trivia game that asks questions about a variety of topics, including history, science, and pop culture. The user can earn one point for each correct answer, the highest score at the end of the game wins. Built with Ruby.",
+    tech: ["Ruby", "Heroku"],
     team: [
       {
         name: "Jorge Rosano",
@@ -75,7 +75,7 @@ export const projects = [
         githubUrl: "https://github.com/jorge-ross",
       },
     ],
-    project_url: "https://github.com/jorge-ross/Eatable-p",
+    project_url: "https://github.com/jorge-ross/CLIvia-generator",
   },
   {
     id: "4",
@@ -98,11 +98,11 @@ export const projects = [
   {
     id: "5",
     imgSrc:
-      "https://github.com/jorge-ross/the-portfolio/raw/main/src/assets/images/clivia.png",
-    title: "CLIvia Generator",
+      "https://github.com/jorge-ross/the-portfolio/raw/main/src/assets/images/eatable.png",
+    title: "Eatable",
     summary:
-      "The classic trivia game that asks questions about a variety of topics, including history, science, and pop culture. The user can earn one point for each correct answer, the highest score at the end of the game wins. Built with Ruby.",
-    tech: ["Ruby", "Heroku"],
+      "Dynamic digital menu crafted with React for both personal and commercial use, where the user can explore, create, edit, and delete dishes, thus offering a personalized user experience.",
+    tech: ["Javascript", "React"],
     team: [
       {
         name: "Jorge Rosano",
@@ -111,7 +111,7 @@ export const projects = [
         githubUrl: "https://github.com/jorge-ross",
       },
     ],
-    project_url: "https://github.com/jorge-ross/CLIvia-generator",
+    project_url: "https://github.com/jorge-ross/Eatable-p",
   },
   {
     id: "6",

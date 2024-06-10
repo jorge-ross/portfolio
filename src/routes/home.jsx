@@ -8,7 +8,7 @@ import TextInDescription from "../components/fields/description-field";
 import ProjectCard from "../components/project-card";
 import Footer from "../components/footer";
 
-import { typography, typography2 } from "../styles/typography";
+import { typography } from "../styles/typography";
 import { colors } from "../styles/colors";
 import { projects } from "../components/data";
 import HomeDescription from "../components/fields/home-description";
@@ -16,19 +16,20 @@ import HomeDescription from "../components/fields/home-description";
 const GeneralContainer = styled.div`
   display: flex;
   flex-direction: column;
+  align-items: center;
   justify-content: center;
   margin: 0;
 `;
 
 const IntroContainer = styled.div`
-  background-color: ${colors.black[700]};
-  height: 400px;
+  background-color: ${colors.black[600]};
+  height: 480px;
+  width: 80%;
   place-items: center;
-  width: 100%;
   position: relative;
   display: grid;
   grid-template-columns: 0.6fr 2fr;
-  gap: 16px;
+  gap: 3rem;
   grid-template-rows: auto;
   grid-template-areas: "left right";
   border-bottom: 1px solid #A8A29E;
@@ -43,14 +44,12 @@ const IntroContainer = styled.div`
 `;
 
 const DescriptionSection = styled.div`
-  background-color: ${colors.black[400]};
-  height: 380px;
+  background-color: ${colors.black[600]};
+  height: 480px;
   width: 100%;
   display: flex;
-  place-items: center;
   justify-content: center;
   align-self: center;
-  border-radius: 16px;
 
   @media (max-width: 1000px) {
     width: auto;
@@ -114,9 +113,11 @@ const ProjectSection = styled.div`
   flex-direction: column;
   align-items: center;
   place-items: center;
-  width: 100%;
-  height: 570px;
+  width: 80%;
+  height: auto;
   position: relative;
+  border-top: 1px solid #A8A29E;
+  border-bottom: 1px solid #A8A29E;
 
   @media (max-width: 1000px) {
     background-image: none;
@@ -134,7 +135,7 @@ const ProjectText = styled.p`
   color: ${colors.stone[100]};
   font-weight: 600;
   margin: 0;
-  padding: 28px 0 0 0;
+  padding: 3rem 0;
 
   @media (max-width: 500px) {
     ${typography.head.sm};
@@ -142,13 +143,12 @@ const ProjectText = styled.p`
 `;
 
 const ProjectContainer = styled.div`
-  height: 350px; 
+  height: auto; 
   width: 100%;
-  margin: 16px 0;
-  gap: 48px;
+  gap: 4rem;
 
   display: grid;
-  grid-template-columns: repeat(3, 300px);
+  grid-template-columns: repeat(2, auto);
   align-items: center;
   justify-content: center;
   
@@ -160,29 +160,48 @@ const ProjectContainer = styled.div`
   }
 `
 
-const WContainer = styled.h1`
-  ${typography2.head.lg}
-  color: ${colors.green[300]};
+const PortLink = styled.p`
+  ${typography.head.sm}
+  color: ${colors.stone[100]};
+  font-weight: 500;
   margin: 0;
+  height: 4rem;
+  text-align: right;
 
-  @media (max-width: 500px) {
-    ${typography2.head.sm};
+  &:hover {
+    color: ${colors.yellow[500]};
+    text-decoration: underline;
+    cursor: pointer;
   }
+`;
+
+const Statement = styled.div`
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  gap: 3rem;
+  padding-bottom: 4rem;
 `
 
-const FContainer = styled.h1`
-  ${typography.head.md}
-  color: ${colors.stone[200]};
-  margin: 0;
-
-  @media (max-width: 1000px) {
-    ${typography.head.xs};
-    margin: 32px 0;
-  }
+const AText = styled.p`
+  color: ${colors.stone[300]};
+  ${typography.head.lgx};
+  margin: 3rem 0 0 0;
 
   @media (max-width: 500px) {
-    ${typography.head.xs};
-    margin: 32px 0;
+    ${typography.head.md};
+  }
+`;
+
+const BText = styled.p`
+  ${typography.text.lg}
+  color: ${colors.white};
+  margin: 0;
+  width: 50%;
+
+  @media (max-width: 500px) {
+    ${typography.head.sm};
   }
 `
 
@@ -191,7 +210,7 @@ function Home () {
      return (
     <GeneralContainer>
       <Header />
-      <div>
+
       <IntroContainer>
         <Card 
         gitHubUrl="https://github.com/jorge-ross"
@@ -200,21 +219,18 @@ function Home () {
         />
         <TextInDescription/>
       </IntroContainer>
-      </div> 
+
 
       <DescriptionSection>
         <HomeDescription></HomeDescription>
       </DescriptionSection>
 
-      <div>
+
       <ProjectSection>
-        <ProjectText>&#123; Some apps I&#39;ve Built &#125;</ProjectText>
-        <WContainer>
-          &lt; /&gt;
-        </WContainer>
+        <ProjectText>Recent Projects & Work</ProjectText>
 
       <ProjectContainer>
-      {projects.slice(0, 3).map((project, id) => (
+      {projects.slice(0, 4).map((project, id) => (
         <Link to={`/projects/${id}`} key={project.id}
         style={{textDecoration: "none"}}
         onClick={() => window.scrollTo(0, 0)}>
@@ -227,15 +243,21 @@ function Home () {
         </Link>
         ))}
         </ProjectContainer>
-
-        <FContainer>
-        Visit my <Link to="/projects" 
-        style={{textDecoration: "none", color: "#6EE7B7"}}
-        onClick={() => window.scrollTo(0, 0)}
-        >Portfolio</Link> for more
-        </FContainer>
+      <PortLink>See all</PortLink>
       </ProjectSection>
-      </div>
+  
+      <Statement>
+        <AText>
+          Why work with me?
+        </AText>
+        <BText>
+        With a background in computer science, my superpower is problem solving. I&#39;m excellent at breaking down weird and wonderful ideas and figuring out how to get them built.<br/><br/>
+
+        Having worked independently for years, I&#39;m agile and able to move quickly. I&#39;ve launched large internationaly publicised projects that had to work on day one so I understand the importance of reliability and performance.<br/><br/>
+
+        Finally, I&#39;m a great communicator and collaborator and understand that you don&#39;t always care about *how* it gets done, just that it gets done well and on time.
+        </BText>          
+      </Statement>
       <Footer />
     </GeneralContainer>
   )

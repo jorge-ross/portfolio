@@ -46,7 +46,6 @@ const AText = styled.p`
   color: ${colors.stone[300]};
   ${typography.head.lgx}
   margin: 32px 0 0 0;
-  text-align: center;
 
   @media (max-width: 500px) {
     ${typography.head.md};
@@ -56,8 +55,6 @@ const AText = styled.p`
 const BText = styled.p`
   ${typography.head.xs}
   color: ${colors.white};
-  margin: 28px 40px 16px;
-  text-align: center;
   font-weight: 500;
 
   @media (max-width: 500px) {
