@@ -75,6 +75,14 @@ const Text = styled.p`
   font-weight: 400;
 `
 
+const FFText = styled.p`
+  ${typography.text.md}
+  color: ${colors.stone[100]};
+  margin: .5rem 0;
+  font-weight: 400;
+  text-align: right;
+`
+
 const SocialLinkText = styled.p`
   ${typography.text.md}
   color: white;
@@ -120,8 +128,11 @@ function Footer() {
           <MailText>
           Send me an email
           </MailText>
-          &nbsp;and see how we can make a positive impact together!
+          &nbsp;and see how we can make a positive impact together! <br/><br/>
         </OutlineText>
+        <FFText>
+          Find me on these online spaces too! →<br/>
+        </FFText>
       </ZContainer>
   
         <MediaIcons>
@@ -150,7 +161,7 @@ function Footer() {
           </SocialLink>
         </SocialListItem>
         </MediaIcons>
-
+        
     </ContainerFooter>
   )
 }
