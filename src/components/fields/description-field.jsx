@@ -12,40 +12,23 @@ const DescriptionField = styled.div`
   flex-direction: column;
   justify-content: center;
 
-
-  @media (min-width: 1480px) {
-    width: 95%;
-    height: 350px;
-  }
-
-  @media (max-width: 1250px) {
-    width: 95%;
-    height: 390px;
-  }
-
-  @media (max-width: 700px) {
-    width: 450px;
-    height: 500px;
-    margin-bottom: 32px;
+   @media (max-width: 1000px) {
+    width: auto;
+    height: auto;
+    padding: 0 2.5rem 2rem;
   }
 
   @media (max-width: 500px) {
-    width: 310px;
-    height: 500px;
-    margin-bottom: 32px;
-  }
-
-  @media (max-width: 330px) {
-    width: 300px;
-    height: 570px;
-    margin-bottom: 32px;
+    width: auto;
+    height: auto;
   }
 `;
 
 const AText = styled.p`
   color: ${colors.stone[300]};
   ${typography.head.lgx}
-  margin: 32px 0 0 0;
+  margin: 0;
+  padding: 2rem 0 0 0;
 
   @media (max-width: 500px) {
     ${typography.head.md};
@@ -56,9 +39,11 @@ const BText = styled.p`
   ${typography.head.xs}
   color: ${colors.white};
   font-weight: 500;
+  margin: 0;
+  padding: 1.5rem 0;
 
-  @media (max-width: 500px) {
-    ${typography.head.sm};
+   @media (max-width: 500px) {
+    ${typography.text.lg};
   }
 `
 

@@ -11,8 +11,10 @@ const CardWrapper = styled.div`
   grid-area: left;
   padding: 32px 0 32px 64px;
 
-  @media(max-width: 900px) {
-    width: 300px;
+  @media (max-width: 1000px) {
+    width: auto;
+    height: auto;
+    padding: 3rem 0 0 0;
   }
 `;
 
@@ -22,9 +24,14 @@ const SocialMediaWrapper = styled.div`
 `;
 
 const Img = styled.img`
-  width: 200px;
-  height: 200px;
+  width: auto;
+  height: 320px;
   border-radius: 15%;
+
+  @media (max-width: 1000px) {
+    width: auto;
+    height: 230px;
+  }
 `
 
 const SocialLink = styled.a`

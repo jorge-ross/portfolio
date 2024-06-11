@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 import Header from "../components/header";
 import Card from "../components/card";
-import mypic from "../assets/images/av1.jpg"
+import mypic from "../assets/images/Developer.jpg"
 import TextInDescription from "../components/fields/description-field";
 import ProjectCard from "../components/project-card";
 import Footer from "../components/footer";
@@ -23,23 +23,25 @@ const GeneralContainer = styled.div`
 
 const IntroContainer = styled.div`
   background-color: ${colors.black[600]};
-  height: 480px;
+  height: 580px;
   width: 80%;
   place-items: center;
   position: relative;
   display: grid;
   grid-template-columns: 0.6fr 2fr;
-  gap: 3rem;
+  gap: 4rem;
   grid-template-rows: auto;
   grid-template-areas: "left right";
   border-bottom: 1px solid #A8A29E;
 
   @media (max-width: 1000px) {
+    width: 100%;
+    gap: 1rem;
     grid-template-columns: 1fr;
     grid-template-areas:
       "left"
       "right";
-    height: 100%
+      height: auto;
   }
 `;
 
@@ -181,13 +183,13 @@ const Statement = styled.div`
   flex-direction: column;
   width: 70%;
   gap: 3rem;
-  padding-bottom: 4rem;
+  padding-bottom: 5rem;
 `
 
 const AText = styled.p`
   color: ${colors.stone[300]};
   ${typography.head.lgx};
-  margin: 3rem 0 0 0;
+  margin: 5rem 0 0 0;
 
   @media (max-width: 500px) {
     ${typography.head.md};
@@ -219,7 +221,6 @@ function Home () {
         />
         <TextInDescription/>
       </IntroContainer>
-
 
       <DescriptionSection>
         <HomeDescription></HomeDescription>
