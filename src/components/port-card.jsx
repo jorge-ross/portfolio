@@ -14,17 +14,21 @@ const PortCard = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 400px;
+  width: 320px;
+  height: 320px;
   letter-spacing: 0.5px;
   cursor: pointer;
-   background-color: white;
+  gap: .5rem;
+  border: 1px solid white;
 
   @media (max-width: 1200px) {
-    width: 350px;
+    width: 280px;
+    height: 280px;
   }
 
   @media (max-width: 600px) {
-    width: 300px;
+    width: 200px;
+    height: 200px;
   }
 
   @media (max-width: 400px) {
@@ -34,44 +38,38 @@ const PortCard = styled.div`
 `;
 
 const ProjectImg = styled.img`
-  width: 90%;
-  height: 200px;
+  width: 85%;
+  height: 150px;
  
 
   @media (max-width: 1200px) {
-    height: 170px;
+    height: 130px;
   }
 
   @media (max-width: 600px) {
-    height: 150px;
+    height: 100px;
   }
 `;
 
 const DescriptionField = styled.div`
-  background-color: ${colors.stone[100]};
-  width: 90%;
-  height: 90px;
+  width: 85%;
   display: flex;
   flex-direction: column;
 `
 
 const Title = styled.p`
-  ${typography.text.lg}
-  color: black;
+  ${typography.head.xs}
+  color: white;
   text-align: justify;
   margin: 0;
-  padding: 16px 16px 5px;
+  padding: .875rem 0;
 `
 
 const TechContainer = styled.div`
   width: 100%;
-  height: 40px;
-  padding-left: 16px;
   display: flex;
   align-items: center;
-  gap: 12px;
-  border-bottom-left-radius: 24px;
-  border-bottom-right-radius: 24px;
+  gap: 0.5rem;
 `
 
 const techIcons = {

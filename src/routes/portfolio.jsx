@@ -32,6 +32,14 @@ const Title = styled.h1`
   justify-content: center;
   align-items: center;
   text-align: center;
+
+  @media(max-width: 1200px) {
+  ${typography.head.md};
+  }
+
+   @media(max-width: 1200px) {
+  ${typography.head.sm};
+  }
 `;
 
 const T1 = styled.h1`
@@ -46,9 +54,13 @@ const ProjectContainer = styled.div`
   display: grid;
   grid-template-columns: repeat(3, auto);
   padding: 4rem 0;
-  gap: 2rem;
+  gap: 3rem;
 
-  @media(max-width: 900px) {
+  @media(max-width: 1000px) {
+    grid-template-columns: repeat(2, auto);
+  }
+
+  @media(max-width: 600px) {
     grid-template-columns: 1fr;
   }
 `
