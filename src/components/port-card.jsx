@@ -1,6 +1,5 @@
 import styled from "@emotion/styled";
 import { typography } from "../styles/typography";
-import { colors } from "../styles/colors";
 import PropTypes from 'prop-types';
 
 import { RiJavascriptFill, RiReactjsFill, RiAngularjsFill } from 'react-icons/ri';
@@ -40,6 +39,7 @@ const PortCard = styled.div`
 const ProjectImg = styled.img`
   width: 85%;
   height: 150px;
+filter: grayscale(100%);
  
 
   @media (max-width: 1200px) {
@@ -48,6 +48,11 @@ const ProjectImg = styled.img`
 
   @media (max-width: 600px) {
     height: 100px;
+  }
+
+  &:hover {
+    transition: filter 0.3s ease;
+    filter: grayscale(0%);
   }
 `;
 

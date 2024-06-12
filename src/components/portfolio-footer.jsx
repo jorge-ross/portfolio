@@ -24,7 +24,7 @@ const ZContainer = styled.div`
   color: ${colors.stone[200]};
   font-weight: 500;
   margin: 0;
-  padding: 4rem 0 5rem;
+  padding: 3rem 0;
   text-align: left;
 
   @media (max-width: 800px) {
@@ -34,27 +34,40 @@ const ZContainer = styled.div`
 
 const MediaIcons = styled.ul`
   list-style: none;
-  display: grid;
-  grid-template-columns: repeat(2, auto);
+  display: flex;
+  flex-direction: row;
   padding: 0;
   align-items: center;
-  gap: 4rem;
+  gap: 2rem;
   margin: 0;
   color: white;
 
   @media (max-width: 800px) {
     padding: 0 0 5rem 0;
   }
+  
+  @media (max-width: 500px) {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    align-items: center;
+    justify-content: center;
+  }
 `
 
 const SocialListItem = styled.li`
   margin: 0;
+
+  @media (max-width: 500px) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 `;
 
 const SocialLink = styled.a`
   color: inherit;
   text-decoration: none;
-  font-size: 2.5rem;
+  font-size: 2rem;
   cursor: pointer;
   display: flex;
   flex-direction: row;
@@ -66,6 +79,11 @@ const AText = styled.p`
   color: ${colors.stone[300]};
   ${typography.head.lg};
   margin: 0;
+
+  @media (max-width: 500px){
+    ${typography.head.md};
+    text-align: center;
+  }
 `
 
 const Text = styled.p`
@@ -75,13 +93,6 @@ const Text = styled.p`
   font-weight: 400;
 `
 
-const FFText = styled.p`
-  ${typography.text.md}
-  color: ${colors.stone[100]};
-  margin: .5rem 0;
-  font-weight: 400;
-  text-align: right;
-`
 
 const SocialLinkText = styled.p`
   ${typography.text.md}
@@ -94,48 +105,20 @@ const SocialLinkText = styled.p`
   }
 `
 
-const OutlineText = styled.p`
-  ${typography.text.md}
-  color: ${colors.stone[100]};
-  margin: 0;
-  }
-`
-
-const MailText = styled.span`
-  ${typography.text.md}
-  color: ${colors.stone[100]};
-  margin: 0;
-  text-decoration: underline;
-
-  &:hover {
-    color: ${colors.yellow[400]};
-    cursor: pointer;
-  }
-`
-
-function Footer() {
+function PortFooter() {
 
   return (
     <ContainerFooter>
       <ZContainer>
         <AText>
-        Let&#39;s chat! <br/><br/>
+        Jorge Rosano <br/><br/>
         </AText>
         <Text>
-          Need a full-stack developer to help out? <br/>
+        An independent web developer from Mexico. <br/>
         </Text>
-        <OutlineText>
-          <MailText>
-          Send me an email
-          </MailText>
-          &nbsp;and see how we can make a positive impact together! <br/><br/>
-        </OutlineText>
-        <FFText>
-          Find me on these online spaces too! →<br/>
-        </FFText>
       </ZContainer>
   
-      <MediaIcons>
+        <MediaIcons>
         <SocialListItem>
           <SocialLink href="https://github.com" target="_blank" rel="noopener noreferrer">
             <SocialLinkText>GitHub</SocialLinkText>
@@ -167,4 +150,4 @@ function Footer() {
   )
 }
 
-export default Footer;
+export default PortFooter;
