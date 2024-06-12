@@ -10,21 +10,14 @@ import { AiFillHtml5 } from 'react-icons/ai';
 import { BiLogoCss3 } from 'react-icons/bi';
 
 const PortCard = styled.div`
-  border-radius: 24px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 400px;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
   letter-spacing: 0.5px;
-  color: #616161;
-  border-bottom: 6px solid #34D399;
-  box-shadow: 0 0 4px rgba(255, 255, 255, 0.7);
-  position: relative;
   cursor: pointer;
+   background-color: white;
 
   @media (max-width: 1200px) {
     width: 350px;
@@ -41,10 +34,9 @@ const PortCard = styled.div`
 `;
 
 const ProjectImg = styled.img`
-  width: 100%;
+  width: 90%;
   height: 200px;
-  border-top-left-radius: 24px;
-  border-top-right-radius: 24px;
+ 
 
   @media (max-width: 1200px) {
     height: 170px;
@@ -57,9 +49,8 @@ const ProjectImg = styled.img`
 
 const DescriptionField = styled.div`
   background-color: ${colors.stone[100]};
-  width: 100%;
+  width: 90%;
   height: 90px;
-  border-radius: 0 0 20px 20px;
   display: flex;
   flex-direction: column;
 `

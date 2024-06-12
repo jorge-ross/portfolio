@@ -12,65 +12,44 @@ const Gcontainer = styled.div`
   background-color: ${colors.black[300]};
   display: flex;
   flex-direction: column;
+  align-items: center;
   margin: 0;
 `
 
-const TextContainer = styled.div`
+const TitleCont = styled.div`
   display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 60px;
-  margin-top: 16px;
-`;
-
+  flex-direction: column;
+  width: 40%;
+  gap: 1.5rem;
+  padding: 5rem 0 4rem;
+  border-bottom: 1px solid #A8A29E;
+`
 const Title = styled.h1`
   ${typography.head.lg};
   color: ${colors.white};
   margin: 0;
-`
-
-const Container = styled.div`
-  margin: 16px auto;
-  width: 1000px;
-  height: 100%;
-  background-color: ${colors.black[300]};
   display: flex;
   justify-content: center;
-  place-items: center;
-  position: relative;
+  align-items: center;
+  text-align: center;
+`;
 
-  @media (max-width: 1200px) {
-    width: 850px;
-  }
-
-  @media (max-width: 900px) {
-    width: 600px;
-  }
-
-  @media (max-width: 600px) {
-    width: 360px;
-  }
-
-  @media (max-width: 390px) {
-    width: 300px;
-  }
-
+const T1 = styled.h1`
+  ${typography.head.md};
+  color: ${colors.blue[300]};
+  margin: 0;
+  text-align: left;
+  padding
 `
 
 const ProjectContainer = styled.div`
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-row-gap: 60px;
-  grid-column-gap: 0;
-  grid-template-rows: repeat(2, 1fr);
-  place-items: center;
-  padding: 24px 20px;
-  height: 100%;
-  width: 100%;
+  grid-template-columns: repeat(3, auto);
+  padding: 4rem 0;
+  gap: 2rem;
 
   @media(max-width: 900px) {
     grid-template-columns: 1fr;
-    height: 100%;
   }
 `
 
@@ -79,10 +58,13 @@ function Portfolio() {
   return (
     <Gcontainer>
       <Header />
-      <TextContainer>
-      <Title>My projects</Title>.
-      </TextContainer>
-        <Container>
+      <TitleCont>
+      <T1>Work</T1>
+      <Title>
+        Here&#39;s a selection of some of the things I&#39;ve built.
+      </Title>
+      </TitleCont>
+
           <ProjectContainer>
             {projects?.map((project, id) => (
               <Link to={`/projects/${id}`} key={project.id}
@@ -97,7 +79,7 @@ function Portfolio() {
             </Link>
             ))}
           </ProjectContainer>
-        </Container>
+
       <Footer />
     </Gcontainer>
   )
