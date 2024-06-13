@@ -14,25 +14,21 @@ import MemberCard from "../components/member-card";
 
 
 const GralContainer = styled.div`
-  margin: 30px auto;
-  width: 100%;
+  margin: 0;
   background-color: ${colors.black[600]};
-  height: 750px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  padding: 4rem;
+`
+
+const ProjectContainer = styled.div`
+  width: 80%;
   display: flex;
   flex-direction: column;
   align-items: center;
-
-  @media (max-width: 1400px) {
-    height: 1000px;
-  }
-
-  @media (max-width: 950px) {
-    height: 1250px;
-  }
-
-  @media (max-width: 600px) {
-    height: 1550px;
-  }
+  justify-content: center;
+  border: 1px solid white;
 `
 
 const DetailContainer = styled.div`
@@ -217,6 +213,7 @@ function ProjectDetail() {
     <div>
       <Header />
       <GralContainer>
+        <ProjectContainer>
        <DetailContainer>
         <TitleCont>{project.title}</TitleCont>
         <ImgCont>
@@ -248,8 +245,9 @@ function ProjectDetail() {
           ))}
         </MembersContainer>
        </TeamContainer>
+        <Footer />
+        </ProjectContainer>
       </GralContainer>
-      <Footer />
     </div>
   )
 }

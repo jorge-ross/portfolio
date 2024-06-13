@@ -49,7 +49,7 @@ const Title = styled.h1`
 
 const T1 = styled.h1`
   font-family: "Roboto Condensed", sans-serif;
-  font-size: 1.5rem;
+  font-size: 1rem;
   font-weight: 500;
   letter-spacing: 0.2rem;
   color: ${colors.blue[300]};
