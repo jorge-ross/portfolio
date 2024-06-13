@@ -1,9 +1,7 @@
 import styled from "@emotion/styled";
-import Header from "../components/header";
 import Footer from "../components/footer";
 import { useParams } from "react-router-dom";
 import { Link } from "react-router-dom";
-import { useState, useEffect } from 'react';
 
 import ProjectCover from "../components/fields/project-cover";
 import { colors } from "../styles/colors";
@@ -15,44 +13,65 @@ import MemberCard from "../components/member-card";
 
 const GralContainer = styled.div`
   margin: 0;
-  background-color: ${colors.black[600]};
   height: auto;
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  padding: 4rem;
+  padding: 6rem;
+  align-items: center;
+
+  @media(max-width: 750px) {
+    padding: 4rem 1rem;
+  }
 `
 
 const ProjectContainer = styled.div`
+  padding: 4rem 2rem;
   width: 80%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
   border: 1px solid white;
+
+  @media(max-width: 750px) {
+    border: none;
+    width: 95%;
+  }
 `
 
 const DetailContainer = styled.div`
-  width: 930px;
-  display: grid;
-  grid-template-columns: 1.2fr 1fr;
-  grid-gap: 20px;
-  padding-bottom: 24px;
+  width: 80%;
+  display: flex;
+  gap: 3rem;
+  padding: 0 2rem 4rem;
 
-  @media(max-width: 950px) {
-    grid-template-columns: 1fr;
-    grid-template-areas:
-      "left"
-      "right";
-    width: 500px;
-    margin: 16px 0 0 0;
+  @media(max-width: 1000px) {
+    flex-direction: column;
+    gap: 3rem;
+    padding: 1rem 0 4rem;
   }
+`
 
-  @media(max-width: 540px) {
-    width: 400px;
+const TitleCont = styled.div`
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 60%;
+
+  @media(max-width: 1000px) {
+    justify-content: center;
+    width: 100%;
   }
+`
 
-  @media(max-width: 400px) {
-    width: 320px;
+const Title = styled.p`
+  margin: 0;
+  ${typography2.head.lg};
+  color: white;
+
+
+  @media (max-width: 1000px) {
+    ${typography2.head.lg};
   }
 `
 
@@ -98,30 +117,11 @@ const DetailTwoContainer = styled.div`
   }
 `
 
-const ImgCont = styled.div`
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 0;
-  height: 250px;
-`
 
-const TitleCont = styled.p`
-  margin: 0;
-  ${typography2.head.xxl}
-  color: ${colors.green[300]};
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  @media (max-width: 540px) {
-    ${typography2.head.lg};
-  }
-`
 
 const SummaryCont = styled.div`
   ${typography.text.xl};
-  color: ${colors.stone[200]};
+  color: white;
   display: flex;
   align-items: center;
   text-align: left;
@@ -169,7 +169,7 @@ const TeamContainer = styled.div`
 
 const TeamTt = styled.p`
   ${typography.head.md};
-  color: ${colors.green[300]};
+  color: white;
   margin: 24px 0 24px 0;
 `
 
@@ -196,30 +196,15 @@ function ProjectDetail() {
   const index = parseInt(id)
   const project = projects[index];
 
-  const [screenWidth, setScreenWidth] = useState(window.innerWidth);
-
-  useEffect(() => {
-    const handleResize = () => {
-      setScreenWidth(window.innerWidth);
-    };
-    window.addEventListener('resize', handleResize);
-
-    return () => {
-      window.removeEventListener('resize', handleResize);
-    };
-  }, []);
-
   return (
-    <div>
-      <Header />
+
       <GralContainer>
         <ProjectContainer>
        <DetailContainer>
-        <TitleCont>{project.title}</TitleCont>
-        <ImgCont>
-          <ProjectCover size={screenWidth < 540 ? 'sm' : 'md'}
-           src={project.imgSrc} />
-        </ImgCont>
+        <TitleCont>
+          <Title>{project.title}</Title>
+        </TitleCont>
+        <ProjectCover src={project.imgSrc} />
        </DetailContainer>
        <DaContainer>
        <DetailTwoContainer> 
@@ -245,10 +230,10 @@ function ProjectDetail() {
           ))}
         </MembersContainer>
        </TeamContainer>
-        <Footer />
         </ProjectContainer>
+        <Footer />
       </GralContainer>
-    </div>
+
   )
 }
 
