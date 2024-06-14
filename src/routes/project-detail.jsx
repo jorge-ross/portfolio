@@ -133,8 +133,8 @@ const RepoCont = styled.div`
 const TeamContainer = styled.div`
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
+  padding: 3rem 0 0 0;
 
   @media (max-width: 1400px) {
     height: 600px;
@@ -148,16 +148,18 @@ const TeamContainer = styled.div`
 const TeamTt = styled.p`
   ${typography.head.md};
   color: white;
-  margin: 24px 0 24px 0;
+  margin: 0;
+  padding-bottom: 3rem;
 `
 
 const MembersContainer = styled.div`
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  gap: 32px;
-  padding: 24px 0;
-  border-top: 1px solid #78716C;
-  border-bottom: 1px solid #78716C;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  gap: 4rem;
+  padding: 4rem 0;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
 
   @media (max-width: 1400px) {
     grid-template-columns: repeat(2, 1fr);
