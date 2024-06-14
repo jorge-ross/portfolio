@@ -1,5 +1,4 @@
 import styled from "@emotion/styled";
-import Footer from "../components/footer";
 import { useParams } from "react-router-dom";
 import { Link } from "react-router-dom";
 
@@ -8,6 +7,7 @@ import { typography, typography2 } from "../styles/typography";
 import { projects } from "../components/data";
 import { RepoButton } from "../components/button";
 import MemberCard from "../components/member-card";
+import DetailFooter from "../components/fields/detail-footer";
 
 
 const GralContainer = styled.div`
@@ -16,7 +16,7 @@ const GralContainer = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 5rem 6rem 6rem;
+  padding: 5rem 6rem;
   align-items: center;
 
   @media(max-width: 750px) {
@@ -26,13 +26,20 @@ const GralContainer = styled.div`
 
 const Header = styled.div`
   display: flex;
-  padding: 0 0 5.5rem;
+  justify-content: space-between;
+  padding: 0 0 5rem;
   width: 90%;
 `
 
 const T0 = styled.h1`
   margin: 0;
   ${typography.head.md};
+  color: white;
+`
+
+const T01 = styled.h4`
+  margin: 0;
+  ${typography.text.sm};
   color: white;
 `
 
@@ -55,7 +62,6 @@ const DetailContainer = styled.div`
   display: flex;
   gap: 3rem;
   padding: 0 2rem 4rem;
-  border-bottom: 1px solid white;
 
   @media(max-width: 1000px) {
     flex-direction: column;
@@ -95,6 +101,7 @@ const DaContainer = styled.div`
   justify-content: center;
   align-items: center;
   padding: 4rem 0;
+  border-top: 1px solid white;
   border-bottom: 1px solid white;
 `
 
@@ -135,14 +142,6 @@ const TeamContainer = styled.div`
   flex-direction: column;
   align-items: center;
   padding: 3rem 0 0 0;
-
-  @media (max-width: 1400px) {
-    height: 600px;
-  }
-
-  @media (max-width: 600px) {
-    height: 750px;
-  }
 `
 
 const TeamTt = styled.p`
@@ -154,18 +153,16 @@ const TeamTt = styled.p`
 
 const MembersContainer = styled.div`
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   align-items: center;
   gap: 4rem;
   padding: 4rem 0;
-  border-top: 1px solid white;
-  border-bottom: 1px solid white;
 
-  @media (max-width: 1400px) {
+  @media (max-width: 1250px) {
     grid-template-columns: repeat(2, 1fr);
   }
 
-  @media (max-width: 600px) {
+  @media (max-width: 850px) {
     grid-template-columns: 1fr;
   }
 `
@@ -180,6 +177,7 @@ function ProjectDetail() {
 
       <GralContainer>
         <Header>
+          <T01>← Back to portfolio</T01>
           <T0>Jorge Rosano</T0>
         </Header>
         <ProjectContainer>
@@ -216,7 +214,7 @@ function ProjectDetail() {
         </MembersContainer>
        </TeamContainer>
         </ProjectContainer>
-        <Footer />
+        <DetailFooter />
       </GralContainer>
 
   )
