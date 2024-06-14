@@ -4,7 +4,6 @@ import { useParams } from "react-router-dom";
 import { Link } from "react-router-dom";
 
 import ProjectCover from "../components/fields/project-cover";
-import { colors } from "../styles/colors";
 import { typography, typography2 } from "../styles/typography";
 import { projects } from "../components/data";
 import { RepoButton } from "../components/button";
@@ -17,12 +16,24 @@ const GralContainer = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 6rem;
+  padding: 5rem 6rem 6rem;
   align-items: center;
 
   @media(max-width: 750px) {
     padding: 4rem 1rem;
   }
+`
+
+const Header = styled.div`
+  display: flex;
+  padding: 0 0 5.5rem;
+  width: 90%;
+`
+
+const T0 = styled.h1`
+  margin: 0;
+  ${typography.head.md};
+  color: white;
 `
 
 const ProjectContainer = styled.div`
@@ -44,6 +55,7 @@ const DetailContainer = styled.div`
   display: flex;
   gap: 3rem;
   padding: 0 2rem 4rem;
+  border-bottom: 1px solid white;
 
   @media(max-width: 1000px) {
     flex-direction: column;
@@ -76,48 +88,15 @@ const Title = styled.p`
 `
 
 const DaContainer = styled.div`
-  background-color: ${colors.black[300]};
-  width: 97%;
-  height: 240px;
+  width: 80%;
   display: flex;
+  flex-direction: row;
+  gap: 5rem;
   justify-content: center;
   align-items: center;
-  border-radius: 100px;
-  margin: 0 0 16px 0;
-
-  @media(max-width: 950px) {
-    height: 400px;
-  }
-
-  @media(max-width: 500px) {
-    height: 390px;
-    border-radius: 10px;
-  }
+  padding: 4rem 0;
+  border-bottom: 1px solid white;
 `
-
-const DetailTwoContainer = styled.div`
-  width: 930px;
-  display: grid;
-  grid-template-columns: 1.3fr 0.7fr;
-  grid-gap: 20px;
-  align-items: center;
-
-  @media(max-width: 950px) {
-    grid-template-columns: 1fr;
-    grid-gap: 1px;
-    grid-template-areas:
-      "left"
-      "right";
-    width: 500px;
-    height: 300px;
-  }
-
-  @media(max-width: 500px) {
-    width: 300px;
-  }
-`
-
-
 
 const SummaryCont = styled.div`
   ${typography.text.xl};
@@ -125,7 +104,6 @@ const SummaryCont = styled.div`
   display: flex;
   align-items: center;
   text-align: left;
-  margin: 20px;
 
   @media (max-width: 950px) {
     ${typography.text.lg};
@@ -199,6 +177,9 @@ function ProjectDetail() {
   return (
 
       <GralContainer>
+        <Header>
+          <T0>Jorge Rosano</T0>
+        </Header>
         <ProjectContainer>
        <DetailContainer>
         <TitleCont>
@@ -206,16 +187,18 @@ function ProjectDetail() {
         </TitleCont>
         <ProjectCover src={project.imgSrc} />
        </DetailContainer>
+
        <DaContainer>
-       <DetailTwoContainer> 
+
         <SummaryCont>{project.summary}</SummaryCont>
         <RepoCont>
           <Link to={project.project_url}>
           <RepoButton>Go to Repo!</RepoButton>
           </Link>
         </RepoCont>
-       </DetailTwoContainer>
+
        </DaContainer>
+
        <TeamContainer>
         <TeamTt>
           {project.team.length > 1 ? "The team" : "Created by"}</TeamTt>

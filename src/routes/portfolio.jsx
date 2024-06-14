@@ -9,7 +9,6 @@ import PortfolioCard from "../components/port-card";
 import PortFooter from "../components/portfolio-footer";
 
 const Gcontainer = styled.div`
-  background-color: ${colors.black[300]};
   display: flex;
   flex-direction: column;
   align-items: center;
