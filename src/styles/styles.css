@@ -1,0 +1,17 @@
+.link-style {
+  text-decoration: none;
+  color: white;
+  font-family: 'Playfair Display', serif;
+  transition: color 0.3s;
+  font-size: 1rem;
+}
+
+.link-style:hover {
+  color: yellow;
+}
+
+@media (max-width: 600px) {
+  .link-style {
+    font-size: 0.85rem;
+  }
+}

@@ -1,5 +1,6 @@
 import styled from "@emotion/styled";
 import { useParams } from "react-router-dom";
+import '../styles/styles.css';
 import { Link } from "react-router-dom";
 
 import ProjectCover from "../components/fields/project-cover";
@@ -29,18 +30,20 @@ const Header = styled.div`
   justify-content: space-between;
   padding: 0 0 5rem;
   width: 90%;
+
+  @media(max-width: 600px) {
+  padding: 0;
+  }
 `
 
 const T0 = styled.h1`
   margin: 0;
   ${typography.head.md};
   color: white;
-`
 
-const T01 = styled.h4`
-  margin: 0;
-  ${typography.text.sm};
-  color: white;
+  @media(max-width: 600px) {
+  display: none;
+  }
 `
 
 const ProjectContainer = styled.div`
@@ -54,6 +57,7 @@ const ProjectContainer = styled.div`
   @media(max-width: 750px) {
     border: none;
     width: 95%;
+    padding: 3rem 2rem;
   }
 `
 
@@ -177,7 +181,13 @@ function ProjectDetail() {
 
       <GralContainer>
         <Header>
-          <T01>← Back to portfolio</T01>
+        <Link
+          to="/projects"
+          className="link-style"
+          onClick={() => window.scrollTo(0, 0)}
+        >
+          ← Back to portfolio
+        </Link>
           <T0>Jorge Rosano</T0>
         </Header>
         <ProjectContainer>
