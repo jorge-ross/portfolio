@@ -3,6 +3,8 @@ export const projects = [
     id: "1",
     imgSrc:
       "https://github.com/jorge-ross/the-portfolio/raw/main/src/assets/images/get-that-home.png",
+    imgComp:
+      "https://github.com/jorge-ross/the-portfolio/raw/main/src/assets/images/gth-cmp.png",
     title: "Get that home",
     summary:
       "Sophisticated React-based application designed to serve as a compelling, user-friendly platform for renting, selling, and searching for houses and apartments.",
@@ -45,9 +47,11 @@ export const projects = [
     id: "2",
     imgSrc:
       "https://github.com/jorge-ross/the-portfolio/raw/main/src/assets/images/ndev.png",
+    imgComp:
+      "https://github.com/jorge-ross/the-portfolio/raw/main/src/assets/images/intro-brain.jpg",
     title: "Neuro-dev",
     summary:
-      "Explore my bespoke clinic website developed with Angular, delivering a seamless and intuitive user experience for those seeking mental health care.",
+      "Explore my bespoke clinic website, delivering a seamless and intuitive user experience for those seeking mental health care.",
     tech: ["Javascript", "Angular", "HTML", "CSS"],
     team: [
       {
@@ -63,6 +67,8 @@ export const projects = [
     id: "3",
     imgSrc:
       "https://github.com/jorge-ross/the-portfolio/raw/main/src/assets/images/clivia.png",
+    imgComp:
+      "https://github.com/jorge-ross/the-portfolio/raw/main/src/assets/images/cli-comp.png",
     title: "CLIvia Generator",
     summary:
       "The classic trivia game that asks questions about a variety of topics, including history, science, and pop culture. The user can earn one point for each correct answer, the highest score at the end of the game wins. Built with Ruby.",
@@ -80,6 +86,8 @@ export const projects = [
   {
     id: "4",
     imgSrc:
+      "https://github.com/jorge-ross/the-portfolio/raw/main/src/assets/images/doable-one.png",
+    imgComp:
       "https://github.com/jorge-ross/the-portfolio/raw/main/src/assets/images/doable.png",
     title: "Doable",
     summary:
@@ -99,6 +107,8 @@ export const projects = [
     id: "5",
     imgSrc:
       "https://github.com/jorge-ross/the-portfolio/raw/main/src/assets/images/eatable.png",
+    imgComp:
+      "https://github.com/jorge-ross/the-portfolio/raw/main/src/assets/images/eatable-co.png",
     title: "Eatable",
     summary:
       "Dynamic digital menu crafted with React for both personal and commercial use, where the user can explore, create, edit, and delete dishes, thus offering a personalized user experience.",
@@ -117,6 +127,8 @@ export const projects = [
     id: "6",
     imgSrc:
       "https://github.com/jorge-ross/the-portfolio/raw/main/src/assets/images/b-ui.png",
+    imgComp:
+      "https://github.com/jorge-ross/the-portfolio/raw/main/src/assets/images/blog-co.png",
     title: "Blog UI",
     summary:
       "A website focused on the user experience when interacting with an online blog, which is why the objective of this project is to create an enjoyable UI (User Interface) using HTML and CSS.",
@@ -135,6 +147,9 @@ export const projects = [
     id: "7",
     imgSrc:
       "https://github.com/jorge-ross/the-portfolio/raw/main/src/assets/images/contactable.png",
+    imgComp:
+      "https://github.com/jorge-ross/the-portfolio/raw/main/src/assets/images/conco.png",
+
     title: "Contactable",
     summary:
       "Making your life easier! Keep track of contact emails and phone numbers in the Contactable app. Allow us to be your local memory, and focus on what matters most to you! ",
@@ -159,6 +174,8 @@ export const projects = [
     id: "8",
     imgSrc:
       "https://github.com/jorge-ross/the-portfolio/raw/main/src/assets/images/tweetable.png",
+    imgComp:
+      "https://github.com/jorge-ross/the-portfolio/raw/main/src/assets/images/tcom.png",
     title: "Tweetable",
     summary:
       "A simpler version of X, once Twitter, using Ruby on Rails, where users can create, reply and like posts with the objective of creating a minimum viable product (MVP) of the X app.",
@@ -177,6 +194,8 @@ export const projects = [
     id: "9",
     imgSrc:
       "https://github.com/jorge-ross/the-portfolio/raw/main/src/assets/images/critics.png",
+    imgComp:
+      "https://github.com/jorge-ross/the-portfolio/raw/main/src/assets/images/critics-comp.png",
     title: "Critics RC",
     summary:
       "Interactive video game catalog, where the user can sign up, log in with their username and password if already registered, and access reviews and ratings for each of the video games and companies in the database. Additionally, user can create, edit, and delete their own companies and critics.",

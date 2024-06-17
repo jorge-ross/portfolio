@@ -53,8 +53,8 @@ export const FooterButton = styled.button`
 
 export const RepoButton = styled.button`
   ${typography2.head.xss}
-  background-color: ${colors.green[600]};
-  color: white;
+  background-color: white;
+  color: black;
   border: none;
   border-radius: 12px;
   height: 64px;
