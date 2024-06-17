@@ -213,6 +213,8 @@ export const projects = [
   {
     id: "10",
     imgSrc:
+      "https://github.com/jorge-ross/the-portfolio/raw/main/src/assets/images/G-s-1.png",
+    imgComp:
       "https://github.com/jorge-ross/the-portfolio/raw/main/src/assets/images/stats.png",
     title: "GitHub Stats",
     summary:

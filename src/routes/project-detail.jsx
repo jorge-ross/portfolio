@@ -105,8 +105,7 @@ const DaContainer = styled.div`
   gap: 5rem;
   justify-content: center;
   align-items: center;
-  padding: 5rem 0;
- 
+  padding: 5rem 0 0 0;
 `
 
 const SummaryCont = styled.div`
@@ -172,6 +171,12 @@ const MembersContainer = styled.div`
   }
 `
 
+const BCover = styled.img`
+  display: flex;
+  width: 50%;
+  padding: 4rem 0;
+`;
+
 function ProjectDetail() {
 
   const {id} = useParams();
@@ -209,6 +214,8 @@ function ProjectDetail() {
         </RepoCont>
 
        </DaContainer>
+
+       <BCover src={project.imgComp} />
 
        <TeamContainer>
         <TeamTt>
