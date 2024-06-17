@@ -4,7 +4,7 @@ import '../styles/styles.css';
 import { Link } from "react-router-dom";
 
 import ProjectCover from "../components/fields/project-cover";
-import { typography, typography2 } from "../styles/typography";
+import { typography, typography2, typography3 } from "../styles/typography";
 import { projects } from "../components/data";
 import { RepoButton } from "../components/button";
 import MemberCard from "../components/member-card";
@@ -47,7 +47,7 @@ const T0 = styled.h1`
 `
 
 const ProjectContainer = styled.div`
-  padding: 4rem 2rem;
+  padding: 4rem 1rem;
   width: 80%;
   display: flex;
   flex-direction: column;
@@ -64,8 +64,9 @@ const ProjectContainer = styled.div`
 const DetailContainer = styled.div`
   width: 80%;
   display: flex;
-  gap: 3rem;
+  gap: 6rem;
   padding: 0 2rem 4rem;
+   border-bottom: 1px solid white;
 
   @media(max-width: 1000px) {
     flex-direction: column;
@@ -98,19 +99,19 @@ const Title = styled.p`
 `
 
 const DaContainer = styled.div`
-  width: 80%;
+  width: 60%;
   display: flex;
   flex-direction: row;
   gap: 5rem;
   justify-content: center;
   align-items: center;
-  padding: 4rem 0;
-  border-top: 1px solid white;
-  border-bottom: 1px solid white;
+  padding: 5rem 0;
+ 
 `
 
 const SummaryCont = styled.div`
-  ${typography.text.xl};
+  ${typography3.text.xl};
+  font-weight: 500;
   color: white;
   display: flex;
   align-items: center;
@@ -145,14 +146,14 @@ const TeamContainer = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 3rem 0 0 0;
+  padding: 4rem 0 0 0;
+  border-top: 1px solid white;
 `
 
 const TeamTt = styled.p`
   ${typography.head.md};
   color: white;
   margin: 0;
-  padding-bottom: 3rem;
 `
 
 const MembersContainer = styled.div`

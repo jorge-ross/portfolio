@@ -225,6 +225,12 @@ export const projects = [
           "https://github.com/jorge-ross/the-portfolio/raw/main/src/assets/images/jrh.jpg",
         githubUrl: "https://github.com/jorge-ross",
       },
+      {
+        name: "Gabriel Nuñez",
+        profilePicUrl:
+          "https://github.com/jorge-ross/the-portfolio/raw/main/src/assets/images/gab.jpg",
+        githubUrl: "https://github.com/NunezGabriel",
+      },
     ],
     project_url: "https://github.com/jorge-ross/Github-stats",
   },
