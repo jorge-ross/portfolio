@@ -4,7 +4,7 @@ export const projects = [
     imgSrc:
       "https://github.com/jorge-ross/the-portfolio/raw/main/src/assets/images/get-that-home.png",
     imgComp:
-      "https://github.com/jorge-ross/the-portfolio/raw/main/src/assets/images/gth-cmp.png",
+      "https://github.com/jorge-ross/the-portfolio/raw/main/src/assets/images/gth-cpm.png",
     title: "Get that home",
     summary:
       "Sophisticated React-based application designed to serve as a compelling, user-friendly platform for renting, selling, and searching for houses and apartments.",
@@ -48,7 +48,7 @@ export const projects = [
     imgSrc:
       "https://github.com/jorge-ross/the-portfolio/raw/main/src/assets/images/ndev.png",
     imgComp:
-      "https://github.com/jorge-ross/the-portfolio/raw/main/src/assets/images/intro-brain.jpg",
+      "https://github.com/jorge-ross/the-portfolio/raw/main/src/assets/images/neuro-comp.jpg",
     title: "Neuro-dev",
     summary:
       "Explore my bespoke clinic website, delivering a seamless and intuitive user experience for those seeking mental health care.",
