@@ -8,47 +8,29 @@ import { Link } from "react-router-dom";
 import { useState } from "react";
 import { GiHamburgerMenu } from 'react-icons/gi';
 import { IoClose } from 'react-icons/io5';
-import videoSource from '../assets/images/bh.mp4'
 
-const BackgroundVideo = styled.video`
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 70px;
-  border-bottom: 1px solid #A8A29E;
-  object-fit: cover;
-`;
 
 const NavBarContainer = styled.div`
   display: flex;
-  width: 100%;
-  height: 70px;
-  justify-content: space-around;
+  width: 80%;
+  height: 10rem;
   align-items: center;
-  display: flex; 
+  justify-content: space-between;
   flex-direction: row;
-  z-index: 100;
-  transition: height 0.3s ease;
-  position: relative;
+  border-bottom: 1px solid white;
 `;
 
 const NameContainer = styled.h1`
   ${typography2.head.md}
   color: ${colors.stone[100]};
-  position: fixed;
-  left: 64px;
   margin: 0;
 
   @media (max-width: 900px) {
-    left: 16px;
-    ${typography2.head.md};
+    ${typography2.head.sm};
   }
 `
 
 const OptionsContainer = styled.li`
-  position: fixed;
-  right: 64px;
   display: flex;
   flex-direction: row;
   gap: 2rem;
@@ -139,9 +121,6 @@ function Header() {
 
   return (
     <NavBarContainer menuVisible={menuVisible}>
-      <BackgroundVideo autoPlay loop muted>
-        <source src={videoSource} type="video/mp4" />
-      </BackgroundVideo>
       <NameContainer>
       <Link to="/"
       style={{textDecoration: "none", color: "inherit"}}
