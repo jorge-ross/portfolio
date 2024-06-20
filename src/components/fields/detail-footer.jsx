@@ -13,8 +13,8 @@ const ContainerFooter = styled.div`
   justify-content: center;
   gap: 4rem;
 
-  @media (max-width: 800px) {
-    flex-direction: column;
+  @media (max-width: 850px) {
+    border-top: 1px solid white;
   }
 `
 
@@ -27,16 +27,13 @@ const MediaIcons = styled.ul`
   gap: 2rem;
   margin: 0;
   color: white;
-
-  @media (max-width: 800px) {
-    padding: 0 0 5rem 0;
-  }
-  
-  @media (max-width: 500px) {
+ 
+  @media (max-width: 850px) {
     display: grid;
     grid-template-columns: repeat(2, auto);
     align-items: center;
     justify-content: center;
+    gap: 3rem;
   }
 `
 

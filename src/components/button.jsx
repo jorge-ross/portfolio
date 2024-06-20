@@ -52,14 +52,18 @@ export const FooterButton = styled.button`
 `
 
 export const RepoButton = styled.button`
-  ${typography2.head.xss}
+  ${typography2.text.md};
   background-color: white;
   color: black;
   border: none;
-  border-radius: 12px;
-  height: 64px;
-  width: 200px;
+  border-radius: 1rem;
+  width: 150px;
   padding: 16px;
   align-items: center;
   cursor: pointer;
+
+   @media (max-width: 540px) {
+    ${typography2.text.sm};
+    width: 100%;
+  }
 `

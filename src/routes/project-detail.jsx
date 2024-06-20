@@ -28,6 +28,7 @@ const GralContainer = styled.div`
 const Header = styled.div`
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding: 0 0 5rem;
   width: 90%;
 
@@ -48,13 +49,13 @@ const T0 = styled.h1`
 
 const ProjectContainer = styled.div`
   padding: 4rem 1rem;
-  width: 80%;
+  width: 70%;
   display: flex;
   flex-direction: column;
   align-items: center;
   border: 1px solid white;
 
-  @media(max-width: 750px) {
+  @media(max-width: 850px) {
     border: none;
     width: 95%;
     padding: 3rem 2rem;
@@ -64,12 +65,14 @@ const ProjectContainer = styled.div`
 const DetailContainer = styled.div`
   width: 80%;
   display: flex;
-  gap: 6rem;
+  justify-content: space-between;
+  gap: 5rem;
   padding: 0 2rem 4rem;
-   border-bottom: 1px solid white;
+  border-bottom: 1px solid white;
 
   @media(max-width: 1000px) {
     flex-direction: column;
+    align-items: center;
     gap: 3rem;
     padding: 1rem 0 4rem;
   }
@@ -77,9 +80,7 @@ const DetailContainer = styled.div`
 
 const TitleCont = styled.div`
   display: flex;
-  justify-content: flex-start;
   align-items: center;
-  width: 60%;
 
   @media(max-width: 1000px) {
     justify-content: center;
@@ -93,48 +94,42 @@ const Title = styled.p`
   color: white;
 
 
-  @media (max-width: 1000px) {
-    ${typography2.head.lg};
+  @media (max-width: 500px) {
+    ${typography2.head.md};
   }
 `
 
 const DaContainer = styled.div`
-  width: 60%;
+  width: 70%;
   display: flex;
   flex-direction: row;
-  gap: 5rem;
-  justify-content: center;
+  gap: 2rem;
   align-items: center;
   padding: 5rem 0 0 0;
+
+  @media (max-width: 750px) {
+    flex-direction: column;
+  }
 `
 
 const SummaryCont = styled.div`
   ${typography3.text.xl};
-  font-weight: 500;
   color: white;
   display: flex;
-  align-items: center;
-  text-align: left;
 
   @media (max-width: 950px) {
     ${typography.text.lg};
     font-weight: 500;
     margin: 0;
-    text-align: center;
   }
 
   @media (max-width: 540px) {
-    ${typography.text.lg};
-    font-weight: 500;
-    text-align: center;
-    width: 95%;
+    ${typography.text.md};
   }
 `
 
 const RepoCont = styled.div`
   display: flex;
-  justify-content: center;
-  align-items: top;
 
   @media(max-width: 950px) {
     height: 75px;
@@ -142,6 +137,7 @@ const RepoCont = styled.div`
 `
 
 const TeamContainer = styled.div`
+  width: 80%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -159,7 +155,7 @@ const MembersContainer = styled.div`
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   align-items: center;
-  gap: 4rem;
+  gap: 5rem;
   padding: 4rem 0;
 
   @media (max-width: 1250px) {
@@ -173,8 +169,12 @@ const MembersContainer = styled.div`
 
 const BCover = styled.img`
   display: flex;
-  width: 50%;
+  width: 70%;
   padding: 4rem 0;
+
+  @media (max-width: 750px) {
+    padding: 2rem 0 4rem;
+  }
 `;
 
 function ProjectDetail() {
