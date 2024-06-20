@@ -13,7 +13,6 @@ import DetailFooter from "../components/fields/detail-footer";
 
 const GralContainer = styled.div`
   margin: 0;
-  height: auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -57,8 +56,8 @@ const ProjectContainer = styled.div`
 
   @media(max-width: 850px) {
     border: none;
-    width: 95%;
-    padding: 3rem 2rem;
+    padding: 3rem 0;
+    width: auto;
   }
 `
 
@@ -107,7 +106,7 @@ const DaContainer = styled.div`
   align-items: center;
   padding: 5rem 0 0 0;
 
-  @media (max-width: 750px) {
+  @media (max-width: 950px) {
     flex-direction: column;
   }
 `
@@ -164,6 +163,10 @@ const MembersContainer = styled.div`
 
   @media (max-width: 850px) {
     grid-template-columns: 1fr;
+  }
+
+  @media (max-width: 500px) {
+    padding-bottom: 2rem;
   }
 `
 

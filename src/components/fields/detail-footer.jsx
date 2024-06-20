@@ -6,12 +6,10 @@ import { FaSquareXTwitter } from "react-icons/fa6";
 const ContainerFooter = styled.div`
   width: 80%;
   padding: 5rem 0 0 0;
-  height: auto;
   display: flex;
   flex-direction: row;
-  align-items: center;
   justify-content: center;
-  gap: 4rem;
+
 
   @media (max-width: 850px) {
     border-top: 1px solid white;
@@ -33,7 +31,11 @@ const MediaIcons = styled.ul`
     grid-template-columns: repeat(2, auto);
     align-items: center;
     justify-content: center;
-    gap: 3rem;
+    gap: 4rem;
+  }
+
+  @media (max-width: 500px) {
+    gap: 1.5rem;
   }
 `
 
@@ -67,6 +69,10 @@ const SocialLinkText = styled.p`
 
   &:hover {
     text-decoration: underline;
+  }
+
+  @media (max-width: 500px) {
+    display: none;
   }
 `
 
