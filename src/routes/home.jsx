@@ -113,13 +113,9 @@ const ProjectSection = styled.div`
   background-color: ${colors.black[700]};
   display: flex;
   flex-direction: column;
-  align-items: center;
-  place-items: center;
+  padding: 5rem 0;
   width: 80%;
-  height: auto;
-  position: relative;
   border-top: 1px solid #A8A29E;
-  border-bottom: 1px solid #A8A29E;
 
   @media (max-width: 1000px) {
     background-image: none;
@@ -137,7 +133,8 @@ const ProjectText = styled.p`
   color: ${colors.stone[100]};
   font-weight: 600;
   margin: 0;
-  padding: 3rem 0;
+  padding-bottom: 3rem;
+  text-align: center;
 
   @media (max-width: 500px) {
     ${typography.head.sm};
@@ -166,9 +163,10 @@ const PortLink = styled.p`
   ${typography.head.sm}
   color: ${colors.stone[100]};
   font-weight: 500;
+  display: flex;
+  justify-content: flex-end;
   margin: 0;
-  height: 4rem;
-  text-align: right;
+  padding-top: 2rem;
 
   &:hover {
     color: ${colors.yellow[500]};
@@ -181,17 +179,29 @@ const Statement = styled.div`
   height: auto;
   display: flex;
   flex-direction: column;
-  width: 70%;
+  width: 80%;
   gap: 3rem;
-  padding-bottom: 5rem;
+  padding: 5rem 0;
+  border-top: 1px solid #A8A29E;
+
+  @media (max-width: 700px) {
+    gap: 2.5rem;
+  }
 `
 
 const AText = styled.p`
   color: ${colors.stone[300]};
   ${typography.head.lgx};
-  margin: 5rem 0 0 0;
+  margin: 0;
+  padding-left: 6rem;
+
+  @media (max-width: 700px) {
+   ${typography.head.lg};
+    padding-left: 2rem;
+  }
 
   @media (max-width: 500px) {
+    padding: 0;
     ${typography.head.md};
   }
 `;
@@ -200,10 +210,19 @@ const BText = styled.p`
   ${typography.text.lg}
   color: ${colors.white};
   margin: 0;
-  width: 50%;
+  width: 60%;
+  padding-left: 6rem;
+
+  @media (max-width: 700px) {
+    ${typography.text.md}
+    padding-left: 2rem;
+    width: 80%;
+  }
 
   @media (max-width: 500px) {
-    ${typography.head.sm};
+    ${typography.text.sm};
+    padding: 0;
+    width: 100%;
   }
 `
 
