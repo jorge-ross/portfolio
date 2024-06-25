@@ -229,9 +229,9 @@ const BText = styled.p`
 function Home () {
 
      return (
-    <GeneralContainer>
+      <>
+      <GeneralContainer>
       <Header />
-
       <IntroContainer>
         <Card 
         gitHubUrl="https://github.com/jorge-ross"
@@ -280,7 +280,9 @@ function Home () {
       </Statement>
       <Footer />
     </GeneralContainer>
+     </>
   )
 }
+
 
 export default Home;
