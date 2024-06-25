@@ -3,10 +3,10 @@ import { colors } from "../styles/colors";
 import { projects } from "../components/data";
 import { Link } from "react-router-dom";
 
-import Header from "../components/header";
 import { typography, typography3 } from "../styles/typography";
 import PortfolioCard from "../components/port-card";
 import PortFooter from "../components/portfolio-footer";
+import PortfolioHeader from "../components/portfolio-header";
 
 const Gcontainer = styled.div`
   display: flex;
@@ -84,7 +84,7 @@ function Portfolio() {
 
   return (
     <Gcontainer>
-      <Header />
+      <PortfolioHeader />
       <TitleCont>
       <T1>Work</T1>
       <Title>

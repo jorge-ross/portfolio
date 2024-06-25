@@ -52,37 +52,16 @@ const Option = styled.p`
   padding: 16px 0;
 `
 
-// const HamburgerMenu = styled.div`
-//   display: ${props => (props.visible ? "block" : "none")};
-//   background-color: ${colors.black[100]};
-//   border-radius: 0.5rem;
-//   padding-bottom: 16px;
-//   display: none;
-  
-//   @media (max-width: 900px) {
-//     display: ${props => (props.visible ? "block" : "none")}; 
-//     width: 80%;
-//     align-self: center;
-//     z-index: 100;
-//     position: absolute;
-//     top: 0;;
-//     left: 0;
-//     text-align: center;
-//   }
-// `;
-
 const HamburgerMenu = styled.div`
   display: ${props => (props.visible ? "flex" : "none")};
   flex-direction: column;
   background-color: ${colors.black[100]};
-  border-radius: 0.5rem;
-  padding-bottom: 16px;
   width: 250px;
   height: 100%;
   position: fixed;
   top: 0;
   left: ${props => (props.visible ? "0" : "-250px")};
-  transition: left 0.3s ease;
+  transition: left 0.5s ease;
   z-index: 100;
   text-align: center;
 
