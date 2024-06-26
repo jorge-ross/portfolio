@@ -121,7 +121,7 @@ const Statement = styled.div`
 
   @media (max-width: 700px) {
     gap: 2.5rem;
-
+    padding: 4rem 0;
   }
 `
 

@@ -16,6 +16,8 @@ const ContainerFooter = styled.div`
 
   @media (max-width: 800px) {
     flex-direction: column;
+    align-items: flex-start;
+    gap: 2rem;
   }
 `
 
@@ -48,7 +50,7 @@ const MediaIcons = styled.ul`
   
   @media (max-width: 500px) {
     display: grid;
-    grid-template-columns: repeat(2, auto);
+    grid-template-columns: repeat(1, auto);
     align-items: center;
     justify-content: center;
   }
@@ -60,7 +62,7 @@ const SocialListItem = styled.li`
   @media (max-width: 500px) {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
   }
 `;
 
@@ -82,7 +84,7 @@ const AText = styled.p`
 
   @media (max-width: 500px){
     ${typography.head.md};
-    text-align: center;
+    text-align: left;
   }
 `
 
@@ -121,27 +123,27 @@ function PortFooter() {
         <MediaIcons>
         <SocialListItem>
           <SocialLink href="https://github.com" target="_blank" rel="noopener noreferrer">
-            <SocialLinkText>GitHub</SocialLinkText>
             <FaGithub />
+            <SocialLinkText>GitHub</SocialLinkText>
           </SocialLink>
         </SocialListItem>
         <SocialListItem>
           <SocialLink href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
-            <SocialLinkText>LinkedIn</SocialLinkText>
             <FaLinkedin />
+            <SocialLinkText>LinkedIn</SocialLinkText>
           </SocialLink>
         </SocialListItem>
         <SocialListItem>
           <SocialLink href="https://instagram.com" target="_blank" rel="noopener noreferrer">
-            <SocialLinkText>Instagram</SocialLinkText>
             <FaInstagram />
+            <SocialLinkText>Instagram</SocialLinkText>
           </SocialLink>
         </SocialListItem>
         
         <SocialListItem>
           <SocialLink href="https://twitter.com" target="_blank" rel="noopener noreferrer">
-            <SocialLinkText>X</SocialLinkText>
             <FaSquareXTwitter />
+            <SocialLinkText>X</SocialLinkText>
           </SocialLink>
         </SocialListItem>
         </MediaIcons>

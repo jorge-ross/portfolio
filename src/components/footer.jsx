@@ -65,6 +65,10 @@ const SocialLink = styled.a`
   flex-direction: row;
   align-items: center;
   gap: .5rem;
+
+   @media (max-width: 800px) {
+    font-size: 2rem;
+  }
 `;
 
 const AText = styled.p`
@@ -101,6 +105,10 @@ const SocialLinkText = styled.p`
   &:hover {
     text-decoration: underline;
   }
+
+  @media (max-width: 800px) {
+    ${typography.text.sm}
+  }
 `
 
 const OutlineText = styled.p`
@@ -112,13 +120,12 @@ const OutlineText = styled.p`
 
 const MailText = styled.span`
   ${typography.text.md}
-  color: ${colors.stone[100]};
+ color: ${colors.yellow[300]};
   margin: 0;
-  text-decoration: underline;
 
   &:hover {
-    color: ${colors.yellow[400]};
     cursor: pointer;
+    text-decoration: underline;
   }
 `
 

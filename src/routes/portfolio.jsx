@@ -71,12 +71,13 @@ const ProjectContainer = styled.div`
   padding: 5rem 0;
   gap: 2.5rem;
 
-  @media(max-width: 1000px) {
+  @media(max-width: 1100px) {
     grid-template-columns: repeat(2, auto);
   }
 
-  @media(max-width: 600px) {
-    grid-template-columns: 1fr;
+  @media(max-width: 700px) {
+    grid-template-columns: repeat(1, auto);
+    padding: 4rem 0;
   }
 `
 
@@ -102,7 +103,6 @@ function Portfolio() {
               style={{textDecoration: "none"}}
               onClick={() => window.scrollTo(0, 0)}>
               <PortfolioCard
-              // key={id}
               imgSrc={project.imgSrc}
               title={project.title}
               tech={project.tech}

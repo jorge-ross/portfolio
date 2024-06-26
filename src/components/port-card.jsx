@@ -14,40 +14,25 @@ const PortCard = styled.div`
   justify-content: center;
   align-items: center;
   width: 320px;
-  height: 320px;
   letter-spacing: 0.5px;
   cursor: pointer;
   gap: .5rem;
   border: 1px solid white;
-
-  @media (max-width: 1200px) {
-    width: 280px;
-    height: 280px;
-  }
-
-  @media (max-width: 600px) {
-    width: 200px;
-    height: 200px;
-  }
+  padding: 2rem 0;
 
   @media (max-width: 400px) {
-    height: 220px;
-    width: 230px;
+    width: 280px;
   }
 `;
 
 const ProjectImg = styled.img`
-  width: 85%;
+  width: 90%;
   height: 150px;
-filter: grayscale(100%);
- 
+  filter: grayscale(100%);
+  border-radius: 0.75rem;
 
-  @media (max-width: 1200px) {
+  @media (max-width: 400px) {
     height: 130px;
-  }
-
-  @media (max-width: 600px) {
-    height: 100px;
   }
 
   &:hover {
