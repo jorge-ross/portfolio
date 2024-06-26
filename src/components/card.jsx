@@ -7,14 +7,13 @@ const CardWrapper = styled.div`
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 18px;
+  gap: 1.5rem;
   grid-area: left;
-  padding: 32px 0 32px 64px;
+  padding: 0 0 0 4rem;
 
   @media (max-width: 1000px) {
-    width: auto;
-    height: auto;
-    padding: 3rem 0 0 0;
+    padding: 0;
+    align-items: center;
   }
 `;
 
@@ -24,13 +23,11 @@ const SocialMediaWrapper = styled.div`
 `;
 
 const Img = styled.img`
-  width: auto;
-  height: 320px;
+  height: 340px;
   border-radius: 15%;
 
   @media (max-width: 1000px) {
     width: auto;
-    height: 230px;
   }
 `
 

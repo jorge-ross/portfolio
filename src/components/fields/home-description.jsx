@@ -1,34 +1,27 @@
 import styled from "@emotion/styled";
-import { colors } from "../../styles/colors";
 import { typography } from "../../styles/typography";
 
 
 const DescriptionContainer = styled.div`
-  display: flex;
-  flex-direction: row;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
   justify-content: center;
   align-items: center;
   padding: 1rem 0;
-  position: relative;
   width: 80%;
   gap: 3rem;
+  padding: 5rem 0;
+  border-bottom: 1px solid #A8A29E;
 
   @media (max-width: 1000px) {
-    flex-direction: column;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 4rem 0;
   }
 `
 
 const Text = styled.div`
   ${typography.text.md};
-  color: ${colors.stone[300]};
-  height: auto;
-  width: 400px;
-  font-weight: 500;
-
-  @media (max-width: 1000px) {
-    width: auto;
-    padding: 16px 88px;
-  }
+  color: white;
 `
 
 function HomeDescription() {

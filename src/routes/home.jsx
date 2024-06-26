@@ -23,91 +23,24 @@ const GeneralContainer = styled.div`
 
 const IntroContainer = styled.div`
   background-color: ${colors.black[600]};
-  height: 580px;
   width: 80%;
-  place-items: center;
-  position: relative;
   display: grid;
   grid-template-columns: 0.6fr 2fr;
   gap: 4rem;
-  grid-template-rows: auto;
+  padding: 5rem 0;
   grid-template-areas: "left right";
   border-bottom: 1px solid #A8A29E;
 
   @media (max-width: 1000px) {
-    width: 100%;
-    gap: 1rem;
+    gap: 2.5rem;
     grid-template-columns: 1fr;
     grid-template-areas:
       "left"
       "right";
       height: auto;
   }
+      padding: 4rem 0;
 `;
-
-const DescriptionSection = styled.div`
-  background-color: ${colors.black[600]};
-  height: 480px;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-self: center;
-
-  @media (max-width: 1000px) {
-    width: auto;
-    height: 600px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-  }
-
-  @media (max-width: 700px) {
-    width: auto;
-    height: 700px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-  }
-
-  @media (max-width: 550px) {
-    width: auto;
-    height: 800px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-  }
-
-  @media (max-width: 435px) {
-    width: auto;
-    height: 870px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-  }
-  @media (max-width: 405px) {
-    width: auto;
-    height: 960px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-  }
-
-  @media (max-width: 380px) {
-    width: auto;
-    height: 1100px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-  }
-
-  @media (max-width: 353px) {
-    width: auto;
-    height: 1300px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-  }
-`
 
 const ProjectSection = styled.div`
   background-color: ${colors.black[700]};
@@ -115,15 +48,15 @@ const ProjectSection = styled.div`
   flex-direction: column;
   padding: 5rem 0;
   width: 80%;
-  border-top: 1px solid #A8A29E;
 
   @media (max-width: 1000px) {
     background-image: none;
     background-color: #1C1C1C;
     display: flex;
     flex-direction: column;
-    width: auto;
-    height: fit-content;
+    // width: auto;
+    // height: fit-content;
+    padding: 4rem 0;
   }
 
 `
@@ -136,7 +69,7 @@ const ProjectText = styled.p`
   padding-bottom: 3rem;
   text-align: center;
 
-  @media (max-width: 500px) {
+  @media (max-width: 700px) {
     ${typography.head.sm};
   }
 `;
@@ -173,6 +106,10 @@ const PortLink = styled.p`
     text-decoration: underline;
     cursor: pointer;
   }
+
+  @media (max-width: 700px) {
+    ${typography.text.lg}
+  }
 `;
 
 const Statement = styled.div`
@@ -186,6 +123,7 @@ const Statement = styled.div`
 
   @media (max-width: 700px) {
     gap: 2.5rem;
+
   }
 `
 
@@ -241,9 +179,7 @@ function Home () {
         <TextInDescription/>
       </IntroContainer>
 
-      <DescriptionSection>
-        <HomeDescription></HomeDescription>
-      </DescriptionSection>
+      <HomeDescription />
 
 
       <ProjectSection>

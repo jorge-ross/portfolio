@@ -5,17 +5,13 @@ import { typography } from "../../styles/typography";
 
 
 const DescriptionField = styled.div`
-  height: 390px;
-  width: 95%;
   grid-area: right;
   display: flex;
   flex-direction: column;
   justify-content: center;
 
    @media (max-width: 1000px) {
-    width: auto;
-    height: auto;
-    padding: 0 2.5rem 2rem;
+    // padding: 0 2.5rem 2rem;
   }
 
   @media (max-width: 500px) {
@@ -40,10 +36,11 @@ const BText = styled.p`
   color: ${colors.white};
   font-weight: 500;
   margin: 0;
-  padding: 1.5rem 0;
+  padding: 1.5rem 4rem 0 0;
 
-   @media (max-width: 500px) {
+   @media (max-width: 1000px) {
     ${typography.text.lg};
+    padding: 1.5rem 0 0 0;
   }
 `
 

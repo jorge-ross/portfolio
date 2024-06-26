@@ -5,7 +5,6 @@ import { typography2 } from "../styles/typography";
 import { colors } from "../styles/colors";
 import LinkedInLink from "./button";
 import { Link } from "react-router-dom";
-import { useState } from "react";
 
 
 
