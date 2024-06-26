@@ -6,50 +6,48 @@ const Card = styled.div`
   display: flex;
   flex-direction: column;
   gap: 1rem;
-  width: 340px;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  letter-spacing: 0.5px;
-  color: #616161;
-  position: relative;
+  width: 320px;
+  font-size: 12px;
   cursor: pointer;
-
-  @media (max-width: 1050px) {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-  }
+  letter-spacing: 0.5px;
 
   @media (max-width: 1000px) {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
+  }
+
+  @media (max-width: 500px) {
+    width: 260px;
+  }
+
+  @media (max-width: 320px) {
+    width: 220px;
   }
 `;
 
 const ProjectImg = styled.img`
-  width: 100%;
-  height: 160px;
   filter: grayscale(100%);
+  height: 160px;
 
   &:hover {
     transition: filter 0.3s ease;
     filter: grayscale(0%);  
   }
+
+  @media (max-width: 500px) {
+    height: 140px;
+  }
+
+  @media (max-width: 320px) {
+    height: 120px;
+  }
 `;
 
-const DescriptionField = styled.div`
-  margin: 0;
-  height: 100px;
-`
+
 
 const Title = styled.p`
   ${typography.text.lg}
   color: white;
-  text-align: justify;
   margin: 0;
   padding-bottom: 5px;
   
@@ -62,11 +60,7 @@ const Title = styled.p`
 const Summary = styled.p`
   ${typography.text.sm}
   color: white;
-  text-align: justify;
   margin: 0;
-  display: -webkit-box;
-  -webkit-line-clamp: 3;
-  -webkit-box-orient: vertical;
   overflow: hidden;
 `
 
@@ -83,11 +77,9 @@ function ProjectCard({ img, title, summary }) {
 
   return (
     <Card>
-      <ProjectImg src={img} alt="home-cards" />
-      <DescriptionField>
+      <ProjectImg src={img} alt="home-cards" />   
       <Title>{title}</Title>
       <Summary>{trSummary}</Summary>
-      </DescriptionField>
     </Card>
   )
 }

@@ -43,7 +43,7 @@ const IntroContainer = styled.div`
 `;
 
 const ProjectSection = styled.div`
-  background-color: ${colors.black[700]};
+  background-color: ${colors.black[600]};
   display: flex;
   flex-direction: column;
   padding: 5rem 0;
@@ -54,8 +54,6 @@ const ProjectSection = styled.div`
     background-color: #1C1C1C;
     display: flex;
     flex-direction: column;
-    // width: auto;
-    // height: fit-content;
     padding: 4rem 0;
   }
 
@@ -69,7 +67,7 @@ const ProjectText = styled.p`
   padding-bottom: 3rem;
   text-align: center;
 
-  @media (max-width: 700px) {
+  @media (max-width: 500px) {
     ${typography.head.sm};
   }
 `;

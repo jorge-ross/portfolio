@@ -20,6 +20,7 @@ const NavBarContainer = styled.div`
   justify-content: space-between;
   flex-direction: row;
   border-bottom: 1px solid white;
+  
 `;
 
 const NameContainer = styled.h1`
