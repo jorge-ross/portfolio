@@ -16,6 +16,8 @@ const ContainerFooter = styled.div`
 
   @media (max-width: 800px) {
     flex-direction: column;
+    align-items: flex-start;
+    gap: 2rem;
   }
 `
 
@@ -44,6 +46,9 @@ const MediaIcons = styled.ul`
 
   @media (max-width: 800px) {
     padding: 0 0 5rem 0;
+    gap: 2rem;
+    grid-template-columns: repeat(1, auto);
+    align-items: flex-start;
   }
 `
 
@@ -81,6 +86,10 @@ const FFText = styled.p`
   margin: .5rem 0;
   font-weight: 400;
   text-align: right;
+
+  @media (max-width: 800px) {
+    text-align: left;
+  }
 `
 
 const SocialLinkText = styled.p`
@@ -138,27 +147,27 @@ function Footer() {
       <MediaIcons>
         <SocialListItem>
           <SocialLink href="https://github.com" target="_blank" rel="noopener noreferrer">
-            <SocialLinkText>GitHub</SocialLinkText>
             <FaGithub />
+            <SocialLinkText>GitHub</SocialLinkText>
           </SocialLink>
         </SocialListItem>
         <SocialListItem>
           <SocialLink href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
-            <SocialLinkText>LinkedIn</SocialLinkText>
             <FaLinkedin />
+            <SocialLinkText>LinkedIn</SocialLinkText>
           </SocialLink>
         </SocialListItem>
         <SocialListItem>
           <SocialLink href="https://instagram.com" target="_blank" rel="noopener noreferrer">
-            <SocialLinkText>Instagram</SocialLinkText>
             <FaInstagram />
+            <SocialLinkText>Instagram</SocialLinkText>
           </SocialLink>
         </SocialListItem>
         
         <SocialListItem>
           <SocialLink href="https://twitter.com" target="_blank" rel="noopener noreferrer">
-            <SocialLinkText>X</SocialLinkText>
             <FaSquareXTwitter />
+            <SocialLinkText>X</SocialLinkText>
           </SocialLink>
         </SocialListItem>
         </MediaIcons>
