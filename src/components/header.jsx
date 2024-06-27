@@ -61,14 +61,14 @@ const HamburgerMenu = styled.div`
   height: 100%;
   position: fixed;
   top: 0;
-  left: ${props => (props.visible ? "0" : "-250px")};
-  transition: left 0.5s ease;
+  right: ${props => (props.visible ? "0" : "-250px")};
+  transition: right 0.5s ease;
   z-index: 100;
   text-align: center;
 
   @media (max-width: 900px) {
     width: 80%;
-    left: ${props => (props.visible ? "0" : "-80%")};
+    right: ${props => (props.visible ? "0" : "-80%")};
   }
 `;
 

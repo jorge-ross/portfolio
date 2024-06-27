@@ -33,12 +33,8 @@ const IntroContainer = styled.div`
 
   @media (max-width: 1000px) {
     gap: 2.5rem;
-    grid-template-columns: 1fr;
-    grid-template-areas:
-      "left"
-      "right";
-      height: auto;
-  }
+  display: flex;
+  flex-direction: column;
       padding: 4rem 0;
 `;
 

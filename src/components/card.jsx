@@ -20,6 +20,10 @@ const CardWrapper = styled.div`
 const SocialMediaWrapper = styled.div`
   display: flex;
   gap: 10px;
+  
+  @media (max-width: 500px) {
+   align-self: flex-start;
+  }
 `;
 
 const Img = styled.img`
@@ -40,11 +44,15 @@ const SocialLink = styled.a`
 `;
 
 const IconWrapper = styled.div`
-  width: 40px;
-  height: 40px;
+  width: 30px;
+  height: 30px;
   display: flex;
   align-items: center;
   justify-content: center;
+
+  @media (max-width: 500px){
+    width: 1.75rem;
+  }
 `;
 
 function Card({ gitHubUrl, linkedInUrl, img }) {
@@ -65,7 +73,7 @@ function Card({ gitHubUrl, linkedInUrl, img }) {
         </SocialLink>
         <SocialLink href={linkedInUrl}>
           <IconWrapper>
-            <BsLinkedin style={{ width: '88%', height: '78%', color: '#D6D3D1' }} />
+            <BsLinkedin style={{ width: '85%', height: '90%', color: '#D6D3D1' }} />
           </IconWrapper>
         </SocialLink>
         </SocialMediaWrapper>
