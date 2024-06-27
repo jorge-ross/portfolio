@@ -3,15 +3,11 @@ import PropTypes from 'prop-types';
 
 const Cover = styled.div`
   display: flex;
-  width: 60%;
-
-  @media (max-width: 1000px) {
-    width: 90%;
-  }
+  justify-content: center;
 `;
 
 const Img = styled.img`
-  width: 100%;
+  width: 90%;
 `;
 
 const ProjectCover = ({ src }) => {

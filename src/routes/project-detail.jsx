@@ -47,7 +47,7 @@ const T0 = styled.h1`
 `
 
 const ProjectContainer = styled.div`
-  padding: 4rem 1rem;
+  padding: 5rem 3rem;
   width: 70%;
   display: flex;
   flex-direction: column;
@@ -62,15 +62,15 @@ const ProjectContainer = styled.div`
 `
 
 const DetailContainer = styled.div`
-  width: 80%;
-  display: flex;
+  width: 90%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
   justify-content: space-between;
-  gap: 5rem;
-  padding: 0 2rem 4rem;
+  padding-bottom: 4rem;
   border-bottom: 1px solid white;
 
   @media(max-width: 1000px) {
-    flex-direction: column;
+    grid-template-columns: repeat(1, 1fr);
     align-items: center;
     gap: 3rem;
     padding: 1rem 0 4rem;
