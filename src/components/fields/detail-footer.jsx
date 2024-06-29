@@ -12,6 +12,7 @@ const ContainerFooter = styled.div`
 
 
   @media (max-width: 850px) {
+    width: 90%;
     border-top: 1px solid white;
   }
 `
@@ -83,27 +84,27 @@ function DetailFooter() {
         <MediaIcons>
         <SocialListItem>
           <SocialLink href="https://github.com" target="_blank" rel="noopener noreferrer">
-            <SocialLinkText>GitHub</SocialLinkText>
             <FaGithub />
+            <SocialLinkText>GitHub</SocialLinkText>
           </SocialLink>
         </SocialListItem>
         <SocialListItem>
           <SocialLink href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
-            <SocialLinkText>LinkedIn</SocialLinkText>
             <FaLinkedin />
+            <SocialLinkText>LinkedIn</SocialLinkText>
           </SocialLink>
         </SocialListItem>
         <SocialListItem>
           <SocialLink href="https://instagram.com" target="_blank" rel="noopener noreferrer">
-            <SocialLinkText>Instagram</SocialLinkText>
             <FaInstagram />
+            <SocialLinkText>Instagram</SocialLinkText>
           </SocialLink>
         </SocialListItem>
         
         <SocialListItem>
           <SocialLink href="https://twitter.com" target="_blank" rel="noopener noreferrer">
-            <SocialLinkText>X</SocialLinkText>
             <FaSquareXTwitter />
+            <SocialLinkText>X</SocialLinkText>
           </SocialLink>
         </SocialListItem>
         </MediaIcons>

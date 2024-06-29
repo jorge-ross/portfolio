@@ -20,7 +20,7 @@ const GralContainer = styled.div`
   align-items: center;
 
   @media(max-width: 750px) {
-    padding: 4rem 1rem;
+    padding: 4rem 0;
   }
 `
 
@@ -56,7 +56,7 @@ const ProjectContainer = styled.div`
 
   @media(max-width: 850px) {
     border: none;
-    padding: 3rem 0;
+    padding: 4rem 0;
     width: auto;
   }
 `
@@ -73,18 +73,13 @@ const DetailContainer = styled.div`
     grid-template-columns: repeat(1, 1fr);
     align-items: center;
     gap: 3rem;
-    padding: 1rem 0 4rem;
   }
 `
 
 const TitleCont = styled.div`
   display: flex;
   align-items: center;
-
-  @media(max-width: 1000px) {
-    justify-content: center;
-    width: 100%;
-  }
+  justify-content: center;
 `
 
 const Title = styled.p`
@@ -104,10 +99,15 @@ const DaContainer = styled.div`
   flex-direction: row;
   gap: 2rem;
   align-items: center;
-  padding: 5rem 0 0 0;
+  padding: 4rem 0 0 0;
 
-  @media (max-width: 950px) {
+  @media (max-width: 1200px) {
     flex-direction: column;
+    width: 80%;
+  }
+
+  @media (max-width: 500px) {
+    width: 90%;
   }
 `
 
@@ -116,32 +116,29 @@ const SummaryCont = styled.div`
   color: white;
   display: flex;
 
-  @media (max-width: 950px) {
+  @media (max-width: 1000px) {
     ${typography.text.lg};
-    font-weight: 500;
-    margin: 0;
+    margin: 0 0.5rem;
+    text-align: justify;
   }
 
-  @media (max-width: 540px) {
+  @media (max-width: 500px) {
     ${typography.text.md};
   }
 `
 
-const RepoCont = styled.div`
-  display: flex;
-
-  @media(max-width: 950px) {
-    height: 75px;
-  }
-`
-
 const TeamContainer = styled.div`
-  width: 80%;
+  width: 90%;
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 4rem 0 0 0;
   border-top: 1px solid white;
+
+  
+  @media (max-width: 850px) {
+    // align-items: flex-start;
+  }
 `
 
 const TeamTt = styled.p`
@@ -155,29 +152,25 @@ const MembersContainer = styled.div`
   grid-template-columns: repeat(3, 1fr);
   align-items: center;
   gap: 5rem;
-  padding: 4rem 0;
+  padding: 4rem 0 0 0;
 
-  @media (max-width: 1250px) {
+  @media (max-width: 1000px) {
     grid-template-columns: repeat(2, 1fr);
   }
 
-  @media (max-width: 850px) {
-    grid-template-columns: 1fr;
+  @media (max-width: 500px) {
+    gap: 3rem;
   }
 
-  @media (max-width: 500px) {
-    padding-bottom: 2rem;
+  @media (max-width: 350px) {
+    grid-template-columns: repeat(1, auto);
   }
 `
 
 const BCover = styled.img`
   display: flex;
-  width: 70%;
-  padding: 4rem 0;
-
-  @media (max-width: 750px) {
-    padding: 2rem 0 4rem;
-  }
+  width: 80%;
+  padding: 3rem 0 4rem;
 `;
 
 function ProjectDetail() {
@@ -208,14 +201,10 @@ function ProjectDetail() {
        </DetailContainer>
 
        <DaContainer>
-
         <SummaryCont>{project.summary}</SummaryCont>
-        <RepoCont>
-          <Link to={project.project_url}>
-          <RepoButton>Go to Repo!</RepoButton>
-          </Link>
-        </RepoCont>
-
+        <Link to={project.project_url}>
+        <RepoButton>Go to Repo!</RepoButton>
+        </Link>
        </DaContainer>
 
        <BCover src={project.imgComp} />
@@ -230,6 +219,7 @@ function ProjectDetail() {
             name={member.name}
             profilePicUrl={member.profilePicUrl}
             gitHubUrl={member.githubUrl}
+            linkedInUrl={member.linkedinurl}
             />
           ))}
         </MembersContainer>

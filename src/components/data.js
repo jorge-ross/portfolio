@@ -21,6 +21,7 @@ export const projects = [
         profilePicUrl:
           "https://github.com/jorge-ross/the-portfolio/raw/main/src/assets/images/jrh.jpg",
         githubUrl: "https://github.com/jorge-ross",
+        linkedinurl: "https://www.linkedin.com/in/jorgeros13",
       },
       {
         name: "Pedro Arias",

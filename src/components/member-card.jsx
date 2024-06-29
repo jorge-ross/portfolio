@@ -1,28 +1,21 @@
 import styled from "@emotion/styled";
 import { AiOutlineGithub } from 'react-icons/ai';
+import { BsLinkedin } from 'react-icons/bs';
 import { typography2 } from "../styles/typography";
 import PropTypes from 'prop-types';
 
 const CardWrapper = styled.div`
   display: flex;
-  flex-direction: row;
-  gap: 1rem;
-
-  @media (max-width: 850px) {
-   justify-content: center;
-   gap: 2.5rem;
-  }
-
-   @media (max-width: 500px) {
-   gap: 2rem;
-  }
+  flex-direction: column;
+  align-items: center;
+  gap: 1.1rem;
 `;
 
 const DetailsWrapper = styled.div`
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 0.3rem;
+  gap: 0.5rem;
 `;
 
 const MemberName = styled.p`
@@ -38,15 +31,10 @@ const MemberName = styled.p`
 
 const ImgCont = styled.div`
   display: flex;
-  align-items: center;
-  justify-content: center;
+  width: 130px;
 
-  @media (max-width: 850px) {
-   width: 30%;
-  }
-
-   @media (max-width: 500px) {
-   width: 40%;
+   @media (max-width: 700px) {
+    width: 110px;
   }
 `
 
@@ -55,10 +43,18 @@ const Img = styled.img`
   border-radius: 20%;
 `
 
-function MemberCard({ name, gitHubUrl, profilePicUrl }) {
+const MediaWrapper = styled.div`
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.6rem;
+`
+
+function MemberCard({ name, gitHubUrl, linkedInUrl, profilePicUrl }) {
   MemberCard.propTypes = {
     name: PropTypes.string,
     gitHubUrl: PropTypes.string,
+    linkedInUrl: PropTypes.string,
     profilePicUrl: PropTypes.string,
   }
 
@@ -69,9 +65,13 @@ function MemberCard({ name, gitHubUrl, profilePicUrl }) {
       </ImgCont>
       <DetailsWrapper>
         <MemberName>{name}</MemberName>
+        <MediaWrapper>
           <a href={gitHubUrl}> <AiOutlineGithub style={{width: "20px", height: "20px", color: "white", borderRadius: "50%"}}
-          className="fluorescent"
           /> </a>
+          <a href={linkedInUrl}>
+           <BsLinkedin style={{ width: "18px", height: "18px", color: '#D6D3D1' }} />
+          </a>
+        </MediaWrapper>
       </DetailsWrapper>
     </CardWrapper>
   )

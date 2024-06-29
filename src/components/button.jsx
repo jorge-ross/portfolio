@@ -57,13 +57,12 @@ export const RepoButton = styled.button`
   color: black;
   border: none;
   border-radius: 1rem;
-  width: 150px;
+  width: 180px;
   padding: 16px;
   align-items: center;
   cursor: pointer;
 
-   @media (max-width: 540px) {
+   @media (max-width: 500px) {
     ${typography2.text.sm};
-    width: 100%;
   }
 `
