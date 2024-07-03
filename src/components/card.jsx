@@ -8,8 +8,6 @@ const CardWrapper = styled.div`
   flex-direction: column;
   align-items: flex-start;
   gap: 1.5rem;
-  grid-area: left;
-  padding: 0 0 0 4rem;
 
   @media (max-width: 1000px) {
     padding: 0;
@@ -20,18 +18,19 @@ const CardWrapper = styled.div`
 const SocialMediaWrapper = styled.div`
   display: flex;
   gap: 10px;
-  
-  @media (max-width: 500px) {
-   align-self: flex-start;
-  }
+
 `;
 
 const Img = styled.img`
-  height: 340px;
-  border-radius: 15%;
+  width: 270px;
+  border-radius: 13%;
 
-  @media (max-width: 1000px) {
-    width: auto;
+  @media (max-width: 600px) {
+    width: 250px;
+  }
+
+  @media (max-width: 350px) {
+    width: 180px;
   }
 `
 

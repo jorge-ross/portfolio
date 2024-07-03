@@ -22,21 +22,25 @@ const GeneralContainer = styled.div`
 `;
 
 const IntroContainer = styled.div`
-  background-color: ${colors.black[600]};
   width: 80%;
-  display: grid;
-  grid-template-columns: 0.6fr 2fr;
-  gap: 4rem;
-  padding: 5rem 0;
-  grid-template-areas: "left right";
   border-bottom: 1px solid #A8A29E;
+  display: flex;
+  justify-content: center;
+`;
+
+const InsideIntro = styled.div`
+  width: 75%;
+  display: flex;
+  flex-direction: row;
+  gap: 6rem;
+  padding: 5rem 0;
 
   @media (max-width: 1000px) {
     gap: 2.5rem;
-  display: flex;
-  flex-direction: column;
-      padding: 4rem 0;
-`;
+    display: flex;
+    flex-direction: column;
+    padding: 4rem 0;
+`
 
 const ProjectSection = styled.div`
   background-color: ${colors.black[600]};
@@ -44,6 +48,7 @@ const ProjectSection = styled.div`
   flex-direction: column;
   padding: 5rem 0;
   width: 80%;
+  border-top: 1px solid #A8A29E;
 
   @media (max-width: 1000px) {
     background-image: none;
@@ -165,12 +170,15 @@ function Home () {
       <GeneralContainer>
       <Header />
       <IntroContainer>
+        <InsideIntro>
+
         <Card 
         gitHubUrl="https://github.com/jorge-ross"
         linkedInUrl="https://www.linkedin.com/in/jorgeros13"
         img={mypic}
         />
         <TextInDescription/>
+        </InsideIntro>
       </IntroContainer>
 
       <HomeDescription />
@@ -201,11 +209,19 @@ function Home () {
           Why work with me?
         </AText>
         <BText>
-        With a background in computer science, my superpower is problem solving. I&#39;m excellent at breaking down weird and wonderful ideas and figuring out how to get them built.<br/><br/>
+        As a Web Developer, my superpower is problem solving. 
+        I enjoy breaking down complex ideas and 
+        figuring out how to built them.<br/><br/>
 
-        Having worked independently for years, I&#39;m agile and able to move quickly. I&#39;ve launched large internationaly publicised projects that had to work on day one so I understand the importance of reliability and performance.<br/><br/>
+        I&#39;ve worked independently on various projects, 
+        which has made me agile and quick to adapt.
+        I&#39;ve launched projects that needed to work 
+        flawlessly from day one, so I understand the importance 
+        of reliability and performance.<br/><br/>
 
-        Finally, I&#39;m a great communicator and collaborator and understand that you don&#39;t always care about *how* it gets done, just that it gets done well and on time.
+        Finally, I&#39;m a great communicator and collaborator 
+        and I know that what&#39;s most important is getting the job
+        done well and on time.
         </BText>          
       </Statement>
       <Footer />

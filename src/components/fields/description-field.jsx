@@ -5,14 +5,10 @@ import { typography } from "../../styles/typography";
 
 
 const DescriptionField = styled.div`
-  grid-area: right;
   display: flex;
   flex-direction: column;
   justify-content: center;
 
-   @media (max-width: 1000px) {
-    // padding: 0 2.5rem 2rem;
-  }
 
   @media (max-width: 500px) {
     width: auto;
@@ -33,15 +29,22 @@ const AText = styled.p`
 
 const BText = styled.p`
   ${typography.head.xs}
-  color: ${colors.white};
-  font-weight: 500;
+  color: white;
+  font-weight: 400;
   margin: 0;
-  padding: 1.5rem 4rem 0 0;
+  padding: 2rem 0;
 
    @media (max-width: 1000px) {
     ${typography.text.lg};
-    padding: 1.5rem 0 0 0;
   }
+`
+
+const CText = styled.p`
+  ${typography.head.xs}
+  color: white;
+  font-weight: 400;
+  margin: 0;
+  text-align: center;
 `
 
 function TextInDescription() {
@@ -56,8 +59,10 @@ function TextInDescription() {
       , an independent full-stack web developer from México, building apps and online experiences for companies large and small.
       <br/>
       <br/>
-      Ready to bring your next big idea to life.
       </BText>
+      <CText>
+      Ready to bring your next big idea to life!
+      </CText>
     </DescriptionField>
   )
 }
