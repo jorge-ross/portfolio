@@ -29,7 +29,7 @@ const IntroContainer = styled.div`
 `;
 
 const InsideIntro = styled.div`
-  width: 75%;
+  width: 80%;
   display: flex;
   flex-direction: row;
   gap: 6rem;

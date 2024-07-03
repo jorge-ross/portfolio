@@ -39,14 +39,6 @@ const BText = styled.p`
   }
 `
 
-const CText = styled.p`
-  ${typography.head.xs}
-  color: white;
-  font-weight: 400;
-  margin: 0;
-  text-align: center;
-`
-
 function TextInDescription() {
 
   return (
@@ -56,13 +48,15 @@ function TextInDescription() {
       </AText>
       <BText>
       I&#39;m <span style={{color: "#D1AE00", fontWeight: 600}}>Jorge</span> 
-      , an independent full-stack web developer from México, building apps and online experiences for companies large and small.
+      , an independent full-stack web developer from México,
+      designing and developing apps for different types of clients, 
+      ranging from small businesses to growing companies. 
       <br/>
       <br/>
-      </BText>
-      <CText>
+      <br />
       Ready to bring your next big idea to life!
-      </CText>
+      </BText>
+
     </DescriptionField>
   )
 }
