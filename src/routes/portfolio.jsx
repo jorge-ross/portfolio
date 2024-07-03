@@ -93,7 +93,11 @@ function Portfolio() {
       </Title>
 
       <T2>
-      I&#39;ve never had a real job so this is where I keep track of all the things I&#39;ve been doing over the years, whether it&#39;s new businesses I&#39;ve been building out, client projects or just experiments.
+      I&#39;ve never had a traditional job, so this is where I 
+      document everything I&#39;ve been working on over these
+      years—whether it&#39;s new businesses I&#39;ve been developing, 
+      experiments, or projects from my programming 
+      education.
       </T2>
       </TitleCont>
 

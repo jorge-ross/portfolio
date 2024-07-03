@@ -8,7 +8,7 @@ const DescriptionContainer = styled.div`
   justify-content: center;
   align-items: flex-start;
   padding: 1rem 0;
-  width: 50%;
+  width: 60%;
   gap: 5rem;
   padding: 6rem 0;
 
@@ -54,9 +54,7 @@ function HomeDescription() {
        systems.
       <br /> <br /> 
       Whether you&#39;re a non-technical founder building your 
-      first app or an enterprise looking for fresh talent, 
-      I&#39;m ready to help you turn your next big idea into reality.
-      From initial brainstorming sessions to the final product launch, 
+      first app or an enterprise looking for fresh talent,  
       I will work closely with you to bring your vision to life, 
       making sure everything runs smoothly and effectively.
       </Text>
