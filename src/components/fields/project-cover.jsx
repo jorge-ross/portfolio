@@ -12,6 +12,10 @@ const Cover = styled.div`
 
 const Img = styled.img`
   width: 90%;
+
+  @media (max-width: 500px){
+    width: 95%;
+  }
 `;
 
 const ProjectCover = ({ src }) => {

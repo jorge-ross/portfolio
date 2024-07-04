@@ -36,16 +36,6 @@ const Header = styled.div`
   }
 `
 
-const T0 = styled.h1`
-  margin: 0;
-  ${typography.head.md};
-  color: white;
-
-  @media(max-width: 600px) {
-  display: none;
-  }
-`
-
 const ProjectContainer = styled.div`
   padding: 5rem 3rem;
   width: 60%;
@@ -68,6 +58,7 @@ const DetailContainer = styled.div`
   justify-content: space-between;
   padding-bottom: 4rem;
   border-bottom: 1px solid white;
+  gap: 1rem;
 
   @media(max-width: 1200px) {
     grid-template-columns: repeat(1, 1fr);
@@ -109,10 +100,12 @@ const SummaryCont = styled.p`
   display: flex;
   font-weight: 400;
   text-align: justify;
-  line-height: 1.6; 
+  line-height: 1.7; 
 
   @media (max-width: 500px) {
-    ${typography.text.md};
+    ${typography.text.sm};
+    text-align: left;
+     line-height: 1.7;
   }
 `
 
@@ -179,7 +172,6 @@ function ProjectDetail() {
         >
           ← Back to portfolio
         </Link>
-          <T0>Jorge Rosano</T0>
         </Header>
         <ProjectContainer>
        <DetailContainer>

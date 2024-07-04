@@ -109,6 +109,21 @@ const CloseIcon = styled.div`
   align-self: flex-end;
 `;
 
+const HamImg = styled.img`
+    border-radius: 50%;
+    margin: 1rem 0;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    align-self: center;
+
+    @media (max-width: 375px) {
+      width: 130px;
+      height: 130px;
+    }
+`
+
+
 function Header() {
 
   const [menuVisible, setMenuVisible] = useState(false);
@@ -146,22 +161,24 @@ function Header() {
         </Link>
         <LinkedInLink profileURL={"https://www.linkedin.com/in/jorgeros13"} />
       </OptionsContainer>
+
+
       <HamburgerMenu visible={menuVisible}>
-
-      <CloseIcon
-        onClick={toggleMenu}
-        menuVisible={menuVisible}
-      >
-        <IoClose style={{height: "1.5rem", width: "1.5rem"}}/>
-      </CloseIcon>
+        <CloseIcon
+          onClick={toggleMenu}
+          menuVisible={menuVisible}
+        >
+          <IoClose style={{height: "1.5rem", width: "1.5rem"}}/>
+        </CloseIcon>
+        
+        <HamImg src="src/assets/images/jr.png" alt="jr" />
      
-      <Link to="/projects" style={{textDecoration: "none"}}
-      onClick={() => window.scrollTo(0, 0)}>
-        <Option style={{color: "white"}}>Portfolio</Option>
-      </Link>
-      <LinkedInLink profileURL={"https://www.linkedin.com/in/jorgeros13"} />
+        <Link to="/projects" style={{textDecoration: "none"}}
+        onClick={() => window.scrollTo(0, 0)}>
+          <Option style={{color: "white"}}>Portfolio</Option>
+        </Link>
 
-      
+        <LinkedInLink profileURL={"https://www.linkedin.com/in/jorgeros13"} />
       </HamburgerMenu>
 
       </NavBarContainer>
