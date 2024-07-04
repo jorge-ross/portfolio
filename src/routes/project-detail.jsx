@@ -4,7 +4,7 @@ import '../styles/styles.css';
 import { Link } from "react-router-dom";
 
 import ProjectCover from "../components/fields/project-cover";
-import { typography, typography2, typography3 } from "../styles/typography";
+import { typography, typography2 } from "../styles/typography";
 import { projects } from "../components/data";
 import { RepoButton } from "../components/button";
 import MemberCard from "../components/member-card";
@@ -48,7 +48,7 @@ const T0 = styled.h1`
 
 const ProjectContainer = styled.div`
   padding: 5rem 3rem;
-  width: 70%;
+  width: 60%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -69,7 +69,7 @@ const DetailContainer = styled.div`
   padding-bottom: 4rem;
   border-bottom: 1px solid white;
 
-  @media(max-width: 1000px) {
+  @media(max-width: 1200px) {
     grid-template-columns: repeat(1, 1fr);
     align-items: center;
     gap: 3rem;
@@ -84,43 +84,32 @@ const TitleCont = styled.div`
 
 const Title = styled.p`
   margin: 0;
-  ${typography2.head.lg};
+  ${typography2.head.md};
   color: white;
 
 
   @media (max-width: 500px) {
-    ${typography2.head.md};
+    ${typography2.head.sm};
   }
 `
 
 const DaContainer = styled.div`
-  width: 70%;
+  width: 80%;
   display: flex;
-  flex-direction: row;
-  gap: 2rem;
+  flex-direction: column;
+  gap: 3.5rem;
   align-items: center;
-  padding: 4rem 0 0 0;
-
-  @media (max-width: 1200px) {
-    flex-direction: column;
-    width: 80%;
-  }
-
-  @media (max-width: 500px) {
-    width: 90%;
-  }
+  padding: 4rem 0;
 `
 
-const SummaryCont = styled.div`
-  ${typography3.text.xl};
+const SummaryCont = styled.p`
+  ${typography.text.md};
+  margin: 0 0.5rem;
   color: white;
   display: flex;
-
-  @media (max-width: 1000px) {
-    ${typography.text.lg};
-    margin: 0 0.5rem;
-    text-align: justify;
-  }
+  font-weight: 400;
+  text-align: justify;
+  line-height: 1.6; 
 
   @media (max-width: 500px) {
     ${typography.text.md};
@@ -142,7 +131,7 @@ const TeamContainer = styled.div`
 `
 
 const TeamTt = styled.p`
-  ${typography.head.md};
+  ${typography2.head.md};
   color: white;
   margin: 0;
 `
@@ -170,7 +159,7 @@ const MembersContainer = styled.div`
 const BCover = styled.img`
   display: flex;
   width: 80%;
-  padding: 3rem 0 4rem;
+  padding-bottom: 4rem;
 `;
 
 function ProjectDetail() {
@@ -230,14 +219,5 @@ function ProjectDetail() {
 
   )
 }
-
-// ProjectDetail.propTypes = {
-//     id: PropTypes.string.isRequired,
-//     imgSrc: PropTypes.string.isRequired,
-//     title: PropTypes.string.isRequired,
-//     summary: PropTypes.string.isRequired,
-//     tech: PropTypes.arrayOf(PropTypes.string).isRequired,
-//     team: PropTypes.arrayOf(PropTypes.string).isRequired,
-//   }
 
 export default ProjectDetail;

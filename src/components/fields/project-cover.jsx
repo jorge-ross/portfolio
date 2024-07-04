@@ -3,7 +3,11 @@ import PropTypes from 'prop-types';
 
 const Cover = styled.div`
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
+
+   @media(max-width: 1200px) {
+    justify-content: center;
+  }
 `;
 
 const Img = styled.img`

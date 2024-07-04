@@ -57,7 +57,7 @@ export const RepoButton = styled.button`
   color: black;
   border: none;
   border-radius: 1rem;
-  width: 180px;
+  width: 300px;
   padding: 16px;
   align-items: center;
   cursor: pointer;
