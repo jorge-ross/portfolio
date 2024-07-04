@@ -129,6 +129,10 @@ const MailText = styled.span`
   }
 `
 
+const EmailLink = styled.a`
+  text-decoration: none;
+`;
+
 function Footer() {
 
   return (
@@ -141,38 +145,40 @@ function Footer() {
           Need a full-stack developer to help out? <br/>
         </Text>
         <OutlineText>
+        <EmailLink href="mailto:jorg.ross@protonmail.com">
           <MailText>
-          Send me an email
+            Send me an email
           </MailText>
+        </EmailLink>
           &nbsp;and see how we can make a positive impact together! <br/><br/>
         </OutlineText>
         <FFText>
-          Find me on these online spaces too! →<br/>
+          Find me on these online spaces! →<br/>
         </FFText>
       </ZContainer>
   
       <MediaIcons>
         <SocialListItem>
-          <SocialLink href="https://github.com" target="_blank" rel="noopener noreferrer">
+          <SocialLink href="https://github.com/jorge-ross" target="_blank" rel="noopener noreferrer">
             <FaGithub />
             <SocialLinkText>GitHub</SocialLinkText>
           </SocialLink>
         </SocialListItem>
         <SocialListItem>
-          <SocialLink href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+          <SocialLink href="https://www.linkedin.com/in/jorgeros13" target="_blank" rel="noopener noreferrer">
             <FaLinkedin />
             <SocialLinkText>LinkedIn</SocialLinkText>
           </SocialLink>
         </SocialListItem>
         <SocialListItem>
-          <SocialLink href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+          <SocialLink href="https://www.instagram.com/_jorgeross" target="_blank" rel="noopener noreferrer">
             <FaInstagram />
             <SocialLinkText>Instagram</SocialLinkText>
           </SocialLink>
         </SocialListItem>
         
         <SocialListItem>
-          <SocialLink href="https://twitter.com" target="_blank" rel="noopener noreferrer">
+          <SocialLink href="https://x.com/jorg_ros" target="_blank" rel="noopener noreferrer">
             <FaSquareXTwitter />
             <SocialLinkText>X</SocialLinkText>
           </SocialLink>

@@ -122,26 +122,26 @@ function PortFooter() {
   
         <MediaIcons>
         <SocialListItem>
-          <SocialLink href="https://github.com" target="_blank" rel="noopener noreferrer">
+          <SocialLink href="https://github.com/jorge-ross" target="_blank" rel="noopener noreferrer">
             <FaGithub />
             <SocialLinkText>GitHub</SocialLinkText>
           </SocialLink>
         </SocialListItem>
         <SocialListItem>
-          <SocialLink href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+          <SocialLink href="https://www.linkedin.com/in/jorgeros13" target="_blank" rel="noopener noreferrer">
             <FaLinkedin />
             <SocialLinkText>LinkedIn</SocialLinkText>
           </SocialLink>
         </SocialListItem>
         <SocialListItem>
-          <SocialLink href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+          <SocialLink href="https://www.instagram.com/_jorgeross" target="_blank" rel="noopener noreferrer">
             <FaInstagram />
             <SocialLinkText>Instagram</SocialLinkText>
           </SocialLink>
         </SocialListItem>
         
         <SocialListItem>
-          <SocialLink href="https://twitter.com" target="_blank" rel="noopener noreferrer">
+          <SocialLink href="https://x.com/jorg_ros" target="_blank" rel="noopener noreferrer">
             <FaSquareXTwitter />
             <SocialLinkText>X</SocialLinkText>
           </SocialLink>

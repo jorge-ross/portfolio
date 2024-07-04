@@ -64,5 +64,6 @@ export const RepoButton = styled.button`
 
    @media (max-width: 500px) {
     ${typography2.text.sm};
+    width: 200px;
   }
 `
