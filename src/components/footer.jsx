@@ -119,8 +119,8 @@ const OutlineText = styled.p`
 `
 
 const MailText = styled.span`
-  ${typography.text.md}
- color: ${colors.yellow[300]};
+  ${typography.text.md};
+  color: ${colors.blue[300]};
   margin: 0;
 
   &:hover {
@@ -153,7 +153,8 @@ function Footer() {
           &nbsp;and see how we can make a positive impact together! <br/><br/>
         </OutlineText>
         <FFText>
-          Find me on these online spaces! →<br/>
+          Find me on these online spaces! 
+          <span style={{color: "#93C5FD" }}> →</span>
         </FFText>
       </ZContainer>
   

@@ -16,9 +16,6 @@ export const typography = {
     `,
     md: `
     font-size: 1rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 1.26rem;
     `,
     lg: `
     font-size: 1.125rem;
@@ -31,7 +28,9 @@ export const typography = {
     xt: `
     font-size: 0.875rem;
     line-height: normal;
-    color: gray;
+    `,
+    lgx: `
+    font-size: 1.1rem;
     `,
   },
   head: {

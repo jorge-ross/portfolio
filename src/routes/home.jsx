@@ -12,6 +12,7 @@ import { typography } from "../styles/typography";
 import { colors } from "../styles/colors";
 import { projects } from "../components/data";
 import HomeDescription from "../components/fields/home-description";
+import Statement from "../components/fields/statement";
 
 const GeneralContainer = styled.div`
   display: flex;
@@ -40,6 +41,13 @@ const InsideIntro = styled.div`
     display: flex;
     flex-direction: column;
     padding: 4rem 0;
+    width: 90%;
+  }
+
+  @media (max-width: 500px) {
+    width: 90%;
+    gap: 1.5rem;
+  }
 `
 
 const ProjectSection = styled.div`
@@ -111,58 +119,6 @@ const PortLink = styled.p`
   }
 `;
 
-const Statement = styled.div`
-  height: auto;
-  display: flex;
-  flex-direction: column;
-  width: 80%;
-  gap: 3rem;
-  padding: 5rem 0;
-  border-top: 1px solid #A8A29E;
-
-  @media (max-width: 700px) {
-    gap: 2.5rem;
-    padding: 4rem 0;
-  }
-`
-
-const AText = styled.p`
-  color: ${colors.stone[300]};
-  ${typography.head.lgx};
-  margin: 0;
-  padding-left: 6rem;
-
-  @media (max-width: 700px) {
-   ${typography.head.lg};
-    padding-left: 2rem;
-  }
-
-  @media (max-width: 500px) {
-    padding: 0;
-    ${typography.head.md};
-  }
-`;
-
-const BText = styled.p`
-  ${typography.text.lg}
-  color: ${colors.white};
-  margin: 0;
-  width: 60%;
-  padding-left: 6rem;
-
-  @media (max-width: 700px) {
-    ${typography.text.md}
-    padding-left: 2rem;
-    width: 80%;
-  }
-
-  @media (max-width: 500px) {
-    ${typography.text.sm};
-    padding: 0;
-    width: 100%;
-  }
-`
-
 function Home () {
 
      return (
@@ -203,27 +159,7 @@ function Home () {
         </ProjectContainer>
       <PortLink>See all</PortLink>
       </ProjectSection>
-  
-      <Statement>
-        <AText>
-          Why work with me?
-        </AText>
-        <BText>
-        As a Web Developer, my superpower is problem solving. 
-        I enjoy breaking down complex ideas and 
-        figuring out how to built them.<br/><br/>
-
-        I&#39;ve worked independently on various projects, 
-        which has made me agile and quick to adapt.
-        I&#39;ve launched projects that needed to work 
-        flawlessly from day one, so I understand the importance 
-        of reliability and performance.<br/><br/>
-
-        Finally, I&#39;m a great communicator and collaborator 
-        and I know that what&#39;s most important is getting the job
-        done well and on time.
-        </BText>          
-      </Statement>
+      <Statement />
       <Footer />
     </GeneralContainer>
      </>
