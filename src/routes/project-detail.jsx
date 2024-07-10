@@ -116,11 +116,6 @@ const TeamContainer = styled.div`
   align-items: center;
   padding: 4rem 0 0 0;
   border-top: 1px solid white;
-
-  
-  @media (max-width: 850px) {
-    // align-items: flex-start;
-  }
 `
 
 const TeamTt = styled.p`
@@ -130,14 +125,14 @@ const TeamTt = styled.p`
 `
 
 const MembersContainer = styled.div`
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  display: ${props => (props.singleMember ? 'flex' : 'grid')};
+  grid-template-columns: ${props => (props.singleMember ? '1fr' : 'repeat(3, 1fr)')};
   align-items: center;
   gap: 5rem;
   padding: 4rem 0 0 0;
 
   @media (max-width: 1000px) {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: ${props => (props.singleMember ? '1fr' : 'repeat(2, 1fr)')};
   }
 
   @media (max-width: 500px) {
@@ -145,7 +140,7 @@ const MembersContainer = styled.div`
   }
 
   @media (max-width: 350px) {
-    grid-template-columns: repeat(1, auto);
+    grid-template-columns: ${props => (props.singleMember ? '1fr' : 'repeat(1, auto)')}
   }
 `
 
@@ -193,7 +188,7 @@ function ProjectDetail() {
        <TeamContainer>
         <TeamTt>
           {project.team.length > 1 ? "The team" : "Created by"}</TeamTt>
-        <MembersContainer>
+        <MembersContainer singleMember={project.team.length < 2}>
           {project.team.map((member, id) => (
             <MemberCard 
             key={id}

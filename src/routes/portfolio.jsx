@@ -41,7 +41,7 @@ const Title = styled.h1`
   ${typography3.head.md};
   }
 
-   @media(max-width: 1200px) {
+   @media(max-width: 700px) {
   ${typography3.head.sm};
   }
 `;
@@ -63,6 +63,10 @@ const T2 = styled.p`
   color: white;
   margin: 1rem 0 0 0;
   text-align: center;
+
+  @media(max-width: 700px) {
+    ${typography.text.sm};
+  }
 `
 
 const ProjectContainer = styled.div`

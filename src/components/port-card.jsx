@@ -23,6 +23,10 @@ const PortCard = styled.div`
   @media (max-width: 400px) {
     width: 280px;
   }
+
+  @media (max-width: 300px) {
+    width: 220px;
+  }
 `;
 
 const ProjectImg = styled.img`
@@ -33,6 +37,10 @@ const ProjectImg = styled.img`
 
   @media (max-width: 400px) {
     height: 130px;
+  }
+
+  @media (max-width: 300px) {
+    height: 110px;
   }
 
   &:hover {
