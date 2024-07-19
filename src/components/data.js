@@ -53,7 +53,7 @@ export const projects = [
     title: "Neuro-dev",
     summary:
       "Explore my bespoke clinic website, which aims to serve as a comprehensive psychology platform. Although still in progress, it is designed to deliver a seamless and intuitive user experience for those seeking mental health care. The website will offer a range of features to help users find the support they need, from detailed therapist profiles and appointment scheduling to resources and tools for mental well-being.",
-    tech: ["Javascript", "Angular", "HTML", "CSS"],
+    tech: ["Javascript", "React", "HTML", "CSS"],
     team: [
       {
         name: "Jorge Rosano",
@@ -62,7 +62,7 @@ export const projects = [
         githubUrl: "https://github.com/jorge-ross",
       },
     ],
-    project_url: "https://github.com/jorge-ross/neuro-clinic",
+    project_url: "https://github.com/jorge-ross/neuro-dev",
   },
   {
     id: "3",
