@@ -56,9 +56,8 @@ function HomeDescription() {
 
         <br /> <br /> 
 
-        My distinctive background, spanning 
-        from mechatronics engineering to
-        mental health professional, and now as a programmer
+        My distinctive background, spanning from local support group analysis
+        to technical support, and now as a programmer
         and IT enthusiast, attests that 
         I am a problem-solver with a proven ability 
         to adapt and tackle challenging projects.
