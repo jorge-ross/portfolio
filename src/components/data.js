@@ -52,7 +52,7 @@ export const projects = [
       "https://github.com/jorge-ross/the-portfolio/raw/main/src/assets/images/neuro-comp.jpg",
     title: "Neuro-dev",
     summary:
-      "Explore my bespoke clinic website, which aims to serve as a comprehensive psychology platform. Although still in progress, it is designed to deliver a seamless and intuitive user experience for those seeking mental health care. The website will offer a range of features to help users find the support they need, from detailed therapist profiles and appointment scheduling to resources and tools for mental well-being.",
+      "Explore my bespoke clinic website, which aims to serve as a comprehensive psychology platform. Although still in progress, it is designed to deliver a seamless and intuitive user experience for those seeking mental health care. The website will offer a range of features to help users find the support they need, from a detailed therapist profile and appointment scheduling to resources and tools for mental well-being.",
     tech: ["Javascript", "React", "HTML", "CSS"],
     team: [
       {
