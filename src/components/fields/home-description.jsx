@@ -56,7 +56,7 @@ function HomeDescription() {
 
         <br /> <br /> 
 
-        My distinctive background, spanning from local support group analysis
+        My distinctive background, transitioning from Behavioral Sciences 
         to technical support, and now as a programmer
         and IT enthusiast, attests that 
         I am a problem-solver with a proven ability 
