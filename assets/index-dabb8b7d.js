@@ -1192,7 +1192,7 @@ Error generating stack: `+o.message+`
   width: 80%;
   display: flex;
   flex-direction: column;
-  gap: 3.5rem;
+  gap: 4rem;
   align-items: center;
   padding: 4rem 0;
 `,R2=C.p`
@@ -1241,5 +1241,4 @@ Error generating stack: `+o.message+`
 `,F2=C.img`
   display: flex;
   width: 80%;
-  padding-bottom: 4rem;
-`;function M2(){const{id:e}=th(),t=parseInt(e),n=pr[t];return d.jsxs(S2,{children:[d.jsx(j2,{children:d.jsx(dt,{to:"/projects",className:"link-style",onClick:()=>window.scrollTo(0,0),children:"← Back to portfolio"})}),d.jsxs(E2,{children:[d.jsxs(P2,{children:[d.jsx(_2,{children:d.jsx(z2,{children:n.title})}),d.jsx(Zf,{src:n.imgSrc})]}),d.jsxs(T2,{children:[d.jsx(R2,{children:n.summary}),d.jsx(dt,{to:n.project_url,children:d.jsx(Dm,{children:"Go to Repo!"})})]}),d.jsx(F2,{src:n.imgComp}),d.jsxs($2,{children:[d.jsx(L2,{children:n.team.length>1?"The team":"Created by"}),d.jsx(N2,{singleMember:n.team.length<2,children:n.team.map((r,i)=>d.jsx(qf,{name:r.name,profilePicUrl:r.profilePicUrl,gitHubUrl:r.githubUrl,linkedInUrl:r.linkedinurl},i))})]})]}),d.jsx(k2,{})]})}function O2(){return d.jsx(kh,{children:d.jsxs(gh,{children:[d.jsx(rr,{path:"",element:d.jsx(Mg,{})}),d.jsx(rr,{path:"projects",element:d.jsx(d2,{})}),d.jsx(rr,{path:"projects/:id",element:d.jsx(M2,{})}),d.jsx(rr,{path:"*",element:d.jsx(hh,{to:"/",replace:!0})})]})})}vl.createRoot(document.getElementById("root")).render(d.jsx(O2,{}));
+`;function M2(){const{id:e}=th(),t=parseInt(e),n=pr[t];return d.jsxs(S2,{children:[d.jsx(j2,{children:d.jsx(dt,{to:"/projects",className:"link-style",onClick:()=>window.scrollTo(0,0),children:"← Back to portfolio"})}),d.jsxs(E2,{children:[d.jsxs(P2,{children:[d.jsx(_2,{children:d.jsx(z2,{children:n.title})}),d.jsx(Zf,{src:n.imgSrc})]}),d.jsxs(T2,{children:[d.jsx(R2,{children:n.summary}),d.jsx(F2,{src:n.imgComp}),d.jsx(dt,{to:n.project_url,children:d.jsx(Dm,{children:"Go to Repo!"})})]}),d.jsxs($2,{children:[d.jsx(L2,{children:n.team.length>1?"The team":"Created by"}),d.jsx(N2,{singleMember:n.team.length<2,children:n.team.map((r,i)=>d.jsx(qf,{name:r.name,profilePicUrl:r.profilePicUrl,gitHubUrl:r.githubUrl,linkedInUrl:r.linkedinurl},i))})]})]}),d.jsx(k2,{})]})}function O2(){return d.jsx(kh,{children:d.jsxs(gh,{children:[d.jsx(rr,{path:"",element:d.jsx(Mg,{})}),d.jsx(rr,{path:"projects",element:d.jsx(d2,{})}),d.jsx(rr,{path:"projects/:id",element:d.jsx(M2,{})}),d.jsx(rr,{path:"*",element:d.jsx(hh,{to:"/",replace:!0})})]})})}vl.createRoot(document.getElementById("root")).render(d.jsx(O2,{}));
