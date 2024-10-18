@@ -99,7 +99,7 @@ const ProjectContainer = styled.div`
   }
 `
 
-const PortLink = styled.p`
+const PortLink = styled(Link)`
   ${typography.head.sm}
   color: ${colors.stone[100]};
   font-weight: 500;
@@ -157,7 +157,7 @@ function Home () {
         </Link>
         ))}
         </ProjectContainer>
-      <PortLink>See all</PortLink>
+      <PortLink to="/projects" onClick={() => window.scrollTo(0, 0)}>See all</PortLink>
       </ProjectSection>
       <Statement />
       <Footer />
