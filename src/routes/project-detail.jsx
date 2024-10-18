@@ -88,7 +88,7 @@ const DaContainer = styled.div`
   width: 80%;
   display: flex;
   flex-direction: column;
-  gap: 3.5rem;
+  gap: 4rem;
   align-items: center;
   padding: 4rem 0;
 `
@@ -147,7 +147,6 @@ const MembersContainer = styled.div`
 const BCover = styled.img`
   display: flex;
   width: 80%;
-  padding-bottom: 4rem;
 `;
 
 function ProjectDetail() {
@@ -178,12 +177,12 @@ function ProjectDetail() {
 
        <DaContainer>
         <SummaryCont>{project.summary}</SummaryCont>
+        <BCover src={project.imgComp} />
         <Link to={project.project_url}>
         <RepoButton>Go to Repo!</RepoButton>
         </Link>
        </DaContainer>
 
-       <BCover src={project.imgComp} />
 
        <TeamContainer>
         <TeamTt>
