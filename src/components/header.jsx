@@ -171,7 +171,7 @@ function Header() {
           <IoClose style={{height: "1.5rem", width: "1.5rem"}}/>
         </CloseIcon>
         
-        <HamImg src="/images/jr.png" alt="jr" />
+        <HamImg src="./images/jr.png" alt="jr" />
      
         <Link to="/projects" style={{textDecoration: "none"}}
         onClick={() => window.scrollTo(0, 0)}>
