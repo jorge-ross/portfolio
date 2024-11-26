@@ -22,8 +22,3 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
-
-src/assets/
-src/components/
-src/routes/
-src/styles/
