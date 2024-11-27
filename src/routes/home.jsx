@@ -2,9 +2,7 @@ import styled from "@emotion/styled";
 import { Link } from "react-router-dom";
 
 import Header from "../components/header";
-import Card from "../components/card";
-import mypic from "../../public/images/Developer.jpg"
-import TextInDescription from "../components/fields/description-field";
+
 import ProjectCard from "../components/project-card";
 import Footer from "../components/footer";
 
@@ -13,6 +11,7 @@ import { colors } from "../styles/colors";
 import { projects } from "../components/data";
 import HomeDescription from "../components/fields/home-description";
 import Statement from "../components/fields/statement";
+import Intro from "../components/introd";
 
 const GeneralContainer = styled.div`
   display: flex;
@@ -21,34 +20,6 @@ const GeneralContainer = styled.div`
   justify-content: center;
   margin: 0;
 `;
-
-const IntroContainer = styled.div`
-  width: 80%;
-  border-bottom: 1px solid #A8A29E;
-  display: flex;
-  justify-content: center;
-`;
-
-const InsideIntro = styled.div`
-  width: 80%;
-  display: flex;
-  flex-direction: row;
-  gap: 6rem;
-  padding: 5rem 0;
-
-  @media (max-width: 1000px) {
-    gap: 2.5rem;
-    display: flex;
-    flex-direction: column;
-    padding: 4rem 0;
-    width: 90%;
-  }
-
-  @media (max-width: 500px) {
-    width: 90%;
-    gap: 1.5rem;
-  }
-`
 
 const ProjectSection = styled.div`
   background-color: ${colors.black[600]};
@@ -125,18 +96,7 @@ function Home () {
       <>
       <GeneralContainer>
       <Header />
-      <IntroContainer>
-        <InsideIntro>
-
-        <Card 
-        gitHubUrl="https://github.com/jorge-ross"
-        linkedInUrl="https://www.linkedin.com/in/jorgeros13"
-        img={mypic}
-        />
-        <TextInDescription/>
-        </InsideIntro>
-      </IntroContainer>
-
+      <Intro />
       <HomeDescription />
 
 
