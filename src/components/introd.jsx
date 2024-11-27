@@ -16,9 +16,9 @@ const AText = styled.p`
   color: white;
   margin: 0;
   padding-top: 1rem;
+  text-align: center;
 
    @media (max-width: 1100px) {
-   text-align: center;
    ${typography.head.lg};
   }
 
@@ -33,6 +33,7 @@ const BText = styled.p`
   color: white;
   margin: 0;
   padding: 2rem 0;
+  text-align: center;
 
    @media (max-width: 1100px) {
     ${typography.text.lgx};
@@ -45,6 +46,7 @@ const CText = styled.p`
   color: ${colors.blue[300]};
   margin: 0;
   padding-top: 2rem;
+  text-align: center;
 
    @media (max-width: 1100px) {
    ${typography.text.xl};
@@ -53,29 +55,27 @@ const CText = styled.p`
 `;
 
 const IntroContainer = styled.div`
-  width: 80%;
   border-bottom: 1px solid #A8A29E;
   display: flex;
   justify-content: center;
+  width: 80%;
 `;
 
 const InsideIntro = styled.div`
-  width: 80%;
   display: flex;
-  flex-direction: row;
-  gap: 6rem;
   padding: 5rem 0;
+  gap: 2rem;
 
   @media (max-width: 1000px) {
     gap: 2.5rem;
     display: flex;
     flex-direction: column;
+    align-items: center;
     padding: 4rem 0;
-    width: 90%;
+    gap: 1rem;
   }
 
   @media (max-width: 500px) {
-    width: 90%;
     gap: 1.5rem;
   }
 `
@@ -85,14 +85,14 @@ const Intro = () => {
   return (
     <IntroContainer>
       <InsideIntro>
-      <Card 
-      gitHubUrl="https://github.com/jorge-ross"
-      linkedInUrl="https://www.linkedin.com/in/jorgeros13"
-      img={mypic}
-      />
+        <Card 
+        gitHubUrl="https://github.com/jorge-ross"
+        linkedInUrl="https://www.linkedin.com/in/jorgeros13"
+        img={mypic}
+        />
       <DescriptionField>
         <AText>
-        &#34;Hello world!&#34;
+        &#34;Hello, World!&#34;
         </AText>
         <BText>
         I&#39;m <span style={{color: "#93C5FD", fontWeight: 600}}>Jorge</span> 
@@ -104,8 +104,6 @@ const Intro = () => {
         <CText>
         Ready to bring your next big idea to life!
         </CText>
-        
-
       </DescriptionField>
       </InsideIntro>
     </IntroContainer>

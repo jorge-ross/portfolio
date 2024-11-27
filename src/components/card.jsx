@@ -6,24 +6,20 @@ import PropTypes from 'prop-types';
 const CardWrapper = styled.div`
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
+  justify-content: center;
   gap: 1.5rem;
-
-  @media (max-width: 1000px) {
-    padding: 0;
-    align-items: center;
-  }
+  width: 60%;
 `;
 
 const SocialMediaWrapper = styled.div`
   display: flex;
-  gap: 10px;
-
+  gap: 1rem;
 `;
 
 const Img = styled.img`
   width: 270px;
-  border-radius: 13%;
+  border-radius: 15%;
 
   @media (max-width: 600px) {
     width: 250px;
@@ -65,18 +61,17 @@ function Card({ gitHubUrl, linkedInUrl, img }) {
     <CardWrapper>
       <Img src={img} alt="JRoss" />
         <SocialMediaWrapper>
-      <SocialLink href={gitHubUrl}>
-          <IconWrapper>
-            <AiOutlineGithub style={{ width: '100%', height: '110%', color: '#D6D3D1' }} />
-          </IconWrapper>
-        </SocialLink>
-        <SocialLink href={linkedInUrl}>
-          <IconWrapper>
-            <BsLinkedin style={{ width: '85%', height: '90%', color: '#D6D3D1' }} />
-          </IconWrapper>
-        </SocialLink>
+          <SocialLink href={gitHubUrl}>
+            <IconWrapper>
+              <AiOutlineGithub style={{ width: '100%', height: '110%', color: '#D6D3D1' }} />
+            </IconWrapper>
+          </SocialLink>
+          <SocialLink href={linkedInUrl}>
+            <IconWrapper>
+              <BsLinkedin style={{ width: '85%', height: '90%', color: '#D6D3D1' }} />
+            </IconWrapper>
+          </SocialLink>
         </SocialMediaWrapper>
-   
     </CardWrapper>
   )
 }
