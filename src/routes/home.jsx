@@ -9,8 +9,8 @@ import Footer from "../components/footer";
 import { typography } from "../styles/typography";
 import { colors } from "../styles/colors";
 import { projects } from "../components/data";
-import HomeDescription from "../components/fields/home-description";
-import Statement from "../components/fields/statement";
+import HomeDescription from "../components/home-description";
+import Statement from "../components/statement";
 import Intro from "../components/introd";
 
 const GeneralContainer = styled.div`

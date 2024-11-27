@@ -1,5 +1,5 @@
 import styled from "@emotion/styled";
-import { typography } from "../../styles/typography";
+import { typography } from "../styles/typography";
 import { FaInstagram, FaGithub, FaLinkedin } from 'react-icons/fa';
 import { FaSquareXTwitter } from "react-icons/fa6";
 

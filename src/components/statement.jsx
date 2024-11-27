@@ -1,5 +1,5 @@
 import styled from "@emotion/styled";
-import { typography } from "../../styles/typography";
+import { typography } from "../styles/typography";
 
 const Container = styled.div`
   height: auto;

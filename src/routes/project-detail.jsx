@@ -3,12 +3,12 @@ import { useParams } from "react-router-dom";
 import '../styles/styles.css';
 import { Link } from "react-router-dom";
 
-import ProjectCover from "../components/fields/project-cover";
+import ProjectCover from "../components/project-cover";
 import { typography, typography2 } from "../styles/typography";
 import { projects } from "../components/data";
 import { RepoButton } from "../components/button";
 import MemberCard from "../components/member-card";
-import DetailFooter from "../components/fields/detail-footer";
+import DetailFooter from "../components/detail-footer";
 
 
 const GralContainer = styled.div`

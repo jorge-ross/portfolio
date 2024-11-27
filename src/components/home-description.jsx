@@ -1,5 +1,5 @@
 import styled from "@emotion/styled";
-import { typography } from "../../styles/typography";
+import { typography } from "../styles/typography";
 
 const GralContainer = styled.div`
   width: 80%;
