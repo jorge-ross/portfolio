@@ -44,7 +44,7 @@ const ProjectContainer = styled.div`
   align-items: center;
   border: 1px solid white;
 
-  @media(max-width: 850px) {
+  @media(max-width: 750px) {
     border: none;
     padding: 4rem 0;
     width: auto;
@@ -75,13 +75,8 @@ const TitleCont = styled.div`
 
 const Title = styled.p`
   margin: 0;
-  ${typography2.head.md};
+  ${typography2.head.lg};
   color: white;
-
-
-  @media (max-width: 500px) {
-    ${typography2.head.sm};
-  }
 `
 
 const DaContainer = styled.div`
@@ -94,7 +89,7 @@ const DaContainer = styled.div`
 `
 
 const SummaryCont = styled.p`
-  ${typography.text.md};
+  ${typography.text.lg};
   margin: 0 0.5rem;
   color: white;
   display: flex;
@@ -102,8 +97,8 @@ const SummaryCont = styled.p`
   text-align: justify;
   line-height: 1.7; 
 
-  @media (max-width: 500px) {
-    ${typography.text.sm};
+  @media (max-width: 750px) {
+    ${typography.text.md};
     text-align: left;
      line-height: 1.7;
   }
@@ -126,10 +121,14 @@ const TeamTt = styled.p`
 
 const MembersContainer = styled.div`
   display: ${props => (props.singleMember ? 'flex' : 'grid')};
-  grid-template-columns: ${props => (props.singleMember ? '1fr' : 'repeat(3, 1fr)')};
+  grid-template-columns: ${props => (props.singleMember ? '1fr' : 'repeat(4, 1fr)')};
   align-items: center;
-  gap: 5rem;
+  gap: 3rem;
   padding: 4rem 0 0 0;
+
+  @media (max-width: 1200px) {
+    grid-template-columns: ${props => (props.singleMember ? '1fr' : 'repeat(3, 1fr)')};
+  }
 
   @media (max-width: 1000px) {
     grid-template-columns: ${props => (props.singleMember ? '1fr' : 'repeat(2, 1fr)')};

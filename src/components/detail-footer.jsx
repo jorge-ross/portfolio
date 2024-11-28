@@ -11,7 +11,7 @@ const ContainerFooter = styled.div`
   justify-content: center;
 
 
-  @media (max-width: 850px) {
+  @media (max-width: 750px) {
     width: 90%;
     border-top: 1px solid white;
   }
@@ -27,7 +27,7 @@ const MediaIcons = styled.ul`
   margin: 0;
   color: white;
  
-  @media (max-width: 850px) {
+  @media (max-width: 500px) {
     display: grid;
     grid-template-columns: repeat(2, auto);
     align-items: center;
