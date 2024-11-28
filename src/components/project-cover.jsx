@@ -5,17 +5,13 @@ const Cover = styled.div`
   display: flex;
   justify-content: flex-start;
 
-   @media(max-width: 1200px) {
+  @media (max-width: 1000px) {
     justify-content: center;
   }
 `;
 
 const Img = styled.img`
-  width: 90%;
-
-  @media (max-width: 750px){
-    width: 80%;
-  }
+  width: 98%;
 `;
 
 const ProjectCover = ({ src }) => {

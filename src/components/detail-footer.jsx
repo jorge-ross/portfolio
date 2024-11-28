@@ -5,11 +5,11 @@ import { FaSquareXTwitter } from "react-icons/fa6";
 
 const ContainerFooter = styled.div`
   width: 80%;
-  padding: 5rem 0 0 0;
+  padding: 5rem 0;
   display: flex;
   flex-direction: row;
   justify-content: center;
-
+  border-top: 1px solid white;
 
   @media (max-width: 750px) {
     width: 90%;

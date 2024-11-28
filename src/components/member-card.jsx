@@ -1,6 +1,5 @@
 import styled from "@emotion/styled";
 import { AiOutlineGithub } from 'react-icons/ai';
-import { BsLinkedin } from 'react-icons/bs';
 import { typography2 } from "../styles/typography";
 import PropTypes from 'prop-types';
 
@@ -23,6 +22,7 @@ const MemberName = styled.p`
   font-weight: 600;
   color: white;
   margin: 0;
+  text-align: center;
 
   @media (max-width: 500px) {
    ${typography2.text.sm};
@@ -50,13 +50,14 @@ const MediaWrapper = styled.div`
   gap: 0.6rem;
 `
 
-function MemberCard({ name, gitHubUrl, linkedInUrl, profilePicUrl }) {
+function MemberCard({ name, gitHubUrl, profilePicUrl }) {
   MemberCard.propTypes = {
     name: PropTypes.string,
     gitHubUrl: PropTypes.string,
-    linkedInUrl: PropTypes.string,
     profilePicUrl: PropTypes.string,
   }
+
+  const truncName = name.length > 15 ? name.split(' ')[0] : name;
 
   return (
     <CardWrapper>
@@ -64,13 +65,10 @@ function MemberCard({ name, gitHubUrl, linkedInUrl, profilePicUrl }) {
         <Img src={profilePicUrl} alt="Team member" />
       </ImgCont>
       <DetailsWrapper>
-        <MemberName>{name}</MemberName>
+        <MemberName>{truncName}</MemberName>
         <MediaWrapper>
           <a href={gitHubUrl}> <AiOutlineGithub style={{width: "20px", height: "20px", color: "white", borderRadius: "50%"}}
           /> </a>
-          <a href={linkedInUrl}>
-           <BsLinkedin style={{ width: "18px", height: "18px", color: '#D6D3D1' }} />
-          </a>
         </MediaWrapper>
       </DetailsWrapper>
     </CardWrapper>

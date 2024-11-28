@@ -10,82 +10,83 @@ import { RepoButton } from "../components/button";
 import MemberCard from "../components/member-card";
 import DetailFooter from "../components/detail-footer";
 
+import { IoArrowBackCircleSharp } from "react-icons/io5";
+
+
 
 const GralContainer = styled.div`
   margin: 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 5rem 6rem;
+  // padding: 5rem 6rem;
   align-items: center;
 
-  @media(max-width: 750px) {
-    padding: 4rem 0;
-  }
+  // @media(max-width: 750px) {
+  //   padding: 4rem 0;
+  // }
 `
 
 const Header = styled.div`
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0 0 5rem;
-  width: 90%;
+  align-self: center;
+  padding: 5rem 0 0 10rem;
 
-  @media(max-width: 600px) {
-  padding: 0;
+  @media(max-width: 1000px) {
+  padding: 3rem 0 0 3rem;
   }
 `
 
 const ProjectContainer = styled.div`
-  padding: 5rem 3rem;
-  width: 60%;
+  padding: 4rem 3rem;
+  width: 90%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  border: 1px solid white;
+  // border: 1px solid white;
 
-  @media(max-width: 750px) {
+  @media(max-width: 850px) {
     border: none;
-    padding: 4rem 0;
     width: auto;
   }
 `
 
 const DetailContainer = styled.div`
-  width: 90%;
+  width: 70%;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  justify-content: space-between;
-  padding-bottom: 4rem;
-  border-bottom: 1px solid white;
-  gap: 1rem;
+  align-items: center;
 
-  @media(max-width: 1200px) {
+  @media(max-width: 1000px) {
     grid-template-columns: repeat(1, 1fr);
-    align-items: center;
     gap: 3rem;
   }
 `
 
-const TitleCont = styled.div`
-  display: flex;
-  align-items: center;
-  justify-content: center;
-`
-
 const Title = styled.p`
+  display: flex;
+  justify-content: center;
+  text-align: center;
   margin: 0;
   ${typography2.head.lg};
   color: white;
+
+  @media (max-width: 500px){
+    ${typography.head.md}
+  }
 `
 
 const DaContainer = styled.div`
-  width: 80%;
+  width: 70%;
   display: flex;
   flex-direction: column;
   gap: 4rem;
   align-items: center;
   padding: 4rem 0;
+
+  @media (max-width: 600px){
+    width: 85%;
+  }
 `
 
 const SummaryCont = styled.p`
@@ -95,12 +96,10 @@ const SummaryCont = styled.p`
   display: flex;
   font-weight: 400;
   text-align: justify;
-  line-height: 1.7; 
+  line-height: 1.7;
 
-  @media (max-width: 750px) {
-    ${typography.text.md};
+  @media (max-width: 500px){
     text-align: left;
-     line-height: 1.7;
   }
 `
 
@@ -130,7 +129,7 @@ const MembersContainer = styled.div`
     grid-template-columns: ${props => (props.singleMember ? '1fr' : 'repeat(3, 1fr)')};
   }
 
-  @media (max-width: 1000px) {
+  @media (max-width: 850px) {
     grid-template-columns: ${props => (props.singleMember ? '1fr' : 'repeat(2, 1fr)')};
   }
 
@@ -145,7 +144,7 @@ const MembersContainer = styled.div`
 
 const BCover = styled.img`
   display: flex;
-  width: 80%;
+  width: 85%;
 `;
 
 function ProjectDetail() {
@@ -155,22 +154,21 @@ function ProjectDetail() {
   const project = projects[index];
 
   return (
-
-      <GralContainer>
-        <Header>
-        <Link
-          to="/projects"
-          className="link-style"
-          onClick={() => window.scrollTo(0, 0)}
+    
+    <>
+    <Header>
+      <Link
+        to="/projects"
+        className="link-style"
+        onClick={() => window.scrollTo(0, 0)}
         >
-          ← Back to portfolio
-        </Link>
-        </Header>
-        <ProjectContainer>
-       <DetailContainer>
-        <TitleCont>
-          <Title>{project.title}</Title>
-        </TitleCont>
+        <IoArrowBackCircleSharp />
+      </Link>
+    </Header>
+    <GralContainer>
+      <ProjectContainer>
+        <DetailContainer>
+        <Title>{project.title}</Title>
         <ProjectCover src={project.imgSrc} />
        </DetailContainer>
 
@@ -202,6 +200,7 @@ function ProjectDetail() {
         <DetailFooter />
       </GralContainer>
 
+    </>
   )
 }
 
