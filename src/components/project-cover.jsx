@@ -11,7 +11,7 @@ const Cover = styled.div`
 `;
 
 const Img = styled.img`
-  width: 98%;
+  width: 100%;
 `;
 
 const ProjectCover = ({ src }) => {

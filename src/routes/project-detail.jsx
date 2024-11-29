@@ -43,11 +43,11 @@ const ProjectContainer = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  // border: 1px solid white;
 
   @media(max-width: 850px) {
     border: none;
     width: auto;
+    padding: 3rem;
   }
 `
 
@@ -60,6 +60,7 @@ const DetailContainer = styled.div`
   @media(max-width: 1000px) {
     grid-template-columns: repeat(1, 1fr);
     gap: 3rem;
+    width: 90%;
   }
 `
 
@@ -84,8 +85,10 @@ const DaContainer = styled.div`
   align-items: center;
   padding: 4rem 0;
 
-  @media (max-width: 600px){
-    width: 85%;
+  @media (max-width: 1000px){
+    width: 95%;
+    padding: 3rem 0;
+    gap: 3rem;
   }
 `
 
@@ -110,6 +113,10 @@ const TeamContainer = styled.div`
   align-items: center;
   padding: 4rem 0 0 0;
   border-top: 1px solid white;
+
+  @media (max-width: 600px){
+    padding-top: 3rem;
+  }
 `
 
 const TeamTt = styled.p`
@@ -123,7 +130,7 @@ const MembersContainer = styled.div`
   grid-template-columns: ${props => (props.singleMember ? '1fr' : 'repeat(4, 1fr)')};
   align-items: center;
   gap: 3rem;
-  padding: 4rem 0 0 0;
+  padding-top: 4rem;
 
   @media (max-width: 1200px) {
     grid-template-columns: ${props => (props.singleMember ? '1fr' : 'repeat(3, 1fr)')};
@@ -144,7 +151,11 @@ const MembersContainer = styled.div`
 
 const BCover = styled.img`
   display: flex;
-  width: 85%;
+  width: 70%;
+
+  @media (max-width: 1000px){
+    width: 95%;
+  }
 `;
 
 function ProjectDetail() {
