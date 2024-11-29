@@ -1008,7 +1008,7 @@ Error generating stack: `+o.message+`
     justify-content: center;
   }
 `,p2=C.img`
-  width: 98%;
+  width: 100%;
 `,Zf=({src:e})=>(Zf.propTypes={src:ce.string.isRequired},d.jsx(f2,{children:d.jsx(p2,{src:e,alt:"covers"})})),h2=C.div`
   display: flex;
   flex-direction: column;
@@ -1132,11 +1132,11 @@ Error generating stack: `+o.message+`
   display: flex;
   flex-direction: column;
   align-items: center;
-  // border: 1px solid white;
 
   @media(max-width: 850px) {
     border: none;
     width: auto;
+    padding: 3rem;
   }
 `,P2=C.div`
   width: 70%;
@@ -1147,6 +1147,7 @@ Error generating stack: `+o.message+`
   @media(max-width: 1000px) {
     grid-template-columns: repeat(1, 1fr);
     gap: 3rem;
+    width: 90%;
   }
 `,_2=C.p`
   display: flex;
@@ -1167,8 +1168,10 @@ Error generating stack: `+o.message+`
   align-items: center;
   padding: 4rem 0;
 
-  @media (max-width: 600px){
-    width: 85%;
+  @media (max-width: 1000px){
+    width: 95%;
+    padding: 3rem 0;
+    gap: 3rem;
   }
 `,T2=C.p`
   ${$.text.lg};
@@ -1189,6 +1192,10 @@ Error generating stack: `+o.message+`
   align-items: center;
   padding: 4rem 0 0 0;
   border-top: 1px solid white;
+
+  @media (max-width: 600px){
+    padding-top: 3rem;
+  }
 `,$2=C.p`
   ${Ce.head.md};
   color: white;
@@ -1198,7 +1205,7 @@ Error generating stack: `+o.message+`
   grid-template-columns: ${e=>e.singleMember?"1fr":"repeat(4, 1fr)"};
   align-items: center;
   gap: 3rem;
-  padding: 4rem 0 0 0;
+  padding-top: 4rem;
 
   @media (max-width: 1200px) {
     grid-template-columns: ${e=>e.singleMember?"1fr":"repeat(3, 1fr)"};
@@ -1217,5 +1224,9 @@ Error generating stack: `+o.message+`
   }
 `,N2=C.img`
   display: flex;
-  width: 85%;
+  width: 70%;
+
+  @media (max-width: 1000px){
+    width: 95%;
+  }
 `;function F2(){const{id:e}=eh(),t=parseInt(e),n=pr[t];return d.jsxs(d.Fragment,{children:[d.jsx(E2,{children:d.jsx(dt,{to:"/projects",className:"link-style",onClick:()=>window.scrollTo(0,0),children:d.jsx(Bm,{})})}),d.jsxs(S2,{children:[d.jsxs(j2,{children:[d.jsxs(P2,{children:[d.jsx(_2,{children:n.title}),d.jsx(Zf,{src:n.imgSrc})]}),d.jsxs(z2,{children:[d.jsx(T2,{children:n.summary}),d.jsx(N2,{src:n.imgComp}),d.jsx(dt,{to:n.project_url,children:d.jsx(Im,{children:"Go to Repo!"})})]}),d.jsxs(R2,{children:[d.jsx($2,{children:n.team.length>1?"The team":"Created by"}),d.jsx(L2,{singleMember:n.team.length<2,children:n.team.map((r,i)=>d.jsx(bf,{name:r.name,profilePicUrl:r.profilePicUrl,gitHubUrl:r.githubUrl,linkedInUrl:r.linkedinurl},i))})]})]}),d.jsx(k2,{})]})]})}function M2(){return d.jsx(Ch,{children:d.jsxs(mh,{children:[d.jsx(rr,{path:"",element:d.jsx(Og,{})}),d.jsx(rr,{path:"projects",element:d.jsx(d2,{})}),d.jsx(rr,{path:"projects/:id",element:d.jsx(F2,{})}),d.jsx(rr,{path:"*",element:d.jsx(ph,{to:"/",replace:!0})})]})})}vl.createRoot(document.getElementById("root")).render(d.jsx(M2,{}));
