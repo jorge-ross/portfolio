@@ -34,12 +34,8 @@ const NameContainer = styled.h1`
   }
 `
 
-const OptionsContainer = styled.li`
+const ContactContainer = styled.li`
   display: flex;
-  flex-direction: row;
-  gap: 2rem;
-  justify-content: center;
-  align-items: center;
 
   @media (max-width: 900px) {
     display: none;
@@ -62,11 +58,9 @@ function PortfolioHeader() {
         Jorge Rosano
       </Link>
       </NameContainer>
-      <OptionsContainer>
+      <ContactContainer>
         <LinkedInLink profileURL={"https://www.linkedin.com/in/jorgeros13"} />
-      </OptionsContainer>
-
-
+      </ContactContainer>
       </NavBarContainer>
       </>
   )

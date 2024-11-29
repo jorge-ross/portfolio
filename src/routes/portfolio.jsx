@@ -46,19 +46,9 @@ const Title = styled.h1`
   }
 `;
 
-const T1 = styled.h1`
-  font-family: "Roboto Condensed", sans-serif;
-  font-size: 1rem;
-  font-weight: 500;
-  letter-spacing: 0.2rem;
-  color: ${colors.blue[300]};
-  opacity: 70%;
-  margin: 0 0 .5rem 0;
-  text-align: center;
-`
 
 const T2 = styled.p`
-  ${typography.text.md};
+  ${typography.text.lg};
   font-weight: 400;
   color: white;
   margin: 1rem 0 0 0;
@@ -91,7 +81,7 @@ function Portfolio() {
     <Gcontainer>
       <PortfolioHeader />
       <TitleCont>
-      <T1>Work</T1>
+      {/* <T1>Work</T1> */}
       <Title>
         Here&#39;s a selection of some of the things I&#39;ve built.
       </Title>

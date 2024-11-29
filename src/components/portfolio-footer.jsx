@@ -48,7 +48,7 @@ const MediaIcons = styled.ul`
     padding: 0 0 5rem 0;
   }
   
-  @media (max-width: 500px) {
+  @media (max-width: 550px) {
     display: grid;
     grid-template-columns: repeat(1, auto);
     align-items: center;
@@ -82,7 +82,7 @@ const AText = styled.p`
   ${typography.head.lg};
   margin: 0;
 
-  @media (max-width: 500px){
+  @media (max-width: 550px){
     ${typography.head.md};
     text-align: left;
   }
