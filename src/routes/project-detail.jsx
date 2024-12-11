@@ -19,12 +19,7 @@ const GralContainer = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  // padding: 5rem 6rem;
   align-items: center;
-
-  // @media(max-width: 750px) {
-  //   padding: 4rem 0;
-  // }
 `
 
 const Header = styled.div`
@@ -59,7 +54,7 @@ const DetailContainer = styled.div`
 
   @media(max-width: 1000px) {
     grid-template-columns: repeat(1, 1fr);
-    gap: 3rem;
+    gap: 2rem;
     width: 90%;
   }
 `
@@ -87,8 +82,8 @@ const DaContainer = styled.div`
 
   @media (max-width: 1000px){
     width: 95%;
-    padding: 3rem 0;
-    gap: 3rem;
+    padding: 2rem 0;
+    gap: 2rem;
   }
 `
 
@@ -111,11 +106,12 @@ const TeamContainer = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 4rem 0 0 0;
+  padding: 4rem 0;
   border-top: 1px solid white;
+  border-bottom: 1px solid white;
 
-  @media (max-width: 600px){
-    padding-top: 3rem;
+  @media (max-width: 1000px){
+    padding: 2rem 0;
   }
 `
 
@@ -134,6 +130,10 @@ const MembersContainer = styled.div`
 
   @media (max-width: 1200px) {
     grid-template-columns: ${props => (props.singleMember ? '1fr' : 'repeat(3, 1fr)')};
+  }
+
+  @media (max-width: 1000px) {
+    padding-top: 2rem;
   }
 
   @media (max-width: 850px) {
@@ -187,7 +187,7 @@ function ProjectDetail() {
         <SummaryCont>{project.summary}</SummaryCont>
         <BCover src={project.imgComp} />
         <Link to={project.project_url}>
-        <RepoButton>Go to Repo!</RepoButton>
+        <RepoButton>Go to Web!</RepoButton>
         </Link>
        </DaContainer>
 

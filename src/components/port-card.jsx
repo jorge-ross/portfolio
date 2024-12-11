@@ -2,11 +2,17 @@ import styled from "@emotion/styled";
 import { typography } from "../styles/typography";
 import PropTypes from 'prop-types';
 
-import { RiJavascriptFill, RiReactjsFill, RiAngularjsFill } from 'react-icons/ri';
+import { RiJavascriptFill, 
+  RiReactjsFill, 
+  RiAngularjsFill, 
+  RiNextjsLine, 
+  RiVercelFill, 
+  RiTailwindCssFill
+} from 'react-icons/ri';
 import { SiRubyonrails } from 'react-icons/si';
 import { DiRubyRough, DiHeroku } from 'react-icons/di';
 import { AiFillHtml5 } from 'react-icons/ai';
-import { BiLogoCss3 } from 'react-icons/bi';
+import { BiLogoCss3, BiLogoTypescript } from 'react-icons/bi';
 
 const PortCard = styled.div`
   display: flex;
@@ -79,6 +85,10 @@ const techIcons = {
   CSS: BiLogoCss3,
   Heroku: DiHeroku,
   Angular: RiAngularjsFill,
+  Next: RiNextjsLine,
+  Vercel: RiVercelFill,
+  Tailwind: RiTailwindCssFill,
+  Typescript: BiLogoTypescript,
 };
 
 
@@ -89,12 +99,15 @@ function PortfolioCard({imgSrc, title, tech}) {
     tech: PropTypes.arrayOf(PropTypes.string).isRequired,
   };
 
+  const maxLength = 21;
+  const t = title.length > maxLength ? title.slice(0, maxLength) + '...' : title;
+  
   return (
     
     <PortCard>
       <ProjectImg src={imgSrc} alt="project"/>
       <DescriptionField>
-      <Title>{title}</Title>
+      <Title>{t}</Title>
       <TechContainer>
           {tech.map((techName, index) => {
             const IconComponent = techIcons[techName];
@@ -114,6 +127,8 @@ function PortfolioCard({imgSrc, title, tech}) {
                         ? '#B52E31'
                         : techName === 'Ruby'
                         ? '#EF4444'
+                        : techName === 'Next'
+                        ? '#ffffff'
                         : techName === 'Rails'
                         ? '#EF4444'
                         : techName === 'HTML'
@@ -122,6 +137,12 @@ function PortfolioCard({imgSrc, title, tech}) {
                         ? '#2965F1'
                         : techName === 'Heroku'
                         ? '#6762A6'
+                        : techName === 'Vercel'
+                        ? '#FFFFFF'
+                        : techName === 'Typescript'
+                        ? '#007acc'
+                        : techName === 'Tailwind'
+                        ? '#06b6d4'
                         : undefined,
                     
                   }}

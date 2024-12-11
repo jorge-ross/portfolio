@@ -3,7 +3,7 @@ import { colors } from "../styles/colors";
 import { projects } from "../components/data";
 import { Link } from "react-router-dom";
 
-import { typography, typography3 } from "../styles/typography";
+import { typography } from "../styles/typography";
 import PortfolioCard from "../components/port-card";
 import PortFooter from "../components/portfolio-footer";
 import PortfolioHeader from "../components/portfolio-header";
@@ -21,7 +21,6 @@ const TitleCont = styled.div`
   width: 50%;
   gap: 1.5rem;
   padding: 4rem 0;
-  border-bottom: 1px solid #A8A29E;
   
   @media(max-width: 1000px) {
     width: 80%;
@@ -29,7 +28,7 @@ const TitleCont = styled.div`
   
 `
 const Title = styled.h1`
-  ${typography3.head.lg};
+  ${typography.head.xl};
   color: ${colors.white};
   margin: 0;
   display: flex;
@@ -37,12 +36,8 @@ const Title = styled.h1`
   align-items: center;
   text-align: center;
 
-  @media(max-width: 1200px) {
-  ${typography3.head.md};
-  }
-
-   @media(max-width: 700px) {
-  ${typography3.head.sm};
+  @media(max-width: 1000px) {
+  ${typography.head.lg};
   }
 `;
 
@@ -54,7 +49,7 @@ const T2 = styled.p`
   margin: 1rem 0 0 0;
   text-align: center;
 
-  @media(max-width: 700px) {
+  @media(max-width: 1000px) {
     ${typography.text.sm};
   }
 `
@@ -64,6 +59,7 @@ const ProjectContainer = styled.div`
   grid-template-columns: repeat(3, auto);
   padding: 5rem 0;
   gap: 2.5rem;
+  border-top: 1px solid white;
 
   @media(max-width: 1100px) {
     grid-template-columns: repeat(2, auto);

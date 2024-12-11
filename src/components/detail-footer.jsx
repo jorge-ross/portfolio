@@ -9,12 +9,6 @@ const ContainerFooter = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: center;
-  border-top: 1px solid white;
-
-  @media (max-width: 750px) {
-    width: 90%;
-    border-top: 1px solid white;
-  }
 `
 
 const MediaIcons = styled.ul`
@@ -27,7 +21,7 @@ const MediaIcons = styled.ul`
   margin: 0;
   color: white;
  
-  @media (max-width: 500px) {
+  @media (max-width: 600px) {
     display: grid;
     grid-template-columns: repeat(2, auto);
     align-items: center;
@@ -35,7 +29,7 @@ const MediaIcons = styled.ul`
     gap: 4rem;
   }
 
-  @media (max-width: 500px) {
+  @media (max-width: 600px) {
     gap: 1.5rem;
   }
 `
@@ -72,7 +66,7 @@ const SocialLinkText = styled.p`
     text-decoration: underline;
   }
 
-  @media (max-width: 500px) {
+  @media (max-width: 600px) {
     display: none;
   }
 `

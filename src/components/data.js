@@ -1,6 +1,23 @@
 export const projects = [
   {
     id: "1",
+    imgSrc: "./images/neurodev-icon.png",
+    imgComp: "./images/neurodev-logo.png",
+    title: "Neuro-dev",
+    summary:
+      "Explore my bespoke clinic website, which aims to serve as a comprehensive psychology platform. Although still in progress, it is designed to deliver a seamless and intuitive user experience for those seeking mental health care. The website will offer a range of features to help users find the support they need, from a detailed therapist profile and appointment scheduling to resources and tools for mental well-being.",
+    tech: ["Javascript", "React", "HTML", "CSS"],
+    team: [
+      {
+        name: "Jorge Rosano",
+        profilePicUrl: "./images/jrh.jpg",
+        githubUrl: "https://github.com/jorge-ross",
+      },
+    ],
+    project_url: "https://github.com/jorge-ross/neuro-dev",
+  },
+  {
+    id: "2",
     imgSrc: "./images/get-that-home.png",
     imgComp: "./images/gth-cpm.png",
     title: "Get that home",
@@ -38,13 +55,13 @@ export const projects = [
     project_url: "https://github.com/jorge-ross/get-that-home-c-10",
   },
   {
-    id: "2",
-    imgSrc: "./images/ndev.png",
-    imgComp: "./images/logond-wb.png",
-    title: "Neuro-dev",
+    id: "3",
+    imgSrc: "./images/cleanserv_logo.png",
+    imgComp: "./images/CleanCo_Logo.png",
+    title: "Servicios y suministros de Limpieza",
     summary:
-      "Explore my bespoke clinic website, which aims to serve as a comprehensive psychology platform. Although still in progress, it is designed to deliver a seamless and intuitive user experience for those seeking mental health care. The website will offer a range of features to help users find the support they need, from a detailed therapist profile and appointment scheduling to resources and tools for mental well-being.",
-    tech: ["Javascript", "React", "HTML", "CSS"],
+      "This project serves as a demonstration for a clean services company, showcasing the vision for an extensive, fully-functional platform currently under development. The demo highlights the potential of the full-scale web solution, which will include key features designed to optimize operational efficiency and elevate user experience. Among these features are a sophisticated inventory management system to ensure seamless tracking and availability of products, an integrated delivery service to streamline logistics and enhance customer satisfaction, and a comprehensive product catalog that caters to diverse cleaning needs. This concept aims to empower businesses by offering a unified platform that simplifies processes, improves service delivery, and provides an intuitive interface for users.",
+    tech: ["Typescript", "Next", "Vercel", "Tailwind"],
     team: [
       {
         name: "Jorge Rosano",
@@ -52,10 +69,10 @@ export const projects = [
         githubUrl: "https://github.com/jorge-ross",
       },
     ],
-    project_url: "https://github.com/jorge-ross/neuro-dev",
+    project_url: "https://cleaningservicesco.vercel.app/",
   },
   {
-    id: "3",
+    id: "4",
     imgSrc: "./images/clivia.png",
     imgComp: "./images/cli-comp.png",
     title: "CLIvia Generator",
@@ -72,7 +89,7 @@ export const projects = [
     project_url: "https://github.com/jorge-ross/CLIvia-generator",
   },
   {
-    id: "4",
+    id: "5",
     imgSrc: "./images/doable-one.png",
     imgComp: "./images/doable.png",
     title: "Doable",
@@ -89,7 +106,7 @@ export const projects = [
     project_url: "https://github.com/jorge-ross/Doable-js",
   },
   {
-    id: "5",
+    id: "6",
     imgSrc: "./images/eatable.png",
     imgComp: "./images/eatable-co.png",
     title: "Eatable",
@@ -106,7 +123,7 @@ export const projects = [
     project_url: "https://github.com/jorge-ross/Eatable-p",
   },
   {
-    id: "6",
+    id: "7",
     imgSrc: "./images/b-ui.png",
     imgComp: "./images/blog-co.png",
     title: "Blog UI",
@@ -123,7 +140,7 @@ export const projects = [
     project_url: "https://github.com/jorge-ross/jorgeross--blog-ui",
   },
   {
-    id: "7",
+    id: "8",
     imgSrc: "./images/contactable.png",
     imgComp: "./images/conco.png",
 
@@ -146,7 +163,7 @@ export const projects = [
     project_url: "https://github.com/jorge-ross/contactable-js-t3",
   },
   {
-    id: "8",
+    id: "9",
     imgSrc: "./images/tweetable.png",
     imgComp: "./images/tcom.png",
     title: "Tweetable",
@@ -163,7 +180,7 @@ export const projects = [
     project_url: "https://github.com/jorge-ross/Tweetable-p",
   },
   {
-    id: "9",
+    id: "10",
     imgSrc: "./images/critics.png",
     imgComp: "./images/critics-comp.png",
     title: "Critics RC",
@@ -196,7 +213,7 @@ export const projects = [
       "https://github.com/codeableorg/critics-release-candidate-c10-w11-criticsrc-team6",
   },
   {
-    id: "10",
+    id: "11",
     imgSrc: "./images/G-s-1.png",
     imgComp: "./images/stats.png",
     title: "GitHub Stats",
