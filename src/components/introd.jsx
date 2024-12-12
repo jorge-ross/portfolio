@@ -1,6 +1,5 @@
 import styled from "@emotion/styled";
-import mypic from "../../public/images/Developer.jpg"
-import Card from "./card";
+import img from "/images/Developer.jpg"
 
 import { typography } from "../styles/typography";
 import { colors } from "../styles/colors";
@@ -11,6 +10,26 @@ const DescriptionField = styled.div`
   justify-content: center;
 `;
 
+const ImgContainer = styled.div`
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  padding-bottom: 1rem;
+`
+
+const Img = styled.img`
+  width: 266px;
+  border-radius: 15%;
+
+  @media (max-width: 600px) {
+    width: 250px;
+  }
+
+  @media (max-width: 350px) {
+    width: 180px;
+  }
+`
+
 const AText = styled.p`
   ${typography.head.lgx};
   color: white;
@@ -18,7 +37,7 @@ const AText = styled.p`
   padding-top: 1rem;
   text-align: center;
 
-   @media (max-width: 1100px) {
+   @media (max-width: 1000px) {
    ${typography.head.lg};
   }
 
@@ -35,7 +54,7 @@ const BText = styled.p`
   padding: 2rem 0;
   text-align: center;
 
-   @media (max-width: 1100px) {
+   @media (max-width: 1000px) {
     ${typography.text.lgx};
     padding-bottom: 0;
   }
@@ -48,7 +67,7 @@ const CText = styled.p`
   padding-top: 2rem;
   text-align: center;
 
-   @media (max-width: 1100px) {
+   @media (max-width: 1000px) {
    ${typography.text.xl};
    font-weight: 400;
   }
@@ -61,10 +80,11 @@ const IntroContainer = styled.div`
   width: 80%;
 `;
 
-const InsideIntro = styled.div`
+const Intro = styled.div`
   display: flex;
   padding: 5rem 0;
-  gap: 2rem;
+  gap: 5rem;
+  width: 85%;
 
   @media (max-width: 1000px) {
     gap: 2.5rem;
@@ -80,16 +100,14 @@ const InsideIntro = styled.div`
   }
 `
 
-const Intro = () => {
+const Introduction = () => {
 
   return (
     <IntroContainer>
-      <InsideIntro>
-        <Card 
-        gitHubUrl="https://github.com/jorge-ross"
-        linkedInUrl="https://www.linkedin.com/in/jorgeros13"
-        img={mypic}
-        />
+      <Intro>
+        <ImgContainer>
+          <Img src={img} alt="JRoss" />
+        </ImgContainer>
       <DescriptionField>
         <AText>
         &#34;Hello, World!&#34;
@@ -105,9 +123,9 @@ const Intro = () => {
         Ready to bring your next big idea to life!
         </CText>
       </DescriptionField>
-      </InsideIntro>
+      </Intro>
     </IntroContainer>
   )
 }
 
-export default Intro;
+export default Introduction;
