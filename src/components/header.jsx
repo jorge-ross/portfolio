@@ -1,6 +1,6 @@
 import styled from "@emotion/styled";
 import { keyframes } from '@emotion/react';
-import '../styles/styles.css'; 
+import '../styles/styles.css';
 import Modal from "./modal";
 
 import { typography, typography2 } from "../styles/typography";
@@ -51,6 +51,7 @@ const Option = styled.p`
   color: ${colors.stone[100]};
   margin: 0;
   padding: 16px 0;
+  cursor: pointer;
 `
 
 const HamburgerMenu = styled.div`
@@ -102,7 +103,7 @@ const CloseIcon = styled.div`
 
   @media (max-width: 900px) {
     display: ${props =>
-      props.menuVisible ? "block" : "none"};
+    props.menuVisible ? "block" : "none"};
   }
   animation: ${rotate} 0.5s linear reverse;
   margin: 1rem 1rem 0 0;
@@ -136,54 +137,63 @@ function Header() {
     setMenuVisible(false);
   };
 
+  const handleScrollToAbout = () => {
+    const about = document.getElementById("about");
+    about.scrollIntoView({ behavior: "smooth" });
+  }
+
   return (
     <>
-    <NavBarContainer menuVisible={menuVisible}>
-      <NameContainer>
-      <Link to="/"
-      style={{textDecoration: "none", color: "inherit"}}
-      onClick={() => window.scrollTo(0, 0)}
-      >
-        Jorge Rosano
-      </Link>
-      </NameContainer>
-      <HamburgerIcon 
-        onClick={toggleMenu} 
-        menuVisible={menuVisible}
-        >
-        <GiHamburgerMenu style={{height: "40px", width: "40px"}}/>
-      </HamburgerIcon>
-      <OptionsContainer>
-        
-        <Link to="/projects" style={{textDecoration: "none"}}
-        onClick={() => window.scrollTo(0, 0)}>
-        <Option>Portfolio</Option>
-        </Link>
-        <LinkedInLink profileURL={"https://www.linkedin.com/in/jorgeros13"} />
-      </OptionsContainer>
-
-
-      <HamburgerMenu visible={menuVisible}>
-        <CloseIcon
+      <NavBarContainer menuVisible={menuVisible}>
+        <NameContainer>
+          <Link to="/"
+            style={{ textDecoration: "none", color: "inherit" }}
+            onClick={() => window.scrollTo(0, 0)}
+          >
+            Jorge Rosano
+          </Link>
+        </NameContainer>
+        <HamburgerIcon
           onClick={toggleMenu}
           menuVisible={menuVisible}
         >
-          <IoClose style={{height: "1.5rem", width: "1.5rem"}}/>
-        </CloseIcon>
-        
-        <HamImg src="./images/jr.png" alt="jr" />
-     
-        <Link to="/projects" style={{textDecoration: "none"}}
-        onClick={() => window.scrollTo(0, 0)}>
-          <Option style={{color: "white"}}>Portfolio</Option>
-        </Link>
+          <GiHamburgerMenu style={{ height: "40px", width: "40px" }} />
+        </HamburgerIcon>
+        <OptionsContainer>
 
-        <LinkedInLink profileURL={"https://www.linkedin.com/in/jorgeros13"} />
-      </HamburgerMenu>
+          <Option onClick={handleScrollToAbout}>About</Option>
+
+          <Option>Skills</Option>
+
+          <Link to="/projects" style={{ textDecoration: "none" }}
+            onClick={() => window.scrollTo(0, 0)}>
+            <Option>Portfolio</Option>
+          </Link>
+          <LinkedInLink profileURL={"https://www.linkedin.com/in/jorgeros13"} />
+        </OptionsContainer>
+
+
+        <HamburgerMenu visible={menuVisible}>
+          <CloseIcon
+            onClick={toggleMenu}
+            menuVisible={menuVisible}
+          >
+            <IoClose style={{ height: "1.5rem", width: "1.5rem" }} />
+          </CloseIcon>
+
+          <HamImg src="./images/jr.png" alt="jr" />
+
+          <Link to="/projects" style={{ textDecoration: "none" }}
+            onClick={() => window.scrollTo(0, 0)}>
+            <Option style={{ color: "white" }}>Portfolio</Option>
+          </Link>
+
+          <LinkedInLink profileURL={"https://www.linkedin.com/in/jorgeros13"} />
+        </HamburgerMenu>
 
       </NavBarContainer>
       <Modal visible={menuVisible} onClose={closeMenu} />
-      </>
+    </>
   )
 }
 

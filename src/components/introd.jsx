@@ -1,5 +1,5 @@
 import styled from "@emotion/styled";
-import img from "/images/Developer.jpg"
+import img from "/images/Developer.png"
 
 import { typography } from "../styles/typography";
 import { colors } from "../styles/colors";
@@ -18,8 +18,8 @@ const ImgContainer = styled.div`
 `
 
 const Img = styled.img`
-  width: 266px;
-  border-radius: 15%;
+  width: 280px;
+  border-radius: 50%;
 
   @media (max-width: 600px) {
     width: 250px;
@@ -82,7 +82,7 @@ const IntroContainer = styled.div`
 
 const Intro = styled.div`
   display: flex;
-  padding: 5rem 0;
+  padding: 4rem 0;
   gap: 5rem;
   width: 85%;
 
@@ -91,7 +91,6 @@ const Intro = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 4rem 0;
     gap: 1rem;
   }
 
@@ -108,21 +107,21 @@ const Introduction = () => {
         <ImgContainer>
           <Img src={img} alt="JRoss" />
         </ImgContainer>
-      <DescriptionField>
-        <AText>
-        &#34;Hello, World!&#34;
-        </AText>
-        <BText>
-        I&#39;m <span style={{color: "#93C5FD", fontWeight: 600}}>Jorge</span> 
-        , an independent full-stack web developer from México,
-        designing and developing apps for different types of clients, 
-        ranging from small businesses to growing companies. 
-        <br/>
-        </BText>
-        <CText>
-        Ready to bring your next big idea to life!
-        </CText>
-      </DescriptionField>
+        <DescriptionField>
+          <AText>
+            &#34;Hello, World!&#34;
+          </AText>
+          <BText>
+            I&#39;m <span style={{ color: "#93C5FD", fontWeight: 600 }}>Jorge</span>
+            , an independent full-stack web developer from México,
+            designing and developing apps for different types of clients,
+            ranging from small businesses to growing companies.
+            <br />
+          </BText>
+          <CText>
+            Ready to bring your next big idea to life!
+          </CText>
+        </DescriptionField>
       </Intro>
     </IntroContainer>
   )

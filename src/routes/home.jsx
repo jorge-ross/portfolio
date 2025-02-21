@@ -9,7 +9,7 @@ import Footer from "../components/footer";
 import { typography } from "../styles/typography";
 import { colors } from "../styles/colors";
 import { projects } from "../components/data";
-import HomeDescription from "../components/home-description";
+import About from "../components/about";
 import Statement from "../components/statement";
 import Introduction from "../components/introd";
 
@@ -90,39 +90,39 @@ const PortLink = styled(Link)`
   }
 `;
 
-function Home () {
+function Home() {
 
-     return (
-      <>
+  return (
+    <>
       <GeneralContainer>
-      <Header />
-      <Introduction />
-      <HomeDescription />
+        <Header />
+        <Introduction />
+        <About />
 
 
-      <ProjectSection>
-        <ProjectText>Recent Projects & Work</ProjectText>
+        <ProjectSection>
+          <ProjectText>Recent Projects & Work</ProjectText>
 
-      <ProjectContainer>
-      {projects.slice(0, 4).map((project, id) => (
-        <Link to={`/projects/${id}`} key={project.id}
-        style={{textDecoration: "none"}}
-        onClick={() => window.scrollTo(0, 0)}>
-        <ProjectCard
-          key={project.id}
-          img={project.imgSrc}
-          title={project.title}
-          summary={project.summary}
-        />
-        </Link>
-        ))}
-        </ProjectContainer>
-      <PortLink to="/projects" onClick={() => window.scrollTo(0, 0)}>See all</PortLink>
-      </ProjectSection>
-      <Statement />
-      <Footer />
-    </GeneralContainer>
-     </>
+          <ProjectContainer>
+            {projects.slice(0, 4).map((project, id) => (
+              <Link to={`/projects/${id}`} key={project.id}
+                style={{ textDecoration: "none" }}
+                onClick={() => window.scrollTo(0, 0)}>
+                <ProjectCard
+                  key={project.id}
+                  img={project.imgSrc}
+                  title={project.title}
+                  summary={project.summary}
+                />
+              </Link>
+            ))}
+          </ProjectContainer>
+          <PortLink to="/projects" onClick={() => window.scrollTo(0, 0)}>See all</PortLink>
+        </ProjectSection>
+        <Statement />
+        <Footer />
+      </GeneralContainer>
+    </>
   )
 }
 
