@@ -13,10 +13,7 @@ const SkillsContainer = styled.div`
   width: 80%;
 
   @media (max-width: 1000px) {
-    grid-template-columns: repeat(1, 1fr);
-    padding: 4rem 0;
     gap: 2rem;
-    width: 90%;
   }
 `;
 
@@ -31,7 +28,7 @@ const Title = styled.h2`
     padding: 0;
   }
 
-  @media (max-width: 500px) {
+  @media (max-width: 600px) {
     ${typography.head.md};
   }
 `;
@@ -55,10 +52,13 @@ const List = styled.ul`
     width: 80%;
   }
 
-  @media (max-width: 500px) {
+  @media (max-width: 900px) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  @media (max-width: 600px) {
     ${typography.text.md};
-    width: 100%;
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(2, 1fr);
   }
 `;
 

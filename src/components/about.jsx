@@ -11,10 +11,12 @@ const GralContainer = styled.div`
   width: 80%;
 
   @media (max-width: 1000px) {
-    grid-template-columns: repeat(1, 1fr);
-    padding: 4rem 0;
+    padding-top: 4rem;
     gap: 2rem;
-    width: 90%;
+  }
+
+  @media (max-width: 600px) {
+    padding-bottom: 3rem;
   }
 `
 
@@ -29,7 +31,7 @@ const AText = styled.p`
     padding: 0;
   }
 
-  @media (max-width: 500px) {
+  @media (max-width: 600px) {
     ${typography.head.md};
   }
 `;
@@ -43,10 +45,11 @@ const Text = styled.p`
 
 @media (max-width: 1100px) {
     ${typography.text.lgx};
+    padding: 0;
     width: 80%;
   }
     
-  @media (max-width: 500px) {
+  @media (max-width: 600px) {
     ${typography.text.md};
     width: 100%;
   }

@@ -27,7 +27,7 @@ const AText = styled.p`
     padding: 0;
   }
 
-  @media (max-width: 500px) {
+  @media (max-width: 600px) {
     ${typography.head.md};
   }
 `;
@@ -45,7 +45,7 @@ const BText = styled.p`
     width: 80%;
   }
 
-  @media (max-width: 500px) {
+  @media (max-width: 600px) {
     ${typography.text.md};
     padding: 0;
     width: 100%;
@@ -59,22 +59,22 @@ function Statement() {
         Why work with me?
       </AText>
       <BText>
-      Being a
-      <span style={{color: "#93C5FD", fontWeight: 600}}> Web Developer</span> has enabled me
-      to cultivate the exceptional ability to solve problems. 
-      I enjoy breaking down complex ideas and 
-      figuring out how to build them.<br/><br/>
+        Being a
+        <span style={{ color: "#93C5FD", fontWeight: 600 }}> Web Developer</span> has enabled me
+        to cultivate the exceptional ability to solve problems.
+        I enjoy breaking down complex ideas and
+        figuring out how to build them.<br /><br />
 
-      I&#39;ve worked independently on various projects, 
-      which has made me agile and quick to adapt.
-      Likewise, I&#39;ve launched projects that needed to work 
-      flawlessly from day one, so I understand the importance 
-      of reliability and performance.<br/><br/>
+        I&#39;ve worked independently on various projects,
+        which has made me agile and quick to adapt.
+        Likewise, I&#39;ve launched projects that needed to work
+        flawlessly from day one, so I understand the importance
+        of reliability and performance.<br /><br />
 
-      Finally, I&#39;m a great communicator and collaborator, 
-      and I know that what&#39;s most important is getting the job
-      done well and on time.
-      </BText>          
+        Finally, I&#39;m a great communicator and collaborator,
+        and I know that what&#39;s most important is getting the job
+        done well and on time.
+      </BText>
     </Container>
   )
 
