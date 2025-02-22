@@ -490,10 +490,12 @@ Error generating stack: `+l.message+`
   width: 80%;
 
   @media (max-width: 1000px) {
-    grid-template-columns: repeat(1, 1fr);
-    padding: 4rem 0;
+    padding-top: 4rem;
     gap: 2rem;
-    width: 90%;
+  }
+
+  @media (max-width: 600px) {
+    padding-bottom: 3rem;
   }
 `,jm=C.p`
   color: white;
@@ -506,7 +508,7 @@ Error generating stack: `+l.message+`
     padding: 0;
   }
 
-  @media (max-width: 500px) {
+  @media (max-width: 600px) {
     ${R.head.md};
   }
 `,Em=C.p`
@@ -518,10 +520,11 @@ Error generating stack: `+l.message+`
 
 @media (max-width: 1100px) {
     ${R.text.lgx};
+    padding: 0;
     width: 80%;
   }
     
-  @media (max-width: 500px) {
+  @media (max-width: 600px) {
     ${R.text.md};
     width: 100%;
   }
@@ -550,7 +553,7 @@ Error generating stack: `+l.message+`
     padding: 0;
   }
 
-  @media (max-width: 500px) {
+  @media (max-width: 600px) {
     ${R.head.md};
   }
 `,Tm=C.p`
@@ -566,7 +569,7 @@ Error generating stack: `+l.message+`
     width: 80%;
   }
 
-  @media (max-width: 500px) {
+  @media (max-width: 600px) {
     ${R.text.md};
     padding: 0;
     width: 100%;
@@ -660,10 +663,7 @@ Error generating stack: `+l.message+`
   width: 80%;
 
   @media (max-width: 1000px) {
-    grid-template-columns: repeat(1, 1fr);
-    padding: 4rem 0;
     gap: 2rem;
-    width: 90%;
   }
 `,Wm=C.h2`
   color: white;
@@ -676,7 +676,7 @@ Error generating stack: `+l.message+`
     padding: 0;
   }
 
-  @media (max-width: 500px) {
+  @media (max-width: 600px) {
     ${R.head.md};
   }
 `,Qm=C.ul`
@@ -698,10 +698,13 @@ Error generating stack: `+l.message+`
     width: 80%;
   }
 
-  @media (max-width: 500px) {
+  @media (max-width: 900px) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  @media (max-width: 600px) {
     ${R.text.md};
-    width: 100%;
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(2, 1fr);
   }
 `,De=C.li`
   margin-bottom: 0.5rem;
