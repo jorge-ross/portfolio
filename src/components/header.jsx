@@ -163,8 +163,6 @@ function Header() {
 
           <Option onClick={handleScrollToAbout}>About</Option>
 
-          <Option>Skills</Option>
-
           <Link to="/projects" style={{ textDecoration: "none" }}
             onClick={() => window.scrollTo(0, 0)}>
             <Option>Portfolio</Option>

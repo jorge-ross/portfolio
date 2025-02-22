@@ -2,11 +2,12 @@ import styled from "@emotion/styled";
 import { typography } from "../styles/typography";
 import PropTypes from 'prop-types';
 
-import { RiJavascriptFill, 
-  RiReactjsFill, 
-  RiAngularjsFill, 
-  RiNextjsLine, 
-  RiVercelFill, 
+import {
+  RiJavascriptFill,
+  RiReactjsFill,
+  RiAngularjsFill,
+  RiNextjsLine,
+  RiVercelFill,
   RiTailwindCssFill
 } from 'react-icons/ri';
 import { SiRubyonrails } from 'react-icons/si';
@@ -25,6 +26,7 @@ const PortCard = styled.div`
   gap: .5rem;
   border: 1px solid white;
   padding: 2rem 0;
+  border-radius: 0.75rem;
 
   @media (max-width: 400px) {
     width: 280px;
@@ -77,8 +79,8 @@ const TechContainer = styled.div`
 `
 
 const techIcons = {
-  Javascript: RiJavascriptFill, 
-  React: RiReactjsFill, 
+  Javascript: RiJavascriptFill,
+  React: RiReactjsFill,
   Ruby: DiRubyRough,
   Rails: SiRubyonrails,
   HTML: AiFillHtml5,
@@ -92,7 +94,7 @@ const techIcons = {
 };
 
 
-function PortfolioCard({imgSrc, title, tech}) {
+function PortfolioCard({ imgSrc, title, tech }) {
   PortfolioCard.propTypes = {
     title: PropTypes.string.isRequired,
     imgSrc: PropTypes.string.isRequired,
@@ -101,14 +103,14 @@ function PortfolioCard({imgSrc, title, tech}) {
 
   const maxLength = 21;
   const t = title.length > maxLength ? title.slice(0, maxLength) + '...' : title;
-  
+
   return (
-    
+
     <PortCard>
-      <ProjectImg src={imgSrc} alt="project"/>
+      <ProjectImg src={imgSrc} alt="project" />
       <DescriptionField>
-      <Title>{t}</Title>
-      <TechContainer>
+        <Title>{t}</Title>
+        <TechContainer>
           {tech.map((techName, index) => {
             const IconComponent = techIcons[techName];
             if (IconComponent) {
@@ -122,29 +124,29 @@ function PortfolioCard({imgSrc, title, tech}) {
                       techName === 'Javascript'
                         ? '#FCD34D'
                         : techName === 'React'
-                        ? '#60A5FA'
-                        : techName === 'Angular'
-                        ? '#B52E31'
-                        : techName === 'Ruby'
-                        ? '#EF4444'
-                        : techName === 'Next'
-                        ? '#ffffff'
-                        : techName === 'Rails'
-                        ? '#EF4444'
-                        : techName === 'HTML'
-                        ? '#F06529'
-                        : techName === 'CSS'
-                        ? '#2965F1'
-                        : techName === 'Heroku'
-                        ? '#6762A6'
-                        : techName === 'Vercel'
-                        ? '#FFFFFF'
-                        : techName === 'Typescript'
-                        ? '#007acc'
-                        : techName === 'Tailwind'
-                        ? '#06b6d4'
-                        : undefined,
-                    
+                          ? '#60A5FA'
+                          : techName === 'Angular'
+                            ? '#B52E31'
+                            : techName === 'Ruby'
+                              ? '#EF4444'
+                              : techName === 'Next'
+                                ? '#ffffff'
+                                : techName === 'Rails'
+                                  ? '#EF4444'
+                                  : techName === 'HTML'
+                                    ? '#F06529'
+                                    : techName === 'CSS'
+                                      ? '#2965F1'
+                                      : techName === 'Heroku'
+                                        ? '#6762A6'
+                                        : techName === 'Vercel'
+                                          ? '#FFFFFF'
+                                          : techName === 'Typescript'
+                                            ? '#007acc'
+                                            : techName === 'Tailwind'
+                                              ? '#06b6d4'
+                                              : undefined,
+
                   }}
                 />
               );

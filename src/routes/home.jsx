@@ -12,6 +12,7 @@ import { projects } from "../components/data";
 import About from "../components/about";
 import Statement from "../components/statement";
 import Introduction from "../components/introd";
+import Skills from "../components/skills";
 
 const GeneralContainer = styled.div`
   display: flex;
@@ -98,6 +99,7 @@ function Home() {
         <Header />
         <Introduction />
         <About />
+        <Skills />
 
 
         <ProjectSection>

@@ -4,9 +4,10 @@ import { typography } from "../styles/typography";
 const GralContainer = styled.div`
   width: 80%;
   display: flex;
+  flex-direction: column;
   padding: 1rem 0;
-  gap: 5rem;
-  padding: 6rem 0;
+  gap: 3rem;
+  padding: 6rem 0 4rem 0;
   width: 80%;
 
   @media (max-width: 1000px) {
@@ -16,6 +17,22 @@ const GralContainer = styled.div`
     width: 90%;
   }
 `
+
+const AText = styled.p`
+  color: white;
+  ${typography.head.lgx};
+  margin: 0;
+  padding-left: 6rem;
+
+  @media (max-width: 1100px) {
+   ${typography.head.lg};
+    padding: 0;
+  }
+
+  @media (max-width: 500px) {
+    ${typography.head.md};
+  }
+`;
 
 const Text = styled.p`
   ${typography.text.lg};
@@ -39,6 +56,10 @@ const Text = styled.p`
 function About() {
   return (
     <GralContainer id="about">
+
+      <AText>
+        About
+      </AText>
 
       <Text>
         With almost two years of experience in the tech industry,
