@@ -77,33 +77,33 @@ function Portfolio() {
     <Gcontainer>
       <PortfolioHeader />
       <TitleCont>
-      {/* <T1>Work</T1> */}
-      <Title>
-        Here&#39;s a selection of some of the things I&#39;ve built.
-      </Title>
+        {/* <T1>Work</T1> */}
+        <Title>
+          Here&#39;s a selection of some of the things I&#39;ve built.
+        </Title>
 
-      <T2>
-      I&#39;ve never had a traditional job, so this is where I 
-      document everything I&#39;ve been working on over these
-      years—whether it&#39;s new businesses I&#39;ve been developing, 
-      experiments, or projects from my programming 
-      education.
-      </T2>
+        <T2>
+          I&#39;ve never had a traditional job, so this is where I
+          document everything I&#39;ve been working on over these
+          years—whether it&#39;s new businesses I&#39;ve been developing,
+          experiments, or projects from my programming
+          education.
+        </T2>
       </TitleCont>
 
-          <ProjectContainer>
-            {projects?.map((project, id) => (
-              <Link to={`/projects/${id}`} key={project.id}
-              style={{textDecoration: "none"}}
-              onClick={() => window.scrollTo(0, 0)}>
-              <PortfolioCard
+      <ProjectContainer>
+        {projects?.map((project, id) => (
+          <Link to={`/projects/${id}`} key={project.id}
+            style={{ textDecoration: "none" }}
+            onClick={() => window.scrollTo(0, 0)}>
+            <PortfolioCard
               imgSrc={project.imgSrc}
               title={project.title}
               tech={project.tech}
             />
-            </Link>
-            ))}
-          </ProjectContainer>
+          </Link>
+        ))}
+      </ProjectContainer>
 
       <PortFooter />
     </Gcontainer>

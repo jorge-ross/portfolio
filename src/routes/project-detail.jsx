@@ -25,7 +25,7 @@ const GralContainer = styled.div`
 const Header = styled.div`
   display: flex;
   align-self: center;
-  padding: 5rem 0 0 10rem;
+  padding: 4rem 0 0 7rem;
 
   @media(max-width: 1000px) {
   padding: 3rem 0 0 3rem;
@@ -33,7 +33,7 @@ const Header = styled.div`
 `
 
 const ProjectContainer = styled.div`
-  padding: 4rem 3rem;
+  padding: 4rem 3rem 0;
   width: 90%;
   display: flex;
   flex-direction: column;
@@ -42,45 +42,35 @@ const ProjectContainer = styled.div`
   @media(max-width: 850px) {
     border: none;
     width: auto;
-    padding: 3rem;
+    padding: 3rem 1.5rem 0 1.5rem;
   }
 `
 
-const DetailContainer = styled.div`
-  width: 70%;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  align-items: center;
-
-  @media(max-width: 1000px) {
-    grid-template-columns: repeat(1, 1fr);
-    gap: 2rem;
-    width: 90%;
-  }
-`
 
 const Title = styled.p`
   display: flex;
   justify-content: center;
   text-align: center;
   margin: 0;
-  ${typography2.head.lg};
+  ${typography2.head.xxl};
   color: white;
 
-  @media (max-width: 500px){
-    ${typography.head.md}
+  @media (max-width: 600px){
+    ${typography.head.lg}
   }
 `
 
 const DaContainer = styled.div`
   width: 70%;
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   gap: 4rem;
   align-items: center;
   padding: 4rem 0;
 
   @media (max-width: 1000px){
+    display: flex;
+    flex-direction: column;
     width: 95%;
     padding: 2rem 0;
     gap: 2rem;
@@ -89,12 +79,13 @@ const DaContainer = styled.div`
 
 const SummaryCont = styled.p`
   ${typography.text.lg};
-  margin: 0 0.5rem;
+  margin: 0;
   color: white;
   display: flex;
   font-weight: 400;
   text-align: justify;
   line-height: 1.7;
+  grid-column: 1 / 3;
 
   @media (max-width: 500px){
     text-align: left;
@@ -151,7 +142,9 @@ const MembersContainer = styled.div`
 
 const BCover = styled.img`
   display: flex;
-  width: 70%;
+  width: 80%;
+  grid-column: 1 / 3;
+  justify-self: center;
 
   @media (max-width: 1000px){
     width: 95%;
@@ -160,53 +153,53 @@ const BCover = styled.img`
 
 function ProjectDetail() {
 
-  const {id} = useParams();
+  const { id } = useParams();
   const index = parseInt(id)
   const project = projects[index];
 
   return (
-    
+
     <>
-    <Header>
-      <Link
-        to="/projects"
-        className="link-style"
-        onClick={() => window.scrollTo(0, 0)}
+      <Header>
+        <Link
+          to="/projects"
+          className="link-style"
+          onClick={() => window.scrollTo(0, 0)}
+          style={{ alignContent: "center", display: "flex", alignItems: "center" }}
         >
-        <IoArrowBackCircleSharp />
-      </Link>
-    </Header>
-    <GralContainer>
-      <ProjectContainer>
-        <DetailContainer>
-        <Title>{project.title}</Title>
-        <ProjectCover src={project.imgSrc} />
-       </DetailContainer>
-
-       <DaContainer>
-        <SummaryCont>{project.summary}</SummaryCont>
-        <BCover src={project.imgComp} />
-        <Link to={project.project_url}>
-        <RepoButton>Go to Web!</RepoButton>
+          <IoArrowBackCircleSharp style={{ paddingRight: "16" }} />
+          Back to Projects
         </Link>
-       </DaContainer>
+      </Header>
+      <GralContainer>
+        <ProjectContainer>
+          <Title>{project.title}</Title>
+
+          <DaContainer>
+            <SummaryCont>{project.summary}</SummaryCont>
+            <ProjectCover src={project.imgSrc} />
+            <BCover src={project.imgComp} />
+            <Link to={project.project_url}>
+              <RepoButton>Go to Web!</RepoButton>
+            </Link>
+          </DaContainer>
 
 
-       <TeamContainer>
-        <TeamTt>
-          {project.team.length > 1 ? "The team" : "Created by"}</TeamTt>
-        <MembersContainer singleMember={project.team.length < 2}>
-          {project.team.map((member, id) => (
-            <MemberCard 
-            key={id}
-            name={member.name}
-            profilePicUrl={member.profilePicUrl}
-            gitHubUrl={member.githubUrl}
-            linkedInUrl={member.linkedinurl}
-            />
-          ))}
-        </MembersContainer>
-       </TeamContainer>
+          <TeamContainer>
+            <TeamTt>
+              {project.team.length > 1 ? "The team" : "Created by"}</TeamTt>
+            <MembersContainer singleMember={project.team.length < 2}>
+              {project.team.map((member, id) => (
+                <MemberCard
+                  key={id}
+                  name={member.name}
+                  profilePicUrl={member.profilePicUrl}
+                  gitHubUrl={member.githubUrl}
+                  linkedInUrl={member.linkedinurl}
+                />
+              ))}
+            </MembersContainer>
+          </TeamContainer>
         </ProjectContainer>
         <DetailFooter />
       </GralContainer>

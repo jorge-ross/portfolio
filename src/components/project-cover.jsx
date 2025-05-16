@@ -3,10 +3,11 @@ import PropTypes from 'prop-types';
 
 const Cover = styled.div`
   display: flex;
-  justify-content: flex-start;
+  align-self: start;
 
   @media (max-width: 1000px) {
     justify-content: center;
+    display: none;
   }
 `;
 

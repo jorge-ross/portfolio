@@ -14,8 +14,8 @@ import { IoClose } from 'react-icons/io5';
 
 const NavBarContainer = styled.div`
   display: flex;
-  width: 80%;
-  height: 10rem;
+  width: 90%;
+  height: 9rem;
   align-items: center;
   justify-content: space-between;
   flex-direction: row;

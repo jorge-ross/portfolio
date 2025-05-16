@@ -1,5 +1,5 @@
 import styled from "@emotion/styled";
-import '../styles/styles.css'; 
+import '../styles/styles.css';
 
 import { typography2 } from "../styles/typography";
 import { colors } from "../styles/colors";
@@ -10,8 +10,8 @@ import { Link } from "react-router-dom";
 
 const NavBarContainer = styled.div`
   display: flex;
-  width: 80%;
-  height: 10rem;
+  width: 90%;
+  height: 9rem;
   align-items: center;
   justify-content: space-between;
   flex-direction: row;
@@ -49,20 +49,20 @@ function PortfolioHeader() {
 
   return (
     <>
-    <NavBarContainer>
-      <NameContainer>
-      <Link to="/"
-      style={{textDecoration: "none", color: "inherit"}}
-      onClick={() => window.scrollTo(0, 0)}
-      >
-        Jorge Rosano
-      </Link>
-      </NameContainer>
-      <ContactContainer>
-        <LinkedInLink profileURL={"https://www.linkedin.com/in/jorgeros13"} />
-      </ContactContainer>
+      <NavBarContainer>
+        <NameContainer>
+          <Link to="/"
+            style={{ textDecoration: "none", color: "inherit" }}
+            onClick={() => window.scrollTo(0, 0)}
+          >
+            Jorge Rosano
+          </Link>
+        </NameContainer>
+        <ContactContainer>
+          <LinkedInLink profileURL={"https://www.linkedin.com/in/jorgeros13"} />
+        </ContactContainer>
       </NavBarContainer>
-      </>
+    </>
   )
 }
 

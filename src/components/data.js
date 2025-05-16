@@ -5,7 +5,7 @@ export const projects = [
     imgComp: "./images/neurodev-logo.png",
     title: "Neuro-dev",
     summary:
-      "Explore my bespoke clinic website, which aims to serve as a comprehensive psychology platform. Although still in progress, it is designed to deliver a seamless and intuitive user experience for those seeking mental health care. The website will offer a range of features to help users find the support they need, from a detailed therapist profile and appointment scheduling to resources and tools for mental well-being.",
+      "Explore my bespoke clinic website — now fully launched — created to offer clear and accessible information about my professional services in psychology, neuropsychology, and human resources consultancy. The site features a detailed therapist profile and a simple appointment scheduling system, all designed to provide a smooth and supportive experience for those seeking mental health and organizational support.",
     tech: ["Javascript", "React", "HTML", "CSS"],
     team: [
       {
@@ -14,7 +14,7 @@ export const projects = [
         githubUrl: "https://github.com/jorge-ross",
       },
     ],
-    project_url: "https://github.com/jorge-ross/neuro-dev",
+    project_url: "https://neuro-dev.vercel.app/",
   },
   {
     id: "2",
@@ -52,7 +52,7 @@ export const projects = [
         githubUrl: "https://github.com/DanielToledo-99",
       },
     ],
-    project_url: "https://github.com/jorge-ross/get-that-home-c-10",
+    project_url: "https://get-that-home-frontend.vercel.app/",
   },
   {
     id: "3",

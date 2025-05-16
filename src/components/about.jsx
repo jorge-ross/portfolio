@@ -65,7 +65,7 @@ function About() {
       </AText>
 
       <Text>
-        With almost two years of experience in the tech industry,
+        With two years of experience in the tech industry,
         I&#39;ve been dedicated to helping founders and business
         owners bring their ideas to life through technology.
 
