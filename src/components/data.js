@@ -1,7 +1,7 @@
 export const projects = [
   {
     id: "1",
-    imgSrc: "./images/neurodev-icon.png",
+    imgSrc: "./images/neurodev-logo.png",
     imgComp: "./images/neurodev-logo.png",
     title: "Neuro-dev",
     summary:
