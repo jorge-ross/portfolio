@@ -40,7 +40,7 @@ const ProjectContainer = styled.div`
   @media (max-width: 850px) {
     border: none;
     width: auto;
-    padding: 3rem 1.5rem 0 1.5rem;
+    padding: 2rem 1.5rem 0 1.5rem;
   }
 `;
 

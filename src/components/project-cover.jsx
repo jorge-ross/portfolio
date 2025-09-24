@@ -1,5 +1,5 @@
 import styled from "@emotion/styled";
-import PropTypes from 'prop-types';
+import PropTypes from "prop-types";
 
 const Cover = styled.div`
   display: flex;
@@ -7,16 +7,19 @@ const Cover = styled.div`
 
   @media (max-width: 1000px) {
     justify-content: center;
-    display: none;
+    // display: none;
   }
 `;
 
 const Img = styled.img`
   width: 100%;
+
+  @media (max-width: 1000px) {
+    width: 75%;
+  }
 `;
 
 const ProjectCover = ({ src }) => {
-
   ProjectCover.propTypes = {
     src: PropTypes.string.isRequired,
   };
