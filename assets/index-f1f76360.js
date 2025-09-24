@@ -1005,10 +1005,14 @@ Error generating stack: `+l.message+`
 
   @media (max-width: 1000px) {
     justify-content: center;
-    display: none;
+    // display: none;
   }
 `,N3=C.img`
   width: 100%;
+
+  @media (max-width: 1000px) {
+    width: 75%;
+  }
 `,bd=({src:e})=>(bd.propTypes={src:Ee.string.isRequired},d.jsx(M3,{children:d.jsx(N3,{src:e,alt:"covers"})})),F3=C.div`
   display: flex;
   flex-direction: column;
@@ -1125,7 +1129,7 @@ Error generating stack: `+l.message+`
   @media (max-width: 850px) {
     border: none;
     width: auto;
-    padding: 3rem 1.5rem 0 1.5rem;
+    padding: 2rem 1.5rem 0 1.5rem;
   }
 `,b3=C.p`
   margin: 0;
